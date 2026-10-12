@@ -1,0 +1,254 @@
+[
+ {
+  "tag": "cluster-list",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/cluster",
+  "bc": "기본 설정/ 클러스터 관리/ 클러스터 설정",
+  "pt": "클러스터 설정 전체 클러스터의 설정과 상태를 관리합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:클러스터 설정"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "연결",
+   "add 생성",
+   "ym-test1500",
+   "more_horiz",
+   "biz2",
+   "biz1",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-cluster-fetch-table-filter-search-input|",
+   "search|rc_select_0|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "number|||adm-cluster-fetch-table-pagination-page-input|",
+   "search|rc_select_1|||R"
+  ],
+  "lab": [],
+  "sel": [
+   "rc_select_0=기간 설정",
+   "rc_select_1=리스트 수 20"
+  ],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-cluster-fetch-table-table",
+    "th": [
+     "이름↕",
+     "GPU",
+     "상태 help",
+     "URL",
+     "인프라 정보",
+     "진행 현황 help",
+     "연결자↕",
+     "연결일시↕",
+     "작업"
+    ],
+    "rows": 3,
+    "row1": [
+     "ym-test1500",
+     "check_circle",
+     "-",
+     "https://10.255.42.131:6443",
+     "목동/viola",
+     "SUCCESS",
+     "ym.kwon",
+     "2026-10-07 18:38:45",
+     "more_horiz"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 클러스터 설정 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 클러스터 설정",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-cluster",
+    "div",
+    "클러스터 설정 전체 클러스터의 설정과 상태를 관리합니다. filter_list 기간 설정 calendar_month 연결 ad",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "클러스터 설정 전체 클러스터의 설정과 상태를 관리합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-cluster-panel",
+    "div",
+    "filter_list 기간 설정 calendar_month 연결 add 생성 이름 GPU 상태 help URL 인프라 정보 진",
+    ""
+   ],
+   [
+    "adm-page-viola-cluster-main",
+    "div",
+    "filter_list 기간 설정 calendar_month 연결 add 생성 이름 GPU 상태 help URL 인프라 정보 진",
+    ""
+   ],
+   [
+    "adm-page-viola-cluster-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month 연결 add 생성 이름 GPU 상태 help URL 인프라 정보 진",
+    ""
+   ],
+   [
+    "adm-cluster-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month 연결 add 생성 이름 GPU 상태 help URL 인프라 정보 진",
+    ""
+   ],
+   [
+    "adm-cluster-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month 연결 add 생성",
+    ""
+   ],
+   [
+    "adm-cluster-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-cluster-connect-cluster",
+    "button",
+    "연결",
+    ""
+   ],
+   [
+    "adm-cluster-create-cluster",
+    "button",
+    "add 생성",
+    ""
+   ],
+   [
+    "adm-cluster-fetch-table-row",
+    "tr",
+    "ym-test1500 check_circle - https://10.255.42.131:6443 목동/viola SUCCESS",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "ym-test1500",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "SUCCESS",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "SUCCESS",
+    ""
+   ],
+   [
+    "adm-cluster-actions-trigger",
+    "button",
+    "more_horiz",
+    ""
+   ],
+   [
+    "adm-cluster-fetch-table-pagination",
+    "div",
+    "전체 수 3 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-cluster-fetch-table-pagination-total",
+    "p",
+    "전체 수 3",
+    ""
+   ],
+   [
+    "adm-cluster-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-cluster-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-cluster-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-cluster-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-cluster-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-cluster-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [],
+  "text": ""
+ },
+ {
+  "menu": [
+   "GPU 설정",
+   "노드 스케일링",
+   "엔진 업그레이드",
+   "연결 정보 수정",
+   "연결 해제",
+   "삭제"
+  ]
+ },
+ {
+  "opened": []
+ }
+]

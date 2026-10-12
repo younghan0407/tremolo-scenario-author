@@ -1,0 +1,1510 @@
+[
+ {
+  "tag": "node-list",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/node",
+  "bc": "기본 설정/ 클러스터 관리/ 노드 관리",
+  "pt": "노드 관리 클러스터 내 각 노드의 상태와 설정을 관리합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:노드 관리"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "pq-400tst-bf-biz-master-3",
+   "more_horiz",
+   "pq-400tst-bf-biz-master-2",
+   "pq-400tst-bf-biz-master-1",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-node-fetch-table-filter-search-input|",
+   "search|rc_select_0|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "number|||adm-node-fetch-table-pagination-page-input|",
+   "search|rc_select_1|||R"
+  ],
+  "lab": [],
+  "sel": [
+   "rc_select_0=기간 설정",
+   "rc_select_1=리스트 수 20"
+  ],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-node-fetch-table-table",
+    "th": [
+     "이름↕",
+     "GPU",
+     "상태 help",
+     "클러스터↕",
+     "역할",
+     "인스턴스 주소↕",
+     "파드 수↕",
+     "CPU 사용률↕",
+     "메모리 사용률↕",
+     "파일 시스템 사용률↕",
+     "생성일시↕",
+     "작업"
+    ],
+    "rows": 3,
+    "row1": [
+     "pq-400tst-bf-biz-master-3",
+     "check_circle",
+     "READY",
+     "biz1",
+     "control-plane",
+     "10.255.72.203",
+     "43",
+     "0.72/8 Core 9%",
+     "5.75/15.62 GiB 36.8%",
+     "26.15/193.65 GiB 13.5%",
+     "2026-09-29 19:04:52",
+     "more_horiz"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 노드 관리 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 노드 관리",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-node",
+    "div",
+    "노드 관리 클러스터 내 각 노드의 상태와 설정을 관리합니다. filter_list 기간 설정 calendar_month 이름 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "노드 관리 클러스터 내 각 노드의 상태와 설정을 관리합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-node-panel",
+    "div",
+    "filter_list 기간 설정 calendar_month 이름 GPU 상태 help 클러스터 역할 인스턴스 주소 파드 수 C",
+    ""
+   ],
+   [
+    "adm-page-viola-node-main",
+    "div",
+    "filter_list 기간 설정 calendar_month 이름 GPU 상태 help 클러스터 역할 인스턴스 주소 파드 수 C",
+    ""
+   ],
+   [
+    "adm-page-viola-node-content-header",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-page-viola-node-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month 이름 GPU 상태 help 클러스터 역할 인스턴스 주소 파드 수 C",
+    ""
+   ],
+   [
+    "adm-node-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month 이름 GPU 상태 help 클러스터 역할 인스턴스 주소 파드 수 C",
+    ""
+   ],
+   [
+    "adm-node-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month",
+    ""
+   ],
+   [
+    "adm-node-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-node-fetch-table-row",
+    "tr",
+    "pq-400tst-bf-biz-master-3 check_circle READY biz1 control-plane 10.255",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "pq-400tst-bf-biz-master-3",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "READY",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "READY",
+    ""
+   ],
+   [
+    "adm-node-actions-trigger",
+    "button",
+    "more_horiz",
+    ""
+   ],
+   [
+    "adm-node-fetch-table-pagination",
+    "div",
+    "전체 수 3 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-node-fetch-table-pagination-total",
+    "p",
+    "전체 수 3",
+    ""
+   ],
+   [
+    "adm-node-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-node-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-node-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-node-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-node-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-node-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "node-detail",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/node/detail?name=pq-400tst-bf-biz-master-3&namespace=&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+  "pt": "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+  "h": [
+   "h1:unfold_more",
+   "h1:pq-400tst-bf-biz-master-3",
+   "h1:기본 정보",
+   "h1:노드 상태",
+   "h1:GPU 정보",
+   "h3:info GPU가 없습니다."
+  ],
+  "tabs": [
+   "세부 정보*",
+   "리소스",
+   "메트릭",
+   "이벤트",
+   "로그",
+   "YAML"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "레이블 설정",
+   "수정",
+   "left_panel_close",
+   "content_copy"
+  ],
+  "ph": [],
+  "lab": [
+   "이름",
+   "상태",
+   "클러스터",
+   "클러스터 ID",
+   "레이블",
+   "테인트",
+   "노드 IP (Internal IP)",
+   "호스트 이름 (Hostname)",
+   "OS 이미지",
+   "운영체제",
+   "커널 버전",
+   "아키텍처",
+   "부팅 ID (BootID)",
+   "컨테이너 런타임",
+   "Kubelet 버전",
+   "Kube-proxy 버전",
+   "생성일시",
+   "전원 상태 help",
+   "노드 상태"
+  ],
+  "sel": [],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-node-info-node-status-table-table",
+    "th": [
+     "유형",
+     "상태 help",
+     "업데이트 일시↕",
+     "이유",
+     "메시지"
+    ],
+    "rows": 5,
+    "row1": [
+     "NetworkUnavailable",
+     "GOOD",
+     "2026-09-29 19:32:08",
+     "CiliumIsUp",
+     "Cilium is running on this node content_copy"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정 left_panel_close 기본 정보 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "레이블 설정",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 pq-400tst-bf-biz-master-3 상태 READY 클러스터 biz1",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "READY",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "READY",
+    ""
+   ],
+   [
+    "adm-copy-button",
+    "button",
+    "content_copy",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-main",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML 노드 상태 전원 상태 help - 노드 상태 유형 상태 help 업데이트 일시 ",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML 노드 상태 전원 상태 help - 노드 상태 유형 상태 help 업데이트 일시 ",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs-tab",
+    "span",
+    "세부 정보",
+    ""
+   ],
+   [
+    "adm-tab-content-layout-sub-title",
+    "div",
+    "노드 상태",
+    ""
+   ],
+   [
+    "adm-node-info-node-status-table-table",
+    "div",
+    "유형 상태 help 업데이트 일시 이유 메시지 NetworkUnavailable GOOD 2026-09-29 19:32:08 ",
+    ""
+   ],
+   [
+    "adm-node-info-node-status-table-row",
+    "tr",
+    "NetworkUnavailable GOOD 2026-09-29 19:32:08 CiliumIsUp Cilium is runni",
+    ""
+   ],
+   [
+    "adm-no-data",
+    "div",
+    "info GPU가 없습니다. 해당 노드에는 GPU가 설치되지 않았습니다.",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "tag": "node-detail/리소스",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/node/detail?name=pq-400tst-bf-biz-master-3&namespace=&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+  "pt": "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+  "h": [
+   "h1:unfold_more",
+   "h1:pq-400tst-bf-biz-master-3",
+   "h1:기본 정보",
+   "h1:파드",
+   "h1:이미지"
+  ],
+  "tabs": [
+   "세부 정보",
+   "리소스*",
+   "메트릭",
+   "이벤트",
+   "로그",
+   "YAML"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "레이블 설정",
+   "수정",
+   "left_panel_close",
+   "content_copy",
+   "test-yh-istio-654b566f6c-mcttb",
+   "ReplicaSet ... 654b566f6c link",
+   "depl-105-98bcd5675-m8wx4",
+   "ReplicaSet ... -98bcd5675 link",
+   "depl-104-f4bd55876-dpmgg",
+   "ReplicaSet ... -f4bd55876 link",
+   "depl-103-76b978c4d9-7rg4q",
+   "ReplicaSet ... 76b978c4d9 link",
+   "depl-102-754fdcddcd-bc68k",
+   "ReplicaSet ... 754fdcddcd link",
+   "depl-101-799cc66455-6tc8z",
+   "ReplicaSet ... 799cc66455 link",
+   "qa-trml-152320-gw-istio-5d889b5648-28dt7",
+   "ReplicaSet ... 5d889b5648 link",
+   "qa-trml-152320-dep1-f6dd7c4d8-fr8rb",
+   "ReplicaSet ... -f6dd7c4d8 link",
+   "test124",
+   "pqa-replicaset-2f4pc",
+   "ReplicaSet ... replicaset link",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right",
+   "keyboard_double_arrow_right"
+  ],
+  "ph": [
+   "number|||adm-node-resource-status-pod-table-pagination-page-input|",
+   "search|rc_select_3|||R",
+   "number|||adm-node-resource-status-image-table-pagination-page-input|",
+   "search|rc_select_2|||R"
+  ],
+  "lab": [
+   "이름",
+   "상태",
+   "클러스터",
+   "클러스터 ID",
+   "레이블",
+   "테인트",
+   "노드 IP (Internal IP)",
+   "호스트 이름 (Hostname)",
+   "OS 이미지",
+   "운영체제",
+   "커널 버전",
+   "아키텍처",
+   "부팅 ID (BootID)",
+   "컨테이너 런타임",
+   "Kubelet 버전",
+   "Kube-proxy 버전",
+   "생성일시"
+  ],
+  "sel": [
+   "rc_select_3=리스트 수 10",
+   "rc_select_2=리스트 수 10"
+  ],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-node-resource-status-pod-table-table",
+    "th": [
+     "이름↕",
+     "GPU",
+     "상태 help",
+     "컨테이너↕",
+     "CPU↕",
+     "메모리↕",
+     "재시작↕",
+     "소유자",
+     "생성일시↕"
+    ],
+    "rows": 10,
+    "row1": [
+     "test-yh-istio-654b566f6c-mcttb",
+     "check_circle",
+     "RUNNING",
+     "1/1",
+     "3.52 mCore",
+     "41 MiB",
+     "0",
+     "ReplicaSet ... 654b566f6c link",
+     "2026-10-07 15:56:42"
+    ]
+   },
+   {
+    "tid": "adm-node-resource-status-image-table-table",
+    "th": [
+     "이름↕",
+     "크기↕"
+    ],
+    "rows": 10,
+    "row1": [
+     "nexus.okestro-k8s.com:55000/prometheus-stack/grafa",
+     "502.52 MiB"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정 left_panel_close 기본 정보 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "레이블 설정",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 pq-400tst-bf-biz-master-3 상태 READY 클러스터 biz1",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "READY",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "READY",
+    ""
+   ],
+   [
+    "adm-copy-button",
+    "button",
+    "content_copy",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-main",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML 파드 이름 GPU 상태 help 컨테이너 CPU 메모리 재시작 소유자 생성일시 ",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML 파드 이름 GPU 상태 help 컨테이너 CPU 메모리 재시작 소유자 생성일시 ",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs-tab",
+    "span",
+    "세부 정보",
+    ""
+   ],
+   [
+    "adm-tab-content-layout-sub-title",
+    "div",
+    "파드",
+    ""
+   ],
+   [
+    "adm-node-resource-status-pod-table-table",
+    "div",
+    "이름 GPU 상태 help 컨테이너 CPU 메모리 재시작 소유자 생성일시 test-yh-istio-654b566f6c-mctt",
+    ""
+   ],
+   [
+    "adm-node-resource-status-pod-table-row",
+    "tr",
+    "test-yh-istio-654b566f6c-mcttb check_circle RUNNING 1/1 3.52 mCore 41 ",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "test-yh-istio-654b566f6c-mcttb",
+    ""
+   ],
+   [
+    "adm-node-resource-status-pod-table-pagination",
+    "div",
+    "전체 수 43 keyboard_double_arrow_left keyboard_arrow_left / 5 keyboard_ar",
+    ""
+   ],
+   [
+    "adm-node-resource-status-pod-table-pagination-total",
+    "p",
+    "전체 수 43",
+    ""
+   ],
+   [
+    "adm-node-resource-status-pod-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-node-resource-status-pod-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-node-resource-status-pod-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-node-resource-status-pod-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-node-resource-status-pod-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    ""
+   ],
+   [
+    "adm-node-resource-status-pod-table-pagination-page-size",
+    "div",
+    "리스트 수 10",
+    ""
+   ],
+   [
+    "adm-node-resource-status-image-table-table",
+    "div",
+    "이름 크기 nexus.okestro-k8s.com:55000/prometheus-stack/grafana/alloy@sha25",
+    ""
+   ],
+   [
+    "adm-node-resource-status-image-table-row",
+    "tr",
+    "nexus.okestro-k8s.com:55000/prometheus-stack/grafana/alloy@sha256:f31a",
+    ""
+   ],
+   [
+    "adm-node-resource-status-image-table-pagination",
+    "div",
+    "전체 수 50 keyboard_double_arrow_left keyboard_arrow_left / 5 keyboard_ar",
+    ""
+   ],
+   [
+    "adm-node-resource-status-image-table-pagination-total",
+    "p",
+    "전체 수 50",
+    ""
+   ],
+   [
+    "adm-node-resource-status-image-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-node-resource-status-image-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-node-resource-status-image-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-node-resource-status-image-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-node-resource-status-image-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    ""
+   ],
+   [
+    "adm-node-resource-status-image-table-pagination-page-size",
+    "div",
+    "리스트 수 10",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "tag": "node-detail/메트릭",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/node/detail?name=pq-400tst-bf-biz-master-3&namespace=&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+  "pt": "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+  "h": [
+   "h1:unfold_more",
+   "h1:pq-400tst-bf-biz-master-3",
+   "h1:기본 정보",
+   "h3:info 데이터가 없습니다."
+  ],
+  "tabs": [
+   "세부 정보",
+   "리소스",
+   "메트릭*",
+   "이벤트",
+   "로그",
+   "YAML"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "레이블 설정",
+   "수정",
+   "left_panel_close",
+   "content_copy"
+  ],
+  "ph": [],
+  "lab": [
+   "이름",
+   "상태",
+   "클러스터",
+   "클러스터 ID",
+   "레이블",
+   "테인트",
+   "노드 IP (Internal IP)",
+   "호스트 이름 (Hostname)",
+   "OS 이미지",
+   "운영체제",
+   "커널 버전",
+   "아키텍처",
+   "부팅 ID (BootID)",
+   "컨테이너 런타임",
+   "Kubelet 버전",
+   "Kube-proxy 버전",
+   "생성일시"
+  ],
+  "sel": [],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-resource-monitoring-table",
+    "th": [
+     "리소스",
+     "사용량",
+     "전체"
+    ],
+    "rows": 1,
+    "row1": [
+     "CPU",
+     "0.69 Core",
+     "8 Core"
+    ]
+   },
+   {
+    "tid": "adm-resource-monitoring-table",
+    "th": [
+     "리소스",
+     "사용량",
+     "전체"
+    ],
+    "rows": 1,
+    "row1": [
+     "Memory",
+     "5.76 GiB",
+     "15.62 GiB"
+    ]
+   },
+   {
+    "tid": "adm-resource-monitoring-table",
+    "th": [
+     "리소스",
+     "사용량",
+     "전체"
+    ],
+    "rows": 1,
+    "row1": [
+     "File System",
+     "26.23 GiB",
+     "193.65 GiB"
+    ]
+   },
+   {
+    "tid": "adm-resource-monitoring-table",
+    "th": [
+     "리소스",
+     "사용량"
+    ],
+    "rows": 2,
+    "row1": [
+     "Network IN",
+     "711.27 KBps"
+    ]
+   },
+   {
+    "tid": "adm-resource-monitoring-table",
+    "th": [
+     "리소스",
+     "사용량"
+    ],
+    "rows": 2,
+    "row1": [
+     "read",
+     "0 KBps"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정 left_panel_close 기본 정보 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "레이블 설정",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 pq-400tst-bf-biz-master-3 상태 READY 클러스터 biz1",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "READY",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "READY",
+    ""
+   ],
+   [
+    "adm-copy-button",
+    "button",
+    "content_copy",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-main",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML CPU 사용량 단위(Core) 0 0.3 0.6 0.9 1.2 1.5 1.8 1",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML CPU 사용량 단위(Core) 0 0.3 0.6 0.9 1.2 1.5 1.8 1",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs-tab",
+    "span",
+    "세부 정보",
+    ""
+   ],
+   [
+    "adm-resource-monitoring-table",
+    "div",
+    "리소스 사용량 전체 CPU 0.69 Core 8 Core",
+    ""
+   ],
+   [
+    "adm-no-data",
+    "div",
+    "info 데이터가 없습니다. 현재 조회 가능한 데이터가 없습니다.",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "tag": "node-detail/이벤트",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/node/detail?name=pq-400tst-bf-biz-master-3&namespace=&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+  "pt": "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+  "h": [
+   "h1:unfold_more",
+   "h1:pq-400tst-bf-biz-master-3",
+   "h1:기본 정보",
+   "h3:info 데이터가 없습니다."
+  ],
+  "tabs": [
+   "세부 정보",
+   "리소스",
+   "메트릭",
+   "이벤트*",
+   "로그",
+   "YAML"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "레이블 설정",
+   "수정",
+   "left_panel_close",
+   "content_copy"
+  ],
+  "ph": [],
+  "lab": [
+   "이름",
+   "상태",
+   "클러스터",
+   "클러스터 ID",
+   "레이블",
+   "테인트",
+   "노드 IP (Internal IP)",
+   "호스트 이름 (Hostname)",
+   "OS 이미지",
+   "운영체제",
+   "커널 버전",
+   "아키텍처",
+   "부팅 ID (BootID)",
+   "컨테이너 런타임",
+   "Kubelet 버전",
+   "Kube-proxy 버전",
+   "생성일시"
+  ],
+  "sel": [],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-detail-event-table-table",
+    "th": [
+     "유형↕",
+     "리소스 유형",
+     "이름↕",
+     "메시지",
+     "네임스페이스↕",
+     "발생일시↕"
+    ],
+    "rows": 0,
+    "row1": []
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정 left_panel_close 기본 정보 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "레이블 설정",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 pq-400tst-bf-biz-master-3 상태 READY 클러스터 biz1",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "READY",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "READY",
+    ""
+   ],
+   [
+    "adm-copy-button",
+    "button",
+    "content_copy",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-main",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML 유형 리소스 유형 이름 메시지 네임스페이스 발생일시 info 데이터가 없습니다.",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML 유형 리소스 유형 이름 메시지 네임스페이스 발생일시 info 데이터가 없습니다.",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs-tab",
+    "span",
+    "세부 정보",
+    ""
+   ],
+   [
+    "adm-detail-event-table-table",
+    "div",
+    "유형 리소스 유형 이름 메시지 네임스페이스 발생일시 info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요.",
+    ""
+   ],
+   [
+    "adm-no-data",
+    "div",
+    "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요.",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "tag": "node-detail/로그",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/node/detail?name=pq-400tst-bf-biz-master-3&namespace=&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+  "pt": "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+  "h": [
+   "h1:unfold_more",
+   "h1:pq-400tst-bf-biz-master-3",
+   "h1:기본 정보",
+   "h1:실시간 로그"
+  ],
+  "tabs": [
+   "세부 정보",
+   "리소스",
+   "메트릭",
+   "이벤트",
+   "로그*",
+   "YAML"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "레이블 설정",
+   "수정",
+   "left_panel_close",
+   "content_copy",
+   "새 창에서 열기 open_in_new",
+   "download 다운로드(D)"
+  ],
+  "ph": [
+   "textarea||||"
+  ],
+  "lab": [
+   "이름",
+   "상태",
+   "클러스터",
+   "클러스터 ID",
+   "레이블",
+   "테인트",
+   "노드 IP (Internal IP)",
+   "호스트 이름 (Hostname)",
+   "OS 이미지",
+   "운영체제",
+   "커널 버전",
+   "아키텍처",
+   "부팅 ID (BootID)",
+   "컨테이너 런타임",
+   "Kubelet 버전",
+   "Kube-proxy 버전",
+   "생성일시"
+  ],
+  "sel": [],
+  "chk": [],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정 left_panel_close 기본 정보 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "레이블 설정",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 pq-400tst-bf-biz-master-3 상태 READY 클러스터 biz1",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "READY",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "READY",
+    ""
+   ],
+   [
+    "adm-copy-button",
+    "button",
+    "content_copy",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-main",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML 실시간 로그 새 창에서 열기 open_in_new download 다운로드",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML 실시간 로그 새 창에서 열기 open_in_new download 다운로드",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs-tab",
+    "span",
+    "세부 정보",
+    ""
+   ],
+   [
+    "adm-node-log-tab-realtime-log-mode-title",
+    "div",
+    "실시간 로그 새 창에서 열기 open_in_new download 다운로드",
+    ""
+   ],
+   [
+    "adm-node-log-tab-open-log-popup",
+    "button",
+    "새 창에서 열기 open_in_new",
+    ""
+   ],
+   [
+    "adm-node-log-tab-download-node-log",
+    "button",
+    "download 다운로드",
+    "D"
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "node-detail/YAML",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/node/detail?name=pq-400tst-bf-biz-master-3&namespace=&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+  "pt": "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+  "h": [
+   "h1:unfold_more",
+   "h1:pq-400tst-bf-biz-master-3",
+   "h1:기본 정보"
+  ],
+  "tabs": [
+   "세부 정보",
+   "리소스",
+   "메트릭",
+   "이벤트",
+   "로그",
+   "YAML*"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "레이블 설정",
+   "수정",
+   "left_panel_close",
+   "content_copy"
+  ],
+  "ph": [
+   "textarea||||"
+  ],
+  "lab": [
+   "이름",
+   "상태",
+   "클러스터",
+   "클러스터 ID",
+   "레이블",
+   "테인트",
+   "노드 IP (Internal IP)",
+   "호스트 이름 (Hostname)",
+   "OS 이미지",
+   "운영체제",
+   "커널 버전",
+   "아키텍처",
+   "부팅 ID (BootID)",
+   "컨테이너 런타임",
+   "Kubelet 버전",
+   "Kube-proxy 버전",
+   "생성일시"
+  ],
+  "sel": [],
+  "chk": [],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 노드 관리/ 노드 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정 left_panel_close 기본 정보 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back pq-400tst-bf-biz-master-3 레이블 설정 수정",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "레이블 설정",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 pq-400tst-bf-biz-master-3 상태 READY 클러스터 biz1",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "READY",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "READY",
+    ""
+   ],
+   [
+    "adm-copy-button",
+    "button",
+    "content_copy",
+    ""
+   ],
+   [
+    "adm-page-viola-node-detail-main",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs",
+    "div",
+    "세부 정보 리소스 메트릭 이벤트 로그 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18",
+    ""
+   ],
+   [
+    "adm-node-detail-tabs-tab",
+    "span",
+    "세부 정보",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "opened": []
+ }
+]

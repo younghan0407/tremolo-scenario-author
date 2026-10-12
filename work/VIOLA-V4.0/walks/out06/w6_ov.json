@@ -1,0 +1,298 @@
+[
+ {
+  "tag": "ov",
+  "url": "https://example.invalid/env-2/viola/monitoring/integrated-monitoring",
+  "bc": "모니터링/ 통합 모니터링",
+  "pt": "",
+  "h": [
+   "h1:unfold_more",
+   "h1:통합 모니터링"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "refresh",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)"
+  ],
+  "ph": [],
+  "lab": [],
+  "sel": [],
+  "chk": [],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "모니터링/ 통합 모니터링 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "모니터링/ 통합 모니터링",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "모니터링",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-overview-page-title",
+    "div",
+    "통합 모니터링 Overview 워크로드간 구성 및 통신 관계를 시각적으로 확인하고 클러스터를 통합 모니터링합니다. refres",
+    ""
+   ],
+   [
+    "adm-overview-header-refresh",
+    "button",
+    "refresh",
+    ""
+   ],
+   [
+    "adm-overview-cluster-item-data-load-failed",
+    "button",
+    "",
+    ""
+   ],
+   [
+    "adm-overview-prev-page",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-overview-next-page",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ]
+  ],
+  "modal": [],
+  "text": ""
+ },
+ {
+  "info": [
+   "DIV|page-container monitoring-overview||통합 모니터링 Overview 워크로드간 구성 및 통신 관계를 시각적으로 확인하고 클러스터를 통합 모니터링합니다. refresh 2026.10.08 10:45:47 전체 클러스터 3 CRITICAL 0 WARNING",
+   "DIV|svg-overview-area||전체 클러스터 3 CRITICAL 0 WARNING 0 SCALING 0 REVERTING 0 UPGRADING 0 GOOD 2 데이터 로드 실패 1 keyboard_arrow_left 페이지 1 / 1 keyboa",
+   "DIV|cluster-info-wrap||전체 클러스터 3 CRITICAL 0 WARNING 0 SCALING 0 REVERTING 0 UPGRADING 0 GOOD 2 데이터 로드 실패 1",
+   "BUTTON|css-4kbzec ant-btn ant-btn-default ghost cluster-item cluster-item|adm-overview-cluster-item-data-load-failed|",
+   "BUTTON|css-4kbzec ant-btn ant-btn-default ghost cluster-item cluster-item|adm-overview-cluster-item-data-load-failed|",
+   "BUTTON|css-4kbzec ant-btn ant-btn-default ghost cluster-item is-load-failed c|adm-overview-cluster-item-data-load-failed|"
+  ]
+ },
+ {
+  "hover": []
+ },
+ {
+  "failPop": [
+   "ant-popover css-4kbzec ant-popover-placement-right :: biz1 GOOD CPU 10.8% 메모리 35.9% 상세 보기 keyboard_arrow_right"
+  ]
+ },
+ {
+  "tag": "ov-failpop",
+  "url": "https://example.invalid/env-2/viola/monitoring/integrated-monitoring",
+  "bc": "모니터링/ 통합 모니터링",
+  "pt": "",
+  "h": [
+   "h1:unfold_more",
+   "h1:통합 모니터링"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "refresh",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "상세 보기 keyboard_arrow_right"
+  ],
+  "ph": [],
+  "lab": [],
+  "sel": [],
+  "chk": [],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "모니터링/ 통합 모니터링 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "모니터링/ 통합 모니터링",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "모니터링",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-overview-page-title",
+    "div",
+    "통합 모니터링 Overview 워크로드간 구성 및 통신 관계를 시각적으로 확인하고 클러스터를 통합 모니터링합니다. refres",
+    ""
+   ],
+   [
+    "adm-overview-header-refresh",
+    "button",
+    "refresh",
+    ""
+   ],
+   [
+    "adm-overview-cluster-item-data-load-failed",
+    "button",
+    "",
+    ""
+   ],
+   [
+    "adm-overview-prev-page",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-overview-next-page",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-overview-cluster-item-tags",
+    "div",
+    "GOOD",
+    ""
+   ],
+   [
+    "adm-overview-cluster-item-tags-item",
+    "span",
+    "GOOD",
+    ""
+   ],
+   [
+    "adm-overview-cluster-item-detail-view",
+    "button",
+    "상세 보기 keyboard_arrow_right",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-popover css-4kbzec ant-popover-place :: biz1 GOOD CPU 10.8% 메모리 35.9% 상세 보기 keyboard_arrow_right",
+   "ant-popover-inner :: biz1 GOOD CPU 10.8% 메모리 35.9% 상세 보기 keyboard_arrow_right"
+  ],
+  "text": ""
+ },
+ {
+  "items": [
+   "css-4kbzec ant-btn ant-btn-default ghost ant-popover-open cluster-item is-selected ant-popover-open cluster-item is-selected||<button class=\"css-4kbzec ant-btn ant-btn-default ghost ant-popover-open cluster-item is-selected ant-popover-open cluster-item is-selected\" data-testid=\"adm-overview-cluster-item-data-load-failed\" type=\"button\" style=\"left: 360px; top: 0px; z-index: 1;\"><!----><div class=\"cluster-cube-wrap\"><!--v-i",
+   "css-4kbzec ant-btn ant-btn-default ghost cluster-item cluster-item||<button class=\"css-4kbzec ant-btn ant-btn-default ghost cluster-item cluster-item\" data-testid=\"adm-overview-cluster-item-data-load-failed\" type=\"button\" style=\"left: 480px; top: 70px; z-index: 2;\"><!----><div class=\"cluster-cube-wrap\"><!--v-if--><svg class=\"cluster-cube\" width=\"240\" height=\"162\" vi",
+   "css-4kbzec ant-btn ant-btn-default ghost cluster-item is-load-failed cluster-item is-load-failed||<button class=\"css-4kbzec ant-btn ant-btn-default ghost cluster-item is-load-failed cluster-item is-load-failed\" data-testid=\"adm-overview-cluster-item-data-load-failed\" type=\"button\" style=\"left: 600px; top: 140px; z-index: 3;\"><!----><div class=\"cluster-cube-wrap\"><svg class=\"cluster-cube is-load-"
+  ]
+ },
+ {
+  "okPop": []
+ },
+ {
+  "tag": "ov-okpop",
+  "url": "https://example.invalid/env-2/viola/monitoring/integrated-monitoring",
+  "bc": "모니터링/ 통합 모니터링",
+  "pt": "",
+  "h": [
+   "h1:unfold_more",
+   "h1:통합 모니터링"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "refresh",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)"
+  ],
+  "ph": [],
+  "lab": [],
+  "sel": [],
+  "chk": [],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "모니터링/ 통합 모니터링 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "모니터링/ 통합 모니터링",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "모니터링",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-overview-page-title",
+    "div",
+    "통합 모니터링 Overview 워크로드간 구성 및 통신 관계를 시각적으로 확인하고 클러스터를 통합 모니터링합니다. refres",
+    ""
+   ],
+   [
+    "adm-overview-header-refresh",
+    "button",
+    "refresh",
+    ""
+   ],
+   [
+    "adm-overview-cluster-item-data-load-failed",
+    "button",
+    "",
+    ""
+   ],
+   [
+    "adm-overview-prev-page",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-overview-next-page",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ]
+  ],
+  "modal": [],
+  "text": ""
+ },
+ {
+  "opened": []
+ }
+]

@@ -1,0 +1,2651 @@
+{
+  "scenarioPath": "data/scenarios/VIOLA/V4.0/[워크플로우]-[게이트웨이 API]-[게이트웨이 클래스 목록 표시].spec.ts",
+  "scenarioId": "VIOLA::V4.0::%5B%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0%5D-%5B%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4%20API%5D-%5B%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EB%AA%A9%EB%A1%9D%20%ED%91%9C%EC%8B%9C%5D",
+  "steps": [
+    {
+      "id": "s1",
+      "type": "goto",
+      "title": "https://example.invalid/env-2/login 이동",
+      "locator": "-",
+      "value": "https://example.invalid/env-2/login",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[실측] 로그인 프리앰블(고정, 실측 면제)"
+    },
+    {
+      "id": "s2",
+      "type": "fill",
+      "title": "아이디를 입력해 주세요. 입력",
+      "locator": "role=textbox[name=\"아이디를 입력해 주세요.\"]",
+      "value": "YOUR_ACCOUNT_ID",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "[실측] 로그인 프리앰블(고정, 실측 면제)",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "아이디를 입력해 주세요.",
+        "exact": true
+      }
+    },
+    {
+      "id": "s3",
+      "type": "press",
+      "title": "아이디를 입력해 주세요. 키 누르기",
+      "locator": "role=textbox[name=\"아이디를 입력해 주세요.\"]",
+      "value": "Tab",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "[실측] 로그인 프리앰블(고정, 실측 면제)",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "아이디를 입력해 주세요.",
+        "exact": true
+      }
+    },
+    {
+      "id": "s4",
+      "type": "fill",
+      "title": "비밀번호를 입력해 주세요. 입력",
+      "locator": "role=textbox[name=\"비밀번호를 입력해 주세요.\"]",
+      "value": "YOUR_PASSWORD",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "[실측] 로그인 프리앰블(고정, 실측 면제)",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "비밀번호를 입력해 주세요.",
+        "exact": true
+      }
+    },
+    {
+      "id": "s5",
+      "type": "press",
+      "title": "비밀번호를 입력해 주세요. 키 누르기",
+      "locator": "role=textbox[name=\"비밀번호를 입력해 주세요.\"]",
+      "value": "Enter",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "[실측] 로그인 프리앰블(고정, 실측 면제)",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "비밀번호를 입력해 주세요.",
+        "exact": true
+      }
+    },
+    {
+      "id": "s7",
+      "type": "click",
+      "title": "제품 선택 메뉴 열기",
+      "locator": "xpath=(//h1[contains(concat(\" \", normalize-space(@class), \" \"), \" logo-wrap \")])[1]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] 2026-10-07 walk: h1.logo-wrap.ant-dropdown-trigger (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//h1[contains(concat(\" \", normalize-space(@class), \" \"), \" logo-wrap \")])[1]"
+      }
+    },
+    {
+      "id": "s8",
+      "type": "click",
+      "title": "제품 VIOLA 선택",
+      "locator": "xpath=(//span[contains(concat(\" \", normalize-space(@class), \" \"), \" solution-menu-item-label \")][normalize-space(.)=\"VIOLA\"])[1]",
+      "value": "-",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] 2026-10-07 walk: span.solution-menu-item-label → /viola (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//span[contains(concat(\" \", normalize-space(@class), \" \"), \" solution-menu-item-label \")][normalize-space(.)=\"VIOLA\"])[1]"
+      }
+    },
+    {
+      "id": "s9",
+      "type": "assert",
+      "title": "VIOLA LNB 표출 대기",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"워크플로우\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] VIOLA 진입 확인(검증 스텝 아님) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"워크플로우\")])[1]"
+      }
+    },
+    {
+      "id": "s10",
+      "type": "click",
+      "title": "워크플로우 메뉴 클릭",
+      "locator": "text=\"워크플로우\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] V4.1 400tst 실측 패턴(text order first) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "text",
+        "text": "워크플로우",
+        "exact": true,
+        "order": "first"
+      }
+    },
+    {
+      "id": "s11",
+      "type": "click",
+      "title": "네트워크 메뉴 클릭",
+      "locator": "xpath=(//div[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-submenu-title \")][contains(normalize-space(.),\"네트워크\")])[1]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] V4.1 400tst 실측 패턴 (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//div[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-submenu-title \")][contains(normalize-space(.),\"네트워크\")])[1]"
+      }
+    },
+    {
+      "id": "s12",
+      "type": "click",
+      "title": "게이트웨이 API 진입",
+      "locator": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"게이트웨이 API\"])[1]",
+      "value": "-",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] V4.1 400tst 실측 패턴 (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"게이트웨이 API\"])[1]"
+      }
+    },
+    {
+      "id": "s13",
+      "type": "click",
+      "title": "게이트웨이 클래스 탭 클릭",
+      "locator": "role=tab[name=\"게이트웨이 클래스\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "role",
+        "role": "tab",
+        "name": "게이트웨이 클래스",
+        "exact": true
+      }
+    },
+    {
+      "id": "s14",
+      "type": "assert",
+      "title": "목록 table 표출 대기",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-table",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-table"
+      }
+    },
+    {
+      "id": "s15",
+      "type": "assert",
+      "title": "페이지 헤더(타이틀 영역) 표출",
+      "locator": "testid=adm-page-title",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1711",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-page-title"
+      }
+    },
+    {
+      "id": "s16",
+      "type": "assert",
+      "title": "탭 바 표출",
+      "locator": "testid=adm-page-layout-tabs",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1711",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-page-layout-tabs"
+      }
+    },
+    {
+      "id": "s17",
+      "type": "assert",
+      "title": "검색 필터 영역 표출",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-filter",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 클러스터 칩 필터는 멀티 클러스터 컨텍스트에서만 표출 — [공통 정의]-[목록 화면 공통 정의]-[멀티 클러스터 필터] 에서 검증 · 커버 TC: TC_VIO_1711",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-filter"
+      }
+    },
+    {
+      "id": "s18",
+      "type": "assert",
+      "title": "기간 필터 표출",
+      "locator": "xpath=(//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-tabs-tabpane-active \")]//*[@data-testid=\"adm-date-range-period\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1711",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-tabs-tabpane-active \")]//*[@data-testid=\"adm-date-range-period\"])[1]"
+      }
+    },
+    {
+      "id": "s19",
+      "type": "assert",
+      "title": "목록 table 표출",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-table",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_[1711, 1729]",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-table"
+      }
+    },
+    {
+      "id": "s20",
+      "type": "assert",
+      "title": "페이지네이션 표출",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-pagination",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1711",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-pagination"
+      }
+    },
+    {
+      "id": "s21",
+      "type": "assert",
+      "title": "breadcrumb 경로 검증",
+      "locator": "testid=adm-breadcrumb",
+      "value": "toContainText('워크플로우/ 네트워크/ 게이트웨이 API')",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "",
+        "expected": "워크플로우/ 네트워크/ 게이트웨이 API",
+        "componentType": "",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1712",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-breadcrumb"
+      }
+    },
+    {
+      "id": "s22",
+      "type": "assert",
+      "title": "breadcrumb 경로 검증",
+      "locator": "testid=adm-breadcrumb",
+      "value": "toContainText('워크플로우/ 네트워크/ 게이트웨이 API')",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "",
+        "expected": "워크플로우/ 네트워크/ 게이트웨이 API",
+        "componentType": "",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 서식(볼드·회색·초록·색상)은 Tremolo 로 판정 불가 — 텍스트·선택 class 로 검증, 서식은 수동 확인 · 커버 TC: TC_VIO_1713",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-breadcrumb"
+      }
+    },
+    {
+      "id": "s23",
+      "type": "assert",
+      "title": "LNB 대분류 `대시보드` 표출",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"대시보드\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1714",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"대시보드\")])[1]"
+      }
+    },
+    {
+      "id": "s24",
+      "type": "assert",
+      "title": "LNB 대분류 `기본 설정` 표출",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"기본 설정\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1714",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"기본 설정\")])[1]"
+      }
+    },
+    {
+      "id": "s25",
+      "type": "assert",
+      "title": "LNB 대분류 `워크플로우` 표출",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"워크플로우\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1714",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"워크플로우\")])[1]"
+      }
+    },
+    {
+      "id": "s26",
+      "type": "assert",
+      "title": "LNB 대분류 `서비스 카탈로그` 표출",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"서비스 카탈로그\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1714",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"서비스 카탈로그\")])[1]"
+      }
+    },
+    {
+      "id": "s27",
+      "type": "assert",
+      "title": "LNB 대분류 `모니터링` 표출",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"모니터링\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1714",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"모니터링\")])[1]"
+      }
+    },
+    {
+      "id": "s28",
+      "type": "assert",
+      "title": "`워크플로우` 확장 상태",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-submenu-open \")][contains(normalize-space(.),\"워크플로우\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1714",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-submenu-open \")][contains(normalize-space(.),\"워크플로우\")])[1]"
+      }
+    },
+    {
+      "id": "s29",
+      "type": "assert",
+      "title": "`기본 설정` 미확장",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-submenu-open \")][contains(normalize-space(.),\"기본 설정\")])[1]",
+      "value": "toBeHidden()",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "hidden",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "hidden"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1714",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-submenu-open \")][contains(normalize-space(.),\"기본 설정\")])[1]"
+      }
+    },
+    {
+      "id": "s30",
+      "type": "assert",
+      "title": "`서비스 카탈로그` 미확장",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-submenu-open \")][contains(normalize-space(.),\"서비스 카탈로그\")])[1]",
+      "value": "toBeHidden()",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "hidden",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "hidden"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1714",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-submenu-open \")][contains(normalize-space(.),\"서비스 카탈로그\")])[1]"
+      }
+    },
+    {
+      "id": "s31",
+      "type": "assert",
+      "title": "`모니터링` 미확장",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-submenu-open \")][contains(normalize-space(.),\"모니터링\")])[1]",
+      "value": "toBeHidden()",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "hidden",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "hidden"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1714",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-submenu-open \")][contains(normalize-space(.),\"모니터링\")])[1]"
+      }
+    },
+    {
+      "id": "s32",
+      "type": "assert",
+      "title": "LNB 메뉴 `서비스` 표출",
+      "locator": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"서비스\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1715",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"서비스\"])[1]"
+      }
+    },
+    {
+      "id": "s33",
+      "type": "assert",
+      "title": "LNB 메뉴 `인그레스` 표출",
+      "locator": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"인그레스\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1715",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"인그레스\"])[1]"
+      }
+    },
+    {
+      "id": "s34",
+      "type": "assert",
+      "title": "LNB 메뉴 `게이트웨이 API` 표출",
+      "locator": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"게이트웨이 API\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1715",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"게이트웨이 API\"])[1]"
+      }
+    },
+    {
+      "id": "s35",
+      "type": "assert",
+      "title": "LNB 메뉴 `네트워크 폴리시` 표출",
+      "locator": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"네트워크 폴리시\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1715",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"네트워크 폴리시\"])[1]"
+      }
+    },
+    {
+      "id": "s36",
+      "type": "assert",
+      "title": "LNB 메뉴 `서비스 메시` 표출",
+      "locator": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"서비스 메시\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1715",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[@role=\"menuitem\"][normalize-space(.)=\"서비스 메시\"])[1]"
+      }
+    },
+    {
+      "id": "s37",
+      "type": "assert",
+      "title": "`게이트웨이 API` 선택 상태",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-item-selected \")][normalize-space(.)=\"게이트웨이 API\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 서식(볼드·회색·초록·색상)은 Tremolo 로 판정 불가 — 텍스트·선택 class 로 검증, 서식은 수동 확인 · 커버 TC: TC_VIO_1715",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-menu-item-selected \")][normalize-space(.)=\"게이트웨이 API\"])[1]"
+      }
+    },
+    {
+      "id": "s38",
+      "type": "assert",
+      "title": "LNB 하단 `알림` 표출",
+      "locator": "text=\"알림\"",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1716",
+      "target": {
+        "kind": "text",
+        "text": "알림",
+        "exact": true,
+        "order": "first"
+      }
+    },
+    {
+      "id": "s39",
+      "type": "assert",
+      "title": "LNB 하단 `프로필` 표출",
+      "locator": "text=\"프로필\"",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1716",
+      "target": {
+        "kind": "text",
+        "text": "프로필",
+        "exact": true,
+        "order": "first"
+      }
+    },
+    {
+      "id": "s40",
+      "type": "assert",
+      "title": "LNB 접기 아이콘(first_page) 표출",
+      "locator": "text=\"first_page\"",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1716",
+      "target": {
+        "kind": "text",
+        "text": "first_page",
+        "exact": true,
+        "order": "first"
+      }
+    },
+    {
+      "id": "s41",
+      "type": "assert",
+      "title": "우상단 클러스터 선택기 표출",
+      "locator": ".btn-navigator",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1717",
+      "target": {
+        "kind": "css",
+        "selector": ".btn-navigator"
+      }
+    },
+    {
+      "id": "s42",
+      "type": "assert",
+      "title": "클러스터 선택기 교체 아이콘(sync_alt)",
+      "locator": ".btn-navigator",
+      "value": "toContainText('sync_alt')",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "",
+        "expected": "sync_alt",
+        "componentType": "",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1717",
+      "target": {
+        "kind": "css",
+        "selector": ".btn-navigator"
+      }
+    },
+    {
+      "id": "s43",
+      "type": "assert",
+      "title": "모니터링 현황 차트 아이콘(browse_activity)",
+      "locator": "xpath=(//*[@data-testid=\"adm-the-header-toggle-panel\"]//*[normalize-space(text())=\"browse_activity\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1718",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-the-header-toggle-panel\"]//*[normalize-space(text())=\"browse_activity\"])[1]"
+      }
+    },
+    {
+      "id": "s44",
+      "type": "assert",
+      "title": "`모니터링 현황` 버튼 라벨",
+      "locator": "testid=adm-the-header-toggle-panel",
+      "value": "toContainText('모니터링 현황')",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "",
+        "expected": "모니터링 현황",
+        "componentType": "",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1718",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-the-header-toggle-panel"
+      }
+    },
+    {
+      "id": "s45",
+      "type": "assert",
+      "title": "페이지 타이틀 `게이트웨이 API`",
+      "locator": "testid=adm-page-title",
+      "value": "toContainText('게이트웨이 API')",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "",
+        "expected": "게이트웨이 API",
+        "componentType": "",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 서식(볼드·회색·초록·색상)은 Tremolo 로 판정 불가 — 텍스트·선택 class 로 검증, 서식은 수동 확인 · 커버 TC: TC_VIO_1719",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-page-title"
+      }
+    },
+    {
+      "id": "s46",
+      "type": "assert",
+      "title": "Subtitle 표출",
+      "locator": "testid=adm-page-title",
+      "value": "toContainText('리소스를 생성하고 관리합니다.')",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "",
+        "expected": "리소스를 생성하고 관리합니다.",
+        "componentType": "",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1720",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-page-title"
+      }
+    },
+    {
+      "id": "s47",
+      "type": "assert",
+      "title": "탭 `HTTP라우트` 표출",
+      "locator": "xpath=(//*[@role=\"tab\"][normalize-space(.)=\"HTTP라우트\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1721",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@role=\"tab\"][normalize-space(.)=\"HTTP라우트\"])[1]"
+      }
+    },
+    {
+      "id": "s48",
+      "type": "assert",
+      "title": "탭 `게이트웨이` 표출",
+      "locator": "xpath=(//*[@role=\"tab\"][normalize-space(.)=\"게이트웨이\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1721",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@role=\"tab\"][normalize-space(.)=\"게이트웨이\"])[1]"
+      }
+    },
+    {
+      "id": "s49",
+      "type": "assert",
+      "title": "탭 `게이트웨이 클래스` 표출",
+      "locator": "xpath=(//*[@role=\"tab\"][normalize-space(.)=\"게이트웨이 클래스\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1721",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@role=\"tab\"][normalize-space(.)=\"게이트웨이 클래스\"])[1]"
+      }
+    },
+    {
+      "id": "s50",
+      "type": "assert",
+      "title": "`게이트웨이 클래스` 탭 선택 상태",
+      "locator": "xpath=(//*[@role=\"tab\"][normalize-space(.)=\"게이트웨이 클래스\"][@aria-selected=\"true\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 서식(볼드·회색·초록·색상)은 Tremolo 로 판정 불가 — 텍스트·선택 class 로 검증, 서식은 수동 확인 · 커버 TC: TC_VIO_1721",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@role=\"tab\"][normalize-space(.)=\"게이트웨이 클래스\"][@aria-selected=\"true\"])[1]"
+      }
+    },
+    {
+      "id": "s51",
+      "type": "assert",
+      "title": "검색 입력 placeholder",
+      "locator": ".ant-tabs-tabpane-active input[placeholder=\"항목 이름 또는 값을 입력해 주세요.\"]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1723",
+      "target": {
+        "kind": "css",
+        "selector": ".ant-tabs-tabpane-active input[placeholder=\"항목 이름 또는 값을 입력해 주세요.\"]"
+      }
+    },
+    {
+      "id": "s52",
+      "type": "assert",
+      "title": "검색 필터 아이콘(filter_list)",
+      "locator": "xpath=(//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-tabs-tabpane-active \")]//*[normalize-space(text())=\"filter_list\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1723",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-tabs-tabpane-active \")]//*[normalize-space(text())=\"filter_list\"])[1]"
+      }
+    },
+    {
+      "id": "s53",
+      "type": "assert",
+      "title": "`기간 설정` 선택기",
+      "locator": "xpath=(//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-tabs-tabpane-active \")]//*[@data-testid=\"adm-date-range-period\"])[1]",
+      "value": "toContainText('기간 설정')",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "",
+        "expected": "기간 설정",
+        "componentType": "",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1724",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-tabs-tabpane-active \")]//*[@data-testid=\"adm-date-range-period\"])[1]"
+      }
+    },
+    {
+      "id": "s54",
+      "type": "assert",
+      "title": "시작일 입력",
+      "locator": ".ant-tabs-tabpane-active input[placeholder=\"시작일\"]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1725",
+      "target": {
+        "kind": "css",
+        "selector": ".ant-tabs-tabpane-active input[placeholder=\"시작일\"]"
+      }
+    },
+    {
+      "id": "s55",
+      "type": "assert",
+      "title": "종료일 입력",
+      "locator": ".ant-tabs-tabpane-active input[placeholder=\"종료일\"]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1725",
+      "target": {
+        "kind": "css",
+        "selector": ".ant-tabs-tabpane-active input[placeholder=\"종료일\"]"
+      }
+    },
+    {
+      "id": "s56",
+      "type": "assert",
+      "title": "`+ 생성` add 아이콘",
+      "locator": "xpath=(//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-tabs-tabpane-active \")]//*[@data-testid=\"adm-list-button-groups-create\"]//*[normalize-space(text())=\"add\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1726",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-tabs-tabpane-active \")]//*[@data-testid=\"adm-list-button-groups-create\"]//*[normalize-space(text())=\"add\"])[1]"
+      }
+    },
+    {
+      "id": "s57",
+      "type": "assert",
+      "title": "`+ 생성` 라벨",
+      "locator": "xpath=(//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-tabs-tabpane-active \")]//*[@data-testid=\"adm-list-button-groups-create\"])[1]",
+      "value": "toContainText('생성')",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "",
+        "expected": "생성",
+        "componentType": "",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 서식(볼드·회색·초록·색상)은 Tremolo 로 판정 불가 — 텍스트·선택 class 로 검증, 서식은 수동 확인 · 커버 TC: TC_VIO_1726",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-tabs-tabpane-active \")]//*[@data-testid=\"adm-list-button-groups-create\"])[1]"
+      }
+    },
+    {
+      "id": "s58",
+      "type": "assert",
+      "title": "조회형 구성(필터·table·페이지네이션)",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-pagination",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_[1727, 1730]",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-pagination"
+      }
+    },
+    {
+      "id": "s59",
+      "type": "assert",
+      "title": "`상태` 헤더 정렬 아이콘 미표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"상태\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]",
+      "value": "toBeHidden()",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "hidden",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "hidden"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1731",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"상태\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]"
+      }
+    },
+    {
+      "id": "s60",
+      "type": "assert",
+      "title": "`레이블` 헤더 정렬 아이콘 미표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[normalize-space(.)=\"레이블\"]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]",
+      "value": "toBeHidden()",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "hidden",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "hidden"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1732",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[normalize-space(.)=\"레이블\"]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]"
+      }
+    },
+    {
+      "id": "s61",
+      "type": "assert",
+      "title": "`이름` 헤더 정렬 아이콘",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"이름\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_[1733, 1730]",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"이름\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]"
+      }
+    },
+    {
+      "id": "s62",
+      "type": "assert",
+      "title": "`클러스터` 헤더 정렬 아이콘",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"클러스터\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_[1733, 1730]",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"클러스터\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]"
+      }
+    },
+    {
+      "id": "s63",
+      "type": "assert",
+      "title": "`컨트롤러` 헤더 정렬 아이콘",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"컨트롤러\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_[1733, 1730]",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"컨트롤러\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]"
+      }
+    },
+    {
+      "id": "s64",
+      "type": "assert",
+      "title": "`연결 게이트웨이 수` 헤더 정렬 아이콘",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"연결 게이트웨이 수\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_[1733, 1730]",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"연결 게이트웨이 수\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]"
+      }
+    },
+    {
+      "id": "s65",
+      "type": "assert",
+      "title": "`생성일시` 헤더 정렬 아이콘",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"생성일시\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_[1733, 1730]",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"생성일시\")]//*[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-column-sorter \")])[1]"
+      }
+    },
+    {
+      "id": "s66",
+      "type": "assert",
+      "title": "`이름` 컬럼 헤더(1번째 데이터 컬럼)",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[2][contains(normalize-space(.),\"이름\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1735",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[2][contains(normalize-space(.),\"이름\")])[1]"
+      }
+    },
+    {
+      "id": "s67",
+      "type": "assert",
+      "title": "`이름` 값 링크(name-cell) 표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//*[@data-testid=\"adm-name-cell\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 밑줄 서식은 수동 확인 · 커버 TC: TC_VIO_1735",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//*[@data-testid=\"adm-name-cell\"])[1]"
+      }
+    },
+    {
+      "id": "s68",
+      "type": "assert",
+      "title": "`상태` 헤더(2번째) + help 아이콘",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[3][contains(normalize-space(.),\"상태\")]//*[normalize-space(text())=\"help\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1737",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[3][contains(normalize-space(.),\"상태\")]//*[normalize-space(text())=\"help\"])[1]"
+      }
+    },
+    {
+      "id": "s69",
+      "type": "assert",
+      "title": "`상태` 값 pill tag(adm-status-tag)",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//*[@data-testid=\"adm-status-tag\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1738",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//*[@data-testid=\"adm-status-tag\"])[1]"
+      }
+    },
+    {
+      "id": "s70",
+      "type": "assert",
+      "title": "3번째 데이터 컬럼 `클러스터` 헤더",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[4][contains(normalize-space(.),\"클러스터\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1740",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[4][contains(normalize-space(.),\"클러스터\")])[1]"
+      }
+    },
+    {
+      "id": "s71",
+      "type": "assert",
+      "title": "`클러스터` 값 셀 표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[4])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1740",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[4])[1]"
+      }
+    },
+    {
+      "id": "s72",
+      "type": "assert",
+      "title": "4번째 데이터 컬럼 `레이블` 헤더",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[5][contains(normalize-space(.),\"레이블\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1741",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[5][contains(normalize-space(.),\"레이블\")])[1]"
+      }
+    },
+    {
+      "id": "s73",
+      "type": "assert",
+      "title": "`레이블` 값 셀 표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[5])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1741",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[5])[1]"
+      }
+    },
+    {
+      "id": "s74",
+      "type": "assert",
+      "title": "5번째 데이터 컬럼 `컨트롤러` 헤더",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[6][contains(normalize-space(.),\"컨트롤러\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1742",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[6][contains(normalize-space(.),\"컨트롤러\")])[1]"
+      }
+    },
+    {
+      "id": "s75",
+      "type": "assert",
+      "title": "`컨트롤러` 값 셀 표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[6])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1742",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[6])[1]"
+      }
+    },
+    {
+      "id": "s76",
+      "type": "assert",
+      "title": "6번째 데이터 컬럼 `연결 게이트웨이 수` 헤더",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[7][contains(normalize-space(.),\"연결 게이트웨이 수\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1743",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[7][contains(normalize-space(.),\"연결 게이트웨이 수\")])[1]"
+      }
+    },
+    {
+      "id": "s77",
+      "type": "assert",
+      "title": "`연결 게이트웨이 수` 값 셀 표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[7])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1743",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[7])[1]"
+      }
+    },
+    {
+      "id": "s78",
+      "type": "assert",
+      "title": "7번째 데이터 컬럼 `생성일시` 헤더",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[8][contains(normalize-space(.),\"생성일시\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1744",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[8][contains(normalize-space(.),\"생성일시\")])[1]"
+      }
+    },
+    {
+      "id": "s79",
+      "type": "assert",
+      "title": "`생성일시` 값 셀 표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[8])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1744",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[8])[1]"
+      }
+    },
+    {
+      "id": "s80",
+      "type": "assert",
+      "title": "8번째 데이터 컬럼 `작업` 헤더",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[9][contains(normalize-space(.),\"작업\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1745",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//th[9][contains(normalize-space(.),\"작업\")])[1]"
+      }
+    },
+    {
+      "id": "s81",
+      "type": "assert",
+      "title": "`작업` 값 셀 표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[9])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1745",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[9])[1]"
+      }
+    },
+    {
+      "id": "s82",
+      "type": "assert",
+      "title": "행별 더보기(more_horiz)",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//button[normalize-space(.)=\"more_horiz\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1745",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//button[normalize-space(.)=\"more_horiz\"])[1]"
+      }
+    },
+    {
+      "id": "s83",
+      "type": "assert",
+      "title": "헤더 체크박스",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//input[@type=\"checkbox\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1754",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//thead//input[@type=\"checkbox\"])[1]"
+      }
+    },
+    {
+      "id": "s84",
+      "type": "assert",
+      "title": "행 체크박스",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")]//input[@type=\"checkbox\"])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1755",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")]//input[@type=\"checkbox\"])[1]"
+      }
+    },
+    {
+      "id": "s85",
+      "type": "assert",
+      "title": "데이터 행 표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1756",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1])[1]"
+      }
+    },
+    {
+      "id": "s86",
+      "type": "assert",
+      "title": "`이름` 셀 표출(긴 이름 줄바꿈)",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[2])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 줄바꿈(말줄임 없음)은 시각 판정 — 셀 표출만 검증, 줄바꿈은 수동 확인 · 커버 TC: TC_VIO_1757",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][1]//td[2])[1]"
+      }
+    },
+    {
+      "id": "s87",
+      "type": "assert",
+      "title": "푸터 `전체 수`",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-pagination-total",
+      "value": "toContainText('전체 수')",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "",
+        "expected": "전체 수",
+        "componentType": "",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1758",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-pagination-total"
+      }
+    },
+    {
+      "id": "s88",
+      "type": "assert",
+      "title": "페이지네이션 first",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-pagination-first",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1759",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-pagination-first"
+      }
+    },
+    {
+      "id": "s89",
+      "type": "assert",
+      "title": "페이지네이션 prev",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-pagination-prev",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1759",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-pagination-prev"
+      }
+    },
+    {
+      "id": "s90",
+      "type": "assert",
+      "title": "페이지네이션 next",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-pagination-next",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1759",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-pagination-next"
+      }
+    },
+    {
+      "id": "s91",
+      "type": "assert",
+      "title": "페이지네이션 last",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-pagination-last",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1759",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-pagination-last"
+      }
+    },
+    {
+      "id": "s92",
+      "type": "assert",
+      "title": "페이지네이션 현재 페이지 입력",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-pagination-page-input",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1759",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-pagination-page-input"
+      }
+    },
+    {
+      "id": "s93",
+      "type": "assert",
+      "title": "`리스트 수` 선택기",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-pagination-page-size",
+      "value": "toContainText('리스트 수')",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "",
+        "expected": "리스트 수",
+        "componentType": "",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1760",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-pagination-page-size"
+      }
+    },
+    {
+      "id": "s94",
+      "type": "click",
+      "title": "`상태` help 아이콘 클릭(툴팁 호버 대용)",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"상태\")]//*[normalize-space(text())=\"help\"])[1]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] Tremolo 에 hover 스텝이 없어 클릭(포인터 이동 포함)으로 툴팁 호출 (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//th[contains(normalize-space(.),\"상태\")]//*[normalize-space(text())=\"help\"])[1]"
+      }
+    },
+    {
+      "id": "s95",
+      "type": "assert",
+      "title": "상태값 설명 툴팁 표출",
+      "locator": ".ant-tooltip:not(.ant-tooltip-hidden) .ant-tooltip-inner",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1739",
+      "target": {
+        "kind": "css",
+        "selector": ".ant-tooltip:not(.ant-tooltip-hidden) .ant-tooltip-inner"
+      }
+    }
+  ],
+  "updatedAt": "2026-10-07T06:37:37.907Z"
+}

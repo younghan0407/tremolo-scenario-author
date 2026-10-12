@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><title>AntD-like selftest</title></head>
+<body>
+  <!-- Main content container. A naive "scope to container" snapshot would only see THIS subtree. -->
+  <div id="app-container">
+    <nav><span>컴퓨트</span><span>인스턴스</span></nav>
+    <h1>인스턴스 생성</h1>
+
+    <label for="name">이름을 입력해 주세요</label>
+    <input id="name" type="text" aria-label="이름을 입력해 주세요" />
+
+    <input type="number" aria-label="볼륨을 입력해 주세요" />
+
+    <!-- AntD Select trigger (the popup itself is portaled to <body>, see below) -->
+    <div role="combobox" aria-label="가용 구역" aria-expanded="true">자동 지정</div>
+
+    <div role="tablist">
+      <div role="tab" aria-selected="true">기본 정보</div>
+      <div role="tab">인스턴스 스냅샷</div>
+    </div>
+
+    <table>
+      <thead><tr><th scope="col">이름</th><th scope="col">상태</th></tr></thead>
+      <tbody>
+        <tr><td>hh-ca-image</td><td>ACTIVE</td></tr>
+        <tr><td>hh-ca-seg</td><td>ACTIVE</td></tr>
+      </tbody>
+    </table>
+
+    <button type="button">다음</button>
+    <button type="button">생성</button>
+  </div>
+
+  <!-- ***Body-level portal*** (like AntD's .ant-select-dropdown). It is a DIRECT child of <body>,
+       OUTSIDE #app-container. Full-page snapshot must capture these options; a container-scoped
+       snapshot would silently miss them — the whole reason we snapshot the full page. -->
+  <div class="ant-select-dropdown" role="listbox" aria-label="가용 구역 옵션">
+    <div role="option">nova</div>
+    <div role="option">js-type</div>
+  </div>
+</body>
+</html>

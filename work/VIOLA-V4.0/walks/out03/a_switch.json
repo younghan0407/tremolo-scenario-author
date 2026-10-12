@@ -1,0 +1,36 @@
+{
+ "before": "https://example.invalid/env-2/contrabass/dashboard",
+ "already": false,
+ "topLeft": [
+  "h1|logo-wrap ant-dropdown-trigger||unfold_more",
+  "button|css-4kbzec ant-btn ant-btn-default auto||unfold_more",
+  "a|router-link-active linked-item||대시보드"
+ ],
+ "popup": [
+  "ant-menu ant-menu-root ant-menu-inline ant-menu-light css-4k :: dashboard 대시보드 edit_attributes 기본 설정 컴퓨트 cloud_lock VPC 스토리지 query_stats 집계 browse_activity 모니터링 verified_user HA 관리 settings 관리",
+  "ant-menu ant-menu-root ant-menu-vertical ant-menu-light css- :: notifications 알림 account_circle 프로필 first_page",
+  "ant-dropdown solution-gnb-dropdown css-4kbzec ant-dropdown-p :: unfold_more CONTRABASS CONTRABASS SDS+ VIOLA VIOLA CI/CD open_in_new",
+  "solution-gnb-dropdown-wrap :: unfold_more CONTRABASS CONTRABASS SDS+ VIOLA VIOLA CI/CD open_in_new",
+  "solution-gnb-dropdown-logo-wrap ant-flex css-4kbzec :: unfold_more",
+  "ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-v :: CONTRABASS CONTRABASS SDS+ VIOLA VIOLA CI/CD open_in_new",
+  "solution-menu-item-label :: CONTRABASS",
+  "solution-menu-item-label :: CONTRABASS SDS+",
+  "solution-menu-item-label :: VIOLA",
+  "ant-dropdown-menu-item cicd solution-menu-item-external ant- :: VIOLA CI/CD open_in_new",
+  "solution-menu-item-label :: VIOLA CI/CD",
+  "material-icon xs default solution-menu-item-external-icon :: open_in_new"
+ ],
+ "clicked": [
+  "unfold_more|logo-wrap ant-dropdown-trigger"
+ ],
+ "violaEl": "span|solution-menu-item-label||VIOLA",
+ "after": "https://example.invalid/env-2/viola",
+ "ok": true,
+ "lnb": [
+  "dashboard 대시보드",
+  "edit_attributes 기본 설정",
+  "graph_2 워크플로우",
+  "assistant_on_hub 서비스 카탈로그",
+  "browse_activity 모니터링"
+ ]
+}

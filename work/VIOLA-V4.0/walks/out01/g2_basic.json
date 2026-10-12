@@ -1,0 +1,621 @@
+{
+ "group": "기본 설정",
+ "pages": [
+  {
+   "tag": "이미지",
+   "url": "https://example.invalid/env-2/contrabass/initialization/image",
+   "title": "이미지 | CONTRABASS",
+   "bc": "기본 설정/ 이미지",
+   "pt": "",
+   "h": [
+    "h1:unfold_more",
+    "h1:이미지"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "Cloud view",
+    "download 엑셀 다운로드",
+    "add 생성",
+    "qa-trml-261007_133513-imgmin",
+    "more_horiz",
+    "qa-trml-261007_133513-img",
+    "up-test",
+    "suse",
+    "test",
+    "ubuntu-24.04-js",
+    "imgfile",
+    "Ubuntu_Noble",
+    "changeDomain0401",
+    "ms.kim-win-001",
+    "pqa-auto-image",
+    "sj-img-260902132535",
+    "sw.lee3-reboot",
+    "bqa-ubuntu-2608211724",
+    "bqa-vol-image",
+    "viola_ubuntu",
+    "sj-image1",
+    "keyboard_double_arrow_left",
+    "keyboard_arrow_left",
+    "keyboard_arrow_right",
+    "keyboard_double_arrow_right"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_0||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||",
+    "checkbox|||D",
+    "number|||",
+    "search|rc_select_1||R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_0=기간 설정",
+    "rc_select_1=리스트 수 20"
+   ],
+   "seg": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "tables": [
+    {
+     "th": [
+      "",
+      "이미지↕",
+      "상태 help↕",
+      "프로젝트↕",
+      "공유 범위 help↕",
+      "디스크 포맷↕",
+      "보호↕",
+      "크기↕",
+      "생성 일시↕",
+      "작업"
+     ],
+     "rows": 20,
+     "row1": [
+      "",
+      "qa-trml-261007_133513-imgmin",
+      "ACTIVE",
+      "auto-project",
+      "public",
+      "raw",
+      "lock_open",
+      "0.0 GiB",
+      "2026-10-07 13:38:21",
+      "more_horiz"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "키페어",
+   "url": "https://example.invalid/env-2/contrabass/initialization/key-pair",
+   "title": "키페어 | CONTRABASS",
+   "bc": "기본 설정/ 키페어",
+   "pt": "",
+   "h": [
+    "h1:unfold_more",
+    "h1:키페어"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "Cloud view",
+    "download 엑셀 다운로드",
+    "공개 키 불러오기",
+    "add 생성",
+    "delete",
+    "keyboard_double_arrow_left",
+    "keyboard_arrow_left",
+    "keyboard_arrow_right",
+    "keyboard_double_arrow_right"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_2||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||",
+    "number|||",
+    "search|rc_select_3||R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_2=기간 설정",
+    "rc_select_3=리스트 수 20"
+   ],
+   "seg": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "tables": [
+    {
+     "th": [
+      "",
+      "키페어↕",
+      "유형↕",
+      "지문↕",
+      "생성 일시↕",
+      "삭제"
+     ],
+     "rows": 3,
+     "row1": [
+      "",
+      "js-key",
+      "ssh",
+      "29:e3:d5:e0:b8:a4:1c:32:e6:d8:b0:5e:f1:3",
+      "2026-10-02 17:36:58",
+      "delete"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "인스턴스 유형",
+   "url": "https://example.invalid/env-2/contrabass/initialization/flavor",
+   "title": "인스턴스 유형 | CONTRABASS",
+   "bc": "기본 설정/ 인스턴스 유형",
+   "pt": "",
+   "h": [
+    "h1:unfold_more",
+    "h1:인스턴스 유형"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "Cloud view",
+    "download 엑셀 다운로드",
+    "add 생성",
+    "2C4G",
+    "more_horiz",
+    "2C4M",
+    "4C8M",
+    "8C16M",
+    "BQA-FV-260818150906",
+    "BQA-FV-RSZ-260818150906",
+    "amphora",
+    "auto-flavor-2C4M-fup76vmc",
+    "error-flavor",
+    "hh-qa",
+    "jh.park2.test.flavor",
+    "pqa-auto-flavor-2C4M",
+    "pqa-auto-flavor-4C8M",
+    "test",
+    "test.jh.park2",
+    "keyboard_double_arrow_left",
+    "keyboard_arrow_left",
+    "keyboard_arrow_right",
+    "keyboard_double_arrow_right"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "checkbox|||",
+    "number|||",
+    "search|rc_select_4||R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_4=리스트 수 20"
+   ],
+   "seg": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "tables": [
+    {
+     "th": [
+      "",
+      "인스턴스 유형↕",
+      "가상 CPU↕",
+      "가상 메모리↕",
+      "루트 디스크↕",
+      "임시 디스크↕",
+      "권한 관리↕",
+      "설명↕",
+      "작업"
+     ],
+     "rows": 15,
+     "row1": [
+      "",
+      "2C4G",
+      "2",
+      "4.0 GiB",
+      "0.0 GiB",
+      "0.0 GiB",
+      "No",
+      "-",
+      "more_horiz"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "배치 그룹",
+   "url": "https://example.invalid/env-2/contrabass/initialization/server-group",
+   "title": "배치 그룹 | CONTRABASS",
+   "bc": "기본 설정/ 배치 그룹",
+   "pt": "",
+   "h": [
+    "h1:unfold_more",
+    "h1:배치 그룹"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "Cloud view",
+    "close",
+    "download 엑셀 다운로드",
+    "add 생성",
+    "help",
+    "auto-groups-e4014ay0",
+    "delete",
+    "keyboard_double_arrow_left",
+    "keyboard_arrow_left",
+    "keyboard_arrow_right",
+    "keyboard_double_arrow_right"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "checkbox|||",
+    "number|||",
+    "search|rc_select_5||R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_5=리스트 수 20"
+   ],
+   "seg": [
+    "",
+    ""
+   ],
+   "tables": [
+    {
+     "th": [
+      "",
+      "배치 그룹↕",
+      "프로젝트↕",
+      "배치 방식 help↕",
+      "인스턴스↕",
+      "삭제"
+     ],
+     "rows": 1,
+     "row1": [
+      "",
+      "auto-groups-e4014ay0",
+      "auto-project",
+      "affinity",
+      "0",
+      "delete"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "볼륨 그룹 타입",
+   "url": "https://example.invalid/env-2/contrabass/initialization/volume-group-type",
+   "title": "볼륨 그룹 타입 | CONTRABASS",
+   "bc": "기본 설정/ 볼륨 그룹 타입",
+   "pt": "",
+   "h": [
+    "h1:unfold_more",
+    "h1:볼륨 그룹 타입"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "Cloud view",
+    "download 엑셀 다운로드",
+    "add 생성",
+    "more_horiz",
+    "keyboard_double_arrow_left",
+    "keyboard_arrow_left",
+    "keyboard_arrow_right",
+    "keyboard_double_arrow_right"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "checkbox|||",
+    "number|||",
+    "search|rc_select_6||R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_6=리스트 수 20"
+   ],
+   "seg": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "tables": [
+    {
+     "th": [
+      "",
+      "이름↕",
+      "그룹 타입 스펙",
+      "공개",
+      "설명",
+      "작업"
+     ],
+     "rows": 5,
+     "row1": [
+      "",
+      "BQA-VGT-260818150906",
+      "0",
+      "Yes",
+      "-",
+      "more_horiz"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "장비",
+   "url": "https://example.invalid/env-2/contrabass/initialization/hosts",
+   "title": "장비 | CONTRABASS",
+   "bc": "기본 설정/ 장비",
+   "pt": "",
+   "h": [
+    "h1:unfold_more",
+    "h1:장비",
+    "h1:기본 정보",
+    "h1:호스트"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "Cloud view",
+    "close",
+    "refresh 2026.10.07 14:11:26 기준",
+    "연결 확인",
+    "저장"
+   ],
+   "ph": [
+    "checkbox|||",
+    "text||IP를 입력해 주세요.|",
+    "text||포트를 입력해 주세요.|",
+    "text||ID를 입력해 주세요.|",
+    "password||비밀번호를 입력해 주세요.|",
+    "text||IP를 입력해 주세요.|D",
+    "text||포트를 입력해 주세요.|D",
+    "text||ID를 입력해 주세요.|D",
+    "password||비밀번호를 입력해 주세요.|D"
+   ],
+   "lab": [
+    "최근 변경 일시",
+    "최근 변경자"
+   ],
+   "sel": [],
+   "seg": [
+    "",
+    "*",
+    "*",
+    "",
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "aggregation-hosts-list-table-existing-hosts",
+     "th": [
+      "",
+      "호스트 이름↕",
+      "등록 여부↕",
+      "Product UUID↕",
+      "하이퍼바이저 UUID",
+      "변경 설명↕",
+      "IPMI IP help",
+      "IPMI 포트 help",
+      "IPMI ID help",
+      "IPMI 비밀번호",
+      "IPMI 연결",
+      "IPMI 연결 상태"
+     ],
+     "rows": 4,
+     "row1": [
+      "",
+      "rack4-5-con1",
+      "Yes",
+      "6a6c3e40-bfde-1000-03c1-0c4c04142600",
+      "6ddfe634-61e2-47d1-acac-9663dcf7209f",
+      "-",
+      "",
+      "",
+      "",
+      "",
+      "연결 확인",
+      "-"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [
+    [
+     "aggregation-hosts-list-button-import",
+     "button",
+     "refresh 2026.10.07 14:11:26 기준"
+    ],
+    [
+     "aggregation-hosts-list-table-existing-hosts",
+     "div",
+     "호스트 이름 등록 여부 Product UUID 하이퍼바이저 UUID 변경 설명 IPMI IP help IPMI 포트 help "
+    ],
+    [
+     "aggregation-hosts-list-field-ip-6a6c3e40-bfde-1000-03c1-0c4c04142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-port-6a6c3e40-bfde-1000-03c1-0c4c04142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-auth-id-6a6c3e40-bfde-1000-03c1-0c4c04142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-auth-pwd-6a6c3e40-bfde-1000-03c1-0c4c04142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-button-ipmi-check-6a6c3e40-bfde-1000-03c1-0c4c04142600",
+     "button",
+     "연결 확인"
+    ],
+    [
+     "aggregation-hosts-list-field-ip-6a618fe0-bfde-1000-03c1-7c4b04142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-port-6a618fe0-bfde-1000-03c1-7c4b04142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-auth-id-6a618fe0-bfde-1000-03c1-7c4b04142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-auth-pwd-6a618fe0-bfde-1000-03c1-7c4b04142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-button-ipmi-check-6a618fe0-bfde-1000-03c1-7c4b04142600",
+     "button",
+     "연결 확인"
+    ],
+    [
+     "aggregation-hosts-list-field-ip-6a618fe0-bfde-1000-03c1-5c4704142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-port-6a618fe0-bfde-1000-03c1-5c4704142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-auth-id-6a618fe0-bfde-1000-03c1-5c4704142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-auth-pwd-6a618fe0-bfde-1000-03c1-5c4704142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-button-ipmi-check-6a618fe0-bfde-1000-03c1-5c4704142600",
+     "button",
+     "연결 확인"
+    ],
+    [
+     "aggregation-hosts-list-field-ip-6a79f9e0-bfde-1000-03c1-f64604142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-port-6a79f9e0-bfde-1000-03c1-f64604142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-auth-id-6a79f9e0-bfde-1000-03c1-f64604142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-field-auth-pwd-6a79f9e0-bfde-1000-03c1-f64604142600",
+     "input",
+     ""
+    ],
+    [
+     "aggregation-hosts-list-button-ipmi-check-6a79f9e0-bfde-1000-03c1-f64604142600",
+     "button",
+     "연결 확인"
+    ],
+    [
+     "aggregation-hosts-list-button-save",
+     "button",
+     "저장"
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  }
+ ],
+ "errors": [],
+ "lnb": [
+  "이미지",
+  "키페어",
+  "인스턴스 유형",
+  "배치 그룹",
+  "볼륨 그룹 타입",
+  "장비"
+ ]
+}

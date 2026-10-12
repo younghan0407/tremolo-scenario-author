@@ -1,0 +1,743 @@
+[
+ {
+  "navHtml": "<div class=\"ant-popover navigator-wrap no-arrow css-4kbzec ant-popover-placement-bottomRight\" style=\"left: -227px; top: 36px; transform-origin: 300px -4px;\"><div class=\"ant-popover-content\"><div class=\"ant-popover-arrow\"><span class=\"ant-popover-arrow-content\"></span></div><div class=\"ant-popover-inner\" role=\"tooltip\"><!----><div class=\"ant-popover-inner-content\"><div class=\"ant-spin-nested-loading css-4kbzec\"><!----><div class=\"ant-spin-container\"><div class=\"navigator-box\"><!-- search --><div class=\"filter-wrap\"><div class=\"filter-wrap-left\"><div class=\"filter-center\"><span class=\"ant-input-affix-wrapper css-4kbzec\"><span class=\"ant-input-prefix\"><div class=\"filter-select-icon\"><span class=\"material-icon md default\">search</span></div></span><input type=\"text\" class=\"ant-input css-4kbzec\" placeholder=\"항목 이름 또는 값을 입력해 주세요.\" data-testid=\"adm-tenant-list-card-search-value\" value=\"\"><span class=\"ant-input-suffix\"><span class=\"ant-input-clear-icon-hidden ant-input-clear-icon\" role=\"button\" tabindex=\"-1\"><span role=\"img\" aria-label=\"close-circle\" class=\"anticon anticon-close-circle\"><svg focusable=\"false\" data-icon=\"close-circle\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\" fill-rule=\"evenodd\" viewBox=\"64 64 896 896\"><path d=\"M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z\"></path></svg><!----></span></span><!----></span></span></div></div></div><div class=\"ant-flex css-4kbzec\"><div class=\"navigator-list\" style=\"min-height: auto;\"><div class=\"navigator-item\"><p class=\"navigator-item-title\">클러스터 선택</p><div class=\"navigator-item-body\"><div class=\"ant-collapse ant-collapse-borderless ant-collapse-icon-position-end css-4kbzec\" data-testid=\"adm-tenant-list-card-collapse\"><div data-testid=\"adm-tenant-list-card-collapse-panel\" data-test-value=\"navigator-all\" tab-index=\"0\" class=\"ant-collapse-item ant-collapse-item-active\"><div class=\"ant-collapse-header\" role=\"button\" tabindex=\"0\" aria-expanded=\"true\"><div class=\"ant-collapse-expand-icon css-4kbzec\"><span class=\"rotate ant-collapse-arrow\"><span class=\"material-icon md default\">keyboard_arrow_right</span></span></div><span class=\"ant-collapse-header-text\"><div class=\"header-group ant-flex css-4kbzec\"><div class=\"group-items ant-flex css-4kbzec\"><!-- 커스텀 타이틀 슬롯 (있으면 사용, 없으면 기본 레이아웃) --><!-- 아이콘 --><!--v-if--><!-- 타이틀 --><span class=\"ant-typography item-title css-4kbzec\">전체<!----></span><!-- 헬퍼 --><!--v-if--><!-- 태그 --><!--v-if--></div><!-- 우측 액션 --><div class=\"group-items items-end ant-flex css-4kbzec\"><span class=\"material-icon xs default\">swap_vert</span></div></div></span><!----></div><div class=\"ant-collapse-content ant-collapse-content-active\" style=\"\"><div class=\"ant-collapse-content-box\"><div class=\"collapse-content-body\"><ul><li><button class=\"css-4kbzec ant-btn ant-btn-default ghost\" data-testid=\"adm-tenant-list-card-favorite\" type=\"button\" style=\"padding: 0px 5px;\"><!----><span class=\"material-icon md subtle\">bookmark</span></button><button data-testid=\"adm-tenant-list-card-update-selected-cluster\" class=\"css-4kbzec ant-btn ant-btn-default navigator-item-btn break-word\" type=\"button\"><!----><span>멀티 클러스터</span></button></li><li><button class=\"css-4kbzec ant-btn ant-btn-default ghost\" data-testid=\"adm-tenant-list-card-favorite\" type=\"button\" style=\"padding: 0px 5px;\"><!----><span class=\"material-icon md subtle\">bookmark"
+ },
+ {
+  "tag": "multi-dash",
+  "url": "https://example.invalid/env-2/viola/",
+  "bc": "대시보드",
+  "pt": "대시보드",
+  "h": [
+   "h1:unfold_more",
+   "h1:대시보드",
+   "h1:클러스터 선택",
+   "h1:자원 사용량",
+   "h3:클러스터 별 CPU 사용량",
+   "h3:클러스터 별 메모리 사용량",
+   "h3:클러스터 별 퍼시스턴트 볼륨 클레임 사용량",
+   "h3:info 데이터가 없습니다.",
+   "h1:작업 처리량",
+   "h3:Disk IOPS - Read",
+   "h3:Disk IOPS - Write",
+   "h3:네트워크 Input",
+   "h3:네트워크 Output",
+   "h1:이벤트 통계",
+   "h3:WARNING / 전체 이벤트",
+   "h1:/ 238회",
+   "h3:가장 많은 WARNING 발생 리소스",
+   "h3:이벤트 현황",
+   "h1:노드 개요",
+   "div:알림",
+   "h1:알림"
+  ],
+  "tabs": [
+   "멀티클러스터 대시보드*",
+   "biz1",
+   "biz2",
+   "ym-test1500"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "refresh 2026-10-08 10:47:01",
+   "tune",
+   "취소",
+   "선택",
+   "전체 해제",
+   "biz1",
+   "biz2",
+   "ym-test1500",
+   "dae",
+   "전체 보기",
+   "pq-306-bf-biz-master-1",
+   "pq-306-bf-biz-master-2",
+   "pq-306-bf-biz-master-3",
+   "pq-400tst-bf-biz-master-1",
+   "pq-400tst-bf-biz-master-2",
+   "pq-400tst-bf-biz-master-3",
+   "ym-test1500-control-plane-1",
+   "ym-test1500-worker-1",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)",
+   "확인"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-cluster-selection-panel-search-keyword|",
+   "checkbox|||adm-cluster-selection-panel-check-all|C",
+   "checkbox|||adm-cluster-selection-panel-option|C",
+   "number|||adm-multi-cluster-dashboard-node-table-pagination-page-input|",
+   "search|rc_select_0|||R"
+  ],
+  "lab": [
+   "3개 중 3개 선택됨",
+   "biz1",
+   "biz2",
+   "ym-test1500"
+  ],
+  "sel": [
+   "rc_select_0=리스트 수 10"
+  ],
+  "chk": [
+   "3개 중 3개 선택됨*",
+   "biz1*",
+   "biz2*",
+   "ym-test1500*"
+  ],
+  "tables": [
+   {
+    "tid": "adm-multi-cluster-dashboard-node-table-table",
+    "th": [
+     "이름↕",
+     "상태 help",
+     "클러스터↕",
+     "파드 수↕",
+     "OS 이미지",
+     "실행중인 프로세스 수↕",
+     "CPU 사용률↕",
+     "메모리 사용률↕",
+     "파일 시스템 사용률↕"
+    ],
+    "rows": 8,
+    "row1": [
+     "pq-306-bf-biz-master-1",
+     "READY",
+     "biz2",
+     "41",
+     "Ubuntu 24.04 LTS",
+     "1",
+     "0.7 / 8 Core 8.8%",
+     "10.2 / 15.7 GiB 65%",
+     "52.7 / 96.8 GiB 54.5%"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "대시보드 멀티 클러스터 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "대시보드",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "대시보드",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-dashboard",
+    "div",
+    "대시보드 멀티클러스터 대시보드 biz1 biz2 ym-test1500 refresh 2026-10-08 10:47:01 tun",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "대시보드",
+    ""
+   ],
+   [
+    "adm-page-viola-dashboard-panel",
+    "div",
+    "멀티클러스터 대시보드 biz1 biz2 ym-test1500 refresh 2026-10-08 10:47:01 tune 클러스",
+    ""
+   ],
+   [
+    "adm-page-viola-dashboard-main",
+    "div",
+    "멀티클러스터 대시보드 biz1 biz2 ym-test1500 refresh 2026-10-08 10:47:01 tune 클러스",
+    ""
+   ],
+   [
+    "adm-dashboard-tabs",
+    "div",
+    "멀티클러스터 대시보드 biz1 biz2 ym-test1500 refresh 2026-10-08 10:47:01 tune 클러스",
+    ""
+   ],
+   [
+    "adm-dashboard-tabs-tab",
+    "span",
+    "멀티클러스터 대시보드",
+    ""
+   ],
+   [
+    "adm-dashboard-refresh",
+    "button",
+    "refresh 2026-10-08 10:47:01",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-toggle",
+    "button",
+    "tune",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-header-cluster-title",
+    "div",
+    "클러스터 선택 help 선택한 클러스터의 정보를 종합해 확인할 수 있습니다. (최대 20개 선택)",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-search-keyword",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-check-all",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-selected-values",
+    "div",
+    "biz1 biz2 ym-test1500",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-option",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-cancel",
+    "button",
+    "취소",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-apply",
+    "button",
+    "선택",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-resource-usage-title",
+    "div",
+    "자원 사용량",
+    ""
+   ],
+   [
+    "adm-no-data",
+    "div",
+    "info 데이터가 없습니다. 현재 조회 가능한 데이터가 없습니다.",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-task-throughput-title",
+    "div",
+    "작업 처리량",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-event-statistic-title",
+    "div",
+    "이벤트 통계 info",
+    ""
+   ],
+   [
+    "adm-event-statistics-section-top-warning-resource",
+    "button",
+    "dae",
+    ""
+   ],
+   [
+    "adm-event-statistics-section-all-event",
+    "button",
+    "전체 보기",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-overview-title",
+    "div",
+    "노드 개요",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-table",
+    "div",
+    "이름 상태 help 클러스터 파드 수 OS 이미지 실행중인 프로세스 수 CPU 사용률 메모리 사용률 파일 시스템 사용률 pq-",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-row",
+    "tr",
+    "pq-306-bf-biz-master-1 READY biz2 41 Ubuntu 24.04 LTS 1 0.7 / 8 Core 8",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "pq-306-bf-biz-master-1",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "READY",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "READY",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination",
+    "div",
+    "전체 수 8 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-total",
+    "p",
+    "전체 수 8",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-page-size",
+    "div",
+    "리스트 수 10",
+    ""
+   ],
+   [
+    "adm-confirm-modal-content",
+    "div",
+    "권한이 없습니다. 관리자(admin@okestro.com)에게 문의해 주세요.",
+    ""
+   ],
+   [
+    "adm-confirm-modal-confirm",
+    "button",
+    "확인",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: check_circle 클러스터가 선택되었습니다.",
+   "ant-modal css-4kbzec :: 알림 권한이 없습니다. 관리자(admin@okestro.com)에게 문의해 주세요. 확인"
+  ],
+  "text": "check_circle 클러스터가 선택되었습니다."
+ },
+ {
+  "pops": [
+   "ant-modal css-4kbzec :: 알림 권한이 없습니다. 관리자(admin@okestro.com)에게 문의해 주세요. 확인"
+  ]
+ },
+ {
+  "tag": "multi-dash-tab",
+  "url": "https://example.invalid/env-2/viola/",
+  "bc": "대시보드",
+  "pt": "대시보드",
+  "h": [
+   "h1:unfold_more",
+   "h1:대시보드",
+   "h1:클러스터 선택",
+   "h1:자원 사용량",
+   "h3:클러스터 별 CPU 사용량",
+   "h3:클러스터 별 메모리 사용량",
+   "h3:클러스터 별 퍼시스턴트 볼륨 클레임 사용량",
+   "h3:info 데이터가 없습니다.",
+   "h1:작업 처리량",
+   "h3:Disk IOPS - Read",
+   "h3:Disk IOPS - Write",
+   "h3:네트워크 Input",
+   "h3:네트워크 Output",
+   "h1:이벤트 통계",
+   "h3:WARNING / 전체 이벤트",
+   "h1:/ 238회",
+   "h3:가장 많은 WARNING 발생 리소스",
+   "h3:이벤트 현황",
+   "h1:노드 개요",
+   "div:알림",
+   "h1:알림"
+  ],
+  "tabs": [
+   "멀티클러스터 대시보드*",
+   "biz1",
+   "biz2",
+   "ym-test1500"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "refresh 2026-10-08 10:47:01",
+   "tune",
+   "취소",
+   "선택",
+   "전체 해제",
+   "biz1",
+   "biz2",
+   "ym-test1500",
+   "dae",
+   "전체 보기",
+   "pq-306-bf-biz-master-1",
+   "pq-306-bf-biz-master-2",
+   "pq-306-bf-biz-master-3",
+   "pq-400tst-bf-biz-master-1",
+   "pq-400tst-bf-biz-master-2",
+   "pq-400tst-bf-biz-master-3",
+   "ym-test1500-control-plane-1",
+   "ym-test1500-worker-1",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)",
+   "확인"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-cluster-selection-panel-search-keyword|",
+   "checkbox|||adm-cluster-selection-panel-check-all|C",
+   "checkbox|||adm-cluster-selection-panel-option|C",
+   "number|||adm-multi-cluster-dashboard-node-table-pagination-page-input|",
+   "search|rc_select_0|||R"
+  ],
+  "lab": [
+   "3개 중 3개 선택됨",
+   "biz1",
+   "biz2",
+   "ym-test1500"
+  ],
+  "sel": [
+   "rc_select_0=리스트 수 10"
+  ],
+  "chk": [
+   "3개 중 3개 선택됨*",
+   "biz1*",
+   "biz2*",
+   "ym-test1500*"
+  ],
+  "tables": [
+   {
+    "tid": "adm-multi-cluster-dashboard-node-table-table",
+    "th": [
+     "이름↕",
+     "상태 help",
+     "클러스터↕",
+     "파드 수↕",
+     "OS 이미지",
+     "실행중인 프로세스 수↕",
+     "CPU 사용률↕",
+     "메모리 사용률↕",
+     "파일 시스템 사용률↕"
+    ],
+    "rows": 8,
+    "row1": [
+     "pq-306-bf-biz-master-1",
+     "READY",
+     "biz2",
+     "41",
+     "Ubuntu 24.04 LTS",
+     "1",
+     "0.7 / 8 Core 8.8%",
+     "10.2 / 15.7 GiB 65%",
+     "52.7 / 96.8 GiB 54.5%"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "대시보드 멀티 클러스터 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "대시보드",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "대시보드",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-dashboard",
+    "div",
+    "대시보드 멀티클러스터 대시보드 biz1 biz2 ym-test1500 refresh 2026-10-08 10:47:01 tun",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "대시보드",
+    ""
+   ],
+   [
+    "adm-page-viola-dashboard-panel",
+    "div",
+    "멀티클러스터 대시보드 biz1 biz2 ym-test1500 refresh 2026-10-08 10:47:01 tune 클러스",
+    ""
+   ],
+   [
+    "adm-page-viola-dashboard-main",
+    "div",
+    "멀티클러스터 대시보드 biz1 biz2 ym-test1500 refresh 2026-10-08 10:47:01 tune 클러스",
+    ""
+   ],
+   [
+    "adm-dashboard-tabs",
+    "div",
+    "멀티클러스터 대시보드 biz1 biz2 ym-test1500 refresh 2026-10-08 10:47:01 tune 클러스",
+    ""
+   ],
+   [
+    "adm-dashboard-tabs-tab",
+    "span",
+    "멀티클러스터 대시보드",
+    ""
+   ],
+   [
+    "adm-dashboard-refresh",
+    "button",
+    "refresh 2026-10-08 10:47:01",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-toggle",
+    "button",
+    "tune",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-header-cluster-title",
+    "div",
+    "클러스터 선택 help 선택한 클러스터의 정보를 종합해 확인할 수 있습니다. (최대 20개 선택)",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-search-keyword",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-check-all",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-selected-values",
+    "div",
+    "biz1 biz2 ym-test1500",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-option",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-cancel",
+    "button",
+    "취소",
+    ""
+   ],
+   [
+    "adm-cluster-selection-panel-apply",
+    "button",
+    "선택",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-resource-usage-title",
+    "div",
+    "자원 사용량",
+    ""
+   ],
+   [
+    "adm-no-data",
+    "div",
+    "info 데이터가 없습니다. 현재 조회 가능한 데이터가 없습니다.",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-task-throughput-title",
+    "div",
+    "작업 처리량",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-event-statistic-title",
+    "div",
+    "이벤트 통계 info",
+    ""
+   ],
+   [
+    "adm-event-statistics-section-top-warning-resource",
+    "button",
+    "dae",
+    ""
+   ],
+   [
+    "adm-event-statistics-section-all-event",
+    "button",
+    "전체 보기",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-overview-title",
+    "div",
+    "노드 개요",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-table",
+    "div",
+    "이름 상태 help 클러스터 파드 수 OS 이미지 실행중인 프로세스 수 CPU 사용률 메모리 사용률 파일 시스템 사용률 pq-",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-row",
+    "tr",
+    "pq-306-bf-biz-master-1 READY biz2 41 Ubuntu 24.04 LTS 1 0.7 / 8 Core 8",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "pq-306-bf-biz-master-1",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "READY",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "READY",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination",
+    "div",
+    "전체 수 8 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-total",
+    "p",
+    "전체 수 8",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-multi-cluster-dashboard-node-table-pagination-page-size",
+    "div",
+    "리스트 수 10",
+    ""
+   ],
+   [
+    "adm-confirm-modal-content",
+    "div",
+    "권한이 없습니다. 관리자(admin@okestro.com)에게 문의해 주세요.",
+    ""
+   ],
+   [
+    "adm-confirm-modal-confirm",
+    "button",
+    "확인",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: ",
+   "ant-modal css-4kbzec :: 알림 권한이 없습니다. 관리자(admin@okestro.com)에게 문의해 주세요. 확인"
+  ],
+  "text": ""
+ },
+ {
+  "opened": []
+ }
+]

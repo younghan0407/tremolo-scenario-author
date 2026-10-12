@@ -1,0 +1,17 @@
+{
+ "url": "https://example.invalid/env-2/contrabass/dashboard",
+ "lnbTop": [
+  "dashboard 대시보드",
+  "edit_attributes 기본 설정",
+  "컴퓨트",
+  "cloud_lock VPC",
+  "스토리지",
+  "query_stats 집계",
+  "browse_activity 모니터링",
+  "verified_user HA 관리",
+  "settings 관리"
+ ],
+ "header": "대시보드/ 대시보드 목동 / auto-project sync_alt Cloud view",
+ "navBtn": "목동 / auto-project sync_alt",
+ "navigator": "CONTRABASS 엔진 및 프로젝트 선택 CONTRABASS 엔진 선택 keyboard_arrow_right 전체 swap_vert bookmark GPU(사용금지) bookmark 목동 프로젝트 선택 search keyboard_arrow_right 전체 swap_vert bookmark 전체 프로젝트 bookmark cmp bookmark pqa-viola bookmark bqa bookmark viola bookmark admin bookmark service bookmark con-sandbox bookmark QA bookmark auto-project bookmark con-qa-sandbox 취소 확인"
+}

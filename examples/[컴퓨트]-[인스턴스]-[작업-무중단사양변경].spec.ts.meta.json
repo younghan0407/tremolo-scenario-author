@@ -1,0 +1,938 @@
+{
+  "scenarioPath": "C:\\Users\\Hanho Heo\\OneDrive - 오케스트로\\문서\\Tremolo\\data\\scenarios\\CONTRABASS\\V3.0.6\\[컴퓨트]-[인스턴스]-[작업-무중단사양변경].spec.ts",
+  "scenarioId": "CONTRABASS::V3.0.6::%5B%EC%BB%B4%ED%93%A8%ED%8A%B8%5D-%5B%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%5D-%5B%EC%9E%91%EC%97%85-%EB%AC%B4%EC%A4%91%EB%8B%A8%EC%82%AC%EC%96%91%EB%B3%80%EA%B2%BD%5D",
+  "steps": [
+    {
+      "id": "s1",
+      "type": "goto",
+      "title": "https://example.invalid/env-1/login 이동",
+      "locator": "-",
+      "value": "https://example.invalid/env-1/login",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "type": "click",
+      "title": "아이디를 입력해 주세요 클릭",
+      "locator": "role=textbox[name=\"아이디를 입력해 주세요\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "아이디를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s3",
+      "type": "fill",
+      "title": "아이디를 입력해 주세요 입력",
+      "locator": "role=textbox[name=\"아이디를 입력해 주세요\"]",
+      "value": "<ID>",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "아이디를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s4",
+      "type": "press",
+      "title": "아이디를 입력해 주세요 키 누르기",
+      "locator": "role=textbox[name=\"아이디를 입력해 주세요\"]",
+      "value": "Tab",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "아이디를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s5",
+      "type": "fill",
+      "title": "비밀번호를 입력해 주세요 입력",
+      "locator": "role=textbox[name=\"비밀번호를 입력해 주세요\"]",
+      "value": "<PASSWORD>",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "비밀번호를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s6",
+      "type": "click",
+      "title": "로그인 클릭",
+      "locator": "role=button[name=\"로그인\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "button",
+        "name": "로그인",
+        "exact": true
+      }
+    },
+    {
+      "id": "s7",
+      "type": "fill",
+      "title": "인증 코드를 입력해 주세요 입력",
+      "locator": "role=textbox[name=\"인증 코드를 입력해 주세요\"]",
+      "value": "<MFA_CODE>",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "인증 코드를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s8",
+      "type": "click",
+      "title": "컴퓨트 클릭",
+      "locator": "text=\"컴퓨트\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "text",
+        "text": "컴퓨트",
+        "exact": true
+      }
+    },
+    {
+      "id": "s9",
+      "type": "click",
+      "title": "인스턴스 클릭",
+      "locator": "text=\"인스턴스\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "text",
+        "text": "인스턴스",
+        "exact": true
+      }
+    },
+    {
+      "id": "s10",
+      "type": "click",
+      "title": "항목 이름 또는 값을 입력해 주세요 클릭",
+      "locator": "role=textbox[name=\"항목 이름 또는 값을 입력해 주세요\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s11",
+      "type": "fill",
+      "title": "항목 이름 또는 값을 입력해 주세요 입력",
+      "locator": "role=textbox[name=\"항목 이름 또는 값을 입력해 주세요\"]",
+      "value": "auto-instance",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s12",
+      "type": "press",
+      "title": "항목 이름 또는 값을 입력해 주세요 키 누르기",
+      "locator": "role=textbox[name=\"항목 이름 또는 값을 입력해 주세요\"]",
+      "value": "Enter",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s15",
+      "type": "click",
+      "title": "more_horiz 클릭",
+      "locator": "xpath=(//*[self::tr or @role=\"row\" or @data-row-key or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][contains(translate(normalize-space(.), ' ', ''), 'auto-instance')]//*[self::button or @role=\"button\"][translate(normalize-space(.), ' ', '')='more_horiz' or translate(normalize-space(@aria-label), ' ', '')='more_horiz' or translate(normalize-space(@title), ' ', '')='more_horiz'])[1]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[self::tr or @role=\"row\" or @data-row-key or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][contains(translate(normalize-space(.), ' ', ''), 'auto-instance')]//*[self::button or @role=\"button\"][translate(normalize-space(.), ' ', '')='more_horiz' or translate(normalize-space(@aria-label), ' ', '')='more_horiz' or translate(normalize-space(@title), ' ', '')='more_horiz'])[1]"
+      }
+    },
+    {
+      "id": "s16",
+      "type": "click",
+      "title": "수정 클릭",
+      "locator": "text=\"수정\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "text",
+        "text": "수정",
+        "exact": true
+      }
+    },
+    {
+      "id": "s17",
+      "type": "click",
+      "title": "무중단 사양 변경을 ON 클릭",
+      "locator": "xpath=//button[@role=\"switch\"][ancestor::*[(contains(concat(\" \", normalize-space(@class), \" \"), \" ant-flex \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-row \") or contains(concat(\" \", normalize-space(@class), \" \"), \" form-item \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-form-item \") or self::li or self::tr or self::td or self::div) and (translate(normalize-space(.), ' ', '')='무중단사양변경을ON' or contains(translate(normalize-space(.), ' ', ''), '무중단사양변경을ON'))][1][count(.//button[@role=\"switch\"])=1]]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "switch",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=//button[@role=\"switch\"][ancestor::*[(contains(concat(\" \", normalize-space(@class), \" \"), \" ant-flex \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-row \") or contains(concat(\" \", normalize-space(@class), \" \"), \" form-item \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-form-item \") or self::li or self::tr or self::td or self::div) and (translate(normalize-space(.), ' ', '')='무중단사양변경을ON' or contains(translate(normalize-space(.), ' ', ''), '무중단사양변경을ON'))][1][count(.//button[@role=\"switch\"])=1]]"
+      }
+    },
+    {
+      "id": "s18",
+      "type": "click",
+      "title": "가상 CPU를 입력해 주세요 클릭",
+      "locator": "role=spinbutton[name=\"가상 CPU를 입력해 주세요\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "spinbutton",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "spinbutton",
+        "name": "가상 CPU를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s19",
+      "type": "fill",
+      "title": "가상 CPU를 입력해 주세요 입력",
+      "locator": "role=spinbutton[name=\"가상 CPU를 입력해 주세요\"]",
+      "value": "8",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "spinbutton",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "spinbutton",
+        "name": "가상 CPU를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s20",
+      "type": "click",
+      "title": "메모리를 입력해 주세요 클릭",
+      "locator": "role=spinbutton[name=\"메모리를 입력해 주세요\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "spinbutton",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "spinbutton",
+        "name": "메모리를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s21",
+      "type": "fill",
+      "title": "메모리를 입력해 주세요 입력",
+      "locator": "role=spinbutton[name=\"메모리를 입력해 주세요\"]",
+      "value": "16",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "spinbutton",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "spinbutton",
+        "name": "메모리를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s22",
+      "type": "click",
+      "title": "수정 클릭",
+      "locator": "xpath=(//*[@role=\"dialog\" or @aria-modal=\"true\" or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-content \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-confirm \")][contains(translate(normalize-space(.), ' ', ''), '인스턴스수정')]//button[translate(normalize-space(.), ' ', '')='수정'])[last()]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@role=\"dialog\" or @aria-modal=\"true\" or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-content \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-confirm \")][contains(translate(normalize-space(.), ' ', ''), '인스턴스수정')]//button[translate(normalize-space(.), ' ', '')='수정'])[last()]"
+      }
+    },
+    {
+      "id": "s23",
+      "type": "click",
+      "title": "more_horiz 클릭",
+      "locator": "xpath=(//*[self::tr or @role=\"row\" or @data-row-key or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][contains(translate(normalize-space(.), ' ', ''), 'auto-instance')]//*[self::button or @role=\"button\"][translate(normalize-space(.), ' ', '')='more_horiz' or translate(normalize-space(@aria-label), ' ', '')='more_horiz' or translate(normalize-space(@title), ' ', '')='more_horiz'])[1]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[self::tr or @role=\"row\" or @data-row-key or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][contains(translate(normalize-space(.), ' ', ''), 'auto-instance')]//*[self::button or @role=\"button\"][translate(normalize-space(.), ' ', '')='more_horiz' or translate(normalize-space(@aria-label), ' ', '')='more_horiz' or translate(normalize-space(@title), ' ', '')='more_horiz'])[1]"
+      }
+    },
+    {
+      "id": "s24",
+      "type": "click",
+      "title": "수정 클릭",
+      "locator": "text=\"수정\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "text",
+        "text": "수정",
+        "exact": true
+      }
+    },
+    {
+      "id": "s25",
+      "type": "assert",
+      "title": "무중단 사양 변경을 ON 표시 검증",
+      "locator": "xpath=//button[@role=\"switch\"][ancestor::*[(contains(concat(\" \", normalize-space(@class), \" \"), \" ant-flex \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-row \") or contains(concat(\" \", normalize-space(@class), \" \"), \" form-item \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-form-item \") or self::li or self::tr or self::td or self::div) and (translate(normalize-space(.), ' ', '')='무중단사양변경을ON' or contains(translate(normalize-space(.), ' ', ''), '무중단사양변경을ON'))][1][count(.//button[@role=\"switch\"])=1]]",
+      "value": "toBeVisible()",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "switch",
+        "state": "visible"
+      },
+      "note": "",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=//button[@role=\"switch\"][ancestor::*[(contains(concat(\" \", normalize-space(@class), \" \"), \" ant-flex \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-row \") or contains(concat(\" \", normalize-space(@class), \" \"), \" form-item \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-form-item \") or self::li or self::tr or self::td or self::div) and (translate(normalize-space(.), ' ', '')='무중단사양변경을ON' or contains(translate(normalize-space(.), ' ', ''), '무중단사양변경을ON'))][1][count(.//button[@role=\"switch\"])=1]]"
+      }
+    },
+    {
+      "id": "s26",
+      "type": "click",
+      "title": "취소 클릭",
+      "locator": "xpath=(//*[@role=\"dialog\" or @aria-modal=\"true\" or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-content \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-confirm \")][contains(translate(normalize-space(.), ' ', ''), '인스턴스수정')]//button[translate(normalize-space(.), ' ', '')='취소'])[last()]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@role=\"dialog\" or @aria-modal=\"true\" or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-content \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-confirm \")][contains(translate(normalize-space(.), ' ', ''), '인스턴스수정')]//button[translate(normalize-space(.), ' ', '')='취소'])[last()]"
+      }
+    },
+    {
+      "id": "s27",
+      "type": "click",
+      "title": "more_horiz 클릭",
+      "locator": "xpath=(//*[self::tr or @role=\"row\" or @data-row-key or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][contains(translate(normalize-space(.), ' ', ''), 'auto-instance')]//*[self::button or @role=\"button\"][translate(normalize-space(.), ' ', '')='more_horiz' or translate(normalize-space(@aria-label), ' ', '')='more_horiz' or translate(normalize-space(@title), ' ', '')='more_horiz'])[1]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[self::tr or @role=\"row\" or @data-row-key or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][contains(translate(normalize-space(.), ' ', ''), 'auto-instance')]//*[self::button or @role=\"button\"][translate(normalize-space(.), ' ', '')='more_horiz' or translate(normalize-space(@aria-label), ' ', '')='more_horiz' or translate(normalize-space(@title), ' ', '')='more_horiz'])[1]"
+      }
+    },
+    {
+      "id": "s28",
+      "type": "click",
+      "title": "인스턴스 사양 변경 클릭",
+      "locator": "text=\"인스턴스 사양 변경\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "text",
+        "text": "인스턴스 사양 변경",
+        "exact": true
+      }
+    },
+    {
+      "id": "s34",
+      "type": "click",
+      "title": "무중단 사양 변경 클릭",
+      "locator": "testid=\"무중단 사양 변경\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "testid",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "testId",
+        "testId": "무중단 사양 변경"
+      }
+    },
+    {
+      "id": "s35",
+      "type": "click",
+      "title": "인스턴스 사양 변경 클릭",
+      "locator": "role=dialog[name=\"인스턴스 사양 변경\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "dialog",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "dialog",
+        "name": "인스턴스 사양 변경",
+        "exact": true
+      }
+    },
+    {
+      "id": "s36",
+      "type": "fill",
+      "title": "인스턴스 사양 변경 입력",
+      "locator": "role=dialog[name=\"인스턴스 사양 변경\"]",
+      "value": "auto-flavor-4C8M",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "dialog",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "dialog",
+        "name": "인스턴스 사양 변경",
+        "exact": true
+      }
+    },
+    {
+      "id": "s37",
+      "type": "press",
+      "title": "인스턴스 사양 변경 키 누르기",
+      "locator": "role=dialog[name=\"인스턴스 사양 변경\"]",
+      "value": "Enter",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "dialog",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "dialog",
+        "name": "인스턴스 사양 변경",
+        "exact": true
+      }
+    },
+    {
+      "id": "s38",
+      "type": "antdTableSelect",
+      "title": "AntD 표 행 선택: auto-flavor-4C8M",
+      "locator": "-",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "",
+      "antdTable": {
+        "match": [
+          "auto-flavor-4C8M"
+        ],
+        "control": "radio",
+        "action": "check"
+      }
+    },
+    {
+      "id": "s39",
+      "type": "click",
+      "title": "확인 클릭",
+      "locator": "xpath=(//*[@role=\"dialog\" or @aria-modal=\"true\" or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-content \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-confirm \")][contains(translate(normalize-space(.), ' ', ''), '인스턴스사양변경')]//button[translate(normalize-space(.), ' ', '')='확인'])[last()]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@role=\"dialog\" or @aria-modal=\"true\" or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-content \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-confirm \")][contains(translate(normalize-space(.), ' ', ''), '인스턴스사양변경')]//button[translate(normalize-space(.), ' ', '')='확인'])[last()]"
+      }
+    },
+    {
+      "id": "s40",
+      "type": "assert",
+      "title": "auto-flavor-4C8M (4 Core / 8.0 GiB) 텍스트 포함 검증",
+      "locator": "text=\"auto-flavor-8C16M (8 Core / 16.0 GiB)\"",
+      "value": "toContainText('8C16M (8 Core / 16.0 GiB)')",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "8C16M (8 Core / 16.0 GiB)",
+        "expected": "8C16M (8 Core / 16.0 GiB)",
+        "componentType": "text",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "",
+      "target": {
+        "kind": "text",
+        "text": "auto-flavor-8C16M (8 Core / 16.0 GiB)",
+        "exact": false
+      }
+    }
+  ],
+  "updatedAt": "2026-07-22T05:30:05.592Z"
+}

@@ -1,0 +1,732 @@
+{
+ "group": "모니터링",
+ "pages": [
+  {
+   "tag": "통합 모니터링",
+   "url": "https://example.invalid/env-2/viola/monitoring/integrated-monitoring",
+   "title": "통합 모니터링 | VIOLA",
+   "bc": "모니터링/ 통합 모니터링",
+   "pt": "",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:통합 모니터링",
+    "h3:info 데이터를 불러오지 못했습니다.",
+    "div:알림",
+    "h1:알림"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "refresh",
+    "refresh 새로고침",
+    "목록으로",
+    "생성",
+    "연결"
+   ],
+   "ph": [],
+   "lab": [],
+   "sel": [],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ 통합 모니터링 클러스터를 선택해 주세요. sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ 통합 모니터링"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-overview-page-title",
+     "div",
+     "통합 모니터링 Overview 워크로드간 구성 및 통신 관계를 시각적으로 확인하고 클러스터를 통합 모니터링합니다. refres"
+    ],
+    [
+     "adm-overview-header-refresh",
+     "button",
+     "refresh"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터를 불러오지 못했습니다. 새로고침하여 다시 시도해 주세요. refresh 새로고침"
+    ],
+    [
+     "adm-overview-reload-overview",
+     "button",
+     "refresh 새로고침"
+    ],
+    [
+     "adm-cluster-connection-modal-content",
+     "div",
+     "연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합"
+    ],
+    [
+     "adm-cluster-connection-modal-move-cluster-list-page",
+     "button",
+     "목록으로"
+    ],
+    [
+     "adm-cluster-connection-modal-move-create-page",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-cluster-connection-modal-confirm",
+     "button",
+     "연결"
+    ]
+   ],
+   "modal": [
+    "알림 연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합니다.) 목록으로 생성 연결"
+   ],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "통합 로그 조회 open_in_new",
+   "url": "https://example.invalid/env-2/viola/monitoring/integrated-monitoring",
+   "title": "통합 모니터링 | VIOLA",
+   "bc": "모니터링/ 통합 모니터링",
+   "pt": "",
+   "h": [
+    "span:오류 발생",
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:통합 모니터링",
+    "h3:info 데이터를 불러오지 못했습니다.",
+    "div:알림",
+    "h1:알림"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "refresh",
+    "refresh 새로고침",
+    "목록으로",
+    "생성",
+    "연결"
+   ],
+   "ph": [],
+   "lab": [],
+   "sel": [],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ 통합 모니터링 클러스터를 선택해 주세요. sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ 통합 모니터링"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-overview-page-title",
+     "div",
+     "통합 모니터링 Overview 워크로드간 구성 및 통신 관계를 시각적으로 확인하고 클러스터를 통합 모니터링합니다. refres"
+    ],
+    [
+     "adm-overview-header-refresh",
+     "button",
+     "refresh"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터를 불러오지 못했습니다. 새로고침하여 다시 시도해 주세요. refresh 새로고침"
+    ],
+    [
+     "adm-overview-reload-overview",
+     "button",
+     "refresh 새로고침"
+    ],
+    [
+     "adm-cluster-connection-modal-content",
+     "div",
+     "연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합"
+    ],
+    [
+     "adm-cluster-connection-modal-move-cluster-list-page",
+     "button",
+     "목록으로"
+    ],
+    [
+     "adm-cluster-connection-modal-move-create-page",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-cluster-connection-modal-confirm",
+     "button",
+     "연결"
+    ]
+   ],
+   "modal": [
+    "알림 연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합니다.) 목록으로 생성 연결"
+   ],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다. cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "이벤트",
+   "url": "https://example.invalid/env-2/viola/monitoring/event",
+   "title": "이벤트 | VIOLA",
+   "bc": "모니터링/ 이벤트",
+   "pt": "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:이벤트",
+    "h3:info 데이터가 없습니다.",
+    "div:알림",
+    "h1:알림"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "목록으로",
+    "생성",
+    "연결"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_149||R",
+    "text||시작일|R",
+    "text||종료일|R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_149=기간 설정"
+   ],
+   "seg": [],
+   "tables": [
+    {
+     "tid": "adm-event-fetch-table-table",
+     "th": [
+      "유형↕",
+      "리소스 유형",
+      "이름↕",
+      "메시지",
+      "클러스터↕",
+      "네임스페이스↕",
+      "발생일시↕"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ 이벤트 클러스터를 선택해 주세요. sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ 이벤트"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-event",
+     "div",
+     "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다. filter_list 기간 설정 calendar_month 유형 리소스 "
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다."
+    ],
+    [
+     "adm-page-viola-event-panel",
+     "div",
+     "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 inf"
+    ],
+    [
+     "adm-page-viola-event-main",
+     "div",
+     "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 inf"
+    ],
+    [
+     "adm-page-viola-event-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-event-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 inf"
+    ],
+    [
+     "adm-event-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 inf"
+    ],
+    [
+     "adm-event-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month"
+    ],
+    [
+     "adm-event-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ],
+    [
+     "adm-cluster-connection-modal-content",
+     "div",
+     "연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합"
+    ],
+    [
+     "adm-cluster-connection-modal-move-cluster-list-page",
+     "button",
+     "목록으로"
+    ],
+    [
+     "adm-cluster-connection-modal-move-create-page",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-cluster-connection-modal-confirm",
+     "button",
+     "연결"
+    ]
+   ],
+   "modal": [
+    "알림 연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합니다.) 목록으로 생성 연결"
+   ],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "트래픽 모니터링",
+   "url": "https://example.invalid/env-2/viola/monitoring/traffic-monitoring",
+   "title": "트래픽 모니터링 | VIOLA",
+   "bc": "모니터링/ 트래픽 모니터링",
+   "pt": "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:트래픽 모니터링",
+    "div:알림",
+    "h1:알림"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "목록으로",
+    "생성",
+    "연결"
+   ],
+   "ph": [],
+   "lab": [],
+   "sel": [],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ 트래픽 모니터링 클러스터를 선택해 주세요. sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ 트래픽 모니터링"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-trafficmonitoring",
+     "div",
+     "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다."
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다."
+    ],
+    [
+     "adm-page-viola-trafficmonitoring-panel",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-trafficmonitoring-main",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-trafficmonitoring-content-body",
+     "div",
+     ""
+    ],
+    [
+     "adm-service-mesh-traffic-monitoring-tabs",
+     "div",
+     ""
+    ],
+    [
+     "adm-cluster-connection-modal-content",
+     "div",
+     "연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합"
+    ],
+    [
+     "adm-cluster-connection-modal-move-cluster-list-page",
+     "button",
+     "목록으로"
+    ],
+    [
+     "adm-cluster-connection-modal-move-create-page",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-cluster-connection-modal-confirm",
+     "button",
+     "연결"
+    ]
+   ],
+   "modal": [
+    "알림 연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합니다.) 목록으로 생성 연결"
+   ],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "GPU 대시보드",
+   "url": "https://example.invalid/env-2/viola/monitoring/gpu-dashboard",
+   "title": "GPU 대시보드 | VIOLA",
+   "bc": "모니터링/ GPU 대시보드",
+   "pt": "GPU 대시보드",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:GPU 대시보드",
+    "div:알림",
+    "h1:알림"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "refresh",
+    "목록으로",
+    "생성",
+    "연결"
+   ],
+   "ph": [],
+   "lab": [],
+   "sel": [],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ GPU 대시보드 클러스터를 선택해 주세요. sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ GPU 대시보드"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-gpudashboard",
+     "div",
+     "GPU 대시보드 refresh"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "GPU 대시보드"
+    ],
+    [
+     "adm-page-viola-gpudashboard-panel",
+     "div",
+     "refresh"
+    ],
+    [
+     "adm-page-viola-gpudashboard-main",
+     "div",
+     "refresh"
+    ],
+    [
+     "adm-gpu-dashboard-tabs",
+     "div",
+     "refresh"
+    ],
+    [
+     "adm-gpu-dashboard-refresh",
+     "button",
+     "refresh"
+    ],
+    [
+     "adm-cluster-connection-modal-content",
+     "div",
+     "연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합"
+    ],
+    [
+     "adm-cluster-connection-modal-move-cluster-list-page",
+     "button",
+     "목록으로"
+    ],
+    [
+     "adm-cluster-connection-modal-move-create-page",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-cluster-connection-modal-confirm",
+     "button",
+     "연결"
+    ]
+   ],
+   "modal": [
+    "알림 연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합니다.) 목록으로 생성 연결"
+   ],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "외부 알람 설정",
+   "url": "https://example.invalid/env-2/viola/monitoring/external-alarm-setting",
+   "title": "외부 알람 설정 | VIOLA",
+   "bc": "모니터링/ 외부 알람 설정",
+   "pt": "외부 알람 설정 수신할 알람 규칙을 생성하고 수신 대상을 설정합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:외부 알람 설정",
+    "h3:info 데이터가 없습니다.",
+    "div:알림",
+    "h1:알림"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성",
+    "목록으로",
+    "생성",
+    "연결"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_150||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||D"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_150=기간 설정"
+   ],
+   "seg": [
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-external-alarm-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "클러스터↕",
+      "대상 리소스",
+      "조건 구성",
+      "조건 수↕",
+      "활성화↕",
+      "최근 발송일시↕",
+      "생성일시↕",
+      "작업",
+      "네임스페이스↕",
+      "워크로드↕"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ 외부 알람 설정 클러스터를 선택해 주세요. sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ 외부 알람 설정"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-externalalarm",
+     "div",
+     "외부 알람 설정 수신할 알람 규칙을 생성하고 수신 대상을 설정합니다. filter_list 기간 설정 calendar_mont"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "외부 알람 설정 수신할 알람 규칙을 생성하고 수신 대상을 설정합니다."
+    ],
+    [
+     "adm-page-viola-externalalarm-panel",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 대상 리소스 조건 구성 조건 수 활성화 "
+    ],
+    [
+     "adm-page-viola-externalalarm-main",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 대상 리소스 조건 구성 조건 수 활성화 "
+    ],
+    [
+     "adm-page-viola-externalalarm-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-externalalarm-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 대상 리소스 조건 구성 조건 수 활성화 "
+    ],
+    [
+     "adm-external-alarm-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 대상 리소스 조건 구성 조건 수 활성화 "
+    ],
+    [
+     "adm-external-alarm-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-external-alarm-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ],
+    [
+     "adm-cluster-connection-modal-content",
+     "div",
+     "연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합"
+    ],
+    [
+     "adm-cluster-connection-modal-move-cluster-list-page",
+     "button",
+     "목록으로"
+    ],
+    [
+     "adm-cluster-connection-modal-move-create-page",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-cluster-connection-modal-confirm",
+     "button",
+     "연결"
+    ]
+   ],
+   "modal": [
+    "알림 연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합니다.) 목록으로 생성 연결"
+   ],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  }
+ ],
+ "errors": [],
+ "lnb": [
+  "통합 모니터링",
+  "통합 로그 조회 open_in_new",
+  "이벤트",
+  "트래픽 모니터링",
+  "GPU 대시보드",
+  "외부 알람 설정"
+ ]
+}

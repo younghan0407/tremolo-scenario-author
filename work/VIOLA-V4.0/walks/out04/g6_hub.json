@@ -1,0 +1,162 @@
+[
+ {
+  "tag": "hub",
+  "url": "https://example.invalid/env-2/viola/service-catalog/hub?tab=hub",
+  "bc": "서비스 카탈로그/ 카탈로그 관리",
+  "tabs": [
+   "설치 목록",
+   "카탈로그 허브*"
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header|서비스 카탈로그/ 카탈로그 관리 biz1 sync_alt browse_activity 모니터링 현황"
+   ],
+   [
+    "adm-breadcrumb",
+    "div|서비스 카탈로그/ 카탈로그 관리"
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span|카탈로그 관리"
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button|browse_activity 모니터링 현황"
+   ],
+   [
+    "adm-page-viola-service-catalog-hub",
+    "div|카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다. 설치 목록 카탈로그 허브 fil"
+   ],
+   [
+    "adm-page-title",
+    "div|카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다."
+   ],
+   [
+    "adm-catalog-management-tabs",
+    "div|설치 목록 카탈로그 허브 filter_list add 생성 left_panel_close 검색 필터 카테고리"
+   ],
+   [
+    "adm-catalog-management-tabs-tab",
+    "span|카탈로그 허브"
+   ],
+   [
+    "adm-catalog-hub-filter",
+    "div|filter_list add 생성"
+   ],
+   [
+    "adm-catalog-hub-filter-search-input",
+    "input|"
+   ],
+   [
+    "adm-catalog-hub-go-to-catalog-create-page",
+    "button|add 생성"
+   ],
+   [
+    "adm-catalog-hub-search-filter-title",
+    "div|left_panel_close 검색 필터"
+   ],
+   [
+    "adm-catalog-hub-category-filter-title",
+    "div|카테고리"
+   ],
+   [
+    "adm-catalog-hub-category-filter",
+    "div|전체 데이터베이스 CI/CD 모니터링 인프라 스토리지 보안 네트워크"
+   ],
+   [
+    "adm-catalog-hub-category-filter-check-all",
+    "input|"
+   ],
+   [
+    "adm-catalog-hub-category-filter-option",
+    "input|"
+   ],
+   [
+    "adm-catalog-hub-service-type-filter-title",
+    "div|유형"
+   ],
+   [
+    "adm-catalog-hub-service-type-filter",
+    "div|전체 VIOLA 컴포넌트 Helm Chart YAML"
+   ],
+   [
+    "adm-catalog-hub-service-type-filter-check-all",
+    "input|"
+   ],
+   [
+    "adm-catalog-hub-service-type-filter-option",
+    "input|"
+   ],
+   [
+    "adm-catalog-hub-item-go-to-detail-page",
+    "button|scm-manager"
+   ],
+   [
+    "adm-catalog-hub-item-more-vert-button",
+    "button|more_vert"
+   ],
+   [
+    "adm-catalog-hub-item-category-tags",
+    "div|CI/CD"
+   ],
+   [
+    "adm-catalog-hub-item-category-tags-item",
+    "span|CI/CD"
+   ],
+   [
+    "adm-catalog-hub-item-engine-version-tags",
+    "div|1.33.5 1.34.11"
+   ],
+   [
+    "adm-catalog-hub-item-engine-version-tags-item",
+    "span|1.34.11"
+   ]
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "add 생성",
+   "left_panel_close",
+   "argocd",
+   "more_vert",
+   "gitlab",
+   "jenkins",
+   "sonarqube",
+   "csi-driver-nfs",
+   "gpu-operator",
+   "nexus",
+   "gitea",
+   "harbor",
+   "scm-manager"
+  ],
+  "lab": [
+   "전체",
+   "데이터베이스",
+   "CI/CD",
+   "모니터링",
+   "인프라",
+   "스토리지",
+   "보안",
+   "네트워크",
+   "VIOLA 컴포넌트",
+   "Helm Chart",
+   "YAML"
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "cards",
+  "n": 64,
+  "sample": [
+   "hub-card-columns ant-flex css-4kbzec ant-flex-align-flex-sta :: argocd GitOps 기반 쿠버네티스 애플리케이션 지속적 배포 도구 more_vert CI/CD VIOLA 컴포넌트 클러스터 : 전체 지원 엔진 버전 1.33.5 1.34.11 외 2 gitlab Git 기반 소스 코드 관리, CI/CD, 프로젝트 관리 기능을 통합 제공하는 DevOps 플랫폼 more_vert CI/CD VIOLA 컴포넌트 클러스터 : 전체 지원 엔진 버전 1.33.5 1.34.11 외 2 jenkins 오픈소스 CI/CD 자동화 서버로, 소프트웨어 빌드·테스트·배포 파이프라인을 구성·실행하는 도구 more_v",
+   "hub-card-wrap ant-flex css-4kbzec ant-flex-align-stretch ant :: argocd GitOps 기반 쿠버네티스 애플리케이션 지속적 배포 도구 more_vert CI/CD VIOLA 컴포넌트 클러스터 : 전체 지원 엔진 버전 1.33.5 1.34.11 외 2 gitlab Git 기반 소스 코드 관리, CI/CD, 프로젝트 관리 기능을 통합 제공하는 DevOps 플랫폼 more_vert CI/CD VIOLA 컴포넌트 클러스터 : 전체 지원 엔진 버전 1.33.5 1.34.11 외 2 jenkins 오픈소스 CI/CD 자동화 서버로, 소프트웨어 빌드·테스트·배포 파이프라인을 구성·실행하는 도구 more_v",
+   "ant-card css-4kbzec ant-card-bordered ant-card-small service :: argocd GitOps 기반 쿠버네티스 애플리케이션 지속적 배포 도구 more_vert CI/CD VIOLA 컴포넌트 클러스터 : 전체 지원 엔진 버전 1.33.5 1.34.11 외 2",
+   "ant-card-head :: argocd GitOps 기반 쿠버네티스 애플리케이션 지속적 배포 도구 more_vert",
+   "ant-card-head-wrapper :: argocd GitOps 기반 쿠버네티스 애플리케이션 지속적 배포 도구 more_vert",
+   "ant-card-head-title :: argocd GitOps 기반 쿠버네티스 애플리케이션 지속적 배포 도구",
+   "ant-card-extra :: more_vert",
+   "ant-card-body :: CI/CD VIOLA 컴포넌트 클러스터 : 전체 지원 엔진 버전 1.33.5 1.34.11 외 2"
+  ]
+ }
+]

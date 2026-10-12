@@ -1,0 +1,57 @@
+[
+ {
+  "wait": 3000
+ },
+ {
+  "eval": "(()=>{const tx=e=>((e&&e.innerText)||'').replace(/\\s+/g,' ').trim();const vis=e=>!!(e&&e.getClientRects().length);\nreturn {url:location.href,title:document.title,lnbTop:[...document.querySelectorAll('li.menu-first')].map(e=>tx(e).slice(0,40)),\npop:[...document.querySelectorAll('.ant-dropdown:not(.ant-dropdown-hidden),.ant-popover:not(.ant-popover-hidden),.ant-modal-wrap,[role=menu],[role=dialog]')].filter(vis).map(e=>tx(e).slice(0,800)),\nheader:[...document.querySelectorAll('header button, header a, [class*=header] button, [class*=header] a')].filter(vis).map(e=>tx(e).slice(0,60)+' |'+(e.getAttribute('href')||'')+'|'+(e.getAttribute('data-testid')||'')).slice(0,40),\nlinks:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')).filter(h=>/viola|container|k8s/i.test(h)).slice(0,30)}})()",
+  "save": "a_home"
+ },
+ {
+  "click": {
+   "text": "Cloud view"
+  },
+  "optional": true
+ },
+ {
+  "wait": 1500
+ },
+ {
+  "eval": "(()=>{const tx=e=>((e&&e.innerText)||'').replace(/\\s+/g,' ').trim();const vis=e=>!!(e&&e.getClientRects().length);\nreturn {url:location.href,title:document.title,lnbTop:[...document.querySelectorAll('li.menu-first')].map(e=>tx(e).slice(0,40)),\npop:[...document.querySelectorAll('.ant-dropdown:not(.ant-dropdown-hidden),.ant-popover:not(.ant-popover-hidden),.ant-modal-wrap,[role=menu],[role=dialog]')].filter(vis).map(e=>tx(e).slice(0,800)),\nheader:[...document.querySelectorAll('header button, header a, [class*=header] button, [class*=header] a')].filter(vis).map(e=>tx(e).slice(0,60)+' |'+(e.getAttribute('href')||'')+'|'+(e.getAttribute('data-testid')||'')).slice(0,40),\nlinks:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')).filter(h=>/viola|container|k8s/i.test(h)).slice(0,30)}})()",
+  "save": "b_cloudview"
+ },
+ {
+  "snap": "b_cloudview"
+ },
+ {
+  "press": "Escape",
+  "optional": true
+ },
+ {
+  "goto": "/viola",
+  "optional": true
+ },
+ {
+  "wait": 5000
+ },
+ {
+  "eval": "(()=>{const tx=e=>((e&&e.innerText)||'').replace(/\\s+/g,' ').trim();const vis=e=>!!(e&&e.getClientRects().length);\nreturn {url:location.href,title:document.title,lnbTop:[...document.querySelectorAll('li.menu-first')].map(e=>tx(e).slice(0,40)),\npop:[...document.querySelectorAll('.ant-dropdown:not(.ant-dropdown-hidden),.ant-popover:not(.ant-popover-hidden),.ant-modal-wrap,[role=menu],[role=dialog]')].filter(vis).map(e=>tx(e).slice(0,800)),\nheader:[...document.querySelectorAll('header button, header a, [class*=header] button, [class*=header] a')].filter(vis).map(e=>tx(e).slice(0,60)+' |'+(e.getAttribute('href')||'')+'|'+(e.getAttribute('data-testid')||'')).slice(0,40),\nlinks:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')).filter(h=>/viola|container|k8s/i.test(h)).slice(0,30)}})()",
+  "save": "c_viola"
+ },
+ {
+  "snap": "c_viola"
+ },
+ {
+  "goto": "/viola/dashboard",
+  "optional": true
+ },
+ {
+  "wait": 5000
+ },
+ {
+  "eval": "(()=>{const tx=e=>((e&&e.innerText)||'').replace(/\\s+/g,' ').trim();const vis=e=>!!(e&&e.getClientRects().length);\nreturn {url:location.href,title:document.title,lnbTop:[...document.querySelectorAll('li.menu-first')].map(e=>tx(e).slice(0,40)),\npop:[...document.querySelectorAll('.ant-dropdown:not(.ant-dropdown-hidden),.ant-popover:not(.ant-popover-hidden),.ant-modal-wrap,[role=menu],[role=dialog]')].filter(vis).map(e=>tx(e).slice(0,800)),\nheader:[...document.querySelectorAll('header button, header a, [class*=header] button, [class*=header] a')].filter(vis).map(e=>tx(e).slice(0,60)+' |'+(e.getAttribute('href')||'')+'|'+(e.getAttribute('data-testid')||'')).slice(0,40),\nlinks:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')).filter(h=>/viola|container|k8s/i.test(h)).slice(0,30)}})()",
+  "save": "d_viola_dash"
+ },
+ {
+  "snap": "d_viola_dash"
+ }
+]

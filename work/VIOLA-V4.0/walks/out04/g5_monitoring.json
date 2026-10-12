@@ -1,0 +1,982 @@
+{
+ "group": "모니터링",
+ "pages": [
+  {
+   "tag": "통합 모니터링",
+   "url": "https://example.invalid/env-2/viola/monitoring/integrated-monitoring",
+   "title": "통합 모니터링 | VIOLA",
+   "bc": "모니터링/ 통합 모니터링",
+   "pt": "",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:통합 모니터링",
+    "h3:info 데이터를 불러오지 못했습니다."
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "refresh",
+    "refresh 새로고침"
+   ],
+   "ph": [],
+   "lab": [],
+   "sel": [],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ 통합 모니터링 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ 통합 모니터링"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-overview-page-title",
+     "div",
+     "통합 모니터링 Overview 워크로드간 구성 및 통신 관계를 시각적으로 확인하고 클러스터를 통합 모니터링합니다. refres"
+    ],
+    [
+     "adm-overview-header-refresh",
+     "button",
+     "refresh"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터를 불러오지 못했습니다. 새로고침하여 다시 시도해 주세요. refresh 새로고침"
+    ],
+    [
+     "adm-overview-reload-overview",
+     "button",
+     "refresh 새로고침"
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "통합 로그 조회 open_in_new",
+   "url": "https://example.invalid/env-2/viola/monitoring/integrated-monitoring",
+   "title": "통합 모니터링 | VIOLA",
+   "bc": "모니터링/ 통합 모니터링",
+   "pt": "",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:통합 모니터링",
+    "h3:info 데이터를 불러오지 못했습니다."
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "refresh",
+    "refresh 새로고침"
+   ],
+   "ph": [],
+   "lab": [],
+   "sel": [],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ 통합 모니터링 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ 통합 모니터링"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-overview-page-title",
+     "div",
+     "통합 모니터링 Overview 워크로드간 구성 및 통신 관계를 시각적으로 확인하고 클러스터를 통합 모니터링합니다. refres"
+    ],
+    [
+     "adm-overview-header-refresh",
+     "button",
+     "refresh"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터를 불러오지 못했습니다. 새로고침하여 다시 시도해 주세요. refresh 새로고침"
+    ],
+    [
+     "adm-overview-reload-overview",
+     "button",
+     "refresh 새로고침"
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "이벤트",
+   "url": "https://example.invalid/env-2/viola/monitoring/event",
+   "title": "이벤트 | VIOLA",
+   "bc": "모니터링/ 이벤트",
+   "pt": "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다.",
+   "h": [
+    "h1:unfold_more",
+    "h1:이벤트"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "delete-test-261007-104610",
+    "전체 보기",
+    "content_copy",
+    "cilium-gdjwm",
+    "cilium-envoy-r7nll",
+    "prometheus-stack-prometheus-node-exporte",
+    "kube-proxy-hw42n",
+    "coredns-7c5f8659bd-gwr99",
+    "hpa-1006-261006-153913",
+    "kube-proxy-g6gz9",
+    "kube-controller-manager-pq-400tst-bf-biz",
+    "cilium-operator-5874dc8467-qgch7",
+    "kube-proxy-dkhgw",
+    "pqa-test-59fcf6c8dd-j9wgs",
+    "depl-10-58b8494c9d-m2m44",
+    "kube-apiserver-pq-400tst-bf-biz-master-1",
+    "keyboard_double_arrow_left",
+    "keyboard_arrow_left",
+    "keyboard_arrow_right",
+    "keyboard_double_arrow_right"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_293||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "number|||",
+    "search|rc_select_294||R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_293=기간 설정",
+    "rc_select_294=리스트 수 20"
+   ],
+   "seg": [],
+   "tables": [
+    {
+     "tid": "adm-event-fetch-table-table",
+     "th": [
+      "유형↕",
+      "리소스 유형",
+      "이름↕",
+      "메시지",
+      "클러스터↕",
+      "네임스페이스↕",
+      "발생일시↕"
+     ],
+     "rows": 20,
+     "row1": [
+      "WARNING",
+      "HorizontalPodAutoscaler",
+      "delete-test-261007-104610",
+      "deployments.apps \"depl-3\" not found 전체 보",
+      "biz1",
+      "pqa-kmj",
+      "2026-10-07 14:51:27"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ 이벤트 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ 이벤트"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-event",
+     "div",
+     "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다. filter_list 기간 설정 calendar_month 유형 리소스 "
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다."
+    ],
+    [
+     "adm-page-viola-event-panel",
+     "div",
+     "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR"
+    ],
+    [
+     "adm-page-viola-event-main",
+     "div",
+     "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR"
+    ],
+    [
+     "adm-page-viola-event-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-event-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR"
+    ],
+    [
+     "adm-event-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR"
+    ],
+    [
+     "adm-event-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month"
+    ],
+    [
+     "adm-event-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-event-fetch-table-row",
+     "tr",
+     "WARNING HorizontalPodAutoscaler delete-test-261007-104610 deployments."
+    ],
+    [
+     "adm-status-tag",
+     "div",
+     "WARNING"
+    ],
+    [
+     "adm-status-tag-item",
+     "span",
+     "WARNING"
+    ],
+    [
+     "adm-name-cell",
+     "button",
+     "delete-test-261007-104610"
+    ],
+    [
+     "adm-copy-button",
+     "button",
+     "content_copy"
+    ],
+    [
+     "adm-event-fetch-table-pagination",
+     "div",
+     "전체 수 156 keyboard_double_arrow_left keyboard_arrow_left / 8 keyboard_a"
+    ],
+    [
+     "adm-event-fetch-table-pagination-total",
+     "p",
+     "전체 수 156"
+    ],
+    [
+     "adm-event-fetch-table-pagination-first",
+     "button",
+     "keyboard_double_arrow_left"
+    ],
+    [
+     "adm-event-fetch-table-pagination-prev",
+     "button",
+     "keyboard_arrow_left"
+    ],
+    [
+     "adm-event-fetch-table-pagination-page-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-event-fetch-table-pagination-next",
+     "button",
+     "keyboard_arrow_right"
+    ],
+    [
+     "adm-event-fetch-table-pagination-last",
+     "button",
+     "keyboard_double_arrow_right"
+    ],
+    [
+     "adm-event-fetch-table-pagination-page-size",
+     "div",
+     "리스트 수 20"
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "트래픽 모니터링",
+   "url": "https://example.invalid/env-2/viola/monitoring/traffic-monitoring",
+   "title": "트래픽 모니터링 | VIOLA",
+   "bc": "모니터링/ 트래픽 모니터링",
+   "pt": "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다.",
+   "h": [
+    "h1:unfold_more",
+    "h1:트래픽 모니터링"
+   ],
+   "tabs": [
+    "biz1*"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황"
+   ],
+   "ph": [],
+   "lab": [],
+   "sel": [],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ 트래픽 모니터링 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ 트래픽 모니터링"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-trafficmonitoring",
+     "div",
+     "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다. biz1"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다."
+    ],
+    [
+     "adm-page-viola-trafficmonitoring-panel",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-page-viola-trafficmonitoring-main",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-page-viola-trafficmonitoring-content-body",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-service-mesh-traffic-monitoring-tabs",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-service-mesh-traffic-monitoring-tabs-tab",
+     "span",
+     "biz1"
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "트래픽 모니터링 / biz1",
+   "url": "https://example.invalid/env-2/viola/monitoring/traffic-monitoring",
+   "title": "트래픽 모니터링 | VIOLA",
+   "bc": "모니터링/ 트래픽 모니터링",
+   "pt": "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다.",
+   "h": [
+    "h1:unfold_more",
+    "h1:트래픽 모니터링"
+   ],
+   "tabs": [
+    "biz1*"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황"
+   ],
+   "ph": [],
+   "lab": [],
+   "sel": [],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ 트래픽 모니터링 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ 트래픽 모니터링"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-trafficmonitoring",
+     "div",
+     "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다. biz1"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다."
+    ],
+    [
+     "adm-page-viola-trafficmonitoring-panel",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-page-viola-trafficmonitoring-main",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-page-viola-trafficmonitoring-content-body",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-service-mesh-traffic-monitoring-tabs",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-service-mesh-traffic-monitoring-tabs-tab",
+     "span",
+     "biz1"
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "GPU 대시보드",
+   "url": "https://example.invalid/env-2/viola/monitoring/gpu-dashboard",
+   "title": "GPU 대시보드 | VIOLA",
+   "bc": "모니터링/ GPU 대시보드",
+   "pt": "GPU 대시보드",
+   "h": [
+    "h1:unfold_more",
+    "h1:GPU 대시보드",
+    "h3:info GPU가 없습니다."
+   ],
+   "tabs": [
+    "biz1*"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "refresh 2026-10-07 14:51:47",
+    "close"
+   ],
+   "ph": [],
+   "lab": [],
+   "sel": [],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ GPU 대시보드 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ GPU 대시보드"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-gpudashboard",
+     "div",
+     "GPU 대시보드 biz1 refresh 2026-10-07 14:51:47 warning 호스트에서 MIG 설정 후 인스턴스에"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "GPU 대시보드"
+    ],
+    [
+     "adm-page-viola-gpudashboard-panel",
+     "div",
+     "biz1 refresh 2026-10-07 14:51:47 warning 호스트에서 MIG 설정 후 인스턴스에 할당한 경우, "
+    ],
+    [
+     "adm-page-viola-gpudashboard-main",
+     "div",
+     "biz1 refresh 2026-10-07 14:51:47 warning 호스트에서 MIG 설정 후 인스턴스에 할당한 경우, "
+    ],
+    [
+     "adm-gpu-dashboard-tabs",
+     "div",
+     "biz1 refresh 2026-10-07 14:51:47 warning 호스트에서 MIG 설정 후 인스턴스에 할당한 경우, "
+    ],
+    [
+     "adm-gpu-dashboard-tabs-tab",
+     "span",
+     "biz1"
+    ],
+    [
+     "adm-gpu-dashboard-refresh",
+     "button",
+     "refresh 2026-10-07 14:51:47"
+    ],
+    [
+     "adm-alert-warning",
+     "div",
+     "warning 호스트에서 MIG 설정 후 인스턴스에 할당한 경우, GPU 제약 사항으로 인해 모니터링이 제공되지 않습니다. c"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info GPU가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "GPU 대시보드 / biz1",
+   "url": "https://example.invalid/env-2/viola/monitoring/gpu-dashboard",
+   "title": "GPU 대시보드 | VIOLA",
+   "bc": "모니터링/ GPU 대시보드",
+   "pt": "GPU 대시보드",
+   "h": [
+    "h1:unfold_more",
+    "h1:GPU 대시보드",
+    "h3:info GPU가 없습니다."
+   ],
+   "tabs": [
+    "biz1*"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "refresh 2026-10-07 14:51:47",
+    "close"
+   ],
+   "ph": [],
+   "lab": [],
+   "sel": [],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ GPU 대시보드 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ GPU 대시보드"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-gpudashboard",
+     "div",
+     "GPU 대시보드 biz1 refresh 2026-10-07 14:51:47 warning 호스트에서 MIG 설정 후 인스턴스에"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "GPU 대시보드"
+    ],
+    [
+     "adm-page-viola-gpudashboard-panel",
+     "div",
+     "biz1 refresh 2026-10-07 14:51:47 warning 호스트에서 MIG 설정 후 인스턴스에 할당한 경우, "
+    ],
+    [
+     "adm-page-viola-gpudashboard-main",
+     "div",
+     "biz1 refresh 2026-10-07 14:51:47 warning 호스트에서 MIG 설정 후 인스턴스에 할당한 경우, "
+    ],
+    [
+     "adm-gpu-dashboard-tabs",
+     "div",
+     "biz1 refresh 2026-10-07 14:51:47 warning 호스트에서 MIG 설정 후 인스턴스에 할당한 경우, "
+    ],
+    [
+     "adm-gpu-dashboard-tabs-tab",
+     "span",
+     "biz1"
+    ],
+    [
+     "adm-gpu-dashboard-refresh",
+     "button",
+     "refresh 2026-10-07 14:51:47"
+    ],
+    [
+     "adm-alert-warning",
+     "div",
+     "warning 호스트에서 MIG 설정 후 인스턴스에 할당한 경우, GPU 제약 사항으로 인해 모니터링이 제공되지 않습니다. c"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info GPU가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "외부 알람 설정",
+   "url": "https://example.invalid/env-2/viola/monitoring/external-alarm-setting",
+   "title": "외부 알람 설정 | VIOLA",
+   "bc": "모니터링/ 외부 알람 설정",
+   "pt": "외부 알람 설정 수신할 알람 규칙을 생성하고 수신 대상을 설정합니다.",
+   "h": [
+    "h1:unfold_more",
+    "h1:외부 알람 설정"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성",
+    "8",
+    "more_horiz",
+    "파드테스트2",
+    "7",
+    "파드테스트",
+    "혁호확인용6",
+    "혁호확인용5",
+    "혁호확인용4",
+    "혁호확인용3",
+    "혁호확인용2",
+    "혁호확인용1",
+    "대상리소스-네임스페이스",
+    "대상리소스3",
+    "대상리소스-워크로드2",
+    "대상리소스-워크로드",
+    "알림활성화off",
+    "test-ym2",
+    "메모리1",
+    "test-ym1",
+    "test33",
+    "노드로그",
+    "keyboard_double_arrow_left",
+    "keyboard_arrow_left",
+    "keyboard_arrow_right",
+    "keyboard_double_arrow_right"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_295||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||",
+    "number|||",
+    "search|rc_select_296||R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_295=기간 설정",
+    "rc_select_296=리스트 수 20"
+   ],
+   "seg": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-external-alarm-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "클러스터↕",
+      "대상 리소스",
+      "조건 구성",
+      "조건 수↕",
+      "활성화↕",
+      "최근 발송일시↕",
+      "생성일시↕",
+      "작업",
+      "네임스페이스↕",
+      "워크로드↕"
+     ],
+     "rows": 20,
+     "row1": [
+      "",
+      "8",
+      "biz1",
+      "default",
+      "파드 khh-log-test",
+      "메트릭",
+      "1",
+      "ON",
+      "-",
+      "2026-10-07 14:51:14",
+      "more_horiz"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "모니터링/ 외부 알람 설정 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "모니터링/ 외부 알람 설정"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "모니터링"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-externalalarm",
+     "div",
+     "외부 알람 설정 수신할 알람 규칙을 생성하고 수신 대상을 설정합니다. filter_list 기간 설정 calendar_mont"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "외부 알람 설정 수신할 알람 규칙을 생성하고 수신 대상을 설정합니다."
+    ],
+    [
+     "adm-page-viola-externalalarm-panel",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 대상 리소스 조건 구성 조건 수 활성화 "
+    ],
+    [
+     "adm-page-viola-externalalarm-main",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 대상 리소스 조건 구성 조건 수 활성화 "
+    ],
+    [
+     "adm-page-viola-externalalarm-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-externalalarm-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 대상 리소스 조건 구성 조건 수 활성화 "
+    ],
+    [
+     "adm-external-alarm-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 대상 리소스 조건 구성 조건 수 활성화 "
+    ],
+    [
+     "adm-external-alarm-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-external-alarm-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-external-alarm-table-row",
+     "tr",
+     "8 biz1 default 파드 khh-log-test 메트릭 1 ON - 2026-10-07 14:51:14 more_hor"
+    ],
+    [
+     "adm-external-alarm-move-page",
+     "button",
+     "8"
+    ],
+    [
+     "adm-external-alarm-tags",
+     "div",
+     "메트릭"
+    ],
+    [
+     "adm-external-alarm-tags-item",
+     "span",
+     "메트릭"
+    ],
+    [
+     "adm-status-tag",
+     "div",
+     "ON"
+    ],
+    [
+     "adm-status-tag-item",
+     "span",
+     "ON"
+    ],
+    [
+     "adm-external-alarm-table-pagination",
+     "div",
+     "전체 수 49 keyboard_double_arrow_left keyboard_arrow_left / 3 keyboard_ar"
+    ],
+    [
+     "adm-external-alarm-table-pagination-total",
+     "p",
+     "전체 수 49"
+    ],
+    [
+     "adm-external-alarm-table-pagination-first",
+     "button",
+     "keyboard_double_arrow_left"
+    ],
+    [
+     "adm-external-alarm-table-pagination-prev",
+     "button",
+     "keyboard_arrow_left"
+    ],
+    [
+     "adm-external-alarm-table-pagination-page-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-external-alarm-table-pagination-next",
+     "button",
+     "keyboard_arrow_right"
+    ],
+    [
+     "adm-external-alarm-table-pagination-last",
+     "button",
+     "keyboard_double_arrow_right"
+    ],
+    [
+     "adm-external-alarm-table-pagination-page-size",
+     "div",
+     "리스트 수 20"
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  }
+ ],
+ "errors": [],
+ "lnb": [
+  "통합 모니터링",
+  "통합 로그 조회 open_in_new",
+  "이벤트",
+  "트래픽 모니터링",
+  "GPU 대시보드",
+  "외부 알람 설정"
+ ]
+}

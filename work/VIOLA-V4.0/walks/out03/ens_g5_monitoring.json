@@ -1,0 +1,8 @@
+{
+ "before": "https://example.invalid/env-2/viola/service-catalog/hub?tab=hub",
+ "already": true,
+ "topLeft": [],
+ "popup": [],
+ "clicked": [],
+ "after": "https://example.invalid/env-2/viola/service-catalog/hub?tab=hub"
+}

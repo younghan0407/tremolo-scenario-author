@@ -1,0 +1,500 @@
+{
+ "group": "서비스 카탈로그",
+ "pages": [
+  {
+   "tag": "카탈로그 관리",
+   "url": "https://example.invalid/env-2/viola/service-catalog/hub",
+   "title": "카탈로그 관리 | VIOLA",
+   "bc": "서비스 카탈로그/ 카탈로그 관리",
+   "pt": "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:카탈로그 관리",
+    "h3:info 데이터가 없습니다.",
+    "div:알림",
+    "h1:알림"
+   ],
+   "tabs": [
+    "설치 목록*",
+    "카탈로그 허브"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "목록으로",
+    "생성",
+    "연결"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_148||R",
+    "text||시작일|R",
+    "text||종료일|R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_148=기간 설정"
+   ],
+   "seg": [],
+   "tables": [
+    {
+     "tid": "adm-catalog-deploy-table-table",
+     "th": [
+      "이름↕",
+      "상태 help",
+      "카탈로그 유형↕",
+      "지원 엔진 버전",
+      "클러스터↕",
+      "네임스페이스↕",
+      "리비전↕",
+      "최근 수정일시↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "서비스 카탈로그/ 카탈로그 관리 클러스터를 선택해 주세요. sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "서비스 카탈로그/ 카탈로그 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "서비스 카탈로그"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-service-catalog-hub",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다. 설치 목록 카탈로그 허브 filter_list 기"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다."
+    ],
+    [
+     "adm-catalog-management-tabs",
+     "div",
+     "설치 목록 카탈로그 허브 filter_list 기간 설정 calendar_month 이름 상태 help 카탈로그 유형 지원 엔"
+    ],
+    [
+     "adm-catalog-management-tabs-tab",
+     "span",
+     "설치 목록"
+    ],
+    [
+     "adm-catalog-deploy-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month 이름 상태 help 카탈로그 유형 지원 엔진 버전 클러스터 네임스페"
+    ],
+    [
+     "adm-catalog-deploy-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month"
+    ],
+    [
+     "adm-catalog-deploy-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ],
+    [
+     "adm-cluster-connection-modal-content",
+     "div",
+     "연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합"
+    ],
+    [
+     "adm-cluster-connection-modal-move-cluster-list-page",
+     "button",
+     "목록으로"
+    ],
+    [
+     "adm-cluster-connection-modal-move-create-page",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-cluster-connection-modal-confirm",
+     "button",
+     "연결"
+    ]
+   ],
+   "modal": [
+    "알림 연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합니다.) 목록으로 생성 연결"
+   ],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "카탈로그 관리 / 설치 목록",
+   "url": "https://example.invalid/env-2/viola/service-catalog/hub",
+   "title": "카탈로그 관리 | VIOLA",
+   "bc": "서비스 카탈로그/ 카탈로그 관리",
+   "pt": "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:카탈로그 관리",
+    "h3:info 데이터가 없습니다.",
+    "div:알림",
+    "h1:알림"
+   ],
+   "tabs": [
+    "설치 목록*",
+    "카탈로그 허브"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "목록으로",
+    "생성",
+    "연결"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_148||R",
+    "text||시작일|R",
+    "text||종료일|R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_148=기간 설정"
+   ],
+   "seg": [],
+   "tables": [
+    {
+     "tid": "adm-catalog-deploy-table-table",
+     "th": [
+      "이름↕",
+      "상태 help",
+      "카탈로그 유형↕",
+      "지원 엔진 버전",
+      "클러스터↕",
+      "네임스페이스↕",
+      "리비전↕",
+      "최근 수정일시↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "서비스 카탈로그/ 카탈로그 관리 클러스터를 선택해 주세요. sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "서비스 카탈로그/ 카탈로그 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "서비스 카탈로그"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-service-catalog-hub",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다. 설치 목록 카탈로그 허브 filter_list 기"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다."
+    ],
+    [
+     "adm-catalog-management-tabs",
+     "div",
+     "설치 목록 카탈로그 허브 filter_list 기간 설정 calendar_month 이름 상태 help 카탈로그 유형 지원 엔"
+    ],
+    [
+     "adm-catalog-management-tabs-tab",
+     "span",
+     "설치 목록"
+    ],
+    [
+     "adm-catalog-deploy-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month 이름 상태 help 카탈로그 유형 지원 엔진 버전 클러스터 네임스페"
+    ],
+    [
+     "adm-catalog-deploy-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month"
+    ],
+    [
+     "adm-catalog-deploy-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ],
+    [
+     "adm-cluster-connection-modal-content",
+     "div",
+     "연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합"
+    ],
+    [
+     "adm-cluster-connection-modal-move-cluster-list-page",
+     "button",
+     "목록으로"
+    ],
+    [
+     "adm-cluster-connection-modal-move-create-page",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-cluster-connection-modal-confirm",
+     "button",
+     "연결"
+    ]
+   ],
+   "modal": [
+    "알림 연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합니다.) 목록으로 생성 연결"
+   ],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "카탈로그 관리 / 카탈로그 허브",
+   "url": "https://example.invalid/env-2/viola/service-catalog/hub?tab=hub",
+   "title": "카탈로그 관리 | VIOLA",
+   "bc": "서비스 카탈로그/ 카탈로그 관리",
+   "pt": "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:카탈로그 관리",
+    "h1:검색 필터",
+    "h1:카테고리",
+    "h1:유형",
+    "h3:info 카탈로그가 없습니다.",
+    "div:알림",
+    "h1:알림"
+   ],
+   "tabs": [
+    "설치 목록",
+    "카탈로그 허브*"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성",
+    "left_panel_close",
+    "목록으로",
+    "생성",
+    "연결"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "checkbox|||"
+   ],
+   "lab": [
+    "전체",
+    "데이터베이스",
+    "CI/CD",
+    "모니터링",
+    "인프라",
+    "스토리지",
+    "보안",
+    "네트워크",
+    "VIOLA 컴포넌트",
+    "Helm Chart",
+    "YAML"
+   ],
+   "sel": [],
+   "seg": [
+    "전체*",
+    "데이터베이스*",
+    "CI/CD*",
+    "모니터링*",
+    "인프라*",
+    "스토리지*",
+    "보안*",
+    "네트워크*",
+    "전체*",
+    "VIOLA 컴포넌트*",
+    "Helm Chart*",
+    "YAML*"
+   ],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "서비스 카탈로그/ 카탈로그 관리 클러스터를 선택해 주세요. sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "서비스 카탈로그/ 카탈로그 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "서비스 카탈로그"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-service-catalog-hub",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다. 설치 목록 카탈로그 허브 filter_list a"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다."
+    ],
+    [
+     "adm-catalog-management-tabs",
+     "div",
+     "설치 목록 카탈로그 허브 filter_list add 생성 left_panel_close 검색 필터 카테고리 전체 데이터베이스"
+    ],
+    [
+     "adm-catalog-management-tabs-tab",
+     "span",
+     "설치 목록"
+    ],
+    [
+     "adm-catalog-hub-filter",
+     "div",
+     "filter_list add 생성"
+    ],
+    [
+     "adm-catalog-hub-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-hub-go-to-catalog-create-page",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-catalog-hub-search-filter-title",
+     "div",
+     "left_panel_close 검색 필터"
+    ],
+    [
+     "adm-catalog-hub-category-filter-title",
+     "div",
+     "카테고리"
+    ],
+    [
+     "adm-catalog-hub-category-filter",
+     "div",
+     "전체 데이터베이스 CI/CD 모니터링 인프라 스토리지 보안 네트워크"
+    ],
+    [
+     "adm-catalog-hub-category-filter-check-all",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-hub-category-filter-option",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-hub-service-type-filter-title",
+     "div",
+     "유형"
+    ],
+    [
+     "adm-catalog-hub-service-type-filter",
+     "div",
+     "전체 VIOLA 컴포넌트 Helm Chart YAML"
+    ],
+    [
+     "adm-catalog-hub-service-type-filter-check-all",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-hub-service-type-filter-option",
+     "input",
+     ""
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 카탈로그가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ],
+    [
+     "adm-cluster-connection-modal-content",
+     "div",
+     "연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합"
+    ],
+    [
+     "adm-cluster-connection-modal-move-cluster-list-page",
+     "button",
+     "목록으로"
+    ],
+    [
+     "adm-cluster-connection-modal-move-create-page",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-cluster-connection-modal-confirm",
+     "button",
+     "연결"
+    ]
+   ],
+   "modal": [
+    "알림 연결된 클러스터가 없습니다. 클러스터 연결 또는 생성 후 사용해 주세요. (클러스터 생성은 CONTRABASS 연동 시 가능합니다.) 목록으로 생성 연결"
+   ],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  }
+ ],
+ "errors": [],
+ "lnb": [
+  "카탈로그 관리"
+ ]
+}

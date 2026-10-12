@@ -1,0 +1,453 @@
+[
+ {
+  "tag": "hpa-create",
+  "url": "https://example.invalid/env-2/viola/workflow/workload/autoscaler/hpa/create",
+  "bc": "워크플로우/ 워크로드/ 오토스케일러/ HPA 생성",
+  "pt": "arrow_back HPA 생성",
+  "h": [
+   "h1:unfold_more",
+   "h1:HPA 생성",
+   "h1:모드",
+   "h1:모드 선택",
+   "h1:기본 정보",
+   "h1:클러스터",
+   "h1:네임스페이스",
+   "h1:이름",
+   "h1:레이블",
+   "h1:대상 디플로이먼트 선택",
+   "h1:디플로이먼트",
+   "h1:레플리카 수 설정",
+   "h1:최소 레플리카 수",
+   "h1:최대 레플리카 수",
+   "h1:스케일 정책",
+   "h1:스케일 아웃 대기 시간",
+   "h1:스케일 인 대기 시간",
+   "h1:메트릭",
+   "h1:기본 모드 가이드",
+   "div:keyboard_arrow_right 모드 선택",
+   "h2:모드 선택",
+   "h4:기본 모드",
+   "h4:고급 모드",
+   "div:keyboard_arrow_right 기본 정보",
+   "h2:기본 정보",
+   "div:keyboard_arrow_right 대상 디플로이먼트 선택",
+   "h2:대상 디플로이먼트 선택",
+   "div:keyboard_arrow_right 레플리카 수 설정",
+   "h2:레플리카 수 설정",
+   "div:keyboard_arrow_right 스케일 정책",
+   "h2:스케일 정책"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "중복 확인(D)",
+   "delete(D)",
+   "필드 추가",
+   "취소",
+   "생성",
+   "keyboard_arrow_right 모드 선택",
+   "keyboard_arrow_right 기본 정보",
+   "keyboard_arrow_right 대상 디플로이먼트 선택",
+   "keyboard_arrow_right 레플리카 수 설정",
+   "keyboard_arrow_right 스케일 정책"
+  ],
+  "ph": [
+   "radio||||C",
+   "radio||||",
+   "search|rc_select_0|||",
+   "search|rc_select_1|||",
+   "text||상위 항목을 먼저 선택해 주세요.|adm-input-json-name-placeholder|D",
+   "text|form_item_metadata_labels_0_label|Key를 입력해 주세요.||",
+   "text|form_item_metadata_labels_0_value|Value를 입력해 주세요.||",
+   "search|rc_select_2|||",
+   "text||최소 레플리카 수를 입력해 주세요.|adm-hpabasic-min-replicas|",
+   "text||최대 레플리카 수를 입력해 주세요.|adm-hpabasic-max-replicas|",
+   "text||스케일 아웃 대기 시간을 입력해 주세요.|adm-hpabasic-scale-up-stabilization-window|",
+   "text||스케일 인 대기 시간을 입력해 주세요.|adm-hpabasic-scale-down-stabilization-window|",
+   "search|form_item_spec_metrics_0_type|||",
+   "search|form_item_spec_metrics_0_metricConfig|||D",
+   "text|form_item_spec_metrics_0_value|유형을 먼저 선택해 주세요.|adm-hpametrics-metric-value|D"
+  ],
+  "lab": [
+   "모드 선택",
+   "기본 모드 입력 필드 기반으로 리소스를 생성합니다.",
+   "고급 모드 YAML 기반으로 리소스를 생성합니다.",
+   "클러스터",
+   "네임스페이스",
+   "이름",
+   "레이블",
+   "디플로이먼트",
+   "최소 레플리카 수",
+   "최대 레플리카 수",
+   "스케일 아웃 대기 시간",
+   "스케일 인 대기 시간",
+   "메트릭"
+  ],
+  "sel": [
+   "rc_select_0=biz1",
+   "rc_select_1=네임스페이스를 선택해 주세요.",
+   "rc_select_2=디플로이먼트를 선택해 주세요.",
+   "form_item_spec_metrics_0_type=유형을 선택해 주세요.",
+   "form_item_spec_metrics_0_metricConfig=유형을 먼저 선택해 주세요.(D)"
+  ],
+  "chk": [
+   "기본 모드 입력 필드 기반으로 리소스를 생성합니다.*",
+   "고급 모드 YAML 기반으로 리소스를 생성합니다."
+  ],
+  "tables": [
+   {
+    "tid": "adm-input-labels-key-value-table",
+    "th": [
+     "Key",
+     "Value",
+     ""
+    ],
+    "rows": 1,
+    "row1": [
+     "cancel",
+     "cancel",
+     "delete"
+    ]
+   },
+   {
+    "tid": "adm-hpametrics-metrics-table",
+    "th": [
+     "유형 *",
+     "메트릭 *",
+     "값 *",
+     ""
+    ],
+    "rows": 1,
+    "row1": [
+     "유형을 선택해 주세요.",
+     "유형을 먼저 선택해 주세요.",
+     "",
+     "delete"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "워크플로우/ 워크로드/ 오토스케일러/ HPA 생성 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "워크플로우/ 워크로드/ 오토스케일러/ HPA 생성",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "워크플로우",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back HPA 생성",
+    ""
+   ],
+   [
+    "adm-page-viola-hpa-create-panel",
+    "div",
+    "모드 모드 선택 기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다. 기본 정",
+    ""
+   ],
+   [
+    "adm-page-viola-hpa-create-main",
+    "div",
+    "모드 모드 선택 기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다. 기본 정",
+    ""
+   ],
+   [
+    "adm-page-viola-hpa-create-content-body",
+    "div",
+    "모드 모드 선택 기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다. 기본 정",
+    ""
+   ],
+   [
+    "adm-convert-container-mode-title",
+    "div",
+    "모드",
+    ""
+   ],
+   [
+    "adm-convert-container-select-mode-title",
+    "div",
+    "모드 선택",
+    ""
+   ],
+   [
+    "adm-convert-container-mode",
+    "div",
+    "기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다.",
+    ""
+   ],
+   [
+    "adm-convert-container-radio",
+    "label",
+    "기본 모드 입력 필드 기반으로 리소스를 생성합니다.",
+    ""
+   ],
+   [
+    "adm-base-upsert-layout-info-title",
+    "div",
+    "기본 정보",
+    ""
+   ],
+   [
+    "adm-form-item-metadata-providerid",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-input-basic-info-provider-id",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-form-item-metadata-namespace",
+    "div",
+    "네임스페이스를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-input-basic-info-namespace",
+    "div",
+    "네임스페이스를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-form-item-metadata-name",
+    "div",
+    "중복 확인",
+    ""
+   ],
+   [
+    "adm-input-json-name-placeholder",
+    "input",
+    "",
+    "D"
+   ],
+   [
+    "adm-input-json-name-duplicate-name",
+    "button",
+    "중복 확인",
+    "D"
+   ],
+   [
+    "adm-input-labels-key-value-table",
+    "div",
+    "Key Value delete add 필드 추가",
+    ""
+   ],
+   [
+    "adm-hpabasic-target-deployment",
+    "div",
+    "대상 디플로이먼트 선택",
+    ""
+   ],
+   [
+    "adm-hpabasic-target-deployment-group",
+    "div",
+    "디플로이먼트 디플로이먼트를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-form-item-spec-scaletargetref-name",
+    "div",
+    "디플로이먼트를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-hpabasic-name",
+    "div",
+    "디플로이먼트를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-hpabasic-replica-settings",
+    "div",
+    "레플리카 수 설정",
+    ""
+   ],
+   [
+    "adm-hpabasic-replica-settings-group",
+    "div",
+    "최소 레플리카 수 최대 레플리카 수",
+    ""
+   ],
+   [
+    "adm-form-item-spec-minreplicas",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-hpabasic-min-replicas",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-item-spec-maxreplicas",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-hpabasic-max-replicas",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-hpabasic-scaling-policy",
+    "div",
+    "스케일 정책",
+    ""
+   ],
+   [
+    "adm-hpabasic-scaling-policy-group",
+    "div",
+    "스케일 아웃 대기 시간 초 스케일 인 대기 시간 초 메트릭 유형 * 메트릭 * 값 * 유형을 선택해 주세요. 유형을 먼저 선택",
+    ""
+   ],
+   [
+    "adm-form-item-spec-behavior-scaleup-stabilizationwindowseconds",
+    "div",
+    "초",
+    ""
+   ],
+   [
+    "adm-hpabasic-scale-up-stabilization-window",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-item-spec-behavior-scaledown-stabilizationwindowseconds",
+    "div",
+    "초",
+    ""
+   ],
+   [
+    "adm-hpabasic-scale-down-stabilization-window",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-hpametrics-metrics-table",
+    "div",
+    "유형 * 메트릭 * 값 * 유형을 선택해 주세요. 유형을 먼저 선택해 주세요. delete",
+    ""
+   ],
+   [
+    "adm-hpametrics-form-item-type",
+    "div",
+    "유형을 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-hpametrics-field-paths-create-index-metrics-field-key-type",
+    "div",
+    "유형을 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-hpametrics-form-item-metric-config",
+    "div",
+    "유형을 먼저 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-hpametrics-metric-config",
+    "div",
+    "유형을 먼저 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-hpametrics-form-item-value",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-hpametrics-metric-value",
+    "input",
+    "",
+    "D"
+   ],
+   [
+    "adm-hpametrics-remove-metric",
+    "button",
+    "delete",
+    "D"
+   ],
+   [
+    "adm-hpametrics-add-metric",
+    "button",
+    "필드 추가",
+    ""
+   ],
+   [
+    "adm-page-viola-hpa-create-content-footer",
+    "div",
+    "취소 생성",
+    ""
+   ],
+   [
+    "adm-convert-container-go-back-page",
+    "button",
+    "취소",
+    ""
+   ],
+   [
+    "adm-convert-container-action",
+    "button",
+    "생성",
+    ""
+   ],
+   [
+    "adm-resource-guide-title",
+    "div",
+    "기본 모드 가이드",
+    ""
+   ],
+   [
+    "adm-resource-guide-collapse",
+    "div",
+    "keyboard_arrow_right 모드 선택 기본 모드 복잡한 설정을 최소화하여, 핵심적인 항목들만 입력하고 리소스를 생성",
+    ""
+   ],
+   [
+    "adm-resource-guide-collapse-panel",
+    "div",
+    "keyboard_arrow_right 모드 선택 기본 모드 복잡한 설정을 최소화하여, 핵심적인 항목들만 입력하고 리소스를 생성",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "opened": []
+ }
+]

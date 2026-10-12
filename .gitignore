@@ -1,0 +1,14 @@
+# 설치물/캐시/결과
+node_modules/
+**/__pycache__/
+*.pyc
+.DS_Store
+
+# 실행 산출물(있다면)
+tremolo-scenarios/
+live-probe/
+runlogs/
+
+# 로컬 환경/인증정보
+assets/envs.json
+work/**/envs.json.bak

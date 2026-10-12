@@ -1,0 +1,131 @@
+[
+ {
+  "nav": "search 클러스터 선택 keyboard_arrow_right 전체 swap_vert bookmark 멀티 클러스터 bookmark biz1 bookmark biz2 취소 확인",
+  "items": [
+   "bookmark 멀티 클러스터|",
+   "bookmark biz1|",
+   "bookmark biz2|"
+  ]
+ },
+ {
+  "tag": "dash",
+  "url": "https://example.invalid/env-2/viola/",
+  "bc": "대시보드",
+  "pt": "",
+  "h": [
+   "h1:unfold_more",
+   "div:keyboard_arrow_right 전체 swap_vert",
+   "div:알림",
+   "h1:알림"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "keyboard_arrow_right 전체 swap_vert",
+   "bookmark",
+   "멀티 클러스터",
+   "biz1",
+   "biz2",
+   "취소",
+   "확인"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-tenant-list-card-search-value|"
+  ],
+  "lab": [],
+  "sel": [],
+  "chk": [],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "대시보드 biz1 sync_alt browse_activity 모니터링 현황 search 클러스터 선택 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "대시보드",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "대시보드",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-tenant-list-card-search-value",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-tenant-list-card-collapse",
+    "div",
+    "keyboard_arrow_right 전체 swap_vert bookmark 멀티 클러스터 bookmark biz1 bookm",
+    ""
+   ],
+   [
+    "adm-tenant-list-card-collapse-panel",
+    "div",
+    "keyboard_arrow_right 전체 swap_vert bookmark 멀티 클러스터 bookmark biz1 bookm",
+    ""
+   ],
+   [
+    "adm-tenant-list-card-favorite",
+    "button",
+    "bookmark",
+    ""
+   ],
+   [
+    "adm-tenant-list-card-update-selected-cluster",
+    "button",
+    "멀티 클러스터",
+    ""
+   ],
+   [
+    "adm-tenant-popover-open",
+    "button",
+    "취소",
+    ""
+   ],
+   [
+    "adm-tenant-popover-submit-tenant",
+    "button",
+    "확인",
+    ""
+   ],
+   [
+    "adm-confirm-modal-content",
+    "div",
+    "권한이 없습니다. 관리자(admin@okestro.com)에게 문의해 주세요.",
+    ""
+   ],
+   [
+    "adm-confirm-modal-confirm",
+    "button",
+    "확인",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다.",
+   "ant-popover navigator-wrap no-arrow css- :: search 클러스터 선택 keyboard_arrow_right 전체 swap_vert bookmark 멀티 클러스터 bookmark biz1 bookmark biz2 취소 확인",
+   "ant-popover-inner :: search 클러스터 선택 keyboard_arrow_right 전체 swap_vert bookmark 멀티 클러스터 bookmark biz1 bookmark biz2 취소 확인",
+   "ant-modal css-4kbzec :: 알림 권한이 없습니다. 관리자(admin@okestro.com)에게 문의해 주세요. 확인"
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "opened": []
+ }
+]

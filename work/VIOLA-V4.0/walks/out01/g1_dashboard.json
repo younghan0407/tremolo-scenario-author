@@ -1,0 +1,339 @@
+{
+ "group": "대시보드",
+ "pages": [
+  {
+   "tag": "대시보드",
+   "url": "https://example.invalid/env-2/contrabass/dashboard",
+   "title": "대시보드 | CONTRABASS",
+   "bc": "대시보드/ 대시보드",
+   "pt": "",
+   "h": [
+    "h1:unfold_more",
+    "h1:프로젝트 대시보드",
+    "h1:가상 자원 개요",
+    "h3:프로젝트 가상 CPU 할당량",
+    "h3:프로젝트 가상 Memory 할당량",
+    "h3:info 데이터가 없습니다.",
+    "h3:전체 스토리지",
+    "h1:사용자 이벤트",
+    "h1:Cloud View",
+    "h3:최근 알람 조회"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "Cloud view crisis_alert",
+    "refresh 2026.10.07 14:11:03 기준",
+    "aggregation-qga-validation",
+    "auto-instance-xk6izu0x-fix",
+    "Main_Ceph_ceph_01_hdd_dev#Main_Ceph_ceph",
+    "이미지(qa-trml-261007_133513-imgmin) 생성이 완료",
+    "이미지(qa-trml-261007_133513-img) 생성이 완료되었습",
+    "인스턴스(aggregation-qga-validation) 종료가 완료되",
+    "볼륨(jh.lee4-vol-0916-006) 상태 변경이 완료되었습니다.",
+    "볼륨(jh.lee4-vol-0916-006) 수정이 완료되었습니다.",
+    "볼륨(test-20261002-150600) 백업 삭제가 완료되었습니다.",
+    "볼륨(qa-auto-volume-restored) 생성이 완료되었습니다.",
+    "볼륨(auto-volume) 생성이 완료되었습니다.",
+    "볼륨(auto-volume) 삭제가 완료되었습니다.",
+    "close",
+    "알람 센터 이동 open_in_new",
+    "인스턴스 가상 CPU 사용률 90% 초과",
+    "호스트 HAProxy 서비스 중지",
+    "로드밸런서 HAProxy 프로세스 다운",
+    "호스트 Exporter 중지",
+    "인스턴스 네트워크 수신 Drop 100건 초과",
+    "호스트 NIC 에러율 1% 초과",
+    "QA_test",
+    "QA-jun",
+    "인스턴스 중지/삭제"
+   ],
+   "ph": [
+    "radio|||"
+   ],
+   "lab": [
+    "15min",
+    "1hr",
+    "6hr",
+    "12hr",
+    "1day"
+   ],
+   "sel": [],
+   "seg": [
+    "*",
+    "15min*",
+    "1hr",
+    "6hr",
+    "12hr",
+    "1day"
+   ],
+   "tables": [
+    {
+     "th": [
+      "인스턴스 사용량 Top 10↕",
+      ""
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": ""
+    },
+    {
+     "th": [],
+     "rows": 2,
+     "row1": [
+      "aggregation-qga-validation 0%"
+     ],
+     "empty": ""
+    },
+    {
+     "th": [
+      "인스턴스 사용량 Top 10↕",
+      ""
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": ""
+    },
+    {
+     "th": [],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 현재 조회 가능한 데이터가 없습니다."
+    },
+    {
+     "th": [
+      "스토리지 사용량 Top 10↕",
+      ""
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": ""
+    },
+    {
+     "th": [],
+     "rows": 1,
+     "row1": [
+      "Main_Ceph_ceph_01_hdd_dev#Main_Ceph_ceph"
+     ],
+     "empty": ""
+    },
+    {
+     "th": [
+      "알림 메시지↕",
+      "알림 일시↕"
+     ],
+     "rows": 10,
+     "row1": [
+      "이미지(qa-trml-261007_133513-imgmin) 생성이 완료",
+      "2026-10-07 13:38:24"
+     ],
+     "empty": ""
+    },
+    {
+     "tid": "cloud-view-alert-center-table",
+     "th": [
+      "심각도",
+      "알람 구분",
+      "알람 정책",
+      "설명",
+      "발생 횟수 help",
+      "최근 발생"
+     ],
+     "rows": 32,
+     "row1": [
+      "심각",
+      "단일",
+      "인스턴스 가상 CPU 사용률 90% 초과",
+      "-",
+      "6회",
+      "2026-10-07 14:11:04"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [
+    [
+     "cloud-view-alert-center-select-period",
+     "span",
+     "15min 1hr 6hr 12hr 1day"
+    ],
+    [
+     "cloud-view-alert-center-link-alert-center",
+     "button",
+     "알람 센터 이동 open_in_new"
+    ],
+    [
+     "cloud-view-alert-center-table",
+     "div",
+     "심각도 알람 구분 알람 정책 설명 발생 횟수 help 최근 발생 심각 단일 인스턴스 가상 CPU 사용률 90% 초과 - 6회 "
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-d100cbcf-db0b-4a91-b6ce-912aefa602f3",
+     "button",
+     "인스턴스 가상 CPU 사용률 90% 초과"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-352661ef-0e21-4e07-ae14-5775360e8fed",
+     "button",
+     "호스트 HAProxy 서비스 중지"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-260d7b68-57aa-4877-8140-6ac5125dc53c",
+     "button",
+     "로드밸런서 HAProxy 프로세스 다운"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-12206cb7-2cea-42aa-9dfb-20a407784564",
+     "button",
+     "호스트 Exporter 중지"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-2c20517f-1bc0-4090-94b7-dbef15a4f848",
+     "button",
+     "인스턴스 네트워크 수신 Drop 100건 초과"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-0b129d8e-4b84-409e-bc5b-b9d01fc296bd",
+     "button",
+     "호스트 NIC 에러율 1% 초과"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-7393bdf6-1e9b-40f0-a639-d35809269e5b",
+     "button",
+     "QA_test"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-7aade7fa-4fee-4945-947a-23fee3afb48d",
+     "button",
+     "QA-jun"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-a21b5ecc-4fb2-4f68-94d4-b7adde41e91a",
+     "button",
+     "인스턴스 네트워크 수신 Drop 100건 초과"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-5ca1ce6b-64f2-48b1-ab1e-41603a9fd9c8",
+     "button",
+     "호스트 Exporter 중지"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-4ed397af-6765-41f8-9349-164ee9b644c8",
+     "button",
+     "로드밸런서 HAProxy 프로세스 다운"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-301d7961-e481-4bde-a22f-7d1df5c0b896",
+     "button",
+     "호스트 NIC 에러율 1% 초과"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-2278e891-9926-4e4c-a42d-ba978af87f51",
+     "button",
+     "호스트 HAProxy 서비스 중지"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-f604ca0f-7133-4637-94d1-acf4784f3551",
+     "button",
+     "QA_test"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-73421773-0fbe-489b-b5e6-7b692ac4645c",
+     "button",
+     "QA-jun"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-12d408e6-2a90-4cad-bcbe-1682c1fe15d1",
+     "button",
+     "인스턴스 가상 CPU 사용률 90% 초과"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-b49dae13-5fed-46fa-a777-04f5009eb670",
+     "button",
+     "호스트 HAProxy 서비스 중지"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-6944b7d3-6b46-4d39-924b-323558415ee0",
+     "button",
+     "로드밸런서 HAProxy 프로세스 다운"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-34d091a0-7516-4e67-b5f3-b229be8efeb9",
+     "button",
+     "호스트 Exporter 중지"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-2065fafd-0e71-4698-815d-59819d75bf85",
+     "button",
+     "인스턴스 네트워크 수신 Drop 100건 초과"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-067fdcd7-041b-40c9-b24b-aeec9696b2b3",
+     "button",
+     "호스트 NIC 에러율 1% 초과"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-f7c2a99e-3636-4391-8188-783cfa28652b",
+     "button",
+     "QA-jun"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-4a3bf251-3b92-4beb-9741-1084266fabc4",
+     "button",
+     "QA_test"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-176fdaa0-9298-4643-b2bd-39f4b2c952ee",
+     "button",
+     "인스턴스 가상 CPU 사용률 90% 초과"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-687b8d39-1331-4d43-b3e1-172cfa442cf3",
+     "button",
+     "인스턴스 네트워크 수신 Drop 100건 초과"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-643d7df0-35ff-49f5-bf57-775104964d91",
+     "button",
+     "호스트 NIC 에러율 1% 초과"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-4def89b3-38ca-44e0-ad13-c7994bfc2403",
+     "button",
+     "호스트 Exporter 중지"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-1af3a933-0a85-4716-93b2-8115f030c2df",
+     "button",
+     "호스트 HAProxy 서비스 중지"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-0a47fce9-932f-45ae-b0b8-846a842285c4",
+     "button",
+     "로드밸런서 HAProxy 프로세스 다운"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-de813bba-9326-47d7-b647-cfb8a0542605",
+     "button",
+     "인스턴스 중지/삭제"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-599060ac-a47e-4b37-a38c-e2f0925533a7",
+     "button",
+     "인스턴스 중지/삭제"
+    ],
+    [
+     "cloud-view-alert-center-link-rule-name-a6443257-3ca3-49d3-89ec-39e212cf5fdc",
+     "button",
+     "인스턴스 중지/삭제"
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  }
+ ],
+ "errors": [],
+ "lnb": [
+  "대시보드"
+ ]
+}

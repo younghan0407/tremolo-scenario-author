@@ -1,0 +1,25 @@
+{
+  "name": "tremolo-scenario-author",
+  "version": "1.2.1",
+  "private": true,
+  "type": "module",
+  "description": "Tremolo 기능 TC → 실행 가능한 시나리오(.spec.ts + meta)를 만드는 standalone 하네스. 코드젠은 vendor에 번들되어 Node만으로 생성/검증 가능하고, 라이브 실측/실행은 Playwright를 사용합니다.",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "@playwright/test": "^1.40.0"
+  },
+  "scripts": {
+    "setup": "node setup.mjs",
+    "selftest": "node scripts/live/__selftest__/run.mjs",
+    "generate": "node scripts/generate.mjs",
+    "verify": "node scripts/verify.mjs",
+    "ground": "node scripts/live/ground.mjs",
+    "smoke": "node scripts/live/smoke.mjs",
+    "probe": "node scripts/live/probe.mjs",
+    "explore": "node scripts/live/explore.mjs",
+    "env": "node scripts/env.mjs"
+  }
+}

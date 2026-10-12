@@ -1,0 +1,780 @@
+[
+ {
+  "tag": "svc-list",
+  "url": "https://example.invalid/env-2/viola/workflow/network/service",
+  "bc": "워크플로우/ 네트워크/ 서비스",
+  "pt": "서비스 애플리케이션 서비스를 생성하고 관리합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:서비스"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "add 생성",
+   "test-yh-istio",
+   "more_horiz",
+   "qa-trml-152320-gw2-istio",
+   "qa-trml-152320-gw-istio",
+   "qa-trml-152320-svc",
+   "qa-trml-261007-gw-istio",
+   "qa-trml-261007-svc",
+   "qa-auto-gw-l1-istio",
+   "nginx",
+   "viola-log-collector",
+   "metrics-server",
+   "vpa-vertical-pod-autoscaler-admission-co",
+   "vpa-vertical-pod-autoscaler-recommender-",
+   "vpa-vertical-pod-autoscaler-updater-metr",
+   "vpa-webhook",
+   "velero",
+   "source-controller",
+   "kiali",
+   "istio-gateway",
+   "istiod",
+   "otel-collector",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right",
+   "keyboard_double_arrow_right"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-service-fetch-table-filter-search-input|",
+   "search|rc_select_0|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "checkbox||||",
+   "number|||adm-service-fetch-table-pagination-page-input|",
+   "search|rc_select_1|||R"
+  ],
+  "lab": [],
+  "sel": [
+   "rc_select_0=기간 설정",
+   "rc_select_1=리스트 수 20"
+  ],
+  "chk": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tables": [
+   {
+    "tid": "adm-service-fetch-table-table",
+    "th": [
+     "",
+     "이름↕",
+     "클러스터↕",
+     "네임스페이스↕",
+     "레이블",
+     "유형",
+     "클러스터 IP↕",
+     "파드 셀렉터",
+     "포트",
+     "생성일시↕",
+     "작업"
+    ],
+    "rows": 20,
+    "row1": [
+     "",
+     "test-yh-istio",
+     "biz1",
+     "yh-ns",
+     "gateway.istio.io/managed=istio.io-gateway-controll",
+     "LoadBalancer",
+     "10.233.45.255",
+     "gateway.networking.k8s.io/gateway-name=test-yh",
+     "TCP: 15021 -> 15021 TCP: 54484 -> 54484",
+     "2026-10-07 15:56:42",
+     "more_horiz"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "워크플로우/ 네트워크/ 서비스 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "워크플로우/ 네트워크/ 서비스",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "워크플로우",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-service",
+    "div",
+    "서비스 애플리케이션 서비스를 생성하고 관리합니다. filter_list 기간 설정 calendar_month add 생성 이름",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "서비스 애플리케이션 서비스를 생성하고 관리합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-service-panel",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 레이블 유형 클러스터 IP ",
+    ""
+   ],
+   [
+    "adm-page-viola-service-main",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 레이블 유형 클러스터 IP ",
+    ""
+   ],
+   [
+    "adm-page-viola-service-content-header",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-page-viola-service-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 레이블 유형 클러스터 IP ",
+    ""
+   ],
+   [
+    "adm-service-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 레이블 유형 클러스터 IP ",
+    ""
+   ],
+   [
+    "adm-service-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성",
+    ""
+   ],
+   [
+    "adm-service-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-list-button-groups-create",
+    "button",
+    "add 생성",
+    ""
+   ],
+   [
+    "adm-service-fetch-table-row",
+    "tr",
+    "test-yh-istio biz1 yh-ns gateway.istio.io/managed=istio.io-gateway-con",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "test-yh-istio",
+    ""
+   ],
+   [
+    "adm-service-fetch-table-pagination",
+    "div",
+    "전체 수 76 keyboard_double_arrow_left keyboard_arrow_left / 4 keyboard_ar",
+    ""
+   ],
+   [
+    "adm-service-fetch-table-pagination-total",
+    "p",
+    "전체 수 76",
+    ""
+   ],
+   [
+    "adm-service-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-service-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-service-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-service-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-service-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    ""
+   ],
+   [
+    "adm-service-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "svc-detail",
+  "url": "https://example.invalid/env-2/viola/workflow/network/service/detail?name=test-yh-istio&namespace=yh-ns&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "워크플로우/ 네트워크/ 서비스/ 서비스 상세",
+  "pt": "arrow_back test-yh-istio 수정 delete 삭제",
+  "h": [
+   "h1:unfold_more",
+   "h1:test-yh-istio",
+   "h1:기본 정보",
+   "h1:서비스 주소",
+   "h1:서비스 포트 매핑",
+   "h1:파드"
+  ],
+  "tabs": [
+   "리소스*",
+   "YAML"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "수정",
+   "delete 삭제",
+   "left_panel_close",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)",
+   "test-yh-istio-654b566f6c-mcttb",
+   "ReplicaSet ... 654b566f6c link"
+  ],
+  "ph": [
+   "number|||adm-service-resource-status-cluster-table-pagination-page-input|",
+   "search|rc_select_2|||R",
+   "number|||adm-service-resource-status-ports-table-pagination-page-input|",
+   "search|rc_select_3|||R",
+   "number|||adm-service-resource-status-pod-table-pagination-page-input|",
+   "search|rc_select_4|||R"
+  ],
+  "lab": [
+   "이름",
+   "클러스터",
+   "네임스페이스",
+   "레이블",
+   "파드 셀렉터",
+   "세션 어피니티(세션 고정)",
+   "생성일시"
+  ],
+  "sel": [
+   "rc_select_2=리스트 수 20",
+   "rc_select_3=리스트 수 20",
+   "rc_select_4=리스트 수 20"
+  ],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-service-resource-status-cluster-table-table",
+    "th": [
+     "유형↕",
+     "IP↕"
+    ],
+    "rows": 1,
+    "row1": [
+     "LoadBalancer",
+     "10.233.45.255"
+    ]
+   },
+   {
+    "tid": "adm-service-resource-status-ports-table-table",
+    "th": [
+     "이름↕",
+     "포트↕",
+     "타겟↕",
+     "노드 포트↕"
+    ],
+    "rows": 2,
+    "row1": [
+     "status-port",
+     "15021/TCP",
+     "15021",
+     "31132"
+    ]
+   },
+   {
+    "tid": "adm-service-resource-status-pod-table-table",
+    "th": [
+     "이름↕",
+     "GPU",
+     "상태 help",
+     "컨테이너↕",
+     "CPU↕",
+     "메모리↕",
+     "재시작↕",
+     "소유자",
+     "생성일시↕"
+    ],
+    "rows": 1,
+    "row1": [
+     "test-yh-istio-654b566f6c-mcttb",
+     "check_circle",
+     "RUNNING",
+     "1/1",
+     "-",
+     "41 MiB",
+     "0",
+     "ReplicaSet ... 654b566f6c link",
+     "2026-10-07 15:56:42"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "워크플로우/ 네트워크/ 서비스/ 서비스 상세 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "워크플로우/ 네트워크/ 서비스/ 서비스 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "워크플로우",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-service-detail",
+    "div",
+    "arrow_back test-yh-istio 수정 delete 삭제 left_panel_close 기본 정보 이름 test-y",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back test-yh-istio 수정 delete 삭제",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "수정",
+    ""
+   ],
+   [
+    "adm-page-viola-service-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 test-yh-istio 클러스터 biz1 네임스페이스 yh-ns 레이블 gat",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-page-viola-service-detail-main",
+    "div",
+    "리소스 YAML 서비스 주소 유형 IP LoadBalancer 10.233.45.255 전체 수 1 keyboard_doubl",
+    ""
+   ],
+   [
+    "adm-service-detail-tabs",
+    "div",
+    "리소스 YAML 서비스 주소 유형 IP LoadBalancer 10.233.45.255 전체 수 1 keyboard_doubl",
+    ""
+   ],
+   [
+    "adm-service-detail-tabs-tab",
+    "span",
+    "리소스",
+    ""
+   ],
+   [
+    "adm-tab-content-layout-sub-title",
+    "div",
+    "서비스 주소",
+    ""
+   ],
+   [
+    "adm-service-resource-status-cluster-table-table",
+    "div",
+    "유형 IP LoadBalancer 10.233.45.255",
+    ""
+   ],
+   [
+    "adm-service-resource-status-cluster-table-row",
+    "tr",
+    "LoadBalancer 10.233.45.255",
+    ""
+   ],
+   [
+    "adm-service-resource-status-cluster-table-pagination",
+    "div",
+    "전체 수 1 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-service-resource-status-cluster-table-pagination-total",
+    "p",
+    "전체 수 1",
+    ""
+   ],
+   [
+    "adm-service-resource-status-cluster-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-cluster-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-cluster-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-service-resource-status-cluster-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-cluster-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-cluster-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ],
+   [
+    "adm-service-resource-status-ports-table-table",
+    "div",
+    "이름 포트 타겟 노드 포트 status-port 15021/TCP 15021 31132 yh-listener 54484/TCP",
+    ""
+   ],
+   [
+    "adm-service-resource-status-ports-table-row",
+    "tr",
+    "status-port 15021/TCP 15021 31132",
+    ""
+   ],
+   [
+    "adm-service-resource-status-ports-table-pagination",
+    "div",
+    "전체 수 2 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-service-resource-status-ports-table-pagination-total",
+    "p",
+    "전체 수 2",
+    ""
+   ],
+   [
+    "adm-service-resource-status-ports-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-ports-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-ports-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-service-resource-status-ports-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-ports-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-ports-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ],
+   [
+    "adm-service-resource-status-pod-table-table",
+    "div",
+    "이름 GPU 상태 help 컨테이너 CPU 메모리 재시작 소유자 생성일시 test-yh-istio-654b566f6c-mctt",
+    ""
+   ],
+   [
+    "adm-service-resource-status-pod-table-row",
+    "tr",
+    "test-yh-istio-654b566f6c-mcttb check_circle RUNNING 1/1 - 41 MiB 0 Rep",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "test-yh-istio-654b566f6c-mcttb",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "RUNNING",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "RUNNING",
+    ""
+   ],
+   [
+    "adm-service-resource-status-pod-table-pagination",
+    "div",
+    "전체 수 1 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-service-resource-status-pod-table-pagination-total",
+    "p",
+    "전체 수 1",
+    ""
+   ],
+   [
+    "adm-service-resource-status-pod-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-pod-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-pod-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-service-resource-status-pod-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-pod-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-service-resource-status-pod-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "svc-detail/YAML",
+  "url": "https://example.invalid/env-2/viola/workflow/network/service/detail?name=test-yh-istio&namespace=yh-ns&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "워크플로우/ 네트워크/ 서비스/ 서비스 상세",
+  "pt": "arrow_back test-yh-istio 수정 delete 삭제",
+  "h": [
+   "h1:unfold_more",
+   "h1:test-yh-istio",
+   "h1:기본 정보"
+  ],
+  "tabs": [
+   "리소스",
+   "YAML*"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "수정",
+   "delete 삭제",
+   "left_panel_close"
+  ],
+  "ph": [
+   "textarea||||"
+  ],
+  "lab": [
+   "이름",
+   "클러스터",
+   "네임스페이스",
+   "레이블",
+   "파드 셀렉터",
+   "세션 어피니티(세션 고정)",
+   "생성일시"
+  ],
+  "sel": [],
+  "chk": [],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "워크플로우/ 네트워크/ 서비스/ 서비스 상세 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "워크플로우/ 네트워크/ 서비스/ 서비스 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "워크플로우",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-service-detail",
+    "div",
+    "arrow_back test-yh-istio 수정 delete 삭제 left_panel_close 기본 정보 이름 test-y",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back test-yh-istio 수정 delete 삭제",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "수정",
+    ""
+   ],
+   [
+    "adm-page-viola-service-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 test-yh-istio 클러스터 biz1 네임스페이스 yh-ns 레이블 gat",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-page-viola-service-detail-main",
+    "div",
+    "리소스 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 2",
+    ""
+   ],
+   [
+    "adm-service-detail-tabs",
+    "div",
+    "리소스 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 2",
+    ""
+   ],
+   [
+    "adm-service-detail-tabs-tab",
+    "span",
+    "리소스",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "opened": []
+ }
+]

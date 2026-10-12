@@ -1,0 +1,267 @@
+[
+ {
+  "tag": "gwc-create",
+  "url": "https://example.invalid/env-2/viola/workflow/network/gateway-api/gateway-class/create",
+  "bc": "워크플로우/ 네트워크/ 게이트웨이 API/ 게이트웨이 클래스 생성",
+  "pt": "arrow_back 게이트웨이 클래스 생성",
+  "h": [
+   "h1:unfold_more",
+   "h1:게이트웨이 클래스 생성",
+   "h1:모드",
+   "h1:모드 선택",
+   "h1:기본 정보",
+   "h1:클러스터",
+   "h1:이름",
+   "h1:레이블",
+   "h1:스펙",
+   "h1:컨트롤러",
+   "h1:기본 모드 가이드",
+   "div:keyboard_arrow_right 모드 선택",
+   "h2:모드 선택",
+   "h4:기본 모드",
+   "h4:고급 모드",
+   "div:keyboard_arrow_right 기본 정보",
+   "h2:기본 정보",
+   "div:keyboard_arrow_right 스펙",
+   "h2:스펙"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "중복 확인(D)",
+   "delete(D)",
+   "필드 추가",
+   "취소",
+   "생성",
+   "keyboard_arrow_right 모드 선택",
+   "keyboard_arrow_right 기본 정보",
+   "keyboard_arrow_right 스펙"
+  ],
+  "ph": [
+   "radio||||C",
+   "radio||||",
+   "search|rc_select_0|||",
+   "text||이름을 입력해 주세요.|adm-input-json-name-placeholder|",
+   "text|form_item_metadata_labels_0_label|Key를 입력해 주세요.||",
+   "text|form_item_metadata_labels_0_value|Value를 입력해 주세요.||",
+   "text||컨트롤러를 입력해 주세요.|adm-gateway-api-gateway-class-basic-controller-name|"
+  ],
+  "lab": [
+   "모드 선택",
+   "기본 모드 입력 필드 기반으로 리소스를 생성합니다.",
+   "고급 모드 YAML 기반으로 리소스를 생성합니다.",
+   "클러스터",
+   "이름",
+   "레이블",
+   "컨트롤러"
+  ],
+  "sel": [
+   "rc_select_0=biz1"
+  ],
+  "chk": [
+   "기본 모드 입력 필드 기반으로 리소스를 생성합니다.*",
+   "고급 모드 YAML 기반으로 리소스를 생성합니다."
+  ],
+  "tables": [
+   {
+    "tid": "adm-input-labels-key-value-table",
+    "th": [
+     "Key",
+     "Value",
+     ""
+    ],
+    "rows": 1,
+    "row1": [
+     "cancel",
+     "cancel",
+     "delete"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "워크플로우/ 네트워크/ 게이트웨이 API/ 게이트웨이 클래스 생성 biz1 sync_alt browse_activity 모니터",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "워크플로우/ 네트워크/ 게이트웨이 API/ 게이트웨이 클래스 생성",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "워크플로우",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back 게이트웨이 클래스 생성",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayclass-create-panel",
+    "div",
+    "모드 모드 선택 기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다. 기본 정",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayclass-create-main",
+    "div",
+    "모드 모드 선택 기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다. 기본 정",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayclass-create-content-body",
+    "div",
+    "모드 모드 선택 기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다. 기본 정",
+    ""
+   ],
+   [
+    "adm-convert-container-mode-title",
+    "div",
+    "모드",
+    ""
+   ],
+   [
+    "adm-convert-container-select-mode-title",
+    "div",
+    "모드 선택",
+    ""
+   ],
+   [
+    "adm-convert-container-mode",
+    "div",
+    "기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다.",
+    ""
+   ],
+   [
+    "adm-convert-container-radio",
+    "label",
+    "기본 모드 입력 필드 기반으로 리소스를 생성합니다.",
+    ""
+   ],
+   [
+    "adm-base-upsert-layout-info-title",
+    "div",
+    "기본 정보",
+    ""
+   ],
+   [
+    "adm-form-item-metadata-providerid",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-input-basic-info-provider-id",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-form-item-metadata-name",
+    "div",
+    "중복 확인",
+    ""
+   ],
+   [
+    "adm-input-json-name-placeholder",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-input-json-name-duplicate-name",
+    "button",
+    "중복 확인",
+    "D"
+   ],
+   [
+    "adm-input-labels-key-value-table",
+    "div",
+    "Key Value delete add 필드 추가",
+    ""
+   ],
+   [
+    "adm-gateway-api-gateway-class-basic-spec",
+    "div",
+    "스펙",
+    ""
+   ],
+   [
+    "adm-gateway-api-gateway-class-basic-spec-group",
+    "div",
+    "컨트롤러",
+    ""
+   ],
+   [
+    "adm-form-item-spec-controllername",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-gateway-api-gateway-class-basic-controller-name",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayclass-create-content-footer",
+    "div",
+    "취소 생성",
+    ""
+   ],
+   [
+    "adm-convert-container-go-back-page",
+    "button",
+    "취소",
+    ""
+   ],
+   [
+    "adm-convert-container-action",
+    "button",
+    "생성",
+    ""
+   ],
+   [
+    "adm-resource-guide-title",
+    "div",
+    "기본 모드 가이드",
+    ""
+   ],
+   [
+    "adm-resource-guide-collapse",
+    "div",
+    "keyboard_arrow_right 모드 선택 기본 모드 복잡한 설정을 최소화하여, 핵심적인 항목들만 입력하고 리소스를 생성",
+    ""
+   ],
+   [
+    "adm-resource-guide-collapse-panel",
+    "div",
+    "keyboard_arrow_right 모드 선택 기본 모드 복잡한 설정을 최소화하여, 핵심적인 항목들만 입력하고 리소스를 생성",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "opened": []
+ }
+]

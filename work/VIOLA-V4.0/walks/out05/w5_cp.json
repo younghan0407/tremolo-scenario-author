@@ -1,0 +1,1415 @@
+[
+ {
+  "tag": "cp-list",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/critical-point",
+  "bc": "기본 설정/ 클러스터 관리/ 임계치 설정",
+  "pt": "임계치 설정 시스템 임계치를 설정하여 모니터링합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:임계치 설정"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "add 생성",
+   "more_horiz",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-critical-point-fetch-table-filter-search-input|",
+   "search|rc_select_0|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "checkbox||||",
+   "number|||adm-critical-point-fetch-table-pagination-page-input|",
+   "search|rc_select_1|||R"
+  ],
+  "lab": [],
+  "sel": [
+   "rc_select_0=기간 설정",
+   "rc_select_1=리스트 수 20"
+  ],
+  "chk": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tables": [
+   {
+    "tid": "adm-critical-point-fetch-table-table",
+    "th": [
+     "",
+     "이름↕",
+     "클러스터↕",
+     "네임스페이스↕",
+     "리소스",
+     "임계치 help",
+     "외부 알람 참조",
+     "생성일시↕",
+     "작업"
+    ],
+    "rows": 5,
+    "row1": [
+     "",
+     "gpu-im2",
+     "biz1",
+     "-",
+     "평균 GPU 사용률",
+     "최대 80 %",
+     "-",
+     "2026-10-07 13:43:13",
+     "more_horiz"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 임계치 설정 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 임계치 설정",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint",
+    "div",
+    "임계치 설정 시스템 임계치를 설정하여 모니터링합니다. filter_list 기간 설정 calendar_month add 생성 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "임계치 설정 시스템 임계치를 설정하여 모니터링합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-panel",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-main",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-content-header",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-list-button-groups-create",
+    "button",
+    "add 생성",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-row",
+    "tr",
+    "gpu-im2 biz1 - 평균 GPU 사용률 최대 80 % - 2026-10-07 13:43:13 more_horiz",
+    ""
+   ],
+   [
+    "adm-critical-point-tags",
+    "div",
+    "메트릭-임계치-로그",
+    ""
+   ],
+   [
+    "adm-critical-point-tags-item",
+    "span",
+    "메트릭-임계치-로그",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination",
+    "div",
+    "전체 수 5 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-total",
+    "p",
+    "전체 수 5",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "rows": [
+   "gpu-im2 biz1 - 평균 GPU 사용률 최대 80 % - 2026-10-07 13:43:13 more_horiz",
+   "gpu-im biz1 - 평균 GPU 메모리 사용률 최대 80 % - 2026-10-07 13:15:48 more_horiz",
+   "yh-im biz1 yh-ns CPU 사용량 최대 4 Core - 2026-10-07 10:28:37 more_horiz",
+   "khh-1001 biz1 istio-system CPU 사용량 최대 64 Core 메트릭-임계치-로그 2026-10-01 15:33:38 more_horiz",
+   "test-alarm biz1 monitoring 메모리 사용량 최대 0.3 GiB 임계치에서추가 2026-09-30 15:16:55 more_horiz"
+  ]
+ },
+ {
+  "i": 0,
+  "menu": [
+   "외부 알람으로 추가",
+   "수정",
+   "삭제"
+  ]
+ },
+ {
+  "i": 1,
+  "menu": [
+   "외부 알람으로 추가",
+   "수정",
+   "삭제"
+  ]
+ },
+ {
+  "i": 2,
+  "menu": [
+   "외부 알람으로 추가",
+   "수정",
+   "삭제"
+  ]
+ },
+ {
+  "i": 3,
+  "menu": [
+   "외부 알람으로 추가",
+   "수정",
+   "삭제"
+  ]
+ },
+ {
+  "i": 4,
+  "menu": [
+   "외부 알람으로 추가",
+   "수정",
+   "삭제"
+  ]
+ },
+ {
+  "tag": "cp-create",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/critical-point/create",
+  "bc": "기본 설정/ 클러스터 관리/ 임계치 설정/ 임계치 생성",
+  "pt": "arrow_back 임계치 생성",
+  "h": [
+   "h1:unfold_more",
+   "h1:임계치 생성",
+   "h1:기본 정보",
+   "h1:리소스",
+   "h1:임계치 설정",
+   "h1:클러스터",
+   "h1:네임스페이스",
+   "h1:이름",
+   "h1:임계치",
+   "h3:CPU 사용량이"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "중복 확인(D)",
+   "취소",
+   "생성(D)"
+  ],
+  "ph": [
+   "radio||||C",
+   "radio||||",
+   "search|rc_select_2|||",
+   "search|rc_select_3|||",
+   "text||상위 항목을 먼저 선택해 주세요.|adm-critical-point-upsert-placeholder|D",
+   "text||기준값을 입력해 주세요.|adm-critical-point-upsert-target-value|",
+   "text||임계치를 입력해 주세요.|adm-critical-point-upsert-threshold-value|",
+   "search|rc_select_4|||"
+  ],
+  "lab": [
+   "리소스",
+   "CPU",
+   "메모리",
+   "GPU",
+   "클러스터",
+   "네임스페이스",
+   "이름",
+   "임계치"
+  ],
+  "sel": [
+   "rc_select_2=biz1",
+   "rc_select_3=네임스페이스를 선택해 주세요.",
+   "rc_select_4=초과"
+  ],
+  "chk": [
+   "CPU*",
+   "메모리",
+   "GPU"
+  ],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 임계치 설정/ 임계치 생성 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 임계치 설정/ 임계치 생성",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back 임계치 생성",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-create-panel",
+    "div",
+    "기본 정보 리소스 CPU 메모리 GPU 임계치 설정 클러스터 biz1 네임스페이스 네임스페이스를 선택해 주세요. 이름 중복 확",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-create-main",
+    "div",
+    "기본 정보 리소스 CPU 메모리 GPU 임계치 설정 클러스터 biz1 네임스페이스 네임스페이스를 선택해 주세요. 이름 중복 확",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-create-content-body",
+    "div",
+    "기본 정보 리소스 CPU 메모리 GPU 임계치 설정 클러스터 biz1 네임스페이스 네임스페이스를 선택해 주세요. 이름 중복 확",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-info",
+    "div",
+    "기본 정보",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-info-group",
+    "div",
+    "리소스 CPU 메모리 GPU",
+    ""
+   ],
+   [
+    "adm-form-item-type",
+    "div",
+    "CPU 메모리 GPU",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-radio",
+    "div",
+    "CPU 메모리 GPU",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-radio-option",
+    "label",
+    "CPU",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-title",
+    "div",
+    "임계치 설정",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-title-group",
+    "div",
+    "클러스터 biz1 네임스페이스 네임스페이스를 선택해 주세요. 이름 중복 확인 임계치 CPU 사용량이 Core의 % 초과 시 알",
+    ""
+   ],
+   [
+    "adm-form-item-providerid",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-provider-id",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-form-item-namespace",
+    "div",
+    "네임스페이스를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-namespace",
+    "div",
+    "네임스페이스를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-form-item-rulename",
+    "div",
+    "중복 확인",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-placeholder",
+    "input",
+    "",
+    "D"
+   ],
+   [
+    "adm-critical-point-upsert-duplicate-name",
+    "button",
+    "중복 확인",
+    "D"
+   ],
+   [
+    "adm-critical-point-upsert-threshold-title",
+    "div",
+    "임계치",
+    ""
+   ],
+   [
+    "adm-form-item-targetvalue",
+    "div",
+    "Core의",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-target-value",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-item-thresholdvalue",
+    "div",
+    "%",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-threshold-value",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-item-inequality",
+    "div",
+    "초과 시 알림발생",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-inequality",
+    "div",
+    "초과",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-create-content-footer",
+    "div",
+    "취소 생성",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-go-back-page",
+    "button",
+    "취소",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-confirm",
+    "button",
+    "생성",
+    "D"
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "cp-edit",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/critical-point/update?name=gpu-im2&namespace=monitoring&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e&resourceType=GPU",
+  "bc": "기본 설정/ 클러스터 관리/ 임계치 설정/ 임계치 수정",
+  "pt": "arrow_back 임계치 수정",
+  "h": [
+   "h1:unfold_more",
+   "h1:임계치 수정",
+   "h1:기본 정보",
+   "h1:리소스",
+   "h1:임계치 설정",
+   "h1:클러스터",
+   "h1:네임스페이스",
+   "h1:이름",
+   "h1:임계치",
+   "h3:CPU 사용량이"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "취소",
+   "수정"
+  ],
+  "ph": [
+   "radio||||DC",
+   "radio||||D",
+   "search|rc_select_7|||D",
+   "search|rc_select_8|||D",
+   "text||상위 항목을 먼저 선택해 주세요.|adm-critical-point-upsert-placeholder|D",
+   "text||기준값을 입력해 주세요.|adm-critical-point-upsert-target-value|",
+   "text||임계치를 입력해 주세요.|adm-critical-point-upsert-threshold-value|",
+   "search|rc_select_9|||"
+  ],
+  "lab": [
+   "리소스",
+   "CPU",
+   "메모리",
+   "GPU",
+   "클러스터",
+   "네임스페이스",
+   "이름",
+   "임계치"
+  ],
+  "sel": [
+   "rc_select_7=biz1(D)",
+   "rc_select_8=네임스페이스를 선택해 주세요.(D)",
+   "rc_select_9=초과"
+  ],
+  "chk": [
+   "CPU*(D)",
+   "메모리(D)",
+   "GPU(D)"
+  ],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 임계치 설정/ 임계치 수정 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 임계치 설정/ 임계치 수정",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back 임계치 수정",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-update-panel",
+    "div",
+    "기본 정보 리소스 CPU 메모리 GPU 임계치 설정 클러스터 biz1 네임스페이스 네임스페이스를 선택해 주세요. 이름 임계치 ",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-update-main",
+    "div",
+    "기본 정보 리소스 CPU 메모리 GPU 임계치 설정 클러스터 biz1 네임스페이스 네임스페이스를 선택해 주세요. 이름 임계치 ",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-update-content-body",
+    "div",
+    "기본 정보 리소스 CPU 메모리 GPU 임계치 설정 클러스터 biz1 네임스페이스 네임스페이스를 선택해 주세요. 이름 임계치 ",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-info",
+    "div",
+    "기본 정보",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-info-group",
+    "div",
+    "리소스 CPU 메모리 GPU",
+    ""
+   ],
+   [
+    "adm-form-item-type",
+    "div",
+    "CPU 메모리 GPU",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-radio",
+    "div",
+    "CPU 메모리 GPU",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-radio-option",
+    "label",
+    "CPU",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-title",
+    "div",
+    "임계치 설정",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-title-group",
+    "div",
+    "클러스터 biz1 네임스페이스 네임스페이스를 선택해 주세요. 이름 임계치 CPU 사용량이 Core의 % 초과 시 알림발생",
+    ""
+   ],
+   [
+    "adm-form-item-providerid",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-provider-id",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-form-item-namespace",
+    "div",
+    "네임스페이스를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-namespace",
+    "div",
+    "네임스페이스를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-form-item-rulename",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-placeholder",
+    "input",
+    "",
+    "D"
+   ],
+   [
+    "adm-critical-point-upsert-threshold-title",
+    "div",
+    "임계치",
+    ""
+   ],
+   [
+    "adm-form-item-targetvalue",
+    "div",
+    "Core의",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-target-value",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-item-thresholdvalue",
+    "div",
+    "%",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-threshold-value",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-item-inequality",
+    "div",
+    "초과 시 알림발생",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-inequality",
+    "div",
+    "초과",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-update-content-footer",
+    "div",
+    "취소 수정",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-go-back-page",
+    "button",
+    "취소",
+    ""
+   ],
+   [
+    "adm-critical-point-upsert-confirm",
+    "button",
+    "수정",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "cp-delete0",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/critical-point",
+  "bc": "기본 설정/ 클러스터 관리/ 임계치 설정",
+  "pt": "임계치 설정 시스템 임계치를 설정하여 모니터링합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:임계치 설정",
+   "div:임계치 설정 삭제",
+   "h1:임계치 설정 삭제"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "add 생성",
+   "more_horiz",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)",
+   "취소",
+   "삭제(D)"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-critical-point-fetch-table-filter-search-input|",
+   "search|rc_select_10|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "checkbox||||",
+   "number|||adm-critical-point-fetch-table-pagination-page-input|",
+   "search|rc_select_11|||R"
+  ],
+  "lab": [
+   "확인했습니다."
+  ],
+  "sel": [
+   "rc_select_10=기간 설정",
+   "rc_select_11=리스트 수 20"
+  ],
+  "chk": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "확인했습니다."
+  ],
+  "tables": [
+   {
+    "tid": "adm-critical-point-fetch-table-table",
+    "th": [
+     "",
+     "이름↕",
+     "클러스터↕",
+     "네임스페이스↕",
+     "리소스",
+     "임계치 help",
+     "외부 알람 참조",
+     "생성일시↕",
+     "작업"
+    ],
+    "rows": 5,
+    "row1": [
+     "",
+     "gpu-im2",
+     "biz1",
+     "-",
+     "평균 GPU 사용률",
+     "최대 80 %",
+     "-",
+     "2026-10-07 13:43:13",
+     "more_horiz"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 임계치 설정 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 임계치 설정",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint",
+    "div",
+    "임계치 설정 시스템 임계치를 설정하여 모니터링합니다. filter_list 기간 설정 calendar_month add 생성 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "임계치 설정 시스템 임계치를 설정하여 모니터링합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-panel",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-main",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-content-header",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-page-viola-criticalpoint-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-list-button-groups-create",
+    "button",
+    "add 생성",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-row",
+    "tr",
+    "gpu-im2 biz1 - 평균 GPU 사용률 최대 80 % - 2026-10-07 13:43:13 more_horiz",
+    ""
+   ],
+   [
+    "adm-critical-point-tags",
+    "div",
+    "메트릭-임계치-로그",
+    ""
+   ],
+   [
+    "adm-critical-point-tags-item",
+    "span",
+    "메트릭-임계치-로그",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination",
+    "div",
+    "전체 수 5 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-total",
+    "p",
+    "전체 수 5",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-critical-point-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ],
+   [
+    "adm-check-modal-content",
+    "div",
+    "선택한 항목을 삭제하시겠습니까? 총 1개 gpu-im2 확인했습니다.",
+    ""
+   ],
+   [
+    "adm-check-modal-cancel",
+    "button",
+    "취소",
+    ""
+   ],
+   [
+    "adm-check-modal-confirm",
+    "button",
+    "삭제",
+    "D"
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: ",
+   "ant-modal css-4kbzec small :: 임계치 설정 삭제 선택한 항목을 삭제하시겠습니까? 총 1개 gpu-im2 확인했습니다. 취소 삭제"
+  ],
+  "text": ""
+ },
+ {
+  "tag": "cp-to-alarm",
+  "url": "https://example.invalid/env-2/viola/monitoring/external-alarm-setting/create?providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e&thresholdRuleId=13&thresholdRuleName=gpu-im2&thresholdProviderName=biz1&thresholdNamespace=monitoring&thresholdType=GPU&thresholdTargetValue=0&thresholdValue=80&thresholdInequality=GT",
+  "bc": "모니터링/ 외부 알람 설정/ 알람 생성",
+  "pt": "arrow_back 알람 생성",
+  "h": [
+   "h1:unfold_more",
+   "h1:알람 생성",
+   "h1:기본 정보",
+   "h1:클러스터",
+   "h1:이름",
+   "h1:알람 설정",
+   "h1:활성화",
+   "h1:대상 리소스",
+   "h1:알람 조건",
+   "h1:수신 대상 설정",
+   "h1:수신 대상",
+   "h3:info 수신 대상이 없습니다."
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "중복 확인(D)",
+   "delete 조건 삭제(D)",
+   "신규 추가",
+   "기존 선택(D)",
+   "add 메트릭",
+   "add 클러스터 이상 감지",
+   "add 이벤트(D)",
+   "add 로그(D)",
+   "add 수신 대상 추가",
+   "취소",
+   "생성"
+  ],
+  "ph": [
+   "search|rc_select_12|||D",
+   "text||이름을 입력해 주세요.|adm-external-alarm-upsert-input|",
+   "search|rc_select_13|||",
+   "search|rc_select_14|||",
+   "text||임계치 이름|adm-metric-condition-card-threshold|D",
+   "text|||adm-metric-condition-card-threshold-resource|D",
+   "text|||adm-metric-condition-card-threshold-value|D",
+   "text|||adm-metric-condition-card-threshold-operator|D",
+   "search|rc_select_15|||",
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-external-alarm-upsert-recipient-table-filter-search-input|"
+  ],
+  "lab": [
+   "클러스터",
+   "이름",
+   "활성화 알람 활성화 여부를 설정합니다. OFF 시, 해당 알람에 설정된 조건이 충족되어도 알람이 발송되지 않",
+   "대상 리소스",
+   "범위",
+   "알람 조건 알람 수신 조건을 설정합니다. 각 카드 또는 카드 그룹 조건은 OR로 결합되어, 조건을 만족할 경",
+   "수신 대상"
+  ],
+  "sel": [
+   "rc_select_12=biz1(D)",
+   "rc_select_13=클러스터 전체",
+   "rc_select_14=+ 임계치에서 추가",
+   "rc_select_15=Warning"
+  ],
+  "chk": [
+   "*"
+  ],
+  "tables": [
+   {
+    "tid": "adm-external-alarm-upsert-recipient-table-table",
+    "th": [
+     "구분",
+     "이름",
+     "수신 채널",
+     "수신 정책 help",
+     "수신 주기",
+     "삭제"
+    ],
+    "rows": 0,
+    "row1": []
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "모니터링/ 외부 알람 설정/ 알람 생성 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "모니터링/ 외부 알람 설정/ 알람 생성",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "모니터링",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back 알람 생성",
+    ""
+   ],
+   [
+    "adm-page-viola-externalalarm-create-panel",
+    "div",
+    "기본 정보 클러스터 biz1 이름 중복 확인 알람 설정 활성화 알람 활성화 여부를 설정합니다. OFF 시, 해당 알람에 설정된",
+    ""
+   ],
+   [
+    "adm-page-viola-externalalarm-create-main",
+    "div",
+    "기본 정보 클러스터 biz1 이름 중복 확인 알람 설정 활성화 알람 활성화 여부를 설정합니다. OFF 시, 해당 알람에 설정된",
+    ""
+   ],
+   [
+    "adm-page-viola-externalalarm-create-content-body",
+    "div",
+    "기본 정보 클러스터 biz1 이름 중복 확인 알람 설정 활성화 알람 활성화 여부를 설정합니다. OFF 시, 해당 알람에 설정된",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-basic-info",
+    "div",
+    "기본 정보",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-basic-info-group",
+    "div",
+    "클러스터 biz1 이름 중복 확인",
+    ""
+   ],
+   [
+    "adm-form-item-providerid",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-provider-id",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-form-item-name",
+    "div",
+    "중복 확인",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-duplicate-check",
+    "button",
+    "중복 확인",
+    "D"
+   ],
+   [
+    "adm-external-alarm-upsert-alarm-settings",
+    "div",
+    "알람 설정",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-alarm-settings-group",
+    "div",
+    "활성화 알람 활성화 여부를 설정합니다. OFF 시, 해당 알람에 설정된 조건이 충족되어도 알람이 발송되지 않습니다. 대상 리소",
+    ""
+   ],
+   [
+    "adm-form-item-active",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-active",
+    "button",
+    "",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-target-scope",
+    "div",
+    "클러스터 전체",
+    ""
+   ],
+   [
+    "adm-condition-section-alarm-condition-title",
+    "div",
+    "알람 조건 알람 수신 조건을 설정합니다. 각 카드 또는 카드 그룹 조건은 OR로 결합되어, 조건을 만족할 경우 알람이 발송됩니",
+    ""
+   ],
+   [
+    "adm-metric-condition-card-condition-tag",
+    "div",
+    "메트릭",
+    ""
+   ],
+   [
+    "adm-metric-condition-card-condition-tag-item",
+    "span",
+    "메트릭",
+    ""
+   ],
+   [
+    "adm-metric-condition-card-remove-group",
+    "button",
+    "delete 조건 삭제",
+    "D"
+   ],
+   [
+    "adm-metric-condition-card-metric",
+    "div",
+    "+ 임계치에서 추가",
+    ""
+   ],
+   [
+    "adm-metric-condition-card-threshold",
+    "input",
+    "",
+    "D"
+   ],
+   [
+    "adm-metric-condition-card-threshold-resource",
+    "input",
+    "",
+    "D"
+   ],
+   [
+    "adm-metric-condition-card-threshold-value",
+    "input",
+    "",
+    "D"
+   ],
+   [
+    "adm-metric-condition-card-threshold-operator",
+    "input",
+    "",
+    "D"
+   ],
+   [
+    "adm-metric-condition-card-severity",
+    "div",
+    "Warning",
+    ""
+   ],
+   [
+    "adm-metric-condition-card-add-metric-condition",
+    "button",
+    "신규 추가",
+    ""
+   ],
+   [
+    "adm-metric-condition-card-select-existing-metric-condition",
+    "button",
+    "기존 선택",
+    "D"
+   ],
+   [
+    "adm-condition-section-add-metric-condition",
+    "button",
+    "add 메트릭",
+    ""
+   ],
+   [
+    "adm-condition-section-add-cluster-anomaly-condition",
+    "button",
+    "add 클러스터 이상 감지",
+    ""
+   ],
+   [
+    "adm-condition-section-add-event-condition",
+    "button",
+    "add 이벤트",
+    "D"
+   ],
+   [
+    "adm-condition-section-add-log-condition",
+    "button",
+    "add 로그",
+    "D"
+   ],
+   [
+    "adm-external-alarm-upsert-recipient-settings",
+    "div",
+    "수신 대상 설정",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-recipient-settings-group",
+    "div",
+    "수신 대상 filter_list add 수신 대상 추가 구분 이름 수신 채널 수신 정책 help 수신 주기 삭제 info 수신",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-recipient-table-table",
+    "div",
+    "filter_list add 수신 대상 추가 구분 이름 수신 채널 수신 정책 help 수신 주기 삭제 info 수신 대상이 없",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-recipient-table-filter",
+    "div",
+    "filter_list add 수신 대상 추가",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-recipient-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-open-recipient-modal",
+    "button",
+    "add 수신 대상 추가",
+    ""
+   ],
+   [
+    "adm-no-data",
+    "div",
+    "info 수신 대상이 없습니다. '수신 대상 추가' 버튼으로 대상을 추가하거나 다시 확인해 주세요.",
+    ""
+   ],
+   [
+    "adm-page-viola-externalalarm-create-content-footer",
+    "div",
+    "취소 생성",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-go-list-page",
+    "button",
+    "취소",
+    ""
+   ],
+   [
+    "adm-external-alarm-upsert-submit",
+    "button",
+    "생성",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "opened": []
+ }
+]

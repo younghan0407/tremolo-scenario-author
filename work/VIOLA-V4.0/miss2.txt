@@ -1,0 +1,162 @@
+본 설정]-[클러스터 관리]-[임계치 목록] | MISSIN s44 `클러스터` 필드 비활성(disabled) || xpath=(//main//*[contains(@class,"ant-select-disabled")][ancestor::*[contains(@class,"ant-form-item")][1]//*[normalize-space(.)="클러스터"]])[1]
+본 설정]-[클러스터 관리]-[임계치 목록] | MISSIN s45 가져온 임계치 조건 카드 1건 || xpath=(//main//*[contains(@class,"card")][contains(normalize-space(.),"임계치")])[1]
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s27 하단 [수정] 클릭(팝업 열기)  — 제출(수정) 미수행 || testid=adm-critical-point-upsert-confirm
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s28 수정 공통 팝업 || testid=adm-confirm-modal-content
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s29 팝업 [취소] || testid=adm-confirm-modal-cancel
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s33 하단 [수정] 클릭(팝업 열기)  — 제출(수정) 미수행 || testid=adm-critical-point-upsert-confirm
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s34 `2-1` 수정 알림 팝업 || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal ")])[1
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s35 참조 알람 목록 영역 || xpath=(//div[contains(@class,"ant-modal-wrap")][not(contains(@style,"display: none"))]//*[contains(@class,"list") or self::ul or self::table])[1]
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s36 Checkbox unchecked || xpath=(//div[contains(@class,"ant-modal-wrap")][not(contains(@style,"display: none"))]//input[@type="checkbox"][not(@checked)])[1]
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s37 버튼 `취소` || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//button[normalize-space(.)="취소"])[1]
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s38 버튼 `수정` 비활성 || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//button[normalize-space(.)="수정"])[1]
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s39 Checkbox 체크 || xpath=(//div[contains(@class,"ant-modal-wrap")][not(contains(@style,"display: none"))]//input[@type="checkbox"])[1]
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s40 `수정` 버튼 활성화 || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//button[normalize-space(.)="수정"])[1]
+정]-[클러스터 관리]-[임계치 생성·수정] | MISSIN s41 팝업 [취소](제출 안 함) || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//button[normalize-space(.)="취소"])[1]
+클러스터 관리]-[클러스터 목록·삭제 팝업] | MISSIN s16 FAILED 클러스터 행 [작업] 더보기 || xpath=(//*[@data-testid="adm-cluster-fetch-table-table"]//tbody//tr[contains(concat(" ", normalize-space(@class), " "), " ant-table-row ")][.//*[@data-test-value="FAILED"]]//button[normalize-space(.)=
+클러스터 관리]-[클러스터 목록·삭제 팝업] | MISSIN s17 [삭제] 클릭(팝업 열기) || role=menuitem[name="삭제"]
+클러스터 관리]-[클러스터 목록·삭제 팝업] | MISSIN s18 `클러스터 삭제` 팝업 호출 || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal ")])[1
+클러스터 관리]-[클러스터 목록·삭제 팝업] | MISSIN s19 함께 삭제되는 인프라 자원 총 개수(`총 n개`) || testid=adm-check-modal-content
+클러스터 관리]-[클러스터 목록·삭제 팝업] | MISSIN s20 인프라 자원 목록(유형 : 이름(ID)) || testid=adm-check-modal-content
+클러스터 관리]-[클러스터 목록·삭제 팝업] | MISSIN s21 `확인했습니다.` 미체크 시 `삭제` 비활성 || testid=adm-check-modal-confirm
+클러스터 관리]-[클러스터 목록·삭제 팝업] | MISSIN s22 `확인했습니다.` 체크 || xpath=(//*[@data-testid="adm-check-modal-content"]/ancestor::*[contains(@class,"ant-modal")][1]//input[@type="checkbox"])[1]
+클러스터 관리]-[클러스터 목록·삭제 팝업] | MISSIN s23 `삭제` 활성화 || testid=adm-check-modal-confirm
+클러스터 관리]-[클러스터 목록·삭제 팝업] | MISSIN s24 팝업 [취소] 클릭(삭제 안 함) || testid=adm-check-modal-cancel
+클러스터 관리]-[클러스터 상세 연결 정보] | MISSIN s18 기본 정보 순서 이름→상태→ID→URL→쿠버네티스 엔진 버전 || xpath=(//*[@data-testid="adm-the-sider-info-title"]/following::*[contains(@class,"key-area")][normalize-space(.)="이름"]/following::*[contains(@class,"key-area")][normalize-space(.)="상태"]/following::*[c
+]-[클러스터 관리]-[클러스터 수정 화면] | MISSIN s20 `프로메테우스 URL` 필드 || xpath=(//main//*[normalize-space(.)="프로메테우스 URL"])[1]
+]-[클러스터 관리]-[클러스터 연결 화면] | ASSERT s14 클러스터 연결 화면  — text 불일치 || testid=adm-page-title
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s15 `인프라 정보` 가이드 문구 || testid=adm-cluster-connect-infra-info-title
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s16 `인프라 정보` 입력 활성 || testid=adm-cluster-connect-infra-info
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s17 `연결 정보` 블록 || testid=adm-cluster-connect-connect-info-title
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s18 `프로메테우스 URL` 필드 || xpath=(//main//*[normalize-space(.)="프로메테우스 URL"])[1]
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s19 Kiali 아코디언 펼침 || xpath=(//*[@data-testid="adm-cluster-connect-collapse"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-collapse-item ")][.//*[contains(concat(" ", normalize-space(@class), " "), " ant-co
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s20 Kiali URL 입력 필드 || testid=adm-cluster-connect-kiali-url
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s21 Kiali 가이드 문구 || xpath=(//*[@data-testid="adm-cluster-connect-collapse"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-collapse-item ")][.//*[contains(concat(" ", normalize-space(@class), " "), " ant-co
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s22 Loki 가이드 문구 || xpath=(//*[@data-testid="adm-cluster-connect-collapse"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-collapse-item ")][.//*[contains(concat(" ", normalize-space(@class), " "), " ant-co
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s23 `Kiali` 표기 || xpath=(//*[@data-testid="adm-cluster-connect-collapse"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-collapse-item ")][.//*[contains(concat(" ", normalize-space(@class), " "), " ant-co
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s25 Loki 아코디언 || xpath=(//*[@data-testid="adm-cluster-connect-collapse"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-collapse-item ")][.//*[contains(concat(" ", normalize-space(@class), " "), " ant-co
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s26 Loki URL 입력 필드 || testid=adm-cluster-connect-loki-url
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s27 Loki 아코디언 펼침(입력 필드 제공) || xpath=(//*[@data-testid="adm-cluster-connect-collapse"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-collapse-item ")][.//*[contains(concat(" ", normalize-space(@class), " "), " ant-co
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s28 Loki URL 형식 입력 || testid=adm-cluster-connect-loki-url
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s29 포커스 이동 || testid=adm-cluster-connect-loki-url
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s31 Kiali 아코디언 헤더 클릭(접기) || xpath=(//*[@data-testid="adm-cluster-connect-collapse"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-collapse-item ")][.//*[contains(concat(" ", normalize-space(@class), " "), " ant-co
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s33 Kiali 아코디언 헤더 재클릭 || xpath=(//*[@data-testid="adm-cluster-connect-collapse"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-collapse-item ")][.//*[contains(concat(" ", normalize-space(@class), " "), " ant-co
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s34 Kiali 재펼침 || xpath=(//*[@data-testid="adm-cluster-connect-collapse"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-collapse-item ")][.//*[contains(concat(" ", normalize-space(@class), " "), " ant-co
+]-[클러스터 관리]-[클러스터 연결 화면] | MISSIN s35 [취소] 클릭(목록 복귀) || testid=adm-cluster-connect-go-back-page
+터링]-[이벤트]-[이벤트 목록·전체 보기] | ASSERT s13 `유형` sort 미표출  — hidden 불일치 || xpath=(//*[@data-testid="adm-event-fetch-table-table"]//th[normalize-space(.)="유형"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-table-column-sorter ")])[1]
+터링]-[이벤트]-[이벤트 목록·전체 보기] | MISSIN s22 짧은 메시지 행 `[전체 보기]` 미표출 행 존재 || xpath=(//*[@data-testid="adm-event-fetch-table-table"]//tbody//tr[contains(concat(" ", normalize-space(@class), " "), " ant-table-row ")][not(.//button[normalize-space(.)="전체 보기"])])[1]
+-[Overview 개요·조회 실패 팝오버] | AMBIGU s17 일부 클러스터 조회 실패 아이콘 || testid=adm-overview-cluster-item-data-load-failed
+-[Overview 개요·조회 실패 팝오버] | AMBIGU s18 조회 실패 클러스터 아이콘 클릭 || testid=adm-overview-cluster-item-data-load-failed
+-[Overview 개요·조회 실패 팝오버] | ASSERT s20 팝오버 조회 실패 데이터 `No data`  — text 불일치 || xpath=(//*[contains(concat(" ", normalize-space(@class), " "), " ant-popover ")][not(contains(concat(" ", normalize-space(@class), " "), " ant-popover-hidden "))])[1]
+링]-[트래픽 모니터링]-[화면·설정 팝업] | MISSIN s14 트래픽 현황 [설정] 클릭 || xpath=(//*[@data-testid="adm-page-viola-trafficmonitoring-content-body"]//button[contains(normalize-space(.),"설정")])[1]
+링]-[트래픽 모니터링]-[화면·설정 팝업] | MISSIN s15 `트래픽 모니터링 설정` 팝업 || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//*[contains(normalize-space(.),"트래픽 모니터링 설정")][not(*)])[1]
+링]-[트래픽 모니터링]-[화면·설정 팝업] | MISSIN s16 `기준 값` 입력(기본값 100) || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//input[@value="100"])[1]
+링]-[트래픽 모니터링]-[화면·설정 팝업] | MISSIN s17 단위 `ms` || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//*[contains(normalize-space(.),"ms")][not(*)])[1]
+링]-[트래픽 모니터링]-[화면·설정 팝업] | MISSIN s18 [취소] 버튼 || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//button[normalize-space(.)="취소"])[1]
+링]-[트래픽 모니터링]-[화면·설정 팝업] | MISSIN s19 [적용] 버튼 || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//button[normalize-space(.)="적용"])[1]
+링]-[트래픽 모니터링]-[화면·설정 팝업] | MISSIN s20 [취소] 클릭(설정 미적용) || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-modal-wrap ")][not(contains(@style,"display: none"))]//button[normalize-space(.)="취소"])[1]
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s25 신규 옵션 tag 추가 || xpath=(//*[@data-testid="adm-form-compatibility-versions-compatibility-versions"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-select-selection-item ")][contains(normalize-space(.),"가A
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s26 허용되지 않은 문자 입력 || xpath=(//*[@data-testid="adm-form-compatibility-versions-compatibility-versions"]//input)[1]
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s27 Enter 로 추가 시도  — 제출(Enter) 미수행 || xpath=(//*[@data-testid="adm-form-compatibility-versions-compatibility-versions"]//input)[1]
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s29 11자 값 입력 || xpath=(//*[@data-testid="adm-form-compatibility-versions-compatibility-versions"]//input)[1]
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s30 Enter 로 추가 시도  — 제출(Enter) 미수행 || xpath=(//*[@data-testid="adm-form-compatibility-versions-compatibility-versions"]//input)[1]
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s32 `카테고리` multi select + input || xpath=(//*[@data-testid="adm-form-categories"]/ancestor-or-self::*[contains(concat(" ", normalize-space(@class), " "), " ant-select-multiple ")])[1]
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s33 카테고리 신규 값 입력 || xpath=(//*[@data-testid="adm-form-categories"]//input)[1]
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s34 Enter 로 추가  — 제출(Enter) 미수행 || xpath=(//*[@data-testid="adm-form-categories"]//input)[1]
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s35 카테고리 신규 옵션 추가 || xpath=(//*[@data-testid="adm-form-categories"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-select-selection-item ")][contains(normalize-space(.),"qa-trml")])[1]
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s36 카테고리 드롭다운 열기 || testid=adm-form-categories
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s37 카테고리 옵션 1 선택 || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-select-dropdown ")][not(contains(concat(" ", normalize-space(@class), " "), " ant-select-dropdown-hidden "))]//div[contains(conca
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s38 카테고리 옵션 2 선택 || xpath=(//div[contains(concat(" ", normalize-space(@class), " "), " ant-select-dropdown ")][not(contains(concat(" ", normalize-space(@class), " "), " ant-select-dropdown-hidden "))]//div[contains(conca
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s39 카테고리 3개 이상 선택(제한 없음) || xpath=(//*[@data-testid="adm-form-categories"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-select-selection-item ")])[3]
+탈로그 관리]-[Helm 카탈로그 생성 폼] | MISSIN s41 [취소] 클릭(생성 안 함) || testid=adm-catalog-hub-form-button
+리]-[VIOLA 컴포넌트 상세·설치 화면] | AMBIGU s16 `지원 엔진 버전` 값(tag) || testid=adm-catalog-hub-detail-tags
+리]-[VIOLA 컴포넌트 상세·설치 화면] | MISSIN s19 `지원 엔진 버전` 필드 || testid=adm-form-item-compatibilityversions
+리]-[VIOLA 컴포넌트 상세·설치 화면] | MISSIN s20 `지원 엔진 버전` 위치: 카탈로그 아래·클러스터 위 || xpath=(//*[@data-testid="adm-form-item-catalogname"]/following::*[@data-testid="adm-form-item-compatibilityversions"]/following::*[@data-testid="adm-form-cluster-title"])[1]
+리]-[VIOLA 컴포넌트 상세·설치 화면] | MISSIN s21 `지원 엔진 버전 *` 필수 표시 || xpath=(//*[contains(concat(" ", normalize-space(@class), " "), " ant-form-item-required ")][contains(normalize-space(.),"지원 엔진 버전")] | //h1[contains(normalize-space(.),"지원 엔진 버전")]/ancestor::*[1][.//*
+리]-[VIOLA 컴포넌트 상세·설치 화면] | MISSIN s22 `클러스터 엔진 버전` 필드(클러스터 아래) || xpath=(//*[@data-testid="adm-form-cluster-title"]/following::*[@data-testid="adm-form-cluster-engine-version-input"])[1]
+리]-[VIOLA 컴포넌트 상세·설치 화면] | MISSIN s24 [취소] 클릭 || testid=adm-catalog-hub-install-button
+그]-[카탈로그 관리]-[배포 상세-리소스] | MISSIN s14 `지원 엔진 버전` 위치: 카탈로그 이름 다음·클러스터 앞 || xpath=(//li[contains(concat(" ", normalize-space(@class), " "), " ant-list-item ")][.//*[contains(concat(" ", normalize-space(@class), " "), " key-area ")][normalize-space(.)="카탈로그 이름"]]/following-sib
+그]-[카탈로그 관리]-[배포 상세-리소스] | MISSIN s17 `클립보드에 복사되었습니다.` toast || xpath=(//*[contains(concat(" ", normalize-space(@class), " "), " ant-message ") or contains(concat(" ", normalize-space(@class), " "), " ant-notification ")]//*[contains(normalize-space(.),"클립보드에 복사되었
+ 관리]-[설치 목록 롤백 팝업·배포 수정] | MISSIN s14 롤백 팝업 || testid=adm-rollback-modal-content
+ 관리]-[설치 목록 롤백 팝업·배포 수정] | MISSIN s16 `리비전` 헤더 클릭 || xpath=(//*[@data-testid="adm-rollback-modal-table-table"]//th[normalize-space(.)="리비전"])[1]
+ 관리]-[설치 목록 롤백 팝업·배포 수정] | MISSIN s18 `카탈로그 지원 엔진 버전` 필드 || testid=adm-rollback-modal-supported-engine-versions
+ 관리]-[설치 목록 롤백 팝업·배포 수정] | MISSIN s19 `카탈로그 지원 엔진 버전 *` 필수 표시 || xpath=(//*[@data-testid="adm-rollback-modal-content"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-form-item-required ")][contains(normalize-space(.),"카탈로그 지원 엔진 버전")])[1]
+ 관리]-[설치 목록 롤백 팝업·배포 수정] | MISSIN s20 `클러스터 엔진 버전` 필드(아래) || xpath=(//*[@data-testid="adm-rollback-modal-supported-engine-versions"]/following::*[@data-testid="adm-rollback-modal-cluster-engine-version"])[1]
+ 관리]-[설치 목록 롤백 팝업·배포 수정] | MISSIN s22 팝업 [취소] || testid=adm-rollback-modal-cancel
+ 카탈로그]-[카탈로그 관리]-[설치 목록] | ASSERT s13 `카탈로그 유형` sort 미표출  — hidden 불일치 || xpath=(//*[@data-testid="adm-catalog-deploy-table-table"]//th[contains(normalize-space(.),"카탈로그 유형")]//*[contains(concat(" ", normalize-space(@class), " "), " ant-table-column-sorter ")])[1]
+ 카탈로그]-[카탈로그 관리]-[설치 목록] | MISSIN s18 `지원 엔진 버전` 위치: 배포 유형 다음·클러스터 앞 || xpath=(//*[@data-testid="adm-catalog-deploy-table-table"]//thead//th[contains(normalize-space(.),"배포 유형")]/following-sibling::th[contains(normalize-space(.),"지원 엔진 버전")]/following-sibling::th[contains
+이트웨이 API]-[게이트웨이 클래스 상세] | MISSIN s79 리스트 수 선택 컨트롤 || testid=adm-gateway-api-gateway-class-resource-connected-gateway-table-pagination-page-size
+PI]-[게이트웨이 클래스 생성-고급 모드] | MISSIN s59 `모드 선택` 필수 표시 || xpath=(//main//h1[normalize-space(.)="모드 선택"][contains(@class,"required") or .//*[contains(@class,"required")]])[1]
+PI]-[게이트웨이 클래스 생성-고급 모드] | ASSERT s82 spec 하위 `controllername`  — text 불일치 || testid=adm-resource-guide-collapse
+PI]-[게이트웨이 클래스 생성-고급 모드] | ASSERT s83 controllername 설명  — text 불일치 || testid=adm-resource-guide-collapse
+PI]-[게이트웨이 클래스 생성-고급 모드] | ASSERT s89 유효성 검사 성공 후 `생성` 활성  — enabled 불일치 || testid=adm-convert-container-action
+PI]-[게이트웨이 클래스 생성-고급 모드] | MISSIN s91 입력 필드 기반 화면 전환(이름 입력) || testid=adm-input-json-name-placeholder
+PI]-[게이트웨이 클래스 생성-기본 모드] | MISSIN s65 `모드 선택` 필수 표시 || xpath=(//main//h1[normalize-space(.)="모드 선택"][contains(@class,"required") or .//*[contains(@class,"required")] or contains(@class,"ant-form-item-required")])[1]
+PI]-[게이트웨이 클래스 생성-기본 모드] | MISSIN s66 `클러스터` 필수 표시 || xpath=(//main//h1[normalize-space(.)="클러스터"][contains(@class,"required") or .//*[contains(@class,"required")] or contains(@class,"ant-form-item-required")])[1]
+PI]-[게이트웨이 클래스 생성-기본 모드] | MISSIN s67 `이름` 필수 표시 || xpath=(//main//h1[normalize-space(.)="이름"][contains(@class,"required") or .//*[contains(@class,"required")] or contains(@class,"ant-form-item-required")])[1]
+PI]-[게이트웨이 클래스 생성-기본 모드] | MISSIN s68 `컨트롤러` 필수 표시 || xpath=(//main//h1[normalize-space(.)="컨트롤러"][contains(@class,"required") or .//*[contains(@class,"required")] or contains(@class,"ant-form-item-required")])[1]
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s17 생성 확인 팝업 [확인]  — 제출(확인) 미수행 || testid=adm-confirm-modal-confirm
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s21 생성 자원 행 표출 || xpath=(//*[@data-testid="adm-gateway-api-gateway-class-fetch-table-table"]//tbody//tr[contains(normalize-space(.),"{{gwc_edit}}")])[1]
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s22 행 [작업] 더보기 || xpath=(//*[@data-testid="adm-gateway-api-gateway-class-fetch-table-table"]//tbody//tr[contains(concat(" ", normalize-space(@class), " "), " ant-table-row ")][contains(normalize-space(.),"{{gwc_edit}}"
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s23 [수정] 클릭 || role=menuitem[name="수정"]
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s25 본문 영역 || testid=adm-convert-editor-yaml-title
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s26 하단 액션 || xpath=(//button[@data-testid="adm-convert-container-action"])[1]
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s27 우측 `고급 모드 가이드` || testid=adm-resource-guide-title
+이트웨이 API]-[게이트웨이 클래스 수정] | ASSERT s28 breadcrumb 경로 검증  — text 불일치 || testid=adm-breadcrumb
+이트웨이 API]-[게이트웨이 클래스 수정] | ASSERT s29 breadcrumb 경로 검증  — text 불일치 || testid=adm-breadcrumb
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s58 뒤로가기 아이콘 || xpath=(//*[@data-testid="adm-page-title"]//*[normalize-space(text())="arrow_back"])[1]
+이트웨이 API]-[게이트웨이 클래스 수정] | ASSERT s59 타이틀 `게이트웨이 클래스 수정`  — text 불일치 || testid=adm-page-title
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s60 `취소` 버튼 || testid=adm-convert-container-go-back-page
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s61 `수정` 버튼 || testid=adm-convert-container-action
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s62 가이드 본문 || testid=adm-resource-guide-collapse
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s68 생성 자원 행 표출 || xpath=(//*[@data-testid="adm-gateway-api-gateway-class-fetch-table-table"]//tbody//tr[contains(normalize-space(.),"{{gwc_edit}}")])[1]
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s69 `이름` 클릭 → 상세 || xpath=(//*[@data-testid="adm-gateway-api-gateway-class-fetch-table-table"]//tbody//tr[contains(normalize-space(.),"{{gwc_edit}}")]//*[@data-testid="adm-name-cell"])[1]
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s70 상세 [수정] 클릭 || xpath=(//*[@data-testid="adm-page-title"]//button[normalize-space(.)="수정"])[1]
+이트웨이 API]-[게이트웨이 클래스 수정] | ASSERT s71 수정 페이지 이동  — text 불일치 || testid=adm-breadcrumb
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s76 생성 자원 행 표출 || xpath=(//*[@data-testid="adm-gateway-api-gateway-class-fetch-table-table"]//tbody//tr[contains(normalize-space(.),"{{gwc_edit}}")])[1]
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s77 `이름` 클릭 → 상세 || xpath=(//*[@data-testid="adm-gateway-api-gateway-class-fetch-table-table"]//tbody//tr[contains(normalize-space(.),"{{gwc_edit}}")]//*[@data-testid="adm-name-cell"])[1]
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s78 상세 [삭제] 클릭(팝업 열기) || xpath=(//*[@data-testid="adm-page-title"]//button[contains(normalize-space(.),"삭제")])[1]
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s79 삭제 팝업 호출 || testid=adm-check-modal-content
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s80 확인했습니다. 체크 || role=checkbox[name="확인했습니다."]
+이트웨이 API]-[게이트웨이 클래스 수정] | MISSIN s81 팝업 [삭제] 클릭(teardown)  — 제출(삭제) 미수행 || testid=adm-check-modal-confirm
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s17 생성 확인 팝업 [확인]  — 제출(확인) 미수행 || testid=adm-confirm-modal-confirm
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s21 생성 자원 행 표출 || xpath=(//*[@data-testid="adm-gateway-api-gateway-class-fetch-table-table"]//tbody//tr[contains(normalize-space(.),"{{gwc_menu}}")])[1]
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s22 행 [작업] 더보기 클릭 || xpath=(//*[@data-testid="adm-gateway-api-gateway-class-fetch-table-table"]//tbody//tr[contains(concat(" ", normalize-space(@class), " "), " ant-table-row ")][contains(normalize-space(.),"{{gwc_menu}}"
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s23 `수정` 메뉴 항목 표출 || role=menuitem[name="수정"]
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s24 `삭제` 메뉴 항목 표출 || role=menuitem[name="삭제"]
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s25 [수정] 클릭 || role=menuitem[name="수정"]
+API]-[게이트웨이 클래스 행 메뉴·삭제] | ASSERT s26 게이트웨이 클래스 수정 페이지 이동  — text 불일치 || testid=adm-breadcrumb
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s31 생성 자원 행 표출 || xpath=(//*[@data-testid="adm-gateway-api-gateway-class-fetch-table-table"]//tbody//tr[contains(normalize-space(.),"{{gwc_menu}}")])[1]
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s32 행 [작업] 더보기 클릭 || xpath=(//*[@data-testid="adm-gateway-api-gateway-class-fetch-table-table"]//tbody//tr[contains(concat(" ", normalize-space(@class), " "), " ant-table-row ")][contains(normalize-space(.),"{{gwc_menu}}"
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s33 [삭제] 클릭(팝업 열기) || role=menuitem[name="삭제"]
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s34 삭제 팝업 표출 || testid=adm-check-modal-content
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s35 확인했습니다. 체크 || role=checkbox[name="확인했습니다."]
+API]-[게이트웨이 클래스 행 메뉴·삭제] | MISSIN s36 팝업 [삭제] 클릭  — 제출(삭제) 미수행 || testid=adm-check-modal-confirm
+리]-[퍼시스턴트 볼륨 클레임 상세-이벤트] | MISSIN s24 잘린 메시지 `전체보기` || xpath=(//*[@data-testid="adm-detail-event-table-table"]//tbody//button[normalize-space(.)="전체 보기" or normalize-space(.)="전체보기"])[1]
+리]-[퍼시스턴트 볼륨 클레임 상세-이벤트] | MISSIN s25 `메시지` 복사 아이콘 버튼 || xpath=(//*[@data-testid="adm-detail-event-table-table"]//tbody//*[@data-testid="adm-copy-button"])[1]
+토스케일러]-[HPA 생성-기본 모드 명칭] | MISSIN s17 가이드 섹션 제목 `디플로이먼트` || xpath=(//*[@data-testid="adm-resource-guide-collapse"]//*[normalize-space(.)="디플로이먼트"])[1]
+토스케일러]-[HPA 생성-기본 모드 명칭] | MISSIN s18 가이드 `메트릭` 아코디언 펼치기 || xpath=(//*[@data-testid="adm-resource-guide-collapse"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-collapse-header ")][contains(normalize-space(.),"메트릭")])[1]
+토스케일러]-[HPA 생성-기본 모드 명칭] | MISSIN s20 필드 하단 가이드 문구(`적용`) || xpath=(//*[@data-testid="adm-resource-guide-collapse"]//*[contains(normalize-space(.),"적용")])[1]
+[오토스케일러]-[HPA·VPA 상세-상태] | MISSIN s17 `클립보드에 복사되었습니다.` toast || xpath=(//*[contains(concat(" ", normalize-space(@class), " "), " ant-message ") or contains(concat(" ", normalize-space(@class), " "), " ant-notification ")]//*[contains(normalize-space(.),"클립보드에 복사되었
+[오토스케일러]-[HPA·VPA 상세-상태] | MISSIN s29 `클립보드에 복사되었습니다.` toast || xpath=(//*[contains(concat(" ", normalize-space(@class), " "), " ant-message ") or contains(concat(" ", normalize-space(@class), " "), " ant-notification ")]//*[contains(normalize-space(.),"클립보드에 복사되었
+업관리]-[CRON 작업 목록·생성 가이드] | ASSERT s19 가이드 `설정된 Crontab 명령어` 항목  — text 불일치 || testid=adm-resource-guide-collapse
+업관리]-[CRON 작업 목록·생성 가이드] | MISSIN s20 `분 선택`→`설정된 Crontab 명령어`→`컨테이너 설정` 순서 || xpath=(//*[@data-testid="adm-resource-guide-collapse"]//*[contains(normalize-space(text()),"분 선택")]/following::*[contains(normalize-space(text()),"설정된 Crontab 명령어")]/following::*[contains(normalize-sp
+크플로우]-[작업관리]-[작업 상세-리소스] | MISSIN s19 `클립보드에 복사되었습니다.` toast || xpath=(//*[contains(concat(" ", normalize-space(@class), " "), " ant-message ") or contains(concat(" ", normalize-space(@class), " "), " ant-notification ")]//*[contains(normalize-space(.),"클립보드에 복사되었
+컨테이너관리]-[데몬셋 상세-리소스·이벤트] | MISSIN s27 잘린 메시지 `전체보기` || xpath=(//*[@data-testid="adm-detail-event-table-table"]//tbody//button[normalize-space(.)="전체 보기" or normalize-space(.)="전체보기"])[1]
+컨테이너관리]-[데몬셋 상세-리소스·이벤트] | MISSIN s28 `메시지` 복사 아이콘 버튼 || xpath=(//*[@data-testid="adm-detail-event-table-table"]//tbody//*[@data-testid="adm-copy-button"])[1]
+이너관리]-[레플리카셋 상세-리소스·이벤트] | MISSIN s26 잘린 메시지 `전체보기` || xpath=(//*[@data-testid="adm-detail-event-table-table"]//tbody//button[normalize-space(.)="전체 보기" or normalize-space(.)="전체보기"])[1]
+이너관리]-[레플리카셋 상세-리소스·이벤트] | MISSIN s27 `메시지` 복사 아이콘 버튼 || xpath=(//*[@data-testid="adm-detail-event-table-table"]//tbody//*[@data-testid="adm-copy-button"])[1]
+너관리]-[스테이트풀셋 상세-리소스·이벤트] | MISSIN s14 RUNNING 스테이트풀셋 `이름` 클릭 || xpath=(//*[@data-testid="adm-stateful-set-fetch-table-table"]//tbody//tr[contains(concat(" ", normalize-space(@class), " "), " ant-table-row ")][.//*[@data-testid="adm-status-tag-item"][@data-test-val
+너관리]-[스테이트풀셋 상세-리소스·이벤트] | MISSIN s16 파드 목록 Table 헤더 || xpath=(//*[@data-testid="adm-stateful-set-resources-status-pod-table-table"]//thead)[1]
+너관리]-[스테이트풀셋 상세-리소스·이벤트] | MISSIN s17 파드 `상태` tag || xpath=(//*[@data-testid="adm-stateful-set-resources-status-pod-table-table"]//tbody//tr[contains(concat(" ", normalize-space(@class), " "), " ant-table-row ")][1]//*[@data-testid="adm-status-tag"])[1]
+너관리]-[스테이트풀셋 상세-리소스·이벤트] | MISSIN s18 `이벤트` 탭 클릭 || xpath=(//*[@role="tab"][normalize-space(.)="이벤트"])[1]
+너관리]-[스테이트풀셋 상세-리소스·이벤트] | MISSIN s19 이벤트 table(이벤트 목록 VIOE-04_01_01 정의) || testid=adm-detail-event-table-table
+너관리]-[스테이트풀셋 상세-리소스·이벤트] | MISSIN s21 `유형` sort || xpath=(//*[@data-testid="adm-detail-event-table-table"]//th[normalize-space(.)="유형"]//*[contains(concat(" ", normalize-space(@class), " "), " ant-table-column-sorter ")])[1]
+너관리]-[스테이트풀셋 상세-리소스·이벤트] | MISSIN s22 `발생일시` sort || xpath=(//*[@data-testid="adm-detail-event-table-table"]//th[contains(normalize-space(.),"발생일시")]//*[contains(concat(" ", normalize-space(@class), " "), " ant-table-column-sorter ")])[1]
+너관리]-[스테이트풀셋 상세-리소스·이벤트] | MISSIN s26 `유형`→`메시지`→`발생일시` 3개 컬럼 || xpath=(//*[@data-testid="adm-detail-event-table-table"]//thead//th[contains(normalize-space(.),"유형")]/following-sibling::th[contains(normalize-space(.),"메시지")]/following-sibling::th[contains(normalize
+너관리]-[스테이트풀셋 상세-리소스·이벤트] | MISSIN s27 잘린 메시지 `전체보기` || xpath=(//*[@data-testid="adm-detail-event-table-table"]//tbody//button[normalize-space(.)="전체 보기" or normalize-space(.)="전체보기"])[1]
+너관리]-[스테이트풀셋 상세-리소스·이벤트] | MISSIN s28 `메시지` 복사 아이콘 버튼 || xpath=(//*[@data-testid="adm-detail-event-table-table"]//tbody//*[@data-testid="adm-copy-button"])[1]
+-[컨테이너관리]-[파드 상세-로그·이벤트] | MISSIN s40 잘린 메시지 `전체보기` || xpath=(//*[@data-testid="adm-detail-event-table-table"]//tbody//button[normalize-space(.)="전체 보기" or normalize-space(.)="전체보기"])[1]
+-[컨테이너관리]-[파드 상세-로그·이벤트] | MISSIN s41 `메시지` 복사 아이콘 버튼 || xpath=(//*[@data-testid="adm-detail-event-table-table"]//tbody//*[@data-testid="adm-copy-button"])[1]
+로우]-[컨테이너관리]-[파드 상세-리소스] | MISSIN s30 상태 table `메시지` [복사] 버튼 || xpath=(//*[@data-testid="adm-pod-resource-status-table-table"]//tbody//*[@data-testid="adm-copy-button"])[1]
+로우]-[컨테이너관리]-[파드 상세-리소스] | MISSIN s33 상태 `메시지` [복사] 클릭  — 제출(복사) 미수행 || xpath=(//*[@data-testid="adm-pod-resource-status-table-table"]//tbody//*[@data-testid="adm-copy-button"])[1]
+로우]-[컨테이너관리]-[파드 상세-리소스] | MISSIN s34 `클립보드에 복사되었습니다.` toast || xpath=(//*[contains(concat(" ", normalize-space(@class), " "), " ant-message ") or contains(concat(" ", normalize-space(@class), " "), " ant-notification ")]//*[contains(normalize-space(.),"클립보드에 복사되었

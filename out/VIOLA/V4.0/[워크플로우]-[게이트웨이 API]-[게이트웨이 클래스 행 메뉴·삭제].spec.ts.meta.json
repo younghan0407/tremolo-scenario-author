@@ -1,0 +1,1000 @@
+{
+  "scenarioPath": "data/scenarios/VIOLA/V4.0/[워크플로우]-[게이트웨이 API]-[게이트웨이 클래스 행 메뉴·삭제].spec.ts",
+  "scenarioId": "VIOLA::V4.0::%5B%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0%5D-%5B%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4%20API%5D-%5B%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%ED%96%89%20%EB%A9%94%EB%89%B4%C2%B7%EC%82%AD%EC%A0%9C%5D",
+  "steps": [
+    {
+      "id": "s1",
+      "type": "goto",
+      "title": "https://example.invalid/env-2/login 이동",
+      "locator": "-",
+      "value": "https://example.invalid/env-2/login",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[실측] 로그인 프리앰블(고정, 실측 면제)"
+    },
+    {
+      "id": "s2",
+      "type": "fill",
+      "title": "아이디를 입력해 주세요. 입력",
+      "locator": "role=textbox[name=\"아이디를 입력해 주세요.\"]",
+      "value": "YOUR_ACCOUNT_ID",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "[실측] 로그인 프리앰블(고정, 실측 면제)",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "아이디를 입력해 주세요.",
+        "exact": true
+      }
+    },
+    {
+      "id": "s3",
+      "type": "press",
+      "title": "아이디를 입력해 주세요. 키 누르기",
+      "locator": "role=textbox[name=\"아이디를 입력해 주세요.\"]",
+      "value": "Tab",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "[실측] 로그인 프리앰블(고정, 실측 면제)",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "아이디를 입력해 주세요.",
+        "exact": true
+      }
+    },
+    {
+      "id": "s4",
+      "type": "fill",
+      "title": "비밀번호를 입력해 주세요. 입력",
+      "locator": "role=textbox[name=\"비밀번호를 입력해 주세요.\"]",
+      "value": "YOUR_PASSWORD",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "[실측] 로그인 프리앰블(고정, 실측 면제)",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "비밀번호를 입력해 주세요.",
+        "exact": true
+      }
+    },
+    {
+      "id": "s5",
+      "type": "press",
+      "title": "비밀번호를 입력해 주세요. 키 누르기",
+      "locator": "role=textbox[name=\"비밀번호를 입력해 주세요.\"]",
+      "value": "Enter",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "[실측] 로그인 프리앰블(고정, 실측 면제)",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "비밀번호를 입력해 주세요.",
+        "exact": true
+      }
+    },
+    {
+      "id": "s7",
+      "type": "click",
+      "title": "제품 선택 메뉴 열기",
+      "locator": "xpath=(//h1[contains(concat(\" \", normalize-space(@class), \" \"), \" logo-wrap \")])[1]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] 2026-10-07 walk: h1.logo-wrap.ant-dropdown-trigger (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//h1[contains(concat(\" \", normalize-space(@class), \" \"), \" logo-wrap \")])[1]"
+      }
+    },
+    {
+      "id": "s8",
+      "type": "click",
+      "title": "제품 VIOLA 선택",
+      "locator": "xpath=(//span[contains(concat(\" \", normalize-space(@class), \" \"), \" solution-menu-item-label \")][normalize-space(.)=\"VIOLA\"])[1]",
+      "value": "-",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] 2026-10-07 walk: span.solution-menu-item-label → /viola (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//span[contains(concat(\" \", normalize-space(@class), \" \"), \" solution-menu-item-label \")][normalize-space(.)=\"VIOLA\"])[1]"
+      }
+    },
+    {
+      "id": "s9",
+      "type": "assert",
+      "title": "VIOLA LNB 표출 대기",
+      "locator": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"워크플로우\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] VIOLA 진입 확인(검증 스텝 아님) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//li[contains(concat(\" \", normalize-space(@class), \" \"), \" menu-first \")][contains(normalize-space(.),\"워크플로우\")])[1]"
+      }
+    },
+    {
+      "id": "s10",
+      "type": "goto",
+      "title": "/viola/workflow/network/gateway-api 이동",
+      "locator": "-",
+      "value": "https://example.invalid/env-2/viola/workflow/network/gateway-api",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "고정 URL (검증 스텝 아님 — setup)"
+    },
+    {
+      "id": "s11",
+      "type": "goto",
+      "title": "/viola/workflow/network/gateway-api/gateway-class/create 이동",
+      "locator": "-",
+      "value": "https://example.invalid/env-2/viola/workflow/network/gateway-api/gateway-class/create",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "고정 URL (검증 스텝 아님 — setup)"
+    },
+    {
+      "id": "s12",
+      "type": "fill",
+      "title": "이름 입력",
+      "locator": "testid=adm-input-json-name-placeholder",
+      "value": "qa-trml-{HHMMSS}-gwc",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-input-json-name-placeholder"
+      },
+      "runtime": {
+        "saveAs": "gwc_menu"
+      }
+    },
+    {
+      "id": "s13",
+      "type": "click",
+      "title": "중복 확인 클릭",
+      "locator": "testid=adm-input-json-name-duplicate-name",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-input-json-name-duplicate-name"
+      }
+    },
+    {
+      "id": "s14",
+      "type": "assert",
+      "title": "사용 가능한 이름입니다. 표시",
+      "locator": "text=\"사용 가능한 이름입니다.\"",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "text",
+        "text": "사용 가능한 이름입니다.",
+        "exact": true
+      }
+    },
+    {
+      "id": "s15",
+      "type": "fill",
+      "title": "컨트롤러 입력",
+      "locator": "testid=adm-gateway-api-gateway-class-basic-controller-name",
+      "value": "example.com/qa-trml-controller",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-basic-controller-name"
+      }
+    },
+    {
+      "id": "s16",
+      "type": "click",
+      "title": "생성 클릭",
+      "locator": "testid=adm-convert-container-action",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-convert-container-action"
+      }
+    },
+    {
+      "id": "s17",
+      "type": "click",
+      "title": "생성 확인 팝업 [확인]",
+      "locator": "testid=adm-confirm-modal-confirm",
+      "value": "-",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-confirm-modal-confirm"
+      }
+    },
+    {
+      "id": "s18",
+      "type": "click",
+      "title": "게이트웨이 클래스 탭 클릭",
+      "locator": "role=tab[name=\"게이트웨이 클래스\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "role",
+        "role": "tab",
+        "name": "게이트웨이 클래스",
+        "exact": true
+      }
+    },
+    {
+      "id": "s19",
+      "type": "fill",
+      "title": "검색어 입력",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-filter-search-input",
+      "value": "{{gwc_menu}}",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-filter-search-input"
+      }
+    },
+    {
+      "id": "s20",
+      "type": "press",
+      "title": "검색 실행",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-filter-search-input",
+      "value": "Enter",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-filter-search-input"
+      }
+    },
+    {
+      "id": "s21",
+      "type": "assert",
+      "title": "생성 자원 행 표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(normalize-space(.),\"{{gwc_menu}}\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(normalize-space(.),\"{{gwc_menu}}\")])[1]"
+      }
+    },
+    {
+      "id": "s22",
+      "type": "click",
+      "title": "행 [작업] 더보기 클릭",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][contains(normalize-space(.),\"{{gwc_menu}}\")]//button[normalize-space(.)=\"more_horiz\"])[1]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][contains(normalize-space(.),\"{{gwc_menu}}\")]//button[normalize-space(.)=\"more_horiz\"])[1]"
+      }
+    },
+    {
+      "id": "s23",
+      "type": "assert",
+      "title": "`수정` 메뉴 항목 표출",
+      "locator": "role=menuitem[name=\"수정\"]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1746",
+      "target": {
+        "kind": "role",
+        "role": "menuitem",
+        "name": "수정",
+        "exact": true
+      }
+    },
+    {
+      "id": "s24",
+      "type": "assert",
+      "title": "`삭제` 메뉴 항목 표출",
+      "locator": "role=menuitem[name=\"삭제\"]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] 관찰형 TC(기획 미정의 — 실측 상태 기재) · 주 기대 결과만 검증 · 커버 TC: TC_VIO_1748",
+      "target": {
+        "kind": "role",
+        "role": "menuitem",
+        "name": "삭제",
+        "exact": true
+      }
+    },
+    {
+      "id": "s25",
+      "type": "click",
+      "title": "[수정] 클릭",
+      "locator": "role=menuitem[name=\"수정\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] [비변경] 수정 페이지로 이동만 · 커버 TC: TC_VIO_1747",
+      "target": {
+        "kind": "role",
+        "role": "menuitem",
+        "name": "수정",
+        "exact": true
+      }
+    },
+    {
+      "id": "s26",
+      "type": "assert",
+      "title": "게이트웨이 클래스 수정 페이지 이동",
+      "locator": "testid=adm-breadcrumb",
+      "value": "toContainText('게이트웨이 클래스 수정')",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "text",
+        "inputValue": "",
+        "expected": "게이트웨이 클래스 수정",
+        "componentType": "",
+        "state": "text",
+        "match": "contains"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1747",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-breadcrumb"
+      }
+    },
+    {
+      "id": "s27",
+      "type": "goto",
+      "title": "/viola/workflow/network/gateway-api 이동",
+      "locator": "-",
+      "value": "https://example.invalid/env-2/viola/workflow/network/gateway-api",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "고정 URL (검증 스텝 아님 — setup)"
+    },
+    {
+      "id": "s28",
+      "type": "click",
+      "title": "게이트웨이 클래스 탭 클릭",
+      "locator": "role=tab[name=\"게이트웨이 클래스\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "role",
+        "role": "tab",
+        "name": "게이트웨이 클래스",
+        "exact": true
+      }
+    },
+    {
+      "id": "s29",
+      "type": "fill",
+      "title": "검색어 입력",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-filter-search-input",
+      "value": "{{gwc_menu}}",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-filter-search-input"
+      }
+    },
+    {
+      "id": "s30",
+      "type": "press",
+      "title": "검색 실행",
+      "locator": "testid=adm-gateway-api-gateway-class-fetch-table-filter-search-input",
+      "value": "Enter",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-gateway-api-gateway-class-fetch-table-filter-search-input"
+      }
+    },
+    {
+      "id": "s31",
+      "type": "assert",
+      "title": "생성 자원 행 표출",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(normalize-space(.),\"{{gwc_menu}}\")])[1]",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(normalize-space(.),\"{{gwc_menu}}\")])[1]"
+      }
+    },
+    {
+      "id": "s32",
+      "type": "click",
+      "title": "행 [작업] 더보기 클릭",
+      "locator": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][contains(normalize-space(.),\"{{gwc_menu}}\")]//button[normalize-space(.)=\"more_horiz\"])[1]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "xpath",
+        "selector": "xpath=(//*[@data-testid=\"adm-gateway-api-gateway-class-fetch-table-table\"]//tbody//tr[contains(concat(\" \", normalize-space(@class), \" \"), \" ant-table-row \")][contains(normalize-space(.),\"{{gwc_menu}}\")]//button[normalize-space(.)=\"more_horiz\"])[1]"
+      }
+    },
+    {
+      "id": "s33",
+      "type": "click",
+      "title": "[삭제] 클릭(팝업 열기)",
+      "locator": "role=menuitem[name=\"삭제\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] [비변경] 팝업 열기만 · 커버 TC: TC_VIO_1749",
+      "target": {
+        "kind": "role",
+        "role": "menuitem",
+        "name": "삭제",
+        "exact": true
+      }
+    },
+    {
+      "id": "s34",
+      "type": "assert",
+      "title": "삭제 팝업 표출",
+      "locator": "testid=adm-check-modal-content",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) · 커버 TC: TC_VIO_1749",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-check-modal-content"
+      }
+    },
+    {
+      "id": "s35",
+      "type": "check",
+      "title": "확인했습니다. 체크",
+      "locator": "role=checkbox[name=\"확인했습니다.\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "role",
+        "role": "checkbox",
+        "name": "확인했습니다.",
+        "exact": true
+      }
+    },
+    {
+      "id": "s36",
+      "type": "click",
+      "title": "팝업 [삭제] 클릭",
+      "locator": "testid=adm-check-modal-confirm",
+      "value": "-",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "testId",
+        "testId": "adm-check-modal-confirm"
+      }
+    },
+    {
+      "id": "s37",
+      "type": "assert",
+      "title": "삭제 후 목록 미표출(검색 결과 없음)",
+      "locator": "text=\"검색어나 검색 필터를 변경해 주세요.\"",
+      "value": "toBeVisible()",
+      "timeout": 30000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": true,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": "visible"
+      },
+      "note": "[예측] walk 덤프 기반(400tst) (검증 스텝 아님 — setup)",
+      "target": {
+        "kind": "text",
+        "text": "검색어나 검색 필터를 변경해 주세요.",
+        "exact": true
+      }
+    }
+  ],
+  "updatedAt": "2026-10-07T06:37:39.457Z"
+}

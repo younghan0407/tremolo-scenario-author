@@ -1,0 +1,638 @@
+[
+ {
+  "tag": "np-list",
+  "url": "https://example.invalid/env-2/viola/workflow/network/network-policy",
+  "bc": "워크플로우/ 네트워크/ 네트워크 폴리시",
+  "pt": "네트워크 폴리시 네트워크 트래픽의 접근 제어 정책을 설정합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:네트워크 폴리시"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "add 생성",
+   "allow-egress",
+   "more_horiz",
+   "allow-scraping",
+   "allow-webhooks",
+   "kiali",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-network-policy-fetch-table-filter-search-input|",
+   "search|rc_select_0|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "checkbox||||",
+   "number|||adm-network-policy-fetch-table-pagination-page-input|",
+   "search|rc_select_1|||R"
+  ],
+  "lab": [],
+  "sel": [
+   "rc_select_0=기간 설정",
+   "rc_select_1=리스트 수 20"
+  ],
+  "chk": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tables": [
+   {
+    "tid": "adm-network-policy-fetch-table-table",
+    "th": [
+     "",
+     "이름↕",
+     "클러스터↕",
+     "네임스페이스↕",
+     "파드 셀렉터",
+     "정책 타입",
+     "생성일시↕",
+     "작업"
+    ],
+    "rows": 4,
+    "row1": [
+     "",
+     "allow-egress",
+     "biz1",
+     "flux-system",
+     "-",
+     "Ingress, Egress",
+     "2026-09-29 22:02:45",
+     "more_horiz"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "워크플로우/ 네트워크/ 네트워크 폴리시 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "워크플로우/ 네트워크/ 네트워크 폴리시",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "워크플로우",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-networkpolicy",
+    "div",
+    "네트워크 폴리시 네트워크 트래픽의 접근 제어 정책을 설정합니다. filter_list 기간 설정 calendar_month a",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "네트워크 폴리시 네트워크 트래픽의 접근 제어 정책을 설정합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-networkpolicy-panel",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 파드 셀렉터 정책 타입 생성",
+    ""
+   ],
+   [
+    "adm-page-viola-networkpolicy-main",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 파드 셀렉터 정책 타입 생성",
+    ""
+   ],
+   [
+    "adm-page-viola-networkpolicy-content-header",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-page-viola-networkpolicy-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 파드 셀렉터 정책 타입 생성",
+    ""
+   ],
+   [
+    "adm-network-policy-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 파드 셀렉터 정책 타입 생성",
+    ""
+   ],
+   [
+    "adm-network-policy-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성",
+    ""
+   ],
+   [
+    "adm-network-policy-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-list-button-groups-create",
+    "button",
+    "add 생성",
+    ""
+   ],
+   [
+    "adm-network-policy-fetch-table-row",
+    "tr",
+    "allow-egress biz1 flux-system - Ingress, Egress 2026-09-29 22:02:45 mo",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "allow-egress",
+    ""
+   ],
+   [
+    "adm-network-policy-fetch-table-pagination",
+    "div",
+    "전체 수 4 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-network-policy-fetch-table-pagination-total",
+    "p",
+    "전체 수 4",
+    ""
+   ],
+   [
+    "adm-network-policy-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-network-policy-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-network-policy-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-network-policy-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-network-policy-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-network-policy-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "np-detail",
+  "url": "https://example.invalid/env-2/viola/workflow/network/network-policy/detail?name=allow-egress&namespace=flux-system&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "워크플로우/ 네트워크/ 네트워크 폴리시/ 네트워크 폴리시 상세",
+  "pt": "arrow_back allow-egress 수정 delete 삭제",
+  "h": [
+   "h1:unfold_more",
+   "h1:allow-egress",
+   "h1:기본 정보",
+   "h1:Ingress 정책",
+   "h1:Egress 정책"
+  ],
+  "tabs": [
+   "세부 정책*",
+   "YAML"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "수정",
+   "delete 삭제",
+   "left_panel_close",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)"
+  ],
+  "ph": [
+   "number|||adm-network-policy-detailed-policy-ingress-table-pagination-page-input|",
+   "search|rc_select_2|||R",
+   "number|||adm-network-policy-detailed-policy-egress-table-pagination-page-input|",
+   "search|rc_select_3|||R"
+  ],
+  "lab": [
+   "이름",
+   "클러스터",
+   "네임스페이스",
+   "파드 셀렉터",
+   "정책 타입",
+   "생성일시"
+  ],
+  "sel": [
+   "rc_select_2=리스트 수 20",
+   "rc_select_3=리스트 수 20"
+  ],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-network-policy-detailed-policy-ingress-table-table",
+    "th": [
+     "출발지↕",
+     "포트↕",
+     "IP Block↕",
+     "파드 셀렉터",
+     "네임스페이스 셀렉터"
+    ],
+    "rows": 1,
+    "row1": [
+     "Pod",
+     "-",
+     "-",
+     "-",
+     "-"
+    ]
+   },
+   {
+    "tid": "adm-network-policy-detailed-policy-egress-table-table",
+    "th": [
+     "목적지↕",
+     "포트↕",
+     "IP Block↕",
+     "파드 셀렉터",
+     "네임스페이스 셀렉터"
+    ],
+    "rows": 1,
+    "row1": [
+     "allow-all",
+     "allow-all",
+     "allow-all",
+     "allow-all",
+     "allow-all"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "워크플로우/ 네트워크/ 네트워크 폴리시/ 네트워크 폴리시 상세 biz1 sync_alt browse_activity 모니터링 ",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "워크플로우/ 네트워크/ 네트워크 폴리시/ 네트워크 폴리시 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "워크플로우",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-networkpolicy-detail",
+    "div",
+    "arrow_back allow-egress 수정 delete 삭제 left_panel_close 기본 정보 이름 allow-e",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back allow-egress 수정 delete 삭제",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "수정",
+    ""
+   ],
+   [
+    "adm-page-viola-networkpolicy-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 allow-egress 클러스터 biz1 네임스페이스 flux-system 파드",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-page-viola-networkpolicy-detail-main",
+    "div",
+    "세부 정책 YAML Ingress 정책 출발지 포트 IP Block 파드 셀렉터 네임스페이스 셀렉터 Pod - - - - 전체",
+    ""
+   ],
+   [
+    "adm-network-policy-detail-tabs",
+    "div",
+    "세부 정책 YAML Ingress 정책 출발지 포트 IP Block 파드 셀렉터 네임스페이스 셀렉터 Pod - - - - 전체",
+    ""
+   ],
+   [
+    "adm-network-policy-detail-tabs-tab",
+    "span",
+    "세부 정책",
+    ""
+   ],
+   [
+    "adm-tab-content-layout-sub-title",
+    "div",
+    "Ingress 정책",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-ingress-table-table",
+    "div",
+    "출발지 포트 IP Block 파드 셀렉터 네임스페이스 셀렉터 Pod - - - -",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-ingress-table-row",
+    "tr",
+    "Pod - - - -",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-ingress-table-pagination",
+    "div",
+    "전체 수 1 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-ingress-table-pagination-total",
+    "p",
+    "전체 수 1",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-ingress-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-network-policy-detailed-policy-ingress-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-network-policy-detailed-policy-ingress-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-ingress-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-network-policy-detailed-policy-ingress-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-network-policy-detailed-policy-ingress-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-egress-table-table",
+    "div",
+    "목적지 포트 IP Block 파드 셀렉터 네임스페이스 셀렉터 allow-all allow-all allow-all allow-",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-egress-table-row",
+    "tr",
+    "allow-all allow-all allow-all allow-all allow-all",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-egress-table-pagination",
+    "div",
+    "전체 수 1 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-egress-table-pagination-total",
+    "p",
+    "전체 수 1",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-egress-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-network-policy-detailed-policy-egress-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-network-policy-detailed-policy-egress-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-network-policy-detailed-policy-egress-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-network-policy-detailed-policy-egress-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-network-policy-detailed-policy-egress-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "np-detail/YAML",
+  "url": "https://example.invalid/env-2/viola/workflow/network/network-policy/detail?name=allow-egress&namespace=flux-system&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "워크플로우/ 네트워크/ 네트워크 폴리시/ 네트워크 폴리시 상세",
+  "pt": "arrow_back allow-egress 수정 delete 삭제",
+  "h": [
+   "h1:unfold_more",
+   "h1:allow-egress",
+   "h1:기본 정보"
+  ],
+  "tabs": [
+   "세부 정책",
+   "YAML*"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "수정",
+   "delete 삭제",
+   "left_panel_close"
+  ],
+  "ph": [
+   "textarea||||"
+  ],
+  "lab": [
+   "이름",
+   "클러스터",
+   "네임스페이스",
+   "파드 셀렉터",
+   "정책 타입",
+   "생성일시"
+  ],
+  "sel": [],
+  "chk": [],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "워크플로우/ 네트워크/ 네트워크 폴리시/ 네트워크 폴리시 상세 biz1 sync_alt browse_activity 모니터링 ",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "워크플로우/ 네트워크/ 네트워크 폴리시/ 네트워크 폴리시 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "워크플로우",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-networkpolicy-detail",
+    "div",
+    "arrow_back allow-egress 수정 delete 삭제 left_panel_close 기본 정보 이름 allow-e",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back allow-egress 수정 delete 삭제",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "수정",
+    ""
+   ],
+   [
+    "adm-page-viola-networkpolicy-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 allow-egress 클러스터 biz1 네임스페이스 flux-system 파드",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-page-viola-networkpolicy-detail-main",
+    "div",
+    "세부 정책 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23",
+    ""
+   ],
+   [
+    "adm-network-policy-detail-tabs",
+    "div",
+    "세부 정책 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23",
+    ""
+   ],
+   [
+    "adm-network-policy-detail-tabs-tab",
+    "span",
+    "세부 정책",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "opened": []
+ }
+]

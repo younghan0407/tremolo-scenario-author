@@ -1,0 +1,99 @@
+{
+  "cookies": [
+    {
+      "name": "bfRefreshToken",
+      "value": "REDACTED_JWT",
+      "domain": "400tst.console.bf.okestro.cloud",
+      "path": "/v1/bootfactory/api/token",
+      "expires": 1791510302.771203,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "accessToken",
+      "value": "REDACTED_JWT",
+      "domain": "400tst.console.bf.okestro.cloud",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "providerId",
+      "value": "b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+      "domain": "400tst.console.bf.okestro.cloud",
+      "path": "/",
+      "expires": 1791510375,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OKE_LAST_ACTIVITY_TIME",
+      "value": "1791424063003",
+      "domain": ".okestro.cloud",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://example.invalid/env-2",
+      "localStorage": [
+        {
+          "name": "theme",
+          "value": "light"
+        },
+        {
+          "name": "BF_BRANDING",
+          "value": "{\"v\":1,\"id\":null,\"brandName\":null,\"assets\":{\"logoHorizontal\":null,\"logoSymbol\":null,\"favicon\":null}}"
+        },
+        {
+          "name": "userInfo",
+          "value": "{\"userStatus\":\"ACTIVE\",\"superAdminFlag\":false,\"userId\":\"YOUR_ACCOUNT_ID\",\"userName\":\"YOUR_ACCOUNT_ID\",\"email\":\"tremolo@okestro.com\",\"notification\":true,\"firstPage\":{\"solutionType\":\"CONTRABASS\",\"firstPageStatus\":\"SET\"},\"createdByAdminId\":\"bootfactory\",\"createdByAdminEmail\":\"admin@okestro.com\",\"ssoUser\":false,\"passwordLastChangedAt\":\"2026-10-01T05:13:16.000Z\",\"accountOrigin\":\"BF\",\"apiUser\":false,\"federated\":false,\"preferredUsername\":\"\",\"sessionId\":\"a9c9af72-3462-475c-b8c6-f88c45a8dcc9\"}"
+        },
+        {
+          "name": "viola.tenant",
+          "value": "{\"tenantCluster\":{\"clusterName\":\"biz1\",\"version\":null,\"providerId\":\"b2b86cb7-556e-47fa-ac2f-980c32252f7e\",\"creationDatetime\":\"2026-09-29T13:36:57Z\",\"clusterGroup\":\"YOUR_ACCOUNT_ID\",\"selected\":true,\"favorite\":false,\"platformTypeName\":\"KUBERNETES\",\"groups\":[{\"clusterName\":\"biz1\",\"providerId\":\"b2b86cb7-556e-47fa-ac2f-980c32252f7e\"},{\"clusterName\":\"biz2\",\"providerId\":\"818bbce4-5cc0-4794-b564-a7e8a73174b4\"},{\"clusterName\":\"ym-test1500\",\"providerId\":\"97455409-b528-4f85-bbaa-3264979d862e\"}]},\"harborApiUrl\":\"pq-400tst.harbor.okestro.cloud/library/\",\"selectedProviderIds\":[\"b2b86cb7-556e-47fa-ac2f-980c32252f7e\"],\"accessibleClusters\":[{\"providerId\":\"b2b86cb7-556e-47fa-ac2f-980c32252f7e\",\"clusterName\":\"biz1\"},{\"providerId\":\"818bbce4-5cc0-4794-b564-a7e8a73174b4\",\"clusterName\":\"biz2\"},{\"providerId\":\"97455409-b528-4f85-bbaa-3264979d862e\",\"clusterName\":\"ym-test1500\"}],\"lastAppliedFirstPage\":\"CONTRABASS:undefined\",\"lastUserId\":\"YOUR_ACCOUNT_ID\",\"sseTenantModal\":{\"isOpen\":false,\"excludeProviderIds\":[],\"hideCancel\":false},\"clusterConnectionModal\":{\"isOpen\":false},\"sseDataUpdated\":false}"
+        },
+        {
+          "name": "BF_AT",
+          "value": "REDACTED_JWT"
+        },
+        {
+          "name": "providerStore",
+          "value": "{\"showProviderModal\":false,\"isTenantAccessDenied\":false,\"lastSelection\":null,\"isProviderListLoading\":false,\"selectedProvider\":{\"id\":\"54e3ff45-64d3-457d-849c-aa728194377c\",\"name\":\"목동\",\"s3Type\":\"swift\",\"isProvider\":true,\"prometheusUrl\":\"https://10.255.40.10:11909\",\"children\":[{\"name\":\"auto-project\",\"id\":\"e85be052bc9d44bf93442cd19d0d0e57\",\"description\":\"플랫폼품질팀 잠깐 확인용\",\"isProject\":true,\"tags\":[],\"domainId\":\"default\"}]},\"isChangedProvider\":false,\"skipMenuUpdate\":false,\"deletedProviderIdsRaw\":[]}"
+        },
+        {
+          "name": "contrabass_configmap",
+          "value": "{\"instance\":{\"multiInstanceMode\":false,\"gpuMode\":false},\"licenses\":{\"grafana\":true},\"ha\":{\"enhanced\":false,\"useMetaOnMasakari\":true},\"watcher\":{\"enhanced\":true},\"grafana\":{\"bootFactoryGrafanaUrl\":\"/boot-factory/grafana?grafana_url=\",\"grafanaNodeResourcePath\":\"/v1/grafana/d/contrabass-node-resource-v305/node-resource-monitoring\",\"grafanaOvsPath\":\"/v1/grafana/d/contrabass-ovs-v305/virtual-network-monitoring\",\"grafanaRabbitmqPath\":\"/v1/grafana/d/contrabass-rabbitmq-v305/rabbitmq-monitoring\",\"grafanaVmResourcePath\":\"/v1/grafana/d/contrabass-vm-resource-v305/virtual-machine-resource-monitoring\",\"grafanaIpmiPath\":\"/v1/grafana/d/contrabass-ipmi-v305/node-ipmi-monitoring\",\"grafanaMonitoringPath\":\"/v1/grafana/d/contrabass-monitoring-v305/contrabass-monitoring\",\"grafanaLogPath\":\"/v1/grafana/d/contrabass-log-v305/contrabass-log-monitoring\"},\"lite\":false}"
+        },
+        {
+          "name": "BF_LNB_IS_COLLAPSED",
+          "value": "false"
+        },
+        {
+          "name": "viola.tenant.multi-cluster.selected",
+          "value": "false"
+        },
+        {
+          "name": "persist:kiali-v1/viola/admin/v1/k8s/trafficmonitorings",
+          "value": "{\"authentication\":\"{}\",\"globalState\":\"{\\\"language\\\":\\\"en\\\",\\\"theme\\\":\\\"Light\\\"}\",\"graph\":\"{\\\"layout\\\":\\\"dagre\\\"}\",\"namespaces\":\"{\\\"activeNamespaces\\\":[]}\",\"statusState\":\"{\\\"status\\\":{\\\"Disabled features\\\":\\\"\\\",\\\"Kiali commit hash\\\":\\\"d27b305c1a6993d5dbcd9b26acfa2006ecf41fd0\\\",\\\"Kiali container version\\\":\\\"v2.26.1\\\",\\\"Kiali state\\\":\\\"running\\\",\\\"Kiali version\\\":\\\"v2.26.1\\\"},\\\"externalServices\\\":[{\\\"name\\\":\\\"Kubernetes-Kubernetes\\\",\\\"version\\\":\\\"v1.34.11\\\",\\\"tempoConfig\\\":{}},{\\\"name\\\":\\\"Prometheus\\\",\\\"version\\\":\\\"3.5.0\\\",\\\"tempoConfig\\\":{}}],\\\"warningMessages\\\":[],\\\"istioEnvironment\\\":{\\\"istioAPIEnabled\\\":true}}\",\"tracingState\":\"{\\\"info\\\":{\\\"enabled\\\":false,\\\"integration\\\":false,\\\"internalURL\\\":\\\"\\\",\\\"provider\\\":\\\"\\\",\\\"tempoConfig\\\":{},\\\"url\\\":\\\"\\\",\\\"namespaceSelector\\\":false,\\\"useWaypointName\\\":false,\\\"whiteListIstioSystem\\\":null}}\",\"userSettings\":\"{\\\"duration\\\":60,\\\"refreshInterval\\\":60000,\\\"timeRange\\\":{\\\"rangeDuration\\\":600}}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        },
+        {
+          "name": "locale",
+          "value": "korean"
+        },
+        {
+          "name": "BF_SAVED_USER_ID",
+          "value": "YOUR_ACCOUNT_ID"
+        }
+      ]
+    }
+  ]
+}

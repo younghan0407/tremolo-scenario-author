@@ -1,0 +1,334 @@
+[
+ {
+  "header": "biz1 sync_alt"
+ },
+ {
+  "tag": "restored",
+  "url": "https://example.invalid/env-2/viola/",
+  "bc": "대시보드",
+  "pt": "대시보드",
+  "h": [
+   "h1:unfold_more",
+   "h1:대시보드",
+   "h1:클러스터 현황",
+   "h3:컨트롤 플레인 상태",
+   "h3:GOOD",
+   "h3:GOOD",
+   "h3:GOOD",
+   "h3:전체 노드 상태",
+   "h3:리소스 사용 현황",
+   "h3:CPU 사용률",
+   "h3:메모리 사용률",
+   "h3:파일시스템 사용률",
+   "h3:서비스 컴포넌트",
+   "h4:Loki",
+   "h4:Cilium",
+   "h4:FluxCD",
+   "h4:Gateway API",
+   "h4:Hubble",
+   "h4:Istio",
+   "h4:Kiali",
+   "h4:Prometheus",
+   "h4:Velero",
+   "h4:viola-log-collector",
+   "h2:네임스페이스 현황",
+   "h3:최근 1시간 CPU 사용량 Top 5",
+   "h3:최근 1시간 메모리 사용량 Top 5",
+   "h3:리소스 쿼터 기준 사용 현황",
+   "h3:CPU 사용률 Top 네임스페이스",
+   "h3:메모리 사용률 Top 네임스페이스",
+   "h3:최근 1시간 임계치 알림",
+   "h3:info 알림이 없습니다.",
+   "h1:네임스페이스별 리소스 현황",
+   "h1:리소스 통계",
+   "h1:0",
+   "h1:0",
+   "h1:0",
+   "h1:0",
+   "h1:리소스 사용 현황",
+   "h1:최근 1시간 이벤트 통계",
+   "h3:CPU 사용 현황",
+   "h1:0 mCore",
+   "h3:메모리 사용 현황",
+   "h1:0 MiB",
+   "h1:파드 현황",
+   "h3:상태",
+   "h3:Limits 기준 CPU 사용률 Top",
+   "h3:Limits 기준 메모리 사용률 Top",
+   "h3:파드별 CPU 사용량 Top 5",
+   "h3:info 데이터가 없습니다.",
+   "h3:파드별 메모리 사용량 Top 5",
+   "h3:info 데이터가 없습니다.",
+   "h1:퍼시스턴트 볼륨 클레임 현황",
+   "h3:상태",
+   "h3:사용률 Top 5",
+   "h3:info 데이터가 없습니다.",
+   "h3:사용량 Top 5",
+   "h3:info 데이터가 없습니다.",
+   "div:알림",
+   "h1:알림"
+  ],
+  "tabs": [
+   "biz1*"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "refresh 2026-10-08 10:47:31",
+   "컴포넌트 상세 보기 open_in_new",
+   "ETCD 상세 보기 open_in_new",
+   "전체 보기",
+   "help",
+   "전체 해제",
+   "monitoring 42 Core",
+   "kube-system 27.1 Core",
+   "cilium 18.6 Core",
+   "pjw-ns 15.3 Core",
+   "istio-system 0.5 Core",
+   "monitoring 347.2 GiB",
+   "kube-system 227.2 GiB",
+   "pqa-kmj 128.1 GiB",
+   "cilium 48.8 GiB",
+   "istio-system 18.3 GiB",
+   "설정하기 chevron_right",
+   "확인"
+  ],
+  "ph": [
+   "search|rc_select_1|||R"
+  ],
+  "lab": [
+   "네임스페이스"
+  ],
+  "sel": [
+   "rc_select_1=cert-manager"
+  ],
+  "chk": [],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "대시보드 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "대시보드",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "대시보드",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-dashboard",
+    "div",
+    "대시보드 biz1 refresh 2026-10-08 10:47:31 클러스터 현황 컨트롤 플레인 상태 GOOD 컴포넌트 상세 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "대시보드",
+    ""
+   ],
+   [
+    "adm-page-viola-dashboard-panel",
+    "div",
+    "biz1 refresh 2026-10-08 10:47:31 클러스터 현황 컨트롤 플레인 상태 GOOD 컴포넌트 상세 보기 op",
+    ""
+   ],
+   [
+    "adm-page-viola-dashboard-main",
+    "div",
+    "biz1 refresh 2026-10-08 10:47:31 클러스터 현황 컨트롤 플레인 상태 GOOD 컴포넌트 상세 보기 op",
+    ""
+   ],
+   [
+    "adm-dashboard-tabs",
+    "div",
+    "biz1 refresh 2026-10-08 10:47:31 클러스터 현황 컨트롤 플레인 상태 GOOD 컴포넌트 상세 보기 op",
+    ""
+   ],
+   [
+    "adm-dashboard-tabs-tab",
+    "span",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-dashboard-refresh",
+    "button",
+    "refresh 2026-10-08 10:47:31",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-cluster-state-title",
+    "div",
+    "클러스터 현황",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-control-plane-status-tag",
+    "div",
+    "GOOD",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-control-plane-status-tag-item",
+    "span",
+    "GOOD",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-view-component-details",
+    "button",
+    "컴포넌트 상세 보기 open_in_new",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-view-etcd-details",
+    "button",
+    "ETCD 상세 보기 open_in_new",
+    ""
+   ],
+   [
+    "adm-dashboard-card-header-button",
+    "button",
+    "전체 보기",
+    ""
+   ],
+   [
+    "adm-status-tag-item-tags",
+    "div",
+    "RUNNING",
+    ""
+   ],
+   [
+    "adm-status-tag-item-tags-item",
+    "span",
+    "RUNNING",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-button",
+    "button",
+    "help",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-service-status-tag",
+    "div",
+    "DOWN",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-service-status-tag-item",
+    "span",
+    "DOWN",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-cpu-set-quota",
+    "button",
+    "설정하기 chevron_right",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-memory-set-quota",
+    "button",
+    "설정하기 chevron_right",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-threshold-alert-count-tag",
+    "div",
+    "0",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-threshold-alert-count-tag-item",
+    "span",
+    "0",
+    ""
+   ],
+   [
+    "adm-no-data",
+    "div",
+    "info 알림이 없습니다. 최근 1시간 임계치 알림이 없습니다.",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-namespace-resource-status-title",
+    "div",
+    "네임스페이스별 리소스 현황",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-selected-namespace",
+    "div",
+    "cert-manager",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-resource-statistics-title",
+    "div",
+    "리소스 통계",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-resource-usage-status-title",
+    "div",
+    "리소스 사용 현황",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-recent-1hour-event-statistics-title",
+    "div",
+    "최근 1시간 이벤트 통계",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-pod-overview-title",
+    "div",
+    "파드 현황",
+    ""
+   ],
+   [
+    "adm-single-cluster-dashboard-persistent-volume-claim-status-title",
+    "div",
+    "퍼시스턴트 볼륨 클레임 현황",
+    ""
+   ],
+   [
+    "adm-confirm-modal-content",
+    "div",
+    "권한이 없습니다. 관리자(admin@okestro.com)에게 문의해 주세요.",
+    ""
+   ],
+   [
+    "adm-confirm-modal-confirm",
+    "button",
+    "확인",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: check_circle 클러스터가 선택되었습니다. cancel 오류 발생 사용자 요청을 완료할 수 없습니다.",
+   "ant-modal css-4kbzec :: 알림 권한이 없습니다. 관리자(admin@okestro.com)에게 문의해 주세요. 확인"
+  ],
+  "text": "check_circle 클러스터가 선택되었습니다. cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "opened": []
+ }
+]

@@ -1,0 +1,1163 @@
+{
+ "group": "서비스 카탈로그",
+ "pages": [
+  {
+   "tag": "카탈로그 관리",
+   "url": "https://example.invalid/env-2/viola/service-catalog/hub",
+   "title": "카탈로그 관리 | VIOLA",
+   "bc": "서비스 카탈로그/ 카탈로그 관리",
+   "pt": "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다.",
+   "h": [
+    "h1:unfold_more",
+    "h1:카탈로그 관리"
+   ],
+   "tabs": [
+    "설치 목록*",
+    "카탈로그 허브"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "nfs-csi",
+    "more_horiz",
+    "keyboard_double_arrow_left",
+    "keyboard_arrow_left",
+    "keyboard_arrow_right",
+    "keyboard_double_arrow_right"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_287||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "number|||",
+    "search|rc_select_288||R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_287=기간 설정",
+    "rc_select_288=리스트 수 20"
+   ],
+   "seg": [],
+   "tables": [
+    {
+     "tid": "adm-catalog-deploy-table-table",
+     "th": [
+      "이름↕",
+      "상태 help",
+      "카탈로그 유형↕",
+      "지원 엔진 버전",
+      "클러스터↕",
+      "네임스페이스↕",
+      "리비전↕",
+      "최근 수정일시↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 1,
+     "row1": [
+      "nfs-csi",
+      "DEPLOYED",
+      "VIOLA 컴포넌트",
+      "1.33.5 1.34.10 1.35.7",
+      "biz1",
+      "nfs-csi",
+      "1",
+      "2026-09-30 18:26:11",
+      "2026-09-30 18:26:11",
+      "more_horiz"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "서비스 카탈로그/ 카탈로그 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "서비스 카탈로그/ 카탈로그 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "서비스 카탈로그"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-service-catalog-hub",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다. 설치 목록 카탈로그 허브 filter_list 기"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다."
+    ],
+    [
+     "adm-catalog-management-tabs",
+     "div",
+     "설치 목록 카탈로그 허브 filter_list 기간 설정 calendar_month 이름 상태 help 카탈로그 유형 지원 엔"
+    ],
+    [
+     "adm-catalog-management-tabs-tab",
+     "span",
+     "설치 목록"
+    ],
+    [
+     "adm-catalog-deploy-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month 이름 상태 help 카탈로그 유형 지원 엔진 버전 클러스터 네임스페"
+    ],
+    [
+     "adm-catalog-deploy-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month"
+    ],
+    [
+     "adm-catalog-deploy-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-catalog-deploy-table-row",
+     "tr",
+     "nfs-csi DEPLOYED VIOLA 컴포넌트 1.33.5 1.34.10 1.35.7 biz1 nfs-csi 1 2026-"
+    ],
+    [
+     "adm-name-cell",
+     "button",
+     "nfs-csi"
+    ],
+    [
+     "adm-status-tag",
+     "div",
+     "DEPLOYED"
+    ],
+    [
+     "adm-status-tag-item",
+     "span",
+     "DEPLOYED"
+    ],
+    [
+     "adm-catalog-deploy-tags",
+     "div",
+     "1.33.5 1.34.10 1.35.7"
+    ],
+    [
+     "adm-catalog-deploy-tags-item",
+     "span",
+     "1.33.5"
+    ],
+    [
+     "adm-catalog-deploy-actions-trigger",
+     "button",
+     "more_horiz"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination",
+     "div",
+     "전체 수 1 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-total",
+     "p",
+     "전체 수 1"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-first",
+     "button",
+     "keyboard_double_arrow_left"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-prev",
+     "button",
+     "keyboard_arrow_left"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-page-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-next",
+     "button",
+     "keyboard_arrow_right"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-last",
+     "button",
+     "keyboard_double_arrow_right"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-page-size",
+     "div",
+     "리스트 수 20"
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "카탈로그 관리 / 설치 목록",
+   "url": "https://example.invalid/env-2/viola/service-catalog/hub",
+   "title": "카탈로그 관리 | VIOLA",
+   "bc": "서비스 카탈로그/ 카탈로그 관리",
+   "pt": "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다.",
+   "h": [
+    "h1:unfold_more",
+    "h1:카탈로그 관리"
+   ],
+   "tabs": [
+    "설치 목록*",
+    "카탈로그 허브"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "nfs-csi",
+    "more_horiz",
+    "keyboard_double_arrow_left",
+    "keyboard_arrow_left",
+    "keyboard_arrow_right",
+    "keyboard_double_arrow_right"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_287||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "number|||",
+    "search|rc_select_288||R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_287=기간 설정",
+    "rc_select_288=리스트 수 20"
+   ],
+   "seg": [],
+   "tables": [
+    {
+     "tid": "adm-catalog-deploy-table-table",
+     "th": [
+      "이름↕",
+      "상태 help",
+      "카탈로그 유형↕",
+      "지원 엔진 버전",
+      "클러스터↕",
+      "네임스페이스↕",
+      "리비전↕",
+      "최근 수정일시↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 1,
+     "row1": [
+      "nfs-csi",
+      "DEPLOYED",
+      "VIOLA 컴포넌트",
+      "1.33.5 1.34.10 1.35.7",
+      "biz1",
+      "nfs-csi",
+      "1",
+      "2026-09-30 18:26:11",
+      "2026-09-30 18:26:11",
+      "more_horiz"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "서비스 카탈로그/ 카탈로그 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "서비스 카탈로그/ 카탈로그 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "서비스 카탈로그"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-service-catalog-hub",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다. 설치 목록 카탈로그 허브 filter_list 기"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다."
+    ],
+    [
+     "adm-catalog-management-tabs",
+     "div",
+     "설치 목록 카탈로그 허브 filter_list 기간 설정 calendar_month 이름 상태 help 카탈로그 유형 지원 엔"
+    ],
+    [
+     "adm-catalog-management-tabs-tab",
+     "span",
+     "설치 목록"
+    ],
+    [
+     "adm-catalog-deploy-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month 이름 상태 help 카탈로그 유형 지원 엔진 버전 클러스터 네임스페"
+    ],
+    [
+     "adm-catalog-deploy-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month"
+    ],
+    [
+     "adm-catalog-deploy-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-catalog-deploy-table-row",
+     "tr",
+     "nfs-csi DEPLOYED VIOLA 컴포넌트 1.33.5 1.34.10 1.35.7 biz1 nfs-csi 1 2026-"
+    ],
+    [
+     "adm-name-cell",
+     "button",
+     "nfs-csi"
+    ],
+    [
+     "adm-status-tag",
+     "div",
+     "DEPLOYED"
+    ],
+    [
+     "adm-status-tag-item",
+     "span",
+     "DEPLOYED"
+    ],
+    [
+     "adm-catalog-deploy-tags",
+     "div",
+     "1.33.5 1.34.10 1.35.7"
+    ],
+    [
+     "adm-catalog-deploy-tags-item",
+     "span",
+     "1.33.5"
+    ],
+    [
+     "adm-catalog-deploy-actions-trigger",
+     "button",
+     "more_horiz"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination",
+     "div",
+     "전체 수 1 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-total",
+     "p",
+     "전체 수 1"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-first",
+     "button",
+     "keyboard_double_arrow_left"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-prev",
+     "button",
+     "keyboard_arrow_left"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-page-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-next",
+     "button",
+     "keyboard_arrow_right"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-last",
+     "button",
+     "keyboard_double_arrow_right"
+    ],
+    [
+     "adm-catalog-deploy-table-pagination-page-size",
+     "div",
+     "리스트 수 20"
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "카탈로그 관리 / 설치 목록 / rowmenu",
+   "menu": [
+    "롤백",
+    "수정",
+    "삭제"
+   ]
+  },
+  {
+   "tag": "카탈로그 관리 / 설치 목록 / DETAIL",
+   "url": "https://example.invalid/env-2/viola/service-catalog/deploy/detail?name=nfs-csi&namespace=nfs-csi&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e&deployType=viola",
+   "title": "배포 상세 | VIOLA",
+   "bc": "서비스 카탈로그/ 카탈로그 관리/ 배포 상세",
+   "pt": "arrow_back nfs-csi 수정 delete 삭제",
+   "h": [
+    "h1:unfold_more",
+    "h1:nfs-csi",
+    "h1:기본 정보",
+    "h1:파드",
+    "h1:서비스",
+    "h3:info 데이터가 없습니다.",
+    "h1:상태"
+   ],
+   "tabs": [
+    "리소스*",
+    "수정 이력"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "arrow_back",
+    "수정",
+    "delete 삭제",
+    "left_panel_close",
+    "csi-nfs-controller-66c4749748-rs62q",
+    "ReplicaSet ... 66c4749748 link",
+    "csi-nfs-node-9xpnp",
+    "DaemonSet: csi-nfs-node link",
+    "csi-nfs-node-hgwcs",
+    "csi-nfs-node-ppx86",
+    "keyboard_double_arrow_left",
+    "keyboard_arrow_left",
+    "keyboard_arrow_right",
+    "keyboard_double_arrow_right",
+    "content_copy"
+   ],
+   "ph": [
+    "number|||",
+    "search|rc_select_289||R"
+   ],
+   "lab": [
+    "이름",
+    "상태",
+    "카탈로그 유형",
+    "카탈로그 이름",
+    "클러스터",
+    "네임스페이스",
+    "리비전",
+    "지원 엔진 버전",
+    "생성자",
+    "생성일시",
+    "수정자",
+    "수정일시"
+   ],
+   "sel": [
+    "rc_select_289=리스트 수 10"
+   ],
+   "seg": [],
+   "tables": [
+    {
+     "tid": "adm-catalog-deploy-detail-pods-table-table",
+     "th": [
+      "이름↕",
+      "GPU",
+      "상태 help",
+      "컨테이너↕",
+      "CPU↕",
+      "메모리↕",
+      "재시작↕",
+      "소유자",
+      "생성일시↕"
+     ],
+     "rows": 4,
+     "row1": [
+      "csi-nfs-controller-66c4749748-rs62q",
+      "check_circle",
+      "RUNNING",
+      "5/5",
+      "5.36 mCore",
+      "49.3 MiB",
+      "0",
+      "ReplicaSet ... 66c4749748 link",
+      "2026-09-30 18:26:10"
+     ],
+     "empty": ""
+    },
+    {
+     "tid": "adm-catalog-deploy-detail-services-table-table",
+     "th": [
+      "이름↕",
+      "유형↕",
+      "레이블",
+      "파드 셀렉터",
+      "포트",
+      "생성일시↕"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    },
+    {
+     "tid": "adm-catalog-deploy-detail-status-table-table",
+     "th": [
+      "업데이트 일시",
+      "메시지"
+     ],
+     "rows": 1,
+     "row1": [
+      "2026-09-30 18:26:11",
+      "Helm install succeeded for release nfs-c"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "서비스 카탈로그/ 카탈로그 관리/ 배포 상세 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "서비스 카탈로그/ 카탈로그 관리/ 배포 상세"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "서비스 카탈로그"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-service-catalog-deploy-detail",
+     "div",
+     "arrow_back nfs-csi 수정 delete 삭제 left_panel_close 기본 정보 이름 nfs-csi 상태 D"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "arrow_back nfs-csi 수정 delete 삭제"
+    ],
+    [
+     "adm-catalog-deploy-detail-update",
+     "button",
+     "수정"
+    ],
+    [
+     "adm-catalog-deploy-detail-delete",
+     "button",
+     "delete 삭제"
+    ],
+    [
+     "adm-page-viola-service-catalog-deploy-detail-panel",
+     "div",
+     "left_panel_close 기본 정보 이름 nfs-csi 상태 DEPLOYED 카탈로그 유형 VIOLA 컴포넌트 카탈로그 "
+    ],
+    [
+     "adm-the-sider-info-title",
+     "div",
+     "left_panel_close 기본 정보"
+    ],
+    [
+     "adm-status-tag",
+     "div",
+     "DEPLOYED"
+    ],
+    [
+     "adm-status-tag-item",
+     "span",
+     "DEPLOYED"
+    ],
+    [
+     "adm-catalog-deploy-detail-tags",
+     "div",
+     "1.33.5 1.34.10 1.35.7"
+    ],
+    [
+     "adm-catalog-deploy-detail-tags-item",
+     "span",
+     "1.33.5"
+    ],
+    [
+     "adm-page-viola-service-catalog-deploy-detail-main",
+     "div",
+     "리소스 수정 이력 파드 이름 GPU 상태 help 컨테이너 CPU 메모리 재시작 소유자 생성일시 csi-nfs-controll"
+    ],
+    [
+     "adm-catalog-deploy-detail-tabs",
+     "div",
+     "리소스 수정 이력 파드 이름 GPU 상태 help 컨테이너 CPU 메모리 재시작 소유자 생성일시 csi-nfs-controll"
+    ],
+    [
+     "adm-catalog-deploy-detail-tabs-tab",
+     "span",
+     "리소스"
+    ],
+    [
+     "adm-tab-content-layout-sub-title",
+     "div",
+     "파드"
+    ],
+    [
+     "adm-catalog-deploy-detail-pods-table-table",
+     "div",
+     "이름 GPU 상태 help 컨테이너 CPU 메모리 재시작 소유자 생성일시 csi-nfs-controller-66c4749748"
+    ],
+    [
+     "adm-catalog-deploy-detail-pods-table-row",
+     "tr",
+     "csi-nfs-controller-66c4749748-rs62q check_circle RUNNING 5/5 5.36 mCor"
+    ],
+    [
+     "adm-name-cell",
+     "button",
+     "csi-nfs-controller-66c4749748-rs62q"
+    ],
+    [
+     "adm-catalog-deploy-detail-pods-table-pagination",
+     "div",
+     "전체 수 4 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr"
+    ],
+    [
+     "adm-catalog-deploy-detail-pods-table-pagination-total",
+     "p",
+     "전체 수 4"
+    ],
+    [
+     "adm-catalog-deploy-detail-pods-table-pagination-first",
+     "button",
+     "keyboard_double_arrow_left"
+    ],
+    [
+     "adm-catalog-deploy-detail-pods-table-pagination-prev",
+     "button",
+     "keyboard_arrow_left"
+    ],
+    [
+     "adm-catalog-deploy-detail-pods-table-pagination-page-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-deploy-detail-pods-table-pagination-next",
+     "button",
+     "keyboard_arrow_right"
+    ],
+    [
+     "adm-catalog-deploy-detail-pods-table-pagination-last",
+     "button",
+     "keyboard_double_arrow_right"
+    ],
+    [
+     "adm-catalog-deploy-detail-pods-table-pagination-page-size",
+     "div",
+     "리스트 수 10"
+    ],
+    [
+     "adm-catalog-deploy-detail-services-table-table",
+     "div",
+     "이름 유형 레이블 파드 셀렉터 포트 생성일시 info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ],
+    [
+     "adm-catalog-deploy-detail-status-table-table",
+     "div",
+     "업데이트 일시 메시지 2026-09-30 18:26:11 Helm install succeeded for release nfs"
+    ],
+    [
+     "adm-catalog-deploy-detail-status-table-row",
+     "tr",
+     "2026-09-30 18:26:11 Helm install succeeded for release nfs-csi/nfs-csi"
+    ],
+    [
+     "adm-copy-button",
+     "button",
+     "content_copy"
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "카탈로그 관리 / 설치 목록 / DETAIL / 수정 이력",
+   "url": "https://example.invalid/env-2/viola/service-catalog/deploy/detail?name=nfs-csi&namespace=nfs-csi&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e&deployType=viola",
+   "title": "배포 상세 | VIOLA",
+   "bc": "서비스 카탈로그/ 카탈로그 관리/ 배포 상세",
+   "pt": "arrow_back nfs-csi 수정 delete 삭제",
+   "h": [
+    "h1:unfold_more",
+    "h1:nfs-csi",
+    "h1:기본 정보",
+    "h1:배포 수정 이력"
+   ],
+   "tabs": [
+    "리소스",
+    "수정 이력*"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "arrow_back",
+    "수정",
+    "delete 삭제",
+    "left_panel_close",
+    "롤백",
+    "code_blocks",
+    "keyboard_double_arrow_left",
+    "keyboard_arrow_left",
+    "keyboard_arrow_right",
+    "keyboard_double_arrow_right"
+   ],
+   "ph": [
+    "radio|||D",
+    "number|||",
+    "search|rc_select_290||R"
+   ],
+   "lab": [
+    "이름",
+    "상태",
+    "카탈로그 유형",
+    "카탈로그 이름",
+    "클러스터",
+    "네임스페이스",
+    "리비전",
+    "지원 엔진 버전",
+    "생성자",
+    "생성일시",
+    "수정자",
+    "수정일시"
+   ],
+   "sel": [
+    "rc_select_290=리스트 수 20"
+   ],
+   "seg": [
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-catalog-deploy-detail-rollback-table-table",
+     "th": [
+      "",
+      "리비전",
+      "상태 help",
+      "차트 버전",
+      "수정자",
+      "수정일시",
+      "YAML"
+     ],
+     "rows": 1,
+     "row1": [
+      "",
+      "1",
+      "DEPLOYED",
+      "4.11.0",
+      "hh.kwon",
+      "2026-09-30 18:26:11",
+      "code_blocks"
+     ],
+     "empty": ""
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "서비스 카탈로그/ 카탈로그 관리/ 배포 상세 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "서비스 카탈로그/ 카탈로그 관리/ 배포 상세"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "서비스 카탈로그"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-service-catalog-deploy-detail",
+     "div",
+     "arrow_back nfs-csi 수정 delete 삭제 left_panel_close 기본 정보 이름 nfs-csi 상태 D"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "arrow_back nfs-csi 수정 delete 삭제"
+    ],
+    [
+     "adm-catalog-deploy-detail-update",
+     "button",
+     "수정"
+    ],
+    [
+     "adm-catalog-deploy-detail-delete",
+     "button",
+     "delete 삭제"
+    ],
+    [
+     "adm-page-viola-service-catalog-deploy-detail-panel",
+     "div",
+     "left_panel_close 기본 정보 이름 nfs-csi 상태 DEPLOYED 카탈로그 유형 VIOLA 컴포넌트 카탈로그 "
+    ],
+    [
+     "adm-the-sider-info-title",
+     "div",
+     "left_panel_close 기본 정보"
+    ],
+    [
+     "adm-status-tag",
+     "div",
+     "DEPLOYED"
+    ],
+    [
+     "adm-status-tag-item",
+     "span",
+     "DEPLOYED"
+    ],
+    [
+     "adm-catalog-deploy-detail-tags",
+     "div",
+     "1.33.5 1.34.10 1.35.7"
+    ],
+    [
+     "adm-catalog-deploy-detail-tags-item",
+     "span",
+     "1.33.5"
+    ],
+    [
+     "adm-page-viola-service-catalog-deploy-detail-main",
+     "div",
+     "리소스 수정 이력 배포 수정 이력 롤백 리비전 상태 help 차트 버전 수정자 수정일시 YAML 1 DEPLOYED 4.11."
+    ],
+    [
+     "adm-catalog-deploy-detail-tabs",
+     "div",
+     "리소스 수정 이력 배포 수정 이력 롤백 리비전 상태 help 차트 버전 수정자 수정일시 YAML 1 DEPLOYED 4.11."
+    ],
+    [
+     "adm-catalog-deploy-detail-tabs-tab",
+     "span",
+     "리소스"
+    ],
+    [
+     "adm-tab-content-layout-sub-title",
+     "div",
+     "배포 수정 이력 롤백"
+    ],
+    [
+     "adm-catalog-deploy-detail-rollback",
+     "button",
+     "롤백"
+    ],
+    [
+     "adm-catalog-deploy-detail-rollback-table-table",
+     "div",
+     "리비전 상태 help 차트 버전 수정자 수정일시 YAML 1 DEPLOYED 4.11.0 hh.kwon 2026-09-30 1"
+    ],
+    [
+     "adm-catalog-deploy-detail-rollback-table-row",
+     "tr",
+     "1 DEPLOYED 4.11.0 hh.kwon 2026-09-30 18:26:11 code_blocks"
+    ],
+    [
+     "adm-catalog-deploy-detail-open-yaml-modal",
+     "button",
+     "code_blocks"
+    ],
+    [
+     "adm-catalog-deploy-detail-rollback-table-pagination",
+     "div",
+     "전체 수 1 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr"
+    ],
+    [
+     "adm-catalog-deploy-detail-rollback-table-pagination-total",
+     "p",
+     "전체 수 1"
+    ],
+    [
+     "adm-catalog-deploy-detail-rollback-table-pagination-first",
+     "button",
+     "keyboard_double_arrow_left"
+    ],
+    [
+     "adm-catalog-deploy-detail-rollback-table-pagination-prev",
+     "button",
+     "keyboard_arrow_left"
+    ],
+    [
+     "adm-catalog-deploy-detail-rollback-table-pagination-page-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-deploy-detail-rollback-table-pagination-next",
+     "button",
+     "keyboard_arrow_right"
+    ],
+    [
+     "adm-catalog-deploy-detail-rollback-table-pagination-last",
+     "button",
+     "keyboard_double_arrow_right"
+    ],
+    [
+     "adm-catalog-deploy-detail-rollback-table-pagination-page-size",
+     "div",
+     "리스트 수 20"
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  },
+  {
+   "tag": "카탈로그 관리 / 카탈로그 허브",
+   "url": "https://example.invalid/env-2/viola/service-catalog/hub?tab=hub",
+   "title": "카탈로그 관리 | VIOLA",
+   "bc": "서비스 카탈로그/ 카탈로그 관리",
+   "pt": "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다.",
+   "h": [
+    "h1:unfold_more",
+    "h1:카탈로그 관리",
+    "h1:검색 필터",
+    "h1:카테고리",
+    "h1:유형"
+   ],
+   "tabs": [
+    "설치 목록",
+    "카탈로그 허브*"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성",
+    "left_panel_close",
+    "argocd",
+    "more_vert",
+    "gitlab",
+    "jenkins",
+    "sonarqube",
+    "csi-driver-nfs",
+    "gpu-operator",
+    "nexus",
+    "gitea",
+    "harbor",
+    "scm-manager"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "checkbox|||"
+   ],
+   "lab": [
+    "전체",
+    "데이터베이스",
+    "CI/CD",
+    "모니터링",
+    "인프라",
+    "스토리지",
+    "보안",
+    "네트워크",
+    "VIOLA 컴포넌트",
+    "Helm Chart",
+    "YAML"
+   ],
+   "sel": [],
+   "seg": [
+    "전체*",
+    "데이터베이스*",
+    "CI/CD*",
+    "모니터링*",
+    "인프라*",
+    "스토리지*",
+    "보안*",
+    "네트워크*",
+    "전체*",
+    "VIOLA 컴포넌트*",
+    "Helm Chart*",
+    "YAML*"
+   ],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "서비스 카탈로그/ 카탈로그 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "서비스 카탈로그/ 카탈로그 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "서비스 카탈로그"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-service-catalog-hub",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다. 설치 목록 카탈로그 허브 filter_list a"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다."
+    ],
+    [
+     "adm-catalog-management-tabs",
+     "div",
+     "설치 목록 카탈로그 허브 filter_list add 생성 left_panel_close 검색 필터 카테고리 전체 데이터베이스"
+    ],
+    [
+     "adm-catalog-management-tabs-tab",
+     "span",
+     "설치 목록"
+    ],
+    [
+     "adm-catalog-hub-filter",
+     "div",
+     "filter_list add 생성"
+    ],
+    [
+     "adm-catalog-hub-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-hub-go-to-catalog-create-page",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-catalog-hub-search-filter-title",
+     "div",
+     "left_panel_close 검색 필터"
+    ],
+    [
+     "adm-catalog-hub-category-filter-title",
+     "div",
+     "카테고리"
+    ],
+    [
+     "adm-catalog-hub-category-filter",
+     "div",
+     "전체 데이터베이스 CI/CD 모니터링 인프라 스토리지 보안 네트워크"
+    ],
+    [
+     "adm-catalog-hub-category-filter-check-all",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-hub-category-filter-option",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-hub-service-type-filter-title",
+     "div",
+     "유형"
+    ],
+    [
+     "adm-catalog-hub-service-type-filter",
+     "div",
+     "전체 VIOLA 컴포넌트 Helm Chart YAML"
+    ],
+    [
+     "adm-catalog-hub-service-type-filter-check-all",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-hub-service-type-filter-option",
+     "input",
+     ""
+    ],
+    [
+     "adm-catalog-hub-item-go-to-detail-page",
+     "button",
+     "argocd"
+    ],
+    [
+     "adm-catalog-hub-item-more-vert-button",
+     "button",
+     "more_vert"
+    ],
+    [
+     "adm-catalog-hub-item-category-tags",
+     "div",
+     "CI/CD"
+    ],
+    [
+     "adm-catalog-hub-item-category-tags-item",
+     "span",
+     "CI/CD"
+    ],
+    [
+     "adm-catalog-hub-item-engine-version-tags",
+     "div",
+     "1.33.5 1.34.11"
+    ],
+    [
+     "adm-catalog-hub-item-engine-version-tags-item",
+     "span",
+     "1.33.5"
+    ]
+   ],
+   "modal": [],
+   "text": ""
+  }
+ ],
+ "errors": [],
+ "lnb": [
+  "카탈로그 관리"
+ ]
+}

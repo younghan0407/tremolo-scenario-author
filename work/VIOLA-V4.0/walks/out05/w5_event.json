@@ -1,0 +1,494 @@
+[
+ {
+  "tag": "event",
+  "url": "https://example.invalid/env-2/viola/monitoring/event",
+  "bc": "모니터링/ 이벤트",
+  "pt": "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:이벤트"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "kube-controller-manager-pq-400tst-bf-biz",
+   "전체 보기",
+   "content_copy",
+   "cilium-envoy-tm2q2",
+   "coredns-7c5f8659bd-g8dnw",
+   "kube-apiserver-pq-400tst-bf-biz-master-3",
+   "coredns-7c5f8659bd-sw9st",
+   "normal-event-generator",
+   "prometheus-stack-prometheus-node-exporte",
+   "kube-scheduler-pq-400tst-bf-biz-master-3",
+   "cilium-operator-5874dc8467-7s5pf",
+   "cilium-fmhkh",
+   "123-nbprj",
+   "kube-apiserver-pq-400tst-bf-biz-master-2",
+   "kube-scheduler-pq-400tst-bf-biz-master-2",
+   "khh-log-test",
+   "cilium-envoy-vvtfw",
+   "image-test-lgsnc",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right",
+   "keyboard_double_arrow_right"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-event-fetch-table-filter-search-input|",
+   "search|rc_select_0|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "number|||adm-event-fetch-table-pagination-page-input|",
+   "search|rc_select_1|||R"
+  ],
+  "lab": [],
+  "sel": [
+   "rc_select_0=기간 설정",
+   "rc_select_1=리스트 수 20"
+  ],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-event-fetch-table-table",
+    "th": [
+     "유형↕",
+     "리소스 유형",
+     "이름↕",
+     "메시지",
+     "클러스터↕",
+     "네임스페이스↕",
+     "발생일시↕"
+    ],
+    "rows": 20,
+    "row1": [
+     "WARNING",
+     "Pod",
+     "kube-controller-manager-pq-400tst-bf-biz-master-3",
+     "Nameserver limits were exceeded, some nameservers ",
+     "biz1",
+     "kube-system",
+     "2026-10-07 16:19:25"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "모니터링/ 이벤트 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "모니터링/ 이벤트",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "모니터링",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-event",
+    "div",
+    "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다. filter_list 기간 설정 calendar_month 유형 리소스 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-event-panel",
+    "div",
+    "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR",
+    ""
+   ],
+   [
+    "adm-page-viola-event-main",
+    "div",
+    "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR",
+    ""
+   ],
+   [
+    "adm-page-viola-event-content-header",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-page-viola-event-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-row",
+    "tr",
+    "WARNING Pod kube-controller-manager-pq-400tst-bf-biz-master-3 Nameserv",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "WARNING",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "WARNING",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "kube-controller-manager-pq-400tst-bf-biz-master-3",
+    ""
+   ],
+   [
+    "adm-copy-button",
+    "button",
+    "content_copy",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination",
+    "div",
+    "전체 수 540 keyboard_double_arrow_left keyboard_arrow_left / 27 keyboard_",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination-total",
+    "p",
+    "전체 수 540",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-event-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-event-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "event-popover",
+  "url": "https://example.invalid/env-2/viola/monitoring/event",
+  "bc": "모니터링/ 이벤트",
+  "pt": "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:이벤트",
+   "h1:메시지"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "kube-controller-manager-pq-400tst-bf-biz",
+   "전체 보기",
+   "content_copy",
+   "cilium-envoy-tm2q2",
+   "coredns-7c5f8659bd-g8dnw",
+   "kube-apiserver-pq-400tst-bf-biz-master-3",
+   "coredns-7c5f8659bd-sw9st",
+   "normal-event-generator",
+   "prometheus-stack-prometheus-node-exporte",
+   "kube-scheduler-pq-400tst-bf-biz-master-3",
+   "cilium-operator-5874dc8467-7s5pf",
+   "cilium-fmhkh",
+   "123-nbprj",
+   "kube-apiserver-pq-400tst-bf-biz-master-2",
+   "kube-scheduler-pq-400tst-bf-biz-master-2",
+   "khh-log-test",
+   "cilium-envoy-vvtfw",
+   "image-test-lgsnc",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right",
+   "keyboard_double_arrow_right"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-event-fetch-table-filter-search-input|",
+   "search|rc_select_0|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "number|||adm-event-fetch-table-pagination-page-input|",
+   "search|rc_select_1|||R"
+  ],
+  "lab": [],
+  "sel": [
+   "rc_select_0=기간 설정",
+   "rc_select_1=리스트 수 20"
+  ],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-event-fetch-table-table",
+    "th": [
+     "유형↕",
+     "리소스 유형",
+     "이름↕",
+     "메시지",
+     "클러스터↕",
+     "네임스페이스↕",
+     "발생일시↕"
+    ],
+    "rows": 20,
+    "row1": [
+     "WARNING",
+     "Pod",
+     "kube-controller-manager-pq-400tst-bf-biz-master-3",
+     "Nameserver limits were exceeded, some nameservers ",
+     "biz1",
+     "kube-system",
+     "2026-10-07 16:19:25"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "모니터링/ 이벤트 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "모니터링/ 이벤트",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "모니터링",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-event",
+    "div",
+    "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다. filter_list 기간 설정 calendar_month 유형 리소스 ",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "이벤트 클러스터에서 발생하는 이벤트를 모니터링합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-event-panel",
+    "div",
+    "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR",
+    ""
+   ],
+   [
+    "adm-page-viola-event-main",
+    "div",
+    "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR",
+    ""
+   ],
+   [
+    "adm-page-viola-event-content-header",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-page-viola-event-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month 유형 리소스 유형 이름 메시지 클러스터 네임스페이스 발생일시 WAR",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-row",
+    "tr",
+    "WARNING Pod kube-controller-manager-pq-400tst-bf-biz-master-3 Nameserv",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "WARNING",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "WARNING",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "kube-controller-manager-pq-400tst-bf-biz-master-3",
+    ""
+   ],
+   [
+    "adm-copy-button",
+    "button",
+    "content_copy",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination",
+    "div",
+    "전체 수 540 keyboard_double_arrow_left keyboard_arrow_left / 27 keyboard_",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination-total",
+    "p",
+    "전체 수 540",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-event-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-event-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    ""
+   ],
+   [
+    "adm-event-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다.",
+   "ant-popover no-arrow css-4kbzec ant-popo :: 메시지 Nameserver limits were exceeded, some nameservers have been omitted, the applied nameserver line is: 10.233.0.3 10.255.72.11 10.255.72.10",
+   "ant-popover-inner :: 메시지 Nameserver limits were exceeded, some nameservers have been omitted, the applied nameserver line is: 10.233.0.3 10.255.72.11 10.255.72.10"
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "opened": []
+ }
+]

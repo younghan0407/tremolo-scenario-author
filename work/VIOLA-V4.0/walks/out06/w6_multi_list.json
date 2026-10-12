@@ -1,0 +1,569 @@
+[
+ {
+  "tag": "multi-gwapi",
+  "url": "https://example.invalid/env-2/viola/workflow/network/gateway-api",
+  "bc": "워크플로우/ 네트워크/ 게이트웨이 API",
+  "pt": "게이트웨이 API Gateway API 리소스를 생성하고 관리합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:게이트웨이 API"
+  ],
+  "tabs": [
+   "HTTP라우트*",
+   "게이트웨이",
+   "게이트웨이 클래스"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "add 생성",
+   "qa-trml-180937-rt2",
+   "more_horiz",
+   "qa-trml-180937-rt",
+   "qa-trml-180937-gw link",
+   "invalid-http-route-test",
+   "kmj-gateway link",
+   "invalid-http-route",
+   "not-exist-gateway link",
+   "qa-trml-171002-rt",
+   "qa-trml-171002-gw link",
+   "qa-trml-152320-rt",
+   "qa-trml-152320-gw link",
+   "qa-trml-261007-rt",
+   "qa-trml-261007-gw link",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-gateway-api-http-route-fetch-table-filter-search-input|",
+   "search|rc_select_0|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "checkbox||||",
+   "number|||adm-gateway-api-http-route-fetch-table-pagination-page-input|",
+   "search|rc_select_1|||R"
+  ],
+  "lab": [],
+  "sel": [
+   "rc_select_0=기간 설정",
+   "rc_select_1=리스트 수 20"
+  ],
+  "chk": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tables": [
+   {
+    "tid": "adm-gateway-api-http-route-fetch-table-table",
+    "th": [
+     "",
+     "이름↕",
+     "상태 help",
+     "클러스터↕",
+     "네임스페이스↕",
+     "레이블",
+     "게이트웨이↕",
+     "라우팅 규칙 수↕",
+     "생성일시↕",
+     "작업"
+    ],
+    "rows": 7,
+    "row1": [
+     "",
+     "qa-trml-180937-rt2",
+     "PENDING",
+     "biz1",
+     "qa-trml-180937-ns",
+     "-",
+     "-",
+     "2",
+     "2026-10-07 18:23:54",
+     "more_horiz"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "워크플로우/ 네트워크/ 게이트웨이 API 멀티 클러스터 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "워크플로우/ 네트워크/ 게이트웨이 API",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "워크플로우",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi",
+    "div",
+    "게이트웨이 API Gateway API 리소스를 생성하고 관리합니다. HTTP라우트 게이트웨이 게이트웨이 클래스 전체 biz1",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "게이트웨이 API Gateway API 리소스를 생성하고 관리합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi-panel",
+    "div",
+    "HTTP라우트 게이트웨이 게이트웨이 클래스 전체 biz1 biz2 ym-test1500 filter_list 기간 설정 cal",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi-main",
+    "div",
+    "HTTP라우트 게이트웨이 게이트웨이 클래스 전체 biz1 biz2 ym-test1500 filter_list 기간 설정 cal",
+    ""
+   ],
+   [
+    "adm-page-layout-tabs",
+    "div",
+    "HTTP라우트 게이트웨이 게이트웨이 클래스 전체 biz1 biz2 ym-test1500 filter_list 기간 설정 cal",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi-content",
+    "div",
+    "전체 biz1 biz2 ym-test1500 filter_list 기간 설정 calendar_month add 생성 이름 상태",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi-content-header",
+    "div",
+    "전체 biz1 biz2 ym-test1500",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 네임스페이스 레이블 게이트",
+    ""
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 네임스페이스 레이블 게이트",
+    ""
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성",
+    ""
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-list-button-groups-create",
+    "button",
+    "add 생성",
+    ""
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-row",
+    "tr",
+    "qa-trml-180937-rt2 PENDING biz1 qa-trml-180937-ns - - 2 2026-10-07 18:",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "qa-trml-180937-rt2",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "PENDING",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "PENDING",
+    ""
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-pagination",
+    "div",
+    "전체 수 7 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-pagination-total",
+    "p",
+    "전체 수 7",
+    ""
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-gateway-api-http-route-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "chips": [
+   "DIV|tag-wrap||전체 biz1 biz2 ym-test1500",
+   "SPAN|ant-tag css-4kbzec ant-tag-checkable ant-tag-checkable-checked large||전체",
+   "P|tag-wrap-text||전체",
+   "SPAN|ant-tag css-4kbzec ant-tag-checkable ant-tag-checkable-checked large||biz1",
+   "P|tag-wrap-text||biz1",
+   "SPAN|ant-tag css-4kbzec ant-tag-checkable ant-tag-checkable-checked large||biz2",
+   "P|tag-wrap-text||biz2",
+   "SPAN|ant-tag css-4kbzec ant-tag-checkable ant-tag-checkable-checked large||ym-test1500",
+   "P|tag-wrap-text||ym-test1500",
+   "DIV|tag-wrap|adm-status-tag|PENDING",
+   "SPAN|ant-tag css-4kbzec blue small|adm-status-tag-item|PENDING",
+   "P|tag-wrap-text||PENDING",
+   "DIV|tag-wrap|adm-status-tag|READY",
+   "SPAN|ant-tag css-4kbzec green small|adm-status-tag-item|READY",
+   "P|tag-wrap-text||READY",
+   "DIV|tag-wrap|adm-status-tag|PENDING",
+   "SPAN|ant-tag css-4kbzec blue small|adm-status-tag-item|PENDING",
+   "P|tag-wrap-text||PENDING",
+   "DIV|tag-wrap|adm-status-tag|PENDING",
+   "SPAN|ant-tag css-4kbzec blue small|adm-status-tag-item|PENDING",
+   "P|tag-wrap-text||PENDING",
+   "DIV|tag-wrap|adm-status-tag|READY",
+   "SPAN|ant-tag css-4kbzec green small|adm-status-tag-item|READY",
+   "P|tag-wrap-text||READY",
+   "DIV|tag-wrap|adm-status-tag|READY",
+   "SPAN|ant-tag css-4kbzec green small|adm-status-tag-item|READY",
+   "P|tag-wrap-text||READY",
+   "DIV|tag-wrap|adm-status-tag|READY",
+   "SPAN|ant-tag css-4kbzec green small|adm-status-tag-item|READY",
+   "P|tag-wrap-text||READY"
+  ]
+ },
+ {
+  "tag": "multi-gwc",
+  "url": "https://example.invalid/env-2/viola/workflow/network/gateway-api",
+  "bc": "워크플로우/ 네트워크/ 게이트웨이 API",
+  "pt": "게이트웨이 API Gateway API 리소스를 생성하고 관리합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:게이트웨이 API"
+  ],
+  "tabs": [
+   "HTTP라우트",
+   "게이트웨이",
+   "게이트웨이 클래스*"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "add 생성",
+   "istio-remote",
+   "more_horiz",
+   "istio",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-gateway-api-gateway-class-fetch-table-filter-search-input|",
+   "search|rc_select_2|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "checkbox||||",
+   "number|||adm-gateway-api-gateway-class-fetch-table-pagination-page-input|",
+   "search|rc_select_3|||R"
+  ],
+  "lab": [],
+  "sel": [
+   "rc_select_2=기간 설정",
+   "rc_select_3=리스트 수 20"
+  ],
+  "chk": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tables": [
+   {
+    "tid": "adm-gateway-api-gateway-class-fetch-table-table",
+    "th": [
+     "",
+     "이름↕",
+     "상태 help",
+     "클러스터↕",
+     "레이블",
+     "컨트롤러↕",
+     "연결 게이트웨이 수↕",
+     "생성일시↕",
+     "작업"
+    ],
+    "rows": 6,
+    "row1": [
+     "",
+     "istio-remote",
+     "ACCEPTED",
+     "ym-test1500",
+     "-",
+     "istio.io/unmanaged-gateway",
+     "0",
+     "2026-10-07 18:26:44",
+     "more_horiz"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "워크플로우/ 네트워크/ 게이트웨이 API 멀티 클러스터 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "워크플로우/ 네트워크/ 게이트웨이 API",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "워크플로우",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi",
+    "div",
+    "게이트웨이 API Gateway API 리소스를 생성하고 관리합니다. HTTP라우트 게이트웨이 게이트웨이 클래스 전체 biz1",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "게이트웨이 API Gateway API 리소스를 생성하고 관리합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi-panel",
+    "div",
+    "HTTP라우트 게이트웨이 게이트웨이 클래스 전체 biz1 biz2 ym-test1500 filter_list 기간 설정 cal",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi-main",
+    "div",
+    "HTTP라우트 게이트웨이 게이트웨이 클래스 전체 biz1 biz2 ym-test1500 filter_list 기간 설정 cal",
+    ""
+   ],
+   [
+    "adm-page-layout-tabs",
+    "div",
+    "HTTP라우트 게이트웨이 게이트웨이 클래스 전체 biz1 biz2 ym-test1500 filter_list 기간 설정 cal",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi-content",
+    "div",
+    "전체 biz1 biz2 ym-test1500 filter_list 기간 설정 calendar_month add 생성 이름 상태",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi-content-header",
+    "div",
+    "전체 biz1 biz2 ym-test1500",
+    ""
+   ],
+   [
+    "adm-page-viola-gatewayapi-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 레이블 컨트롤러 연결 게이",
+    ""
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 레이블 컨트롤러 연결 게이",
+    ""
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성",
+    ""
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-list-button-groups-create",
+    "button",
+    "add 생성",
+    ""
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-row",
+    "tr",
+    "istio-remote ACCEPTED ym-test1500 - istio.io/unmanaged-gateway 0 2026-",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "istio-remote",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "ACCEPTED",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "ACCEPTED",
+    ""
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-pagination",
+    "div",
+    "전체 수 6 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-pagination-total",
+    "p",
+    "전체 수 6",
+    ""
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-gateway-api-gateway-class-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "opened": []
+ }
+]

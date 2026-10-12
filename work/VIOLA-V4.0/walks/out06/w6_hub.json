@@ -1,0 +1,922 @@
+[
+ {
+  "pops": [
+   "ant-popover no-arrow css-4kbzec :: 카탈로그 이름 생성자 지원 엔진 버전 클러스터"
+  ]
+ },
+ {
+  "pops2": [
+   "ant-popover no-arrow css-4kbzec :: 카탈로그 이름 생성자 지원 엔진 버전 클러스터"
+  ]
+ },
+ {
+  "tag": "hub-filter",
+  "url": "https://example.invalid/env-2/viola/service-catalog/hub?tab=hub",
+  "bc": "서비스 카탈로그/ 카탈로그 관리",
+  "pt": "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:카탈로그 관리",
+   "h1:검색 필터",
+   "h1:카테고리",
+   "h1:유형"
+  ],
+  "tabs": [
+   "설치 목록",
+   "카탈로그 허브*"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "add 생성",
+   "left_panel_close",
+   "argocd",
+   "more_vert",
+   "gitlab",
+   "jenkins",
+   "sonarqube",
+   "csi-driver-nfs",
+   "gpu-operator",
+   "nexus",
+   "gitea",
+   "harbor",
+   "scm-manager",
+   "카탈로그 이름",
+   "생성자",
+   "지원 엔진 버전",
+   "클러스터"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-catalog-hub-filter-search-input|",
+   "checkbox|||adm-catalog-hub-category-filter-check-all|C",
+   "checkbox|||adm-catalog-hub-category-filter-option|C",
+   "checkbox|||adm-catalog-hub-service-type-filter-check-all|C",
+   "checkbox|||adm-catalog-hub-service-type-filter-option|C"
+  ],
+  "lab": [
+   "전체",
+   "데이터베이스",
+   "CI/CD",
+   "모니터링",
+   "인프라",
+   "스토리지",
+   "보안",
+   "네트워크",
+   "VIOLA 컴포넌트",
+   "Helm Chart",
+   "YAML"
+  ],
+  "sel": [],
+  "chk": [
+   "전체*",
+   "데이터베이스*",
+   "CI/CD*",
+   "모니터링*",
+   "인프라*",
+   "스토리지*",
+   "보안*",
+   "네트워크*",
+   "전체*",
+   "VIOLA 컴포넌트*",
+   "Helm Chart*",
+   "YAML*"
+  ],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "서비스 카탈로그/ 카탈로그 관리 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "서비스 카탈로그/ 카탈로그 관리",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "서비스 카탈로그",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-service-catalog-hub",
+    "div",
+    "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다. 설치 목록 카탈로그 허브 filter_list a",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "카탈로그 관리 사용 가능한 카탈로그를 조회 및 설치하고 관리할 수 있습니다.",
+    ""
+   ],
+   [
+    "adm-catalog-management-tabs",
+    "div",
+    "설치 목록 카탈로그 허브 filter_list add 생성 left_panel_close 검색 필터 카테고리 전체 데이터베이스",
+    ""
+   ],
+   [
+    "adm-catalog-management-tabs-tab",
+    "span",
+    "설치 목록",
+    ""
+   ],
+   [
+    "adm-catalog-hub-filter",
+    "div",
+    "filter_list add 생성",
+    ""
+   ],
+   [
+    "adm-catalog-hub-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-catalog-hub-go-to-catalog-create-page",
+    "button",
+    "add 생성",
+    ""
+   ],
+   [
+    "adm-catalog-hub-search-filter-title",
+    "div",
+    "left_panel_close 검색 필터",
+    ""
+   ],
+   [
+    "adm-catalog-hub-category-filter-title",
+    "div",
+    "카테고리",
+    ""
+   ],
+   [
+    "adm-catalog-hub-category-filter",
+    "div",
+    "전체 데이터베이스 CI/CD 모니터링 인프라 스토리지 보안 네트워크",
+    ""
+   ],
+   [
+    "adm-catalog-hub-category-filter-check-all",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-catalog-hub-category-filter-option",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-catalog-hub-service-type-filter-title",
+    "div",
+    "유형",
+    ""
+   ],
+   [
+    "adm-catalog-hub-service-type-filter",
+    "div",
+    "전체 VIOLA 컴포넌트 Helm Chart YAML",
+    ""
+   ],
+   [
+    "adm-catalog-hub-service-type-filter-check-all",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-catalog-hub-service-type-filter-option",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-catalog-hub-item-go-to-detail-page",
+    "button",
+    "argocd",
+    ""
+   ],
+   [
+    "adm-catalog-hub-item-more-vert-button",
+    "button",
+    "more_vert",
+    ""
+   ],
+   [
+    "adm-catalog-hub-item-category-tags",
+    "div",
+    "CI/CD",
+    ""
+   ],
+   [
+    "adm-catalog-hub-item-category-tags-item",
+    "span",
+    "CI/CD",
+    ""
+   ],
+   [
+    "adm-catalog-hub-item-engine-version-tags",
+    "div",
+    "1.33.5 1.34.11",
+    ""
+   ],
+   [
+    "adm-catalog-hub-item-engine-version-tags-item",
+    "span",
+    "1.33.5",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-popover no-arrow css-4kbzec :: 카탈로그 이름 생성자 지원 엔진 버전 클러스터",
+   "ant-popover-inner :: 카탈로그 이름 생성자 지원 엔진 버전 클러스터"
+  ],
+  "text": ""
+ },
+ {
+  "tag": "cat-create-next-empty",
+  "url": "https://example.invalid/env-2/viola/service-catalog/hub/create",
+  "bc": "서비스 카탈로그/ 카탈로그 관리/ 카탈로그 생성",
+  "pt": "arrow_back 카탈로그 생성",
+  "h": [
+   "h1:unfold_more",
+   "h1:카탈로그 생성",
+   "h1:배포 유형",
+   "h1:배포 유형 선택",
+   "h1:기본 정보",
+   "h1:클러스터",
+   "h1:이름",
+   "h1:Helm Chart",
+   "h1:차트 버전",
+   "h1:지원 엔진 버전",
+   "h1:아이콘",
+   "h1:카테고리",
+   "h1:설명",
+   "h1:README"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "error 기본 정보",
+   "counter_2 상세 정의",
+   "중복 확인(D)",
+   "cloud_upload 첨부할 파일을 끌어다 놓거나, 찾아보기",
+   "README 미리보기(D)",
+   "취소",
+   "다음"
+  ],
+  "ph": [
+   "radio||||C",
+   "radio||||",
+   "search|rc_select_0|||R",
+   "checkbox|||adm-form-cluster-is-shared|",
+   "text||이름을 입력해 주세요.|adm-form-catalog-name-enter-name|",
+   "search|rc_select_1|||R",
+   "search|rc_select_2|||R",
+   "search|rc_select_3|||R",
+   "search|rc_select_4|||R",
+   "textarea||설명을 입력해 주세요.|adm-form-description|",
+   "textarea||||"
+  ],
+  "lab": [
+   "배포 유형 선택",
+   "Helm Chart",
+   "YAML",
+   "클러스터",
+   "전체 클러스터 공유",
+   "이름",
+   "차트 버전",
+   "지원 엔진 버전 카탈로그와 호환되는 쿠버네티스 엔진 버전을 설정합니다. 카탈로그 설치 시 해당 정보를 기반으",
+   "아이콘",
+   "카테고리",
+   "설명",
+   "README"
+  ],
+  "sel": [
+   "rc_select_0=biz1",
+   "rc_select_1=Helm Chart를 선택해 주세요.",
+   "rc_select_2=차트 버전을 선택해 주세요.",
+   "rc_select_3=버전을 선택하거나 입력하세요",
+   "rc_select_4=카테고리를 선택해 주세요."
+  ],
+  "chk": [
+   "Helm Chart*",
+   "YAML",
+   "전체 클러스터 공유"
+  ],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "서비스 카탈로그/ 카탈로그 관리/ 카탈로그 생성 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "서비스 카탈로그/ 카탈로그 관리/ 카탈로그 생성",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "서비스 카탈로그",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-service-catalog-hub-create",
+    "div",
+    "arrow_back 카탈로그 생성 error 기본 정보 counter_2 상세 정의 배포 유형 배포 유형 선택 Helm Cha",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back 카탈로그 생성",
+    ""
+   ],
+   [
+    "adm-page-viola-service-catalog-hub-create-panel",
+    "div",
+    "error 기본 정보 counter_2 상세 정의 배포 유형 배포 유형 선택 Helm Chart YAML 기본 정보 클러스터 ",
+    ""
+   ],
+   [
+    "adm-the-side-step-steps",
+    "div",
+    "error 기본 정보 counter_2 상세 정의",
+    ""
+   ],
+   [
+    "adm-the-side-step-steps-item",
+    "div",
+    "error 기본 정보",
+    ""
+   ],
+   [
+    "adm-page-viola-service-catalog-hub-create-main",
+    "div",
+    "배포 유형 배포 유형 선택 Helm Chart YAML 기본 정보 클러스터 biz1 전체 클러스터 공유 이름 중복 확인 필수 ",
+    ""
+   ],
+   [
+    "adm-page-viola-service-catalog-hub-create-content-body",
+    "div",
+    "배포 유형 배포 유형 선택 Helm Chart YAML 기본 정보 클러스터 biz1 전체 클러스터 공유 이름 중복 확인 필수 ",
+    ""
+   ],
+   [
+    "adm-form-deployment-type-deployment-type-title",
+    "div",
+    "배포 유형",
+    ""
+   ],
+   [
+    "adm-form-deployment-type-select-deployment-type-title",
+    "div",
+    "배포 유형 선택",
+    ""
+   ],
+   [
+    "adm-form-deployment-type-form-item-service-type",
+    "div",
+    "Helm Chart YAML",
+    ""
+   ],
+   [
+    "adm-form-deployment-type-service-type",
+    "div",
+    "Helm Chart YAML",
+    ""
+   ],
+   [
+    "adm-form-deployment-type-service-type-option",
+    "label",
+    "Helm Chart",
+    ""
+   ],
+   [
+    "adm-catalog-hub-form-info",
+    "div",
+    "기본 정보",
+    ""
+   ],
+   [
+    "adm-catalog-hub-form-info-group",
+    "div",
+    "클러스터 biz1 전체 클러스터 공유 이름 중복 확인 필수 입력 값입니다. Helm Chart Helm Chart를 선택해 주",
+    ""
+   ],
+   [
+    "adm-form-cluster-title",
+    "div",
+    "클러스터",
+    ""
+   ],
+   [
+    "adm-form-item-providerid",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-form-cluster-selected-provider-id",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-form-cluster-is-shared",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-item-catalogname",
+    "div",
+    "중복 확인 필수 입력 값입니다.",
+    ""
+   ],
+   [
+    "adm-form-catalog-name-enter-name",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-catalog-name-check-duplicate-name",
+    "button",
+    "중복 확인",
+    "D"
+   ],
+   [
+    "adm-form-helm-chart-helm-chart-title",
+    "div",
+    "Helm Chart",
+    ""
+   ],
+   [
+    "adm-form-item-helmchart",
+    "div",
+    "Helm Chart를 선택해 주세요. 필수 선택 값입니다.",
+    ""
+   ],
+   [
+    "adm-form-helm-chart-selected-helm-chart",
+    "div",
+    "Helm Chart를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-form-item-helmchartversion",
+    "div",
+    "차트 버전을 선택해 주세요. 필수 선택 값입니다.",
+    ""
+   ],
+   [
+    "adm-form-helm-chart-version-selected-helm-chart-version",
+    "div",
+    "차트 버전을 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-form-item-compatibilityversions",
+    "div",
+    "버전을 선택하거나 입력하세요 필수 선택 값입니다.",
+    ""
+   ],
+   [
+    "adm-form-compatibility-versions-compatibility-versions",
+    "div",
+    "버전을 선택하거나 입력하세요",
+    ""
+   ],
+   [
+    "adm-form-item-icon",
+    "div",
+    "cloud_upload 첨부할 파일을 끌어다 놓거나, 찾아보기",
+    ""
+   ],
+   [
+    "adm-form-icon-file-list",
+    "span",
+    "cloud_upload 첨부할 파일을 끌어다 놓거나, 찾아보기",
+    ""
+   ],
+   [
+    "adm-form-categories-category-title",
+    "div",
+    "카테고리",
+    ""
+   ],
+   [
+    "adm-form-categories",
+    "div",
+    "카테고리를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-form-description-title",
+    "div",
+    "설명",
+    ""
+   ],
+   [
+    "adm-form-item-description",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-form-description",
+    "textarea",
+    "",
+    ""
+   ],
+   [
+    "adm-form-markdown-readme-title",
+    "div",
+    "README",
+    ""
+   ],
+   [
+    "adm-form-markdown-open-modal",
+    "button",
+    "README 미리보기",
+    "D"
+   ],
+   [
+    "adm-page-viola-service-catalog-hub-create-content-footer",
+    "div",
+    "취소 다음",
+    ""
+   ],
+   [
+    "adm-catalog-hub-form-button",
+    "button",
+    "취소",
+    ""
+   ]
+  ],
+  "modal": [],
+  "text": ""
+ },
+ {
+  "helmOpts": [
+   "ant-select-dropdown testid-adm-form-helm-chart-sel :: info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+  ]
+ },
+ {
+  "catOpts": [
+   "ant-select-dropdown css-4kbzec ant-select-dropdown :: 전체 데이터베이스 CI/CD 모니터링 인프라 보안 네트워크 스토리지 + 추가"
+  ]
+ },
+ {
+  "tag": "cat-create-yaml",
+  "url": "https://example.invalid/env-2/viola/service-catalog/hub/create",
+  "bc": "서비스 카탈로그/ 카탈로그 관리/ 카탈로그 생성",
+  "pt": "arrow_back 카탈로그 생성",
+  "h": [
+   "h1:unfold_more",
+   "h1:카탈로그 생성",
+   "h1:배포 유형",
+   "h1:배포 유형 선택",
+   "h1:기본 정보",
+   "h1:클러스터",
+   "h1:이름",
+   "h1:아이콘",
+   "h1:카테고리",
+   "h1:설명",
+   "h1:README"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "error 기본 정보",
+   "counter_2 상세 정의",
+   "중복 확인(D)",
+   "cloud_upload 첨부할 파일을 끌어다 놓거나, 찾아보기",
+   "README 미리보기(D)",
+   "+ 추가",
+   "취소",
+   "다음"
+  ],
+  "ph": [
+   "radio||||",
+   "radio||||C",
+   "search|rc_select_0|||R",
+   "checkbox|||adm-form-cluster-is-shared|",
+   "text||이름을 입력해 주세요.|adm-form-catalog-name-enter-name|",
+   "search|rc_select_4|||",
+   "textarea||설명을 입력해 주세요.|adm-form-description|",
+   "textarea||||",
+   "checkbox|||adm-form-categories-check-all|",
+   "checkbox|||adm-form-categories-option|",
+   "text||추가할 카테고리를 입력해 주세요.|adm-form-categories-custom-category-input|"
+  ],
+  "lab": [
+   "배포 유형 선택",
+   "Helm Chart",
+   "YAML",
+   "클러스터",
+   "전체 클러스터 공유",
+   "이름",
+   "아이콘",
+   "카테고리",
+   "설명",
+   "README"
+  ],
+  "sel": [
+   "rc_select_0=biz1",
+   "rc_select_4=카테고리를 선택해 주세요."
+  ],
+  "chk": [
+   "Helm Chart",
+   "YAML*",
+   "전체 클러스터 공유",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "서비스 카탈로그/ 카탈로그 관리/ 카탈로그 생성 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "서비스 카탈로그/ 카탈로그 관리/ 카탈로그 생성",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "서비스 카탈로그",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-service-catalog-hub-create",
+    "div",
+    "arrow_back 카탈로그 생성 error 기본 정보 counter_2 상세 정의 배포 유형 배포 유형 선택 Helm Cha",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back 카탈로그 생성",
+    ""
+   ],
+   [
+    "adm-page-viola-service-catalog-hub-create-panel",
+    "div",
+    "error 기본 정보 counter_2 상세 정의 배포 유형 배포 유형 선택 Helm Chart YAML 기본 정보 클러스터 ",
+    ""
+   ],
+   [
+    "adm-the-side-step-steps",
+    "div",
+    "error 기본 정보 counter_2 상세 정의",
+    ""
+   ],
+   [
+    "adm-the-side-step-steps-item",
+    "div",
+    "error 기본 정보",
+    ""
+   ],
+   [
+    "adm-page-viola-service-catalog-hub-create-main",
+    "div",
+    "배포 유형 배포 유형 선택 Helm Chart YAML 기본 정보 클러스터 biz1 전체 클러스터 공유 이름 중복 확인 필수 ",
+    ""
+   ],
+   [
+    "adm-page-viola-service-catalog-hub-create-content-body",
+    "div",
+    "배포 유형 배포 유형 선택 Helm Chart YAML 기본 정보 클러스터 biz1 전체 클러스터 공유 이름 중복 확인 필수 ",
+    ""
+   ],
+   [
+    "adm-form-deployment-type-deployment-type-title",
+    "div",
+    "배포 유형",
+    ""
+   ],
+   [
+    "adm-form-deployment-type-select-deployment-type-title",
+    "div",
+    "배포 유형 선택",
+    ""
+   ],
+   [
+    "adm-form-deployment-type-form-item-service-type",
+    "div",
+    "Helm Chart YAML",
+    ""
+   ],
+   [
+    "adm-form-deployment-type-service-type",
+    "div",
+    "Helm Chart YAML",
+    ""
+   ],
+   [
+    "adm-form-deployment-type-service-type-option",
+    "label",
+    "Helm Chart",
+    ""
+   ],
+   [
+    "adm-catalog-hub-form-info",
+    "div",
+    "기본 정보",
+    ""
+   ],
+   [
+    "adm-catalog-hub-form-info-group",
+    "div",
+    "클러스터 biz1 전체 클러스터 공유 이름 중복 확인 필수 입력 값입니다. 아이콘 cloud_upload 첨부할 파일을 끌어다",
+    ""
+   ],
+   [
+    "adm-form-cluster-title",
+    "div",
+    "클러스터",
+    ""
+   ],
+   [
+    "adm-form-item-providerid",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-form-cluster-selected-provider-id",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-form-cluster-is-shared",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-item-catalogname",
+    "div",
+    "중복 확인 필수 입력 값입니다.",
+    ""
+   ],
+   [
+    "adm-form-catalog-name-enter-name",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-catalog-name-check-duplicate-name",
+    "button",
+    "중복 확인",
+    "D"
+   ],
+   [
+    "adm-form-item-icon",
+    "div",
+    "cloud_upload 첨부할 파일을 끌어다 놓거나, 찾아보기",
+    ""
+   ],
+   [
+    "adm-form-icon-file-list",
+    "span",
+    "cloud_upload 첨부할 파일을 끌어다 놓거나, 찾아보기",
+    ""
+   ],
+   [
+    "adm-form-categories-category-title",
+    "div",
+    "카테고리",
+    ""
+   ],
+   [
+    "adm-form-categories",
+    "div",
+    "카테고리를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-form-description-title",
+    "div",
+    "설명",
+    ""
+   ],
+   [
+    "adm-form-item-description",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-form-description",
+    "textarea",
+    "",
+    ""
+   ],
+   [
+    "adm-form-markdown-readme-title",
+    "div",
+    "README",
+    ""
+   ],
+   [
+    "adm-form-markdown-open-modal",
+    "button",
+    "README 미리보기",
+    "D"
+   ],
+   [
+    "adm-form-categories-check-all",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-categories-option",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-categories-custom-category-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-form-categories-add-custom-category",
+    "button",
+    "+ 추가",
+    ""
+   ],
+   [
+    "adm-page-viola-service-catalog-hub-create-content-footer",
+    "div",
+    "취소 다음",
+    ""
+   ],
+   [
+    "adm-catalog-hub-form-button",
+    "button",
+    "취소",
+    ""
+   ]
+  ],
+  "modal": [],
+  "text": ""
+ },
+ {
+  "steps": "<div class=\"ant-steps ant-steps-vertical ant-steps-small ant-steps-navigation custom-step css-4kbzec\" data-testid=\"adm-the-side-step-steps\"><div data-testid=\"adm-the-side-step-steps-item\" data-test-value=\"0\" class=\"ant-steps-item ant-steps-item-error ant-steps-item-custom ant-steps-item-active\"><div role=\"button\" tabindex=\"0\" class=\"ant-steps-item-container\"><div class=\"ant-steps-item-tail\"><!----></div><div class=\"ant-steps-item-icon\"><span class=\"ant-steps-icon\"><span class=\"material-icon fill md\">error</span></span></div><div class=\"ant-steps-item-content\"><div class=\"ant-steps-item-title\"><span class=\"ellipsis-text\">기본 정보</span><!----><!--v-if--><!----></div><!----></div></div></div><div data-testid=\"adm-the-side-step-steps-item\" data-test-value=\"1\" class=\"ant-steps-item ant-steps-item-wait ant-steps-item-custom\"><div role=\"button\" tabindex=\"0\" class=\"ant-steps-item-container\"><div class=\"ant-steps-item-tail\"><!----></div><div class=\"ant-steps-item-icon\"><span class=\"ant-steps-icon\"><span class=\"material-icon md\">counter_2</span></span></div><div class=\"ant-steps-item-content\"><div class=\"ant-steps-item-title\"><span class=\"ellipsis-text\">상세 정의</span><!----><!--v-if--><!----></div><!----></div></div></div></div>"
+ },
+ {
+  "opened": []
+ }
+]

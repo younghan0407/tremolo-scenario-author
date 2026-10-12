@@ -1,0 +1,219 @@
+- main:
+  - region "Notifications alt+T"
+- main:
+  - complementary:
+    - heading "솔루션 선택" [level=1]:
+      - button "OKESTRO unfold_more":
+        - img "OKESTRO"
+        - text: unfold_more
+    - menu:
+      - menuitem "dashboard 대시보드"
+      - text: edit_attributes 기본 설정 graph_2 워크플로우 assistant_on_hub 서비스 카탈로그 browse_activity 모니터링
+    - menu:
+      - menuitem "notifications 알림"
+      - menuitem "account_circle 프로필"
+      - menuitem "first_page"
+  - navigation:
+    - list:
+      - listitem: 대시보드
+  - paragraph: biz1
+  - text: sync_alt
+  - separator
+  - button "browse_activity 모니터링 현황"
+  - heading "대시보드" [level=1]
+  - tablist:
+    - tab "biz1" [selected]
+    - button "refresh 2026-10-07 14:22:59"
+  - tabpanel "biz1":
+    - heading "클러스터 현황" [level=1]
+    - heading "컨트롤 플레인 상태" [level=3]
+    - paragraph: GOOD
+    - list:
+      - listitem:
+        - button "컴포넌트 상세 보기 open_in_new"
+      - listitem:
+        - button "ETCD 상세 보기 open_in_new"
+    - heading "GOOD" [level=3]
+    - text: pq-400tst-bf-biz-master-1
+    - heading "GOOD" [level=3]
+    - text: pq-400tst-bf-biz-master-2
+    - heading "GOOD" [level=3]
+    - text: pq-400tst-bf-biz-master-3
+    - heading "전체 노드 상태" [level=3]
+    - button "전체 보기"
+    - paragraph: RUNNING
+    - text: "3"
+    - separator
+    - paragraph: ERROR
+    - text: "0"
+    - heading "리소스 사용 현황" [level=3]
+    - heading "CPU 사용률" [level=3]
+    - button "help"
+    - progressbar
+    - text: 2.01/24 Core
+    - strong: 8.4%
+    - heading "메모리 사용률" [level=3]
+    - progressbar
+    - text: 16.62/46.85 GiB
+    - strong: 35.5%
+    - heading "파일시스템 사용률" [level=3]
+    - progressbar
+    - text: 71.13/580.96 GiB
+    - strong: 12.2%
+    - heading "서비스 컴포넌트" [level=3]
+    - paragraph: UP
+    - text: "10"
+    - paragraph: DOWN
+    - text: "0"
+    - img "cilium"
+    - heading "Cilium" [level=4]
+    - paragraph: UP
+    - text: 파드 간 네트워크 통신이 정상적으로 동작하고 있습니다.
+    - img "fluxcd"
+    - heading "FluxCD" [level=4]
+    - paragraph: UP
+    - text: 서비스 카탈로그를 정상적으로 생성 및 배포할 수 있습니다.
+    - img "gateway-api"
+    - heading "Gateway API" [level=4]
+    - paragraph: UP
+    - text: 외부 트래픽을 설정된 라우팅 정책에 따라 서비스로 전달합니다.
+    - img "hubble"
+    - heading "Hubble" [level=4]
+    - paragraph: UP
+    - text: 네트워크 흐름을 실시간으로 관측하여 통신 상태를 확인할 수 있습니다.
+    - img "istio"
+    - heading "Istio" [level=4]
+    - paragraph: UP
+    - text: 서비스 간 트래픽이 안전하고 효율적으로 관리됩니다.
+    - img "kiali"
+    - heading "Kiali" [level=4]
+    - paragraph: UP
+    - text: 서비스 메시의 상태를 한눈에 파악하고 신속한 문제 해결이 가능합니다.
+    - img "loki"
+    - heading "Loki" [level=4]
+    - paragraph: UP
+    - text: 로그 수집 및 저장이 정상적으로 이루어지고 있습니다.
+    - img "prometheus"
+    - heading "Prometheus" [level=4]
+    - paragraph: UP
+    - text: 실시간 모니터링과 메트릭 수집이 정상적으로 이루어지고 있습니다.
+    - img "velero"
+    - heading "Velero" [level=4]
+    - paragraph: UP
+    - text: 백업 및 복구 기능이 정상 작동하여 데이터 보호가 보장됩니다.
+    - img "viola-log-collector"
+    - heading "viola-log-collector" [level=4]
+    - paragraph: UP
+    - text: 클러스터 워크로드에 대한 상태 추적이 정상적으로 이루어지고 있습니다.
+    - separator
+    - heading "네임스페이스 현황" [level=2]
+    - heading "최근 1시간 CPU 사용량 Top 5" [level=3]
+    - text: 단위 (Core)
+    - img: 0 0.2 0.4 0.6 0.8 1 13:23 13:33 13:43 13:53 14:03 14:13 14:23
+    - button "전체 해제"
+    - text: 이름 총 사용량
+    - list:
+      - button "monitoring 42.2 Core"
+      - button "kube-system 28 Core"
+      - button "cilium 19.2 Core"
+      - button "pqa-kmj 13.5 Core"
+      - button "istio-system 0.9 Core"
+    - heading "최근 1시간 메모리 사용량 Top 5" [level=3]
+    - text: 단위 (GiB)
+    - img: 0 1.4 2.8 4.2 5.6 7 13:23 13:33 13:43 13:53 14:03 14:13 14:23
+    - button "전체 해제"
+    - text: 이름 총 사용량
+    - list:
+      - button "monitoring 347.1 GiB"
+      - button "kube-system 232.1 GiB"
+      - button "pqa-kmj 175 GiB"
+      - button "cilium 48.8 GiB"
+      - button "istio-system 18.3 GiB"
+    - heading "리소스 쿼터 기준 사용 현황" [level=3]
+    - heading "CPU 사용률 Top 네임스페이스" [level=3]
+    - button "설정하기 chevron_right"
+    - text: CPU 리소스 쿼터가 설정된 네임스페이스가 없습니다.
+    - heading "메모리 사용률 Top 네임스페이스" [level=3]
+    - button "설정하기 chevron_right"
+    - text: 메모리 리소스 쿼터가 설정된 네임스페이스가 없습니다.
+    - heading "최근 1시간 임계치 알림" [level=3]
+    - paragraph: "0"
+    - paragraph:
+      - heading "info 알림이 없습니다." [level=3]
+      - paragraph: 최근 1시간 임계치 알림이 없습니다.
+    - separator
+    - heading "네임스페이스별 리소스 현황" [level=1]
+    - text: 네임스페이스
+    - combobox
+    - text: cert-manager
+    - heading "리소스 통계" [level=1]
+    - text: deployed_code 파드
+    - heading "0" [level=1]
+    - text: 개
+    - img "Container"
+    - text: 컨테이너
+    - heading "0" [level=1]
+    - text: 개 database_upload 퍼시스턴트 볼륨 클레임
+    - heading "0" [level=1]
+    - text: 개 schema 서비스
+    - heading "0" [level=1]
+    - text: 개
+    - heading "리소스 사용 현황" [level=1]
+    - heading "최근 1시간 이벤트 통계" [level=1]
+    - heading "CPU 사용 현황" [level=3]
+    - list:
+      - listitem:
+        - strong: 쿼터 미설정
+    - heading "0 mCore" [level=1]
+    - text: / -
+    - heading "메모리 사용 현황" [level=3]
+    - list:
+      - listitem:
+        - strong: 쿼터 미설정
+    - heading "0 MiB" [level=1]
+    - text: / -
+    - paragraph: NORMAL
+    - text: "0"
+    - separator
+    - paragraph: WARNING
+    - text: "0"
+    - heading "파드 현황" [level=1]
+    - heading "상태" [level=3]
+    - paragraph: RUNNING
+    - text: "0"
+    - separator
+    - paragraph: PENDING
+    - text: "0"
+    - separator
+    - paragraph: ERROR
+    - text: "0"
+    - heading "Limits 기준 CPU 사용률 Top" [level=3]
+    - text: CPU Limits가 설정된 파드가 없습니다.
+    - heading "Limits 기준 메모리 사용률 Top" [level=3]
+    - text: Memory Limits가 설정된 파드가 없습니다.
+    - heading "파드별 CPU 사용량 Top 5" [level=3]
+    - paragraph:
+      - heading "info 데이터가 없습니다." [level=3]
+      - paragraph: 현재 조회 가능한 데이터가 없습니다.
+    - heading "파드별 메모리 사용량 Top 5" [level=3]
+    - paragraph:
+      - heading "info 데이터가 없습니다." [level=3]
+      - paragraph: 현재 조회 가능한 데이터가 없습니다.
+    - heading "퍼시스턴트 볼륨 클레임 현황" [level=1]
+    - heading "상태" [level=3]
+    - paragraph: BOUND
+    - text: "0"
+    - separator
+    - paragraph: PENDING
+    - text: "0"
+    - separator
+    - paragraph: LOST
+    - text: "0"
+    - heading "사용률 Top 5" [level=3]
+    - paragraph:
+      - heading "info 데이터가 없습니다." [level=3]
+      - paragraph: 현재 조회 가능한 데이터가 없습니다.
+    - heading "사용량 Top 5" [level=3]
+    - paragraph:
+      - heading "info 데이터가 없습니다." [level=3]
+      - paragraph: 현재 조회 가능한 데이터가 없습니다.

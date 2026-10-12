@@ -1,0 +1,2604 @@
+{
+ "group": "기본 설정",
+ "pages": [
+  {
+   "tag": "클러스터 설정",
+   "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/cluster",
+   "title": "클러스터 설정 | VIOLA",
+   "bc": "기본 설정/ 클러스터 관리/ 클러스터 설정",
+   "pt": "클러스터 설정 전체 클러스터의 설정과 상태를 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:클러스터 설정",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "연결",
+    "add 생성"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_1||R",
+    "text||시작일|R",
+    "text||종료일|R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_1=기간 설정"
+   ],
+   "seg": [],
+   "tables": [
+    {
+     "tid": "adm-cluster-fetch-table-table",
+     "th": [
+      "이름↕",
+      "GPU",
+      "상태 help",
+      "URL",
+      "인프라 정보",
+      "진행 현황 help",
+      "연결자↕",
+      "연결일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 클러스터 관리/ 클러스터 설정 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 클러스터 관리/ 클러스터 설정"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-cluster",
+     "div",
+     "클러스터 설정 전체 클러스터의 설정과 상태를 관리합니다. filter_list 기간 설정 calendar_month 연결 ad"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "클러스터 설정 전체 클러스터의 설정과 상태를 관리합니다."
+    ],
+    [
+     "adm-page-viola-cluster-panel",
+     "div",
+     "filter_list 기간 설정 calendar_month 연결 add 생성 이름 GPU 상태 help URL 인프라 정보 진"
+    ],
+    [
+     "adm-page-viola-cluster-main",
+     "div",
+     "filter_list 기간 설정 calendar_month 연결 add 생성 이름 GPU 상태 help URL 인프라 정보 진"
+    ],
+    [
+     "adm-page-viola-cluster-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month 연결 add 생성 이름 GPU 상태 help URL 인프라 정보 진"
+    ],
+    [
+     "adm-cluster-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month 연결 add 생성 이름 GPU 상태 help URL 인프라 정보 진"
+    ],
+    [
+     "adm-cluster-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month 연결 add 생성"
+    ],
+    [
+     "adm-cluster-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-cluster-connect-cluster",
+     "button",
+     "연결"
+    ],
+    [
+     "adm-cluster-create-cluster",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "노드 관리",
+   "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/node",
+   "title": "노드 관리 | VIOLA",
+   "bc": "기본 설정/ 클러스터 관리/ 노드 관리",
+   "pt": "노드 관리 클러스터 내 각 노드의 상태와 설정을 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:노드 관리",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_2||R",
+    "text||시작일|R",
+    "text||종료일|R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_2=기간 설정"
+   ],
+   "seg": [],
+   "tables": [
+    {
+     "tid": "adm-node-fetch-table-table",
+     "th": [
+      "이름↕",
+      "GPU",
+      "상태 help",
+      "클러스터↕",
+      "역할",
+      "인스턴스 주소↕",
+      "파드 수↕",
+      "CPU 사용률↕",
+      "메모리 사용률↕",
+      "파일 시스템 사용률↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 클러스터 관리/ 노드 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 클러스터 관리/ 노드 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-node",
+     "div",
+     "노드 관리 클러스터 내 각 노드의 상태와 설정을 관리합니다. filter_list 기간 설정 calendar_month 이름 "
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "노드 관리 클러스터 내 각 노드의 상태와 설정을 관리합니다."
+    ],
+    [
+     "adm-page-viola-node-panel",
+     "div",
+     "filter_list 기간 설정 calendar_month 이름 GPU 상태 help 클러스터 역할 인스턴스 주소 파드 수 C"
+    ],
+    [
+     "adm-page-viola-node-main",
+     "div",
+     "filter_list 기간 설정 calendar_month 이름 GPU 상태 help 클러스터 역할 인스턴스 주소 파드 수 C"
+    ],
+    [
+     "adm-page-viola-node-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-node-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month 이름 GPU 상태 help 클러스터 역할 인스턴스 주소 파드 수 C"
+    ],
+    [
+     "adm-node-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month 이름 GPU 상태 help 클러스터 역할 인스턴스 주소 파드 수 C"
+    ],
+    [
+     "adm-node-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month"
+    ],
+    [
+     "adm-node-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다. cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "네임스페이스 관리",
+   "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/namespace",
+   "title": "네임스페이스 관리 | VIOLA",
+   "bc": "기본 설정/ 클러스터 관리/ 네임스페이스 관리",
+   "pt": "네임스페이스 관리 클러스터 내 각 네임스페이스의 상태와 설정을 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:네임스페이스 관리",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_3||R",
+    "text||시작일|R",
+    "text||종료일|R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_3=기간 설정"
+   ],
+   "seg": [],
+   "tables": [
+    {
+     "tid": "adm-namespace-fetch-table-table",
+     "th": [
+      "이름↕",
+      "상태 help",
+      "클러스터↕",
+      "CPU↕",
+      "메모리↕",
+      "Istio Injection↕",
+      "생성자↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 클러스터 관리/ 네임스페이스 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 클러스터 관리/ 네임스페이스 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-namespace",
+     "div",
+     "네임스페이스 관리 클러스터 내 각 네임스페이스의 상태와 설정을 관리합니다. filter_list 기간 설정 calendar_m"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "네임스페이스 관리 클러스터 내 각 네임스페이스의 상태와 설정을 관리합니다."
+    ],
+    [
+     "adm-page-viola-namespace-panel",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 CPU 메모리 Istio "
+    ],
+    [
+     "adm-page-viola-namespace-main",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 CPU 메모리 Istio "
+    ],
+    [
+     "adm-page-viola-namespace-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-namespace-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 CPU 메모리 Istio "
+    ],
+    [
+     "adm-namespace-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 CPU 메모리 Istio "
+    ],
+    [
+     "adm-namespace-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-namespace-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "백업 통합 관리",
+   "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/backup",
+   "title": "백업 통합 관리 | VIOLA",
+   "bc": "기본 설정/ 클러스터 관리/ 백업 통합 관리",
+   "pt": "백업 통합 관리 클러스터 및 네임스페이스의 데이터를 백업하고 복원합니다. refresh 2026-10-07 14:23:43 기준",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:백업 통합 관리",
+    "h1:백업 현황",
+    "h3:주간 백업 실행 현황",
+    "h3:주간 복원 실행 현황",
+    "h3:스토리지 사용 현황",
+    "h3:마지막 백업일시",
+    "h3:백업 대상",
+    "h3:마지막 복원일시",
+    "h3:복원 대상",
+    "h3:전체 백업 수",
+    "h3:만료 예정(D-7)인 백업 수",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "refresh 2026-10-07 14:23:43 기준",
+    "add 생성"
+   ],
+   "ph": [
+    "radio|||",
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_4||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||D"
+   ],
+   "lab": [
+    "백업 파일",
+    "스케줄",
+    "복원 이력",
+    "삭제 이력"
+   ],
+   "sel": [
+    "rc_select_4=기간 설정"
+   ],
+   "seg": [
+    "백업 파일*",
+    "스케줄",
+    "복원 이력",
+    "삭제 이력",
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-backup-file-table-fetch-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "상태 help",
+      "구분",
+      "백업 대상",
+      "백업 시도↕",
+      "소요 시간↕",
+      "만료일시↕",
+      "생성일시↕",
+      "작업",
+      "클러스터↕",
+      "네임스페이스"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 클러스터 관리/ 백업 통합 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 클러스터 관리/ 백업 통합 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-backup",
+     "div",
+     "백업 통합 관리 클러스터 및 네임스페이스의 데이터를 백업하고 복원합니다. refresh 2026-10-07 14:23:43 기"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "백업 통합 관리 클러스터 및 네임스페이스의 데이터를 백업하고 복원합니다. refresh 2026-10-07 14:23:43 기"
+    ],
+    [
+     "adm-page-layout-refetch",
+     "button",
+     "refresh 2026-10-07 14:23:43 기준"
+    ],
+    [
+     "adm-page-viola-backup-panel",
+     "div",
+     "백업 현황 주간 백업 실행 현황 단위 (개) 0 0.2 0.4 0.6 0.8 1 10/01 10/02 10/03 10/04 1"
+    ],
+    [
+     "adm-page-viola-backup-main",
+     "div",
+     "백업 현황 주간 백업 실행 현황 단위 (개) 0 0.2 0.4 0.6 0.8 1 10/01 10/02 10/03 10/04 1"
+    ],
+    [
+     "adm-page-viola-backup-content",
+     "div",
+     "백업 현황 주간 백업 실행 현황 단위 (개) 0 0.2 0.4 0.6 0.8 1 10/01 10/02 10/03 10/04 1"
+    ],
+    [
+     "adm-page-viola-backup-content-body",
+     "div",
+     "백업 현황 주간 백업 실행 현황 단위 (개) 0 0.2 0.4 0.6 0.8 1 10/01 10/02 10/03 10/04 1"
+    ],
+    [
+     "adm-back-up-backup-status-title",
+     "div",
+     "백업 현황"
+    ],
+    [
+     "adm-back-up-list-active-key",
+     "div",
+     "백업 파일 스케줄 복원 이력 삭제 이력"
+    ],
+    [
+     "adm-backup-file-table-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 구분 백업 대상 백업 시도 소요 시"
+    ],
+    [
+     "adm-backup-file-table-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-backup-file-table-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "리소스 쿼터 설정",
+   "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/resource-quota",
+   "title": "리소스 쿼터 설정 | VIOLA",
+   "bc": "기본 설정/ 클러스터 관리/ 리소스 쿼터 설정",
+   "pt": "리소스 쿼터 설정 네임스페이스별 리소스 사용 한도를 설정하고 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:리소스 쿼터 설정",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_5||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||D"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_5=기간 설정"
+   ],
+   "seg": [
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-resource-quota-fetch-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "클러스터↕",
+      "네임스페이스↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 클러스터 관리/ 리소스 쿼터 설정 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 클러스터 관리/ 리소스 쿼터 설정"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-resourcequota",
+     "div",
+     "리소스 쿼터 설정 네임스페이스별 리소스 사용 한도를 설정하고 관리합니다. filter_list 기간 설정 calendar_mo"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "리소스 쿼터 설정 네임스페이스별 리소스 사용 한도를 설정하고 관리합니다."
+    ],
+    [
+     "adm-page-viola-resourcequota-panel",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업 info 데이"
+    ],
+    [
+     "adm-page-viola-resourcequota-main",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업 info 데이"
+    ],
+    [
+     "adm-page-viola-resourcequota-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-resourcequota-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업 info 데이"
+    ],
+    [
+     "adm-resource-quota-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업 info 데이"
+    ],
+    [
+     "adm-resource-quota-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-resource-quota-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "임계치 설정",
+   "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/critical-point",
+   "title": "임계치 설정 | VIOLA",
+   "bc": "기본 설정/ 클러스터 관리/ 임계치 설정",
+   "pt": "임계치 설정 시스템 임계치를 설정하여 모니터링합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:임계치 설정",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_6||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||D"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_6=기간 설정"
+   ],
+   "seg": [
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-critical-point-fetch-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "클러스터↕",
+      "네임스페이스↕",
+      "리소스",
+      "임계치 help",
+      "외부 알람 참조",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 클러스터 관리/ 임계치 설정 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 클러스터 관리/ 임계치 설정"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-criticalpoint",
+     "div",
+     "임계치 설정 시스템 임계치를 설정하여 모니터링합니다. filter_list 기간 설정 calendar_month add 생성 "
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "임계치 설정 시스템 임계치를 설정하여 모니터링합니다."
+    ],
+    [
+     "adm-page-viola-criticalpoint-panel",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부"
+    ],
+    [
+     "adm-page-viola-criticalpoint-main",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부"
+    ],
+    [
+     "adm-page-viola-criticalpoint-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-criticalpoint-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부"
+    ],
+    [
+     "adm-critical-point-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 리소스 임계치 help 외부"
+    ],
+    [
+     "adm-critical-point-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-critical-point-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "이미지 저장소",
+   "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/repository",
+   "title": "이미지 저장소 | VIOLA",
+   "bc": "기본 설정/ 클러스터 관리/ 이미지 저장소",
+   "pt": "이미지 저장소 외부 이미지 저장소를 등록하고, 연동 정보를 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:이미지 저장소",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 등록"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_7||R",
+    "text||시작일|R",
+    "text||종료일|R"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_7=기간 설정"
+   ],
+   "seg": [],
+   "tables": [
+    {
+     "tid": "adm-repository-table-table",
+     "th": [
+      "이름↕",
+      "설명",
+      "클러스터↕",
+      "프로젝트 수↕",
+      "저장소 주소",
+      "등록자↕",
+      "등록일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 클러스터 관리/ 이미지 저장소 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 클러스터 관리/ 이미지 저장소"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-image-repository",
+     "div",
+     "이미지 저장소 외부 이미지 저장소를 등록하고, 연동 정보를 관리합니다. filter_list 기간 설정 calendar_mon"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "이미지 저장소 외부 이미지 저장소를 등록하고, 연동 정보를 관리합니다."
+    ],
+    [
+     "adm-page-viola-image-repository-panel",
+     "div",
+     "filter_list 기간 설정 calendar_month add 등록 이름 설명 클러스터 프로젝트 수 저장소 주소 등록자 등"
+    ],
+    [
+     "adm-page-viola-image-repository-main",
+     "div",
+     "filter_list 기간 설정 calendar_month add 등록 이름 설명 클러스터 프로젝트 수 저장소 주소 등록자 등"
+    ],
+    [
+     "adm-page-viola-image-repository-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-image-repository-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 등록 이름 설명 클러스터 프로젝트 수 저장소 주소 등록자 등"
+    ],
+    [
+     "adm-repository-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 등록 이름 설명 클러스터 프로젝트 수 저장소 주소 등록자 등"
+    ],
+    [
+     "adm-repository-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 등록"
+    ],
+    [
+     "adm-repository-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-repository-create",
+     "button",
+     "add 등록"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "서비스 어카운트 관리",
+   "url": "https://example.invalid/env-2/viola/default-settings/security-access/service-account",
+   "title": "서비스 어카운트 관리 | VIOLA",
+   "bc": "기본 설정/ 보안 및 권한 관리/ 서비스 어카운트 관리",
+   "pt": "서비스 어카운트 관리 서비스 계정을 생성하고 권한을 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:서비스 어카운트 관리",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "Kubeconfig 다운 이력 조회",
+    "add 생성"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_8||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||D"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_8=기간 설정"
+   ],
+   "seg": [
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-service-account-fetch-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "클러스터↕",
+      "네임스페이스↕",
+      "시크릿↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 보안 및 권한 관리/ 서비스 어카운트 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 보안 및 권한 관리/ 서비스 어카운트 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-serviceaccount",
+     "div",
+     "서비스 어카운트 관리 서비스 계정을 생성하고 권한을 관리합니다. filter_list 기간 설정 calendar_month K"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "서비스 어카운트 관리 서비스 계정을 생성하고 권한을 관리합니다."
+    ],
+    [
+     "adm-page-viola-serviceaccount-panel",
+     "div",
+     "filter_list 기간 설정 calendar_month Kubeconfig 다운 이력 조회 add 생성 이름 클러스터 네임"
+    ],
+    [
+     "adm-page-viola-serviceaccount-main",
+     "div",
+     "filter_list 기간 설정 calendar_month Kubeconfig 다운 이력 조회 add 생성 이름 클러스터 네임"
+    ],
+    [
+     "adm-page-viola-serviceaccount-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-serviceaccount-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month Kubeconfig 다운 이력 조회 add 생성 이름 클러스터 네임"
+    ],
+    [
+     "adm-service-account-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month Kubeconfig 다운 이력 조회 add 생성 이름 클러스터 네임"
+    ],
+    [
+     "adm-service-account-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month Kubeconfig 다운 이력 조회 add 생성"
+    ],
+    [
+     "adm-service-account-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-service-account-open-select-modal",
+     "button",
+     "Kubeconfig 다운 이력 조회"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "롤 관리",
+   "url": "https://example.invalid/env-2/viola/default-settings/security-access/role-management",
+   "title": "롤 관리 | VIOLA",
+   "bc": "기본 설정/ 보안 및 권한 관리/ 롤 관리",
+   "pt": "롤 관리 사용자의 역할과 권한을 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:롤 관리",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [
+    "롤*",
+    "롤 바인딩"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_9||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||D"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_9=기간 설정"
+   ],
+   "seg": [
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-role-fetch-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "클러스터↕",
+      "네임스페이스↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 보안 및 권한 관리/ 롤 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 보안 및 권한 관리/ 롤 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-rolemanagement",
+     "div",
+     "롤 관리 사용자의 역할과 권한을 관리합니다. 롤 롤 바인딩 filter_list 기간 설정 calendar_month add "
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "롤 관리 사용자의 역할과 권한을 관리합니다."
+    ],
+    [
+     "adm-page-viola-rolemanagement-panel",
+     "div",
+     "롤 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업"
+    ],
+    [
+     "adm-page-viola-rolemanagement-main",
+     "div",
+     "롤 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업"
+    ],
+    [
+     "adm-page-layout-tabs",
+     "div",
+     "롤 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업"
+    ],
+    [
+     "adm-page-viola-rolemanagement-content",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업 info 데이"
+    ],
+    [
+     "adm-page-viola-rolemanagement-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-rolemanagement-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업 info 데이"
+    ],
+    [
+     "adm-role-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업 info 데이"
+    ],
+    [
+     "adm-role-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-role-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "롤 관리 / 롤",
+   "url": "https://example.invalid/env-2/viola/default-settings/security-access/role-management",
+   "title": "롤 관리 | VIOLA",
+   "bc": "기본 설정/ 보안 및 권한 관리/ 롤 관리",
+   "pt": "롤 관리 사용자의 역할과 권한을 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:롤 관리",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [
+    "롤*",
+    "롤 바인딩"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_9||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||D"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_9=기간 설정"
+   ],
+   "seg": [
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-role-fetch-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "클러스터↕",
+      "네임스페이스↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 보안 및 권한 관리/ 롤 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 보안 및 권한 관리/ 롤 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-rolemanagement",
+     "div",
+     "롤 관리 사용자의 역할과 권한을 관리합니다. 롤 롤 바인딩 filter_list 기간 설정 calendar_month add "
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "롤 관리 사용자의 역할과 권한을 관리합니다."
+    ],
+    [
+     "adm-page-viola-rolemanagement-panel",
+     "div",
+     "롤 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업"
+    ],
+    [
+     "adm-page-viola-rolemanagement-main",
+     "div",
+     "롤 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업"
+    ],
+    [
+     "adm-page-layout-tabs",
+     "div",
+     "롤 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업"
+    ],
+    [
+     "adm-page-viola-rolemanagement-content",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업 info 데이"
+    ],
+    [
+     "adm-page-viola-rolemanagement-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-rolemanagement-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업 info 데이"
+    ],
+    [
+     "adm-role-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 네임스페이스 생성일시 작업 info 데이"
+    ],
+    [
+     "adm-role-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-role-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "롤 관리 / 롤 / CREATE",
+   "url": "https://example.invalid/env-2/viola/default-settings/security-access/role-management/role/create",
+   "title": "롤 생성 | VIOLA",
+   "bc": "기본 설정/ 보안 및 권한 관리/ 롤 관리/ 롤 생성",
+   "pt": "arrow_back 롤 생성",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:롤 생성",
+    "h1:기본 정보",
+    "h1:클러스터",
+    "h1:YAML",
+    "h1:고급 모드 가이드",
+    "h2:YAML 설정",
+    "h3:apiVersion",
+    "h3:kind",
+    "h3:metadata",
+    "h3:rules"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "arrow_back",
+    "YAML 유효성 검사",
+    "취소",
+    "생성",
+    "keyboard_arrow_right YAML 설정"
+   ],
+   "ph": [
+    "search|rc_select_10||",
+    "textarea|||"
+   ],
+   "lab": [
+    "클러스터",
+    "YAML"
+   ],
+   "sel": [
+    "rc_select_10=biz1"
+   ],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 보안 및 권한 관리/ 롤 관리/ 롤 생성 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 보안 및 권한 관리/ 롤 관리/ 롤 생성"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "arrow_back 롤 생성"
+    ],
+    [
+     "adm-page-viola-role-create-panel",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 apiVersion: rbac"
+    ],
+    [
+     "adm-page-viola-role-create-main",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 apiVersion: rbac"
+    ],
+    [
+     "adm-page-viola-role-create-content-body",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 apiVersion: rbac"
+    ],
+    [
+     "adm-resource-editor-info-title",
+     "div",
+     "기본 정보"
+    ],
+    [
+     "adm-resource-editor-cluster-title",
+     "div",
+     "클러스터"
+    ],
+    [
+     "adm-resource-editor-selected-cluster",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-resource-editor-yaml-title",
+     "div",
+     "YAML"
+    ],
+    [
+     "adm-yaml-validate",
+     "button",
+     "YAML 유효성 검사"
+    ],
+    [
+     "adm-alert-default",
+     "div",
+     "유효성 검사를 실행해 주세요."
+    ],
+    [
+     "adm-page-viola-role-create-content-footer",
+     "div",
+     "취소 생성"
+    ],
+    [
+     "adm-resource-editor-go-back-page",
+     "button",
+     "취소"
+    ],
+    [
+     "adm-resource-editor-submit",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-resource-guide-title",
+     "div",
+     "고급 모드 가이드"
+    ],
+    [
+     "adm-resource-guide-collapse",
+     "div",
+     "keyboard_arrow_right YAML 설정 apiVersion Role의 API 버전을 명시합니다. 일반적으로 rba"
+    ],
+    [
+     "adm-resource-guide-collapse-panel",
+     "div",
+     "keyboard_arrow_right YAML 설정 apiVersion Role의 API 버전을 명시합니다. 일반적으로 rba"
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "롤 관리 / 롤 바인딩",
+   "url": "https://example.invalid/env-2/viola/default-settings/security-access/role-management",
+   "title": "롤 관리 | VIOLA",
+   "bc": "기본 설정/ 보안 및 권한 관리/ 롤 관리",
+   "pt": "롤 관리 사용자의 역할과 권한을 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:롤 관리",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [
+    "롤",
+    "롤 바인딩*"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_12||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||D"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_12=기간 설정"
+   ],
+   "seg": [
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-role-binding-role-binding-fetch-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "롤 참조↕",
+      "주체",
+      "클러스터↕",
+      "네임스페이스↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 보안 및 권한 관리/ 롤 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 보안 및 권한 관리/ 롤 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-rolemanagement",
+     "div",
+     "롤 관리 사용자의 역할과 권한을 관리합니다. 롤 롤 바인딩 filter_list 기간 설정 calendar_month add "
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "롤 관리 사용자의 역할과 권한을 관리합니다."
+    ],
+    [
+     "adm-page-viola-rolemanagement-panel",
+     "div",
+     "롤 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 롤 참조 주체 클러스터 네임스페이스"
+    ],
+    [
+     "adm-page-viola-rolemanagement-main",
+     "div",
+     "롤 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 롤 참조 주체 클러스터 네임스페이스"
+    ],
+    [
+     "adm-page-layout-tabs",
+     "div",
+     "롤 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 롤 참조 주체 클러스터 네임스페이스"
+    ],
+    [
+     "adm-page-viola-rolemanagement-content",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 롤 참조 주체 클러스터 네임스페이스 생성일시 작업"
+    ],
+    [
+     "adm-page-viola-rolemanagement-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-rolemanagement-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 롤 참조 주체 클러스터 네임스페이스 생성일시 작업"
+    ],
+    [
+     "adm-role-binding-role-binding-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 롤 참조 주체 클러스터 네임스페이스 생성일시 작업"
+    ],
+    [
+     "adm-role-binding-role-binding-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-role-binding-role-binding-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "롤 관리 / 롤 바인딩 / CREATE",
+   "url": "https://example.invalid/env-2/viola/default-settings/security-access/role-management/role-binding/create",
+   "title": "롤 바인딩 생성 | VIOLA",
+   "bc": "기본 설정/ 보안 및 권한 관리/ 롤 관리/ 롤 바인딩 생성",
+   "pt": "arrow_back 롤 바인딩 생성",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:롤 바인딩 생성",
+    "h1:기본 정보",
+    "h1:클러스터",
+    "h1:YAML",
+    "h1:고급 모드 가이드",
+    "h2:YAML 설정",
+    "h3:apiVersion",
+    "h3:kind",
+    "h3:metadata",
+    "h3:roleRef",
+    "h3:subjects"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "arrow_back",
+    "YAML 유효성 검사",
+    "취소",
+    "생성",
+    "keyboard_arrow_right YAML 설정"
+   ],
+   "ph": [
+    "search|rc_select_13||",
+    "textarea|||"
+   ],
+   "lab": [
+    "클러스터",
+    "YAML"
+   ],
+   "sel": [
+    "rc_select_13=biz1"
+   ],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 보안 및 권한 관리/ 롤 관리/ 롤 바인딩 생성 biz1 sync_alt browse_activity 모니터링 현"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 보안 및 권한 관리/ 롤 관리/ 롤 바인딩 생성"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "arrow_back 롤 바인딩 생성"
+    ],
+    [
+     "adm-page-viola-rolebinding-create-panel",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 apiVersion: rbac.au"
+    ],
+    [
+     "adm-page-viola-rolebinding-create-main",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 apiVersion: rbac.au"
+    ],
+    [
+     "adm-page-viola-rolebinding-create-content-body",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 apiVersion: rbac.au"
+    ],
+    [
+     "adm-resource-editor-info-title",
+     "div",
+     "기본 정보"
+    ],
+    [
+     "adm-resource-editor-cluster-title",
+     "div",
+     "클러스터"
+    ],
+    [
+     "adm-resource-editor-selected-cluster",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-resource-editor-yaml-title",
+     "div",
+     "YAML"
+    ],
+    [
+     "adm-yaml-validate",
+     "button",
+     "YAML 유효성 검사"
+    ],
+    [
+     "adm-alert-default",
+     "div",
+     "유효성 검사를 실행해 주세요."
+    ],
+    [
+     "adm-page-viola-rolebinding-create-content-footer",
+     "div",
+     "취소 생성"
+    ],
+    [
+     "adm-resource-editor-go-back-page",
+     "button",
+     "취소"
+    ],
+    [
+     "adm-resource-editor-submit",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-resource-guide-title",
+     "div",
+     "고급 모드 가이드"
+    ],
+    [
+     "adm-resource-guide-collapse",
+     "div",
+     "keyboard_arrow_right YAML 설정 apiVersion RoleBinding의 API 버전을 명시합니다. 일반"
+    ],
+    [
+     "adm-resource-guide-collapse-panel",
+     "div",
+     "keyboard_arrow_right YAML 설정 apiVersion RoleBinding의 API 버전을 명시합니다. 일반"
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "클러스터 롤 관리",
+   "url": "https://example.invalid/env-2/viola/default-settings/security-access/cluster-role-management",
+   "title": "클러스터 롤 관리 | VIOLA",
+   "bc": "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리",
+   "pt": "클러스터 롤 관리 클러스터 전반에 적용되는 역할과 권한을 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:클러스터 롤 관리",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [
+    "클러스터 롤*",
+    "클러스터 롤 바인딩"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_15||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||D"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_15=기간 설정"
+   ],
+   "seg": [
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-cluster-role-fetch-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "클러스터↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement",
+     "div",
+     "클러스터 롤 관리 클러스터 전반에 적용되는 역할과 권한을 관리합니다. 클러스터 롤 클러스터 롤 바인딩 filter_list 기"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "클러스터 롤 관리 클러스터 전반에 적용되는 역할과 권한을 관리합니다."
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-panel",
+     "div",
+     "클러스터 롤 클러스터 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-main",
+     "div",
+     "클러스터 롤 클러스터 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시"
+    ],
+    [
+     "adm-page-layout-tabs",
+     "div",
+     "클러스터 롤 클러스터 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-content",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시 작업 info 데이터가 없습니다"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시 작업 info 데이터가 없습니다"
+    ],
+    [
+     "adm-cluster-role-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시 작업 info 데이터가 없습니다"
+    ],
+    [
+     "adm-cluster-role-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-cluster-role-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "클러스터 롤 관리 / 클러스터 롤",
+   "url": "https://example.invalid/env-2/viola/default-settings/security-access/cluster-role-management",
+   "title": "클러스터 롤 관리 | VIOLA",
+   "bc": "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리",
+   "pt": "클러스터 롤 관리 클러스터 전반에 적용되는 역할과 권한을 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:클러스터 롤 관리",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [
+    "클러스터 롤*",
+    "클러스터 롤 바인딩"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_15||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||D"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_15=기간 설정"
+   ],
+   "seg": [
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-cluster-role-fetch-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "클러스터↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement",
+     "div",
+     "클러스터 롤 관리 클러스터 전반에 적용되는 역할과 권한을 관리합니다. 클러스터 롤 클러스터 롤 바인딩 filter_list 기"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "클러스터 롤 관리 클러스터 전반에 적용되는 역할과 권한을 관리합니다."
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-panel",
+     "div",
+     "클러스터 롤 클러스터 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-main",
+     "div",
+     "클러스터 롤 클러스터 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시"
+    ],
+    [
+     "adm-page-layout-tabs",
+     "div",
+     "클러스터 롤 클러스터 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-content",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시 작업 info 데이터가 없습니다"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시 작업 info 데이터가 없습니다"
+    ],
+    [
+     "adm-cluster-role-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 생성일시 작업 info 데이터가 없습니다"
+    ],
+    [
+     "adm-cluster-role-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-cluster-role-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "클러스터 롤 관리 / 클러스터 롤 / CREATE",
+   "url": "https://example.invalid/env-2/viola/default-settings/security-access/cluster-role-management/cluster-role/create",
+   "title": "클러스터 롤 생성 | VIOLA",
+   "bc": "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리/ 클러스터 롤 생성",
+   "pt": "arrow_back 클러스터 롤 생성",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:클러스터 롤 생성",
+    "h1:기본 정보",
+    "h1:클러스터",
+    "h1:YAML",
+    "h1:고급 모드 가이드",
+    "h2:YAML 설정",
+    "h3:apiVersion",
+    "h3:kind",
+    "h3:metadata",
+    "h3:rules"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "arrow_back",
+    "YAML 유효성 검사",
+    "취소",
+    "생성",
+    "keyboard_arrow_right YAML 설정"
+   ],
+   "ph": [
+    "search|rc_select_16||",
+    "textarea|||"
+   ],
+   "lab": [
+    "클러스터",
+    "YAML"
+   ],
+   "sel": [
+    "rc_select_16=biz1"
+   ],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리/ 클러스터 롤 생성 biz1 sync_alt browse_activity "
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리/ 클러스터 롤 생성"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "arrow_back 클러스터 롤 생성"
+    ],
+    [
+     "adm-page-viola-clusterrole-create-panel",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 apiVersion: rbac.authorization.k8"
+    ],
+    [
+     "adm-page-viola-clusterrole-create-main",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 apiVersion: rbac.authorization.k8"
+    ],
+    [
+     "adm-page-viola-clusterrole-create-content-body",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 apiVersion: rbac.authorization.k8"
+    ],
+    [
+     "adm-resource-editor-info-title",
+     "div",
+     "기본 정보"
+    ],
+    [
+     "adm-resource-editor-cluster-title",
+     "div",
+     "클러스터"
+    ],
+    [
+     "adm-resource-editor-selected-cluster",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-resource-editor-yaml-title",
+     "div",
+     "YAML"
+    ],
+    [
+     "adm-yaml-validate",
+     "button",
+     "YAML 유효성 검사"
+    ],
+    [
+     "adm-alert-default",
+     "div",
+     "유효성 검사를 실행해 주세요."
+    ],
+    [
+     "adm-page-viola-clusterrole-create-content-footer",
+     "div",
+     "취소 생성"
+    ],
+    [
+     "adm-resource-editor-go-back-page",
+     "button",
+     "취소"
+    ],
+    [
+     "adm-resource-editor-submit",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-resource-guide-title",
+     "div",
+     "고급 모드 가이드"
+    ],
+    [
+     "adm-resource-guide-collapse",
+     "div",
+     "keyboard_arrow_right YAML 설정 apiVersion ClusterRole의 API 버전을 명시합니다. 일반"
+    ],
+    [
+     "adm-resource-guide-collapse-panel",
+     "div",
+     "keyboard_arrow_right YAML 설정 apiVersion ClusterRole의 API 버전을 명시합니다. 일반"
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "클러스터 롤 관리 / 클러스터 롤 바인딩",
+   "url": "https://example.invalid/env-2/viola/default-settings/security-access/cluster-role-management",
+   "title": "클러스터 롤 관리 | VIOLA",
+   "bc": "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리",
+   "pt": "클러스터 롤 관리 클러스터 전반에 적용되는 역할과 권한을 관리합니다.",
+   "h": [
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:클러스터 롤 관리",
+    "h3:info 데이터가 없습니다."
+   ],
+   "tabs": [
+    "클러스터 롤",
+    "클러스터 롤 바인딩*"
+   ],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "add 생성"
+   ],
+   "ph": [
+    "text||항목 이름 또는 값을 입력해 주세요.|",
+    "search|rc_select_18||R",
+    "text||시작일|R",
+    "text||종료일|R",
+    "checkbox|||D"
+   ],
+   "lab": [],
+   "sel": [
+    "rc_select_18=기간 설정"
+   ],
+   "seg": [
+    ""
+   ],
+   "tables": [
+    {
+     "tid": "adm-cluster-role-binding-cluster-role-binding-fetch-table-table",
+     "th": [
+      "",
+      "이름↕",
+      "클러스터 롤 참조↕",
+      "주체",
+      "클러스터↕",
+      "생성일시↕",
+      "작업"
+     ],
+     "rows": 0,
+     "row1": [],
+     "empty": "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    }
+   ],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리 biz1 sync_alt browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement",
+     "div",
+     "클러스터 롤 관리 클러스터 전반에 적용되는 역할과 권한을 관리합니다. 클러스터 롤 클러스터 롤 바인딩 filter_list 기"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "클러스터 롤 관리 클러스터 전반에 적용되는 역할과 권한을 관리합니다."
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-panel",
+     "div",
+     "클러스터 롤 클러스터 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 롤 참조"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-main",
+     "div",
+     "클러스터 롤 클러스터 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 롤 참조"
+    ],
+    [
+     "adm-page-layout-tabs",
+     "div",
+     "클러스터 롤 클러스터 롤 바인딩 filter_list 기간 설정 calendar_month add 생성 이름 클러스터 롤 참조"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-content",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 롤 참조 주체 클러스터 생성일시 작업 i"
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-content-header",
+     "div",
+     ""
+    ],
+    [
+     "adm-page-viola-clusterrolemanagement-content-body",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 롤 참조 주체 클러스터 생성일시 작업 i"
+    ],
+    [
+     "adm-cluster-role-binding-cluster-role-binding-fetch-table-table",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성 이름 클러스터 롤 참조 주체 클러스터 생성일시 작업 i"
+    ],
+    [
+     "adm-cluster-role-binding-cluster-role-binding-fetch-table-filter",
+     "div",
+     "filter_list 기간 설정 calendar_month add 생성"
+    ],
+    [
+     "adm-cluster-role-binding-cluster-role-binding-fetch-table-filter-search-input",
+     "input",
+     ""
+    ],
+    [
+     "adm-date-range-period",
+     "div",
+     "기간 설정"
+    ],
+    [
+     "adm-list-button-groups-create",
+     "button",
+     "add 생성"
+    ],
+    [
+     "adm-no-data",
+     "div",
+     "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요."
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  },
+  {
+   "tag": "클러스터 롤 관리 / 클러스터 롤 바인딩 / CREATE",
+   "url": "https://example.invalid/env-2/viola/default-settings/security-access/cluster-role-management/cluster-role-binding/create",
+   "title": "클러스터 롤 바인딩 생성 | VIOLA",
+   "bc": "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리/ 클러스터 롤 바인딩 생성",
+   "pt": "arrow_back 클러스터 롤 바인딩 생성",
+   "h": [
+    "span:오류 발생",
+    "span:오류 발생",
+    "h1:unfold_more",
+    "h1:클러스터 롤 바인딩 생성",
+    "h1:기본 정보",
+    "h1:클러스터",
+    "h1:YAML",
+    "h1:고급 모드 가이드",
+    "h2:YAML 설정",
+    "h3:apiVersion",
+    "h3:kind",
+    "h3:metadata",
+    "h3:roleRef",
+    "h3:subjects"
+   ],
+   "tabs": [],
+   "btn": [
+    "unfold_more",
+    "browse_activity 모니터링 현황",
+    "arrow_back",
+    "YAML 유효성 검사",
+    "취소",
+    "생성",
+    "keyboard_arrow_right YAML 설정"
+   ],
+   "ph": [
+    "search|rc_select_19||",
+    "textarea|||"
+   ],
+   "lab": [
+    "클러스터",
+    "YAML"
+   ],
+   "sel": [
+    "rc_select_19=biz1"
+   ],
+   "seg": [],
+   "tables": [],
+   "tids": [
+    [
+     "adm-app-header",
+     "header",
+     "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리/ 클러스터 롤 바인딩 생성 biz1 sync_alt browse_activ"
+    ],
+    [
+     "adm-breadcrumb",
+     "div",
+     "기본 설정/ 보안 및 권한 관리/ 클러스터 롤 관리/ 클러스터 롤 바인딩 생성"
+    ],
+    [
+     "adm-breadcrumb-item",
+     "span",
+     "기본 설정"
+    ],
+    [
+     "adm-the-header-toggle-panel",
+     "button",
+     "browse_activity 모니터링 현황"
+    ],
+    [
+     "adm-page-title",
+     "div",
+     "arrow_back 클러스터 롤 바인딩 생성"
+    ],
+    [
+     "adm-page-viola-clusterrolebinding-create-panel",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 9 10 11 12 apiVersion: rbac.autho"
+    ],
+    [
+     "adm-page-viola-clusterrolebinding-create-main",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 9 10 11 12 apiVersion: rbac.autho"
+    ],
+    [
+     "adm-page-viola-clusterrolebinding-create-content-body",
+     "div",
+     "기본 정보 클러스터 biz1 YAML 1 2 3 4 5 6 7 8 9 10 11 12 apiVersion: rbac.autho"
+    ],
+    [
+     "adm-resource-editor-info-title",
+     "div",
+     "기본 정보"
+    ],
+    [
+     "adm-resource-editor-cluster-title",
+     "div",
+     "클러스터"
+    ],
+    [
+     "adm-resource-editor-selected-cluster",
+     "div",
+     "biz1"
+    ],
+    [
+     "adm-resource-editor-yaml-title",
+     "div",
+     "YAML"
+    ],
+    [
+     "adm-yaml-validate",
+     "button",
+     "YAML 유효성 검사"
+    ],
+    [
+     "adm-alert-default",
+     "div",
+     "유효성 검사를 실행해 주세요."
+    ],
+    [
+     "adm-page-viola-clusterrolebinding-create-content-footer",
+     "div",
+     "취소 생성"
+    ],
+    [
+     "adm-resource-editor-go-back-page",
+     "button",
+     "취소"
+    ],
+    [
+     "adm-resource-editor-submit",
+     "button",
+     "생성"
+    ],
+    [
+     "adm-resource-guide-title",
+     "div",
+     "고급 모드 가이드"
+    ],
+    [
+     "adm-resource-guide-collapse",
+     "div",
+     "keyboard_arrow_right YAML 설정 apiVersion ClusterRoleBinding의 API 버전을 명시"
+    ],
+    [
+     "adm-resource-guide-collapse-panel",
+     "div",
+     "keyboard_arrow_right YAML 설정 apiVersion ClusterRoleBinding의 API 버전을 명시"
+    ]
+   ],
+   "modal": [],
+   "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다. cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  }
+ ],
+ "errors": [],
+ "lnb": [
+  "클러스터 설정",
+  "노드 관리",
+  "네임스페이스 관리",
+  "백업 통합 관리",
+  "리소스 쿼터 설정",
+  "임계치 설정",
+  "이미지 저장소",
+  "서비스 어카운트 관리",
+  "롤 관리",
+  "클러스터 롤 관리"
+ ]
+}

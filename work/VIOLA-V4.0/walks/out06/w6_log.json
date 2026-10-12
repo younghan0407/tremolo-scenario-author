@@ -1,0 +1,408 @@
+[
+ {
+  "tag": "log",
+  "url": "https://example.invalid/env-2/viola/monitoring/integrated-log-search",
+  "bc": "",
+  "pt": "",
+  "h": [
+   "h1:OKESTROunfold_more",
+   "h1:통합 로그 조회",
+   "div:keyboard_arrow_right 로그 통계",
+   "h3:유형별 로그 발생 현황",
+   "h3:노드 및 파드 상태 변경 이력"
+  ],
+  "tabs": [
+   "통합 로그*",
+   "실시간 로그"
+  ],
+  "btn": [
+   "OKESTROunfold_more",
+   "연결 확인 keyboard_arrow_right",
+   "close",
+   "5분",
+   "30분",
+   "1시간",
+   "6시간",
+   "1일",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right",
+   "refresh",
+   "keyboard_arrow_right 로그 통계",
+   "이벤트 로그 73",
+   "애플리케이션 로그 8,807",
+   "노드 로그 8,469",
+   "운영 로그 96",
+   "보안 로그 2,941",
+   "[Pod] tempo-compactor-df899645-xncnz",
+   "[Pod] tempo-distributor-56ff7fb57-c5nvp",
+   "[Pod] tempo-querier-969f94bcd-pb2sz",
+   "[Pod] tempo-ingester-0",
+   "[Pod] tempo-metrics-generator-574fb7b8cc",
+   "[Pod] tempo-ingester-1",
+   "[Pod] viola-biz-monitoring-loki-distribu",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_double_arrow_right"
+  ],
+  "ph": [
+   "radio||||C",
+   "radio||||",
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-log-query-panel-filtered-logs-table-filter-search-input|",
+   "number|||adm-log-query-panel-filtered-logs-table-pagination-page-input|",
+   "search|rc_select_0|||R"
+  ],
+  "lab": [
+   "web_asset",
+   "splitscreen_vertical_add"
+  ],
+  "sel": [
+   "rc_select_0=리스트 수 20"
+  ],
+  "chk": [
+   "web_asset*",
+   "splitscreen_vertical_add"
+  ],
+  "tables": [
+   {
+    "tid": "adm-log-query-panel-filtered-logs-table-table",
+    "th": [
+     "",
+     "발생일시↕",
+     "유형",
+     "클러스터",
+     "로그"
+    ],
+    "rows": 20,
+    "row1": [
+     "",
+     "2026-10-08 10:45:59",
+     "노드 로그",
+     "ym-test1500",
+     "{\"level\":\"info\",\"ts\":\"2026-10-08T01:45:59.999802Z\""
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-popup-layout-button",
+    "button",
+    "OKESTROunfold_more",
+    ""
+   ],
+   [
+    "adm-popup-layout-tabs",
+    "div",
+    "통합 로그 실시간 로그",
+    ""
+   ],
+   [
+    "adm-integrated-log-page-title",
+    "div",
+    "통합 로그 조회 클러스터 및 워크로드에서 발생한 로그를 통합 조회합니다. web_asset splitscreen_vertica",
+    ""
+   ],
+   [
+    "adm-integrated-log-split-mode",
+    "div",
+    "web_asset splitscreen_vertical_add",
+    ""
+   ],
+   [
+    "adm-alert-error",
+    "div",
+    "error 클러스터 ‘biz2’에 Loki가 연결되지 않았습니다. 연결 확인 keyboard_arrow_right close",
+    ""
+   ],
+   [
+    "adm-log-query-panel-connection-check",
+    "button",
+    "연결 확인 keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-log-query-panel-select-unit",
+    "button",
+    "5분",
+    ""
+   ],
+   [
+    "adm-log-query-panel-move-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-log-query-panel-move-next",
+    "button",
+    "keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-log-query-panel-refresh",
+    "button",
+    "refresh",
+    ""
+   ],
+   [
+    "adm-log-query-panel-collapse",
+    "div",
+    "keyboard_arrow_right 로그 통계 유형별 로그 발생 현황 0 300 600 900 1,200 1,500 1,80",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "[Pod] tempo-compactor-df899645-xncnz",
+    ""
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-table",
+    "div",
+    "filter_list 발생일시 유형 클러스터 로그 2026-10-08 10:45:59 노드 로그 ym-test1500 {\"le",
+    ""
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-filter",
+    "div",
+    "filter_list",
+    ""
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-row",
+    "tr",
+    "2026-10-08 10:45:59 노드 로그 ym-test1500 {\"level\":\"info\",\"ts\":\"2026-10-08",
+    ""
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-pagination",
+    "div",
+    "전체 수 9,980 keyboard_double_arrow_left keyboard_arrow_left / 499 keyboa",
+    ""
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-pagination-total",
+    "p",
+    "전체 수 9,980",
+    ""
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    ""
+   ],
+   [
+    "adm-log-query-panel-filtered-logs-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [],
+  "text": ""
+ },
+ {
+  "links": [
+   "OKESTROunfold_more",
+   "통합 로그",
+   "실시간 로그",
+   "연결 확인 keyboard_arrow_right",
+   "연결 확인 keyboard_arrow_right",
+   "close",
+   "5분",
+   "30분",
+   "1시간",
+   "6시간",
+   "1일",
+   "keyboard_arrow_left",
+   "keyboard_arrow_right",
+   "refresh",
+   "[Pod] tempo-compactor-df899645-xncnz",
+   "[Pod] tempo-compactor-df899645-xncnz",
+   "[Pod] tempo-compactor-df899645-xncnz",
+   "[Pod] tempo-compactor-df899645-xncnz",
+   "[Pod] tempo-compactor-df899645-xncnz",
+   "[Pod] tempo-compactor-df899645-xncnz",
+   "[Pod] tempo-distributor-56ff7fb57-c5nvp",
+   "[Pod] tempo-distributor-56ff7fb57-c5nvp",
+   "[Pod] tempo-distributor-56ff7fb57-c5nvp",
+   "[Pod] tempo-distributor-56ff7fb57-c5nvp",
+   "[Pod] tempo-querier-969f94bcd-pb2sz",
+   "[Pod] tempo-querier-969f94bcd-pb2sz",
+   "[Pod] tempo-querier-969f94bcd-pb2sz",
+   "[Pod] tempo-querier-969f94bcd-pb2sz",
+   "[Pod] tempo-ingester-0",
+   "[Pod] tempo-ingester-0",
+   "[Pod] tempo-ingester-0",
+   "[Pod] tempo-ingester-0",
+   "[Pod] tempo-metrics-generator-574fb7b8cc",
+   "[Pod] tempo-metrics-generator-574fb7b8cc",
+   "[Pod] tempo-metrics-generator-574fb7b8cc",
+   "[Pod] tempo-metrics-generator-574fb7b8cc",
+   "[Pod] tempo-ingester-1",
+   "[Pod] tempo-ingester-1",
+   "[Pod] tempo-ingester-1",
+   "[Pod] tempo-ingester-1",
+   "[Pod] viola-biz-monitoring-loki-distribu",
+   "[Pod] viola-biz-monitoring-loki-distribu",
+   "[Pod] viola-biz-monitoring-loki-distribu",
+   "[Pod] viola-biz-monitoring-loki-distribu",
+   "keyboard_double_arrow_left",
+   "keyboard_arrow_left",
+   "keyboard_arrow_right",
+   "keyboard_double_arrow_right"
+  ]
+ },
+ {
+  "tag": "rtlog",
+  "url": "https://example.invalid/env-2/viola/monitoring/integrated-log-search?logMode=realtime",
+  "bc": "",
+  "pt": "",
+  "h": [
+   "h1:OKESTROunfold_more",
+   "h1:실시간 로그 조회",
+   "h1:리소스 선택",
+   "h1:로그 자동 스크롤",
+   "h2:로그"
+  ],
+  "tabs": [
+   "통합 로그",
+   "실시간 로그*"
+  ],
+  "btn": [
+   "OKESTROunfold_more",
+   "download 다운로드(D)"
+  ],
+  "ph": [
+   "radio||||C",
+   "radio||||",
+   "search|rc_select_1|||R",
+   "search|rc_select_2|||R",
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-realtime-log-panel-filter-search-input|"
+  ],
+  "lab": [
+   "web_asset",
+   "splitscreen_vertical_add",
+   "유형",
+   "클러스터"
+  ],
+  "sel": [
+   "rc_select_1=운영 로그",
+   "rc_select_2=클러스터를 선택해 주세요."
+  ],
+  "chk": [
+   "web_asset*",
+   "splitscreen_vertical_add",
+   "*"
+  ],
+  "tables": [],
+  "tids": [
+   [
+    "adm-popup-layout-button",
+    "button",
+    "OKESTROunfold_more",
+    ""
+   ],
+   [
+    "adm-popup-layout-tabs",
+    "div",
+    "통합 로그 실시간 로그",
+    ""
+   ],
+   [
+    "adm-integrated-log-page-title",
+    "div",
+    "실시간 로그 조회 특정 리소스에서 발생하는 로그를 실시간으로 조회합니다. web_asset splitscreen_vertica",
+    ""
+   ],
+   [
+    "adm-integrated-log-split-mode",
+    "div",
+    "web_asset splitscreen_vertical_add",
+    ""
+   ],
+   [
+    "adm-realtime-log-panel-resource-select-title",
+    "div",
+    "리소스 선택",
+    ""
+   ],
+   [
+    "adm-realtime-log-panel-log-source",
+    "div",
+    "운영 로그",
+    ""
+   ],
+   [
+    "adm-realtime-log-panel-cluster",
+    "div",
+    "클러스터를 선택해 주세요.",
+    ""
+   ],
+   [
+    "adm-realtime-log-panel-log-title",
+    "div",
+    "로그 자동 스크롤 download 다운로드",
+    ""
+   ],
+   [
+    "adm-realtime-log-panel-auto-scroll",
+    "button",
+    "",
+    ""
+   ],
+   [
+    "adm-realtime-log-panel-download-logs",
+    "button",
+    "download 다운로드",
+    "D"
+   ],
+   [
+    "adm-realtime-log-panel-filter",
+    "div",
+    "search",
+    ""
+   ],
+   [
+    "adm-realtime-log-panel-filter-search-input",
+    "input",
+    "",
+    ""
+   ]
+  ],
+  "modal": [],
+  "text": ""
+ },
+ {
+  "opened": []
+ }
+]

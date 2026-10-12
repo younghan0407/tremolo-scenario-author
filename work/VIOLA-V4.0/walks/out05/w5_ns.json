@@ -1,0 +1,1641 @@
+[
+ {
+  "tag": "ns-list",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/namespace",
+  "bc": "기본 설정/ 클러스터 관리/ 네임스페이스 관리",
+  "pt": "네임스페이스 관리 클러스터 내 각 네임스페이스의 상태와 설정을 관리합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:네임스페이스 관리"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "add 생성",
+   "qa-trml-152320-ns",
+   "more_horiz",
+   "qa-trml-261007-ns",
+   "khh",
+   "yh-ns",
+   "nfs-validation",
+   "han-test",
+   "nfs-csi",
+   "pqa-kmj",
+   "cert-manager",
+   "flux-system",
+   "istio-system",
+   "monitoring",
+   "velero",
+   "vpa",
+   "cilium-secrets",
+   "cilium",
+   "local-path-storage",
+   "default",
+   "kube-node-lease",
+   "kube-public",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right",
+   "keyboard_double_arrow_right"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-namespace-fetch-table-filter-search-input|",
+   "search|rc_select_0|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "number|||adm-namespace-fetch-table-pagination-page-input|",
+   "search|rc_select_1|||R"
+  ],
+  "lab": [],
+  "sel": [
+   "rc_select_0=기간 설정",
+   "rc_select_1=리스트 수 20"
+  ],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-namespace-fetch-table-table",
+    "th": [
+     "이름↕",
+     "상태 help",
+     "클러스터↕",
+     "CPU↕",
+     "메모리↕",
+     "Istio Injection↕",
+     "생성자↕",
+     "생성일시↕",
+     "작업"
+    ],
+    "rows": 20,
+    "row1": [
+     "qa-trml-152320-ns",
+     "ACTIVE",
+     "biz1",
+     "6.57 mCore",
+     "105.34 MiB",
+     "비활성화",
+     "YOUR_ACCOUNT_ID",
+     "2026-10-07 15:24:23",
+     "more_horiz"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace",
+    "div",
+    "네임스페이스 관리 클러스터 내 각 네임스페이스의 상태와 설정을 관리합니다. filter_list 기간 설정 calendar_m",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "네임스페이스 관리 클러스터 내 각 네임스페이스의 상태와 설정을 관리합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-panel",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 CPU 메모리 Istio ",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-main",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 CPU 메모리 Istio ",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-content-header",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 CPU 메모리 Istio ",
+    ""
+   ],
+   [
+    "adm-namespace-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 상태 help 클러스터 CPU 메모리 Istio ",
+    ""
+   ],
+   [
+    "adm-namespace-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성",
+    ""
+   ],
+   [
+    "adm-namespace-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-list-button-groups-create",
+    "button",
+    "add 생성",
+    ""
+   ],
+   [
+    "adm-namespace-fetch-table-row",
+    "tr",
+    "qa-trml-152320-ns ACTIVE biz1 6.57 mCore 105.34 MiB 비활성화 YOUR_ACCOUNT_ID 2",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "qa-trml-152320-ns",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-namespace-fetch-table-pagination",
+    "div",
+    "전체 수 21 keyboard_double_arrow_left keyboard_arrow_left / 2 keyboard_ar",
+    ""
+   ],
+   [
+    "adm-namespace-fetch-table-pagination-total",
+    "p",
+    "전체 수 21",
+    ""
+   ],
+   [
+    "adm-namespace-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-namespace-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-namespace-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-namespace-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-namespace-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    ""
+   ],
+   [
+    "adm-namespace-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "ns-create",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/namespace/create",
+  "bc": "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 생성",
+  "pt": "arrow_back 네임스페이스 생성",
+  "h": [
+   "h1:unfold_more",
+   "h1:네임스페이스 생성",
+   "h1:모드",
+   "h1:모드 선택",
+   "h1:기본 정보",
+   "h1:클러스터",
+   "h1:이름",
+   "h1:istio 설정",
+   "h1:레이블",
+   "h1:생성자",
+   "h1:리소스 쿼터 설정",
+   "h1:리소스 쿼터",
+   "h1:기본 모드 가이드",
+   "div:keyboard_arrow_right 모드 선택",
+   "h2:모드 선택",
+   "h4:기본 모드",
+   "h4:고급 모드",
+   "div:keyboard_arrow_right 기본 정보",
+   "h2:기본 정보",
+   "div:keyboard_arrow_right 리소스 쿼터 설정",
+   "h2:리소스 쿼터 설정"
+  ],
+  "tabs": [],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "중복 확인(D)",
+   "delete(D)",
+   "필드 추가",
+   "취소",
+   "생성",
+   "keyboard_arrow_right 모드 선택",
+   "keyboard_arrow_right 기본 정보",
+   "keyboard_arrow_right 리소스 쿼터 설정"
+  ],
+  "ph": [
+   "radio||||C",
+   "radio||||",
+   "search|rc_select_2|||",
+   "text||이름을 입력해 주세요.|adm-input-json-name-placeholder|",
+   "search|rc_select_3|||",
+   "text|form_item_metadata_labels_0_label|Key를 입력해 주세요.||",
+   "text|form_item_metadata_labels_0_value|Value를 입력해 주세요.||",
+   "text|||adm-namespace-basic-input|R"
+  ],
+  "lab": [
+   "모드 선택",
+   "기본 모드 입력 필드 기반으로 리소스를 생성합니다.",
+   "고급 모드 YAML 기반으로 리소스를 생성합니다.",
+   "클러스터",
+   "이름",
+   "istio 설정",
+   "레이블",
+   "생성자",
+   "리소스 쿼터"
+  ],
+  "sel": [
+   "rc_select_2=biz1",
+   "rc_select_3=비활성화"
+  ],
+  "chk": [
+   "기본 모드 입력 필드 기반으로 리소스를 생성합니다.*",
+   "고급 모드 YAML 기반으로 리소스를 생성합니다.",
+   ""
+  ],
+  "tables": [
+   {
+    "tid": "adm-input-labels-key-value-table",
+    "th": [
+     "Key",
+     "Value",
+     ""
+    ],
+    "rows": 1,
+    "row1": [
+     "cancel",
+     "cancel",
+     "delete"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 생성 biz1 sync_alt browse_activity 모니터",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 생성",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back 네임스페이스 생성",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-create-panel",
+    "div",
+    "모드 모드 선택 기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다. 기본 정",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-create-main",
+    "div",
+    "모드 모드 선택 기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다. 기본 정",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-create-content-body",
+    "div",
+    "모드 모드 선택 기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다. 기본 정",
+    ""
+   ],
+   [
+    "adm-convert-container-mode-title",
+    "div",
+    "모드",
+    ""
+   ],
+   [
+    "adm-convert-container-select-mode-title",
+    "div",
+    "모드 선택",
+    ""
+   ],
+   [
+    "adm-convert-container-mode",
+    "div",
+    "기본 모드 입력 필드 기반으로 리소스를 생성합니다. 고급 모드 YAML 기반으로 리소스를 생성합니다.",
+    ""
+   ],
+   [
+    "adm-convert-container-radio",
+    "label",
+    "기본 모드 입력 필드 기반으로 리소스를 생성합니다.",
+    ""
+   ],
+   [
+    "adm-base-upsert-layout-info-title",
+    "div",
+    "기본 정보",
+    ""
+   ],
+   [
+    "adm-form-item-metadata-providerid",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-input-basic-info-provider-id",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-form-item-metadata-name",
+    "div",
+    "중복 확인",
+    ""
+   ],
+   [
+    "adm-input-json-name-placeholder",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-input-json-name-duplicate-name",
+    "button",
+    "중복 확인",
+    "D"
+   ],
+   [
+    "adm-form-item-metadata-istio",
+    "div",
+    "비활성화",
+    ""
+   ],
+   [
+    "adm-namespace-basic-istio",
+    "div",
+    "비활성화",
+    ""
+   ],
+   [
+    "adm-input-labels-key-value-table",
+    "div",
+    "Key Value delete add 필드 추가",
+    ""
+   ],
+   [
+    "adm-form-item-metadata-userid",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-namespace-basic-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-namespace-basic-resource-quota-settings",
+    "div",
+    "리소스 쿼터 설정",
+    ""
+   ],
+   [
+    "adm-namespace-basic-resource-quota-settings-group",
+    "div",
+    "리소스 쿼터 미설정 설정",
+    ""
+   ],
+   [
+    "adm-form-item-isinclude",
+    "div",
+    "미설정 설정",
+    ""
+   ],
+   [
+    "adm-namespace-basic-is-include-quota",
+    "button",
+    "",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-create-content-footer",
+    "div",
+    "취소 생성",
+    ""
+   ],
+   [
+    "adm-convert-container-go-back-page",
+    "button",
+    "취소",
+    ""
+   ],
+   [
+    "adm-convert-container-action",
+    "button",
+    "생성",
+    ""
+   ],
+   [
+    "adm-resource-guide-title",
+    "div",
+    "기본 모드 가이드",
+    ""
+   ],
+   [
+    "adm-resource-guide-collapse",
+    "div",
+    "keyboard_arrow_right 모드 선택 기본 모드 복잡한 설정을 최소화하여, 핵심적인 항목들만 입력하고 리소스를 생성",
+    ""
+   ],
+   [
+    "adm-resource-guide-collapse-panel",
+    "div",
+    "keyboard_arrow_right 모드 선택 기본 모드 복잡한 설정을 최소화하여, 핵심적인 항목들만 입력하고 리소스를 생성",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "switches": [
+   "ant-switch css-4kbzec|미설정 설정"
+  ]
+ },
+ {
+  "tag": "ns-detail",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/namespace/detail?name=qa-trml-152320-ns&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세",
+  "pt": "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제",
+  "h": [
+   "h1:unfold_more",
+   "h1:qa-trml-152320-ns",
+   "h1:기본 정보",
+   "h1:자원 사용",
+   "h3:Requests 기준 CPU 사용 현황",
+   "h1:950 mCore",
+   "h3:Limits 기준 CPU 사용 현황",
+   "h1:5,500 mCore",
+   "h3:Requests 기준 메모리 사용 현황",
+   "h1:448 MiB",
+   "h3:Limits 기준 메모리 사용 현황",
+   "h1:2,432 MiB",
+   "h1:파드 개요",
+   "h3:파드 상태",
+   "h1:5",
+   "h1:0",
+   "h1:0",
+   "h3:컨테이너 상태",
+   "h1:5",
+   "h1:0",
+   "h1:0",
+   "h3:파드 CPU 사용량 TOP 20",
+   "h3:파드 메모리 사용량 TOP 20",
+   "h1:퍼시스턴트 볼륨 클레임 사용 개요",
+   "h3:퍼시스턴트 볼륨 클레임 상태",
+   "h1:0",
+   "h1:0",
+   "h1:0",
+   "h3:퍼시스턴트 볼륨 클레임 사용률 Top 5",
+   "h3:info 데이터가 없습니다.",
+   "h3:퍼시스턴트 볼륨 클레임 사용량 Top 5",
+   "h3:info 데이터가 없습니다.",
+   "h1:이벤트 통계",
+   "h3:WARNING / 전체 이벤트",
+   "h1:/ 30회",
+   "h3:가장 많은 WARNING 발생 리소스",
+   "h3:이벤트 현황"
+  ],
+  "tabs": [
+   "모니터링*",
+   "리소스",
+   "롤 바인딩",
+   "이벤트",
+   "YAML"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "Istio Injection 설정",
+   "수정",
+   "delete 삭제",
+   "left_panel_close",
+   "로그 보기 open_in_new",
+   "전체 해제",
+   "qa-trml-152320-gw-istio-5d889b5648-28dt7",
+   "qa-trml-152320-gw2-istio-7d7f6c4c78-zmwj",
+   "qa-trml-152320-dep1-f6dd7c4d8-fr8rb",
+   "qa-trml-152320-dep2-56cc64687c-6m6v9",
+   "qa-trml-152320-dep3-db89679c8-wflcn",
+   "전체 보기"
+  ],
+  "ph": [],
+  "lab": [
+   "이름",
+   "상태",
+   "클러스터",
+   "Istio Injection",
+   "생성자",
+   "생성일시"
+  ],
+  "sel": [],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-namespace-monitoring-pvc-table-table",
+    "th": [
+     "이름",
+     "사용률"
+    ],
+    "rows": 0,
+    "row1": []
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세 biz1 sync_alt browse_activity 모니터",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail",
+    "div",
+    "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제 left_pane",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "Istio Injection 설정",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 qa-trml-152320-ns 상태 ACTIVE 클러스터 biz1 Istio ",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail-main",
+    "div",
+    "모니터링 리소스 롤 바인딩 이벤트 YAML 자원 사용 help Requests 기준 CPU 사용 현황 쿼터 미설정 950 mC",
+    ""
+   ],
+   [
+    "adm-namespace-detail-tabs",
+    "div",
+    "모니터링 리소스 롤 바인딩 이벤트 YAML 자원 사용 help Requests 기준 CPU 사용 현황 쿼터 미설정 950 mC",
+    ""
+   ],
+   [
+    "adm-namespace-detail-tabs-tab",
+    "span",
+    "모니터링",
+    ""
+   ],
+   [
+    "adm-namespace-monitoring-resource-usage-title",
+    "div",
+    "자원 사용 help",
+    ""
+   ],
+   [
+    "adm-namespace-monitoring-pod-overview-title",
+    "div",
+    "파드 개요",
+    ""
+   ],
+   [
+    "adm-status-count-card-tags",
+    "div",
+    "RUNNING",
+    ""
+   ],
+   [
+    "adm-status-count-card-tags-item",
+    "span",
+    "RUNNING",
+    ""
+   ],
+   [
+    "adm-namespace-monitoring-view-logs",
+    "button",
+    "로그 보기 open_in_new",
+    ""
+   ],
+   [
+    "adm-namespace-monitoring-pvc-usage-overview-title",
+    "div",
+    "퍼시스턴트 볼륨 클레임 사용 개요",
+    ""
+   ],
+   [
+    "adm-namespace-monitoring-pvc-table-table",
+    "div",
+    "이름 사용률 info 데이터가 없습니다. 현재 조회 가능한 데이터가 없습니다.",
+    ""
+   ],
+   [
+    "adm-no-data",
+    "div",
+    "info 데이터가 없습니다. 현재 조회 가능한 데이터가 없습니다.",
+    ""
+   ],
+   [
+    "adm-namespace-monitoring-event-statistics-title",
+    "div",
+    "이벤트 통계 help",
+    ""
+   ],
+   [
+    "adm-event-statistics-section-all-event",
+    "button",
+    "전체 보기",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+  ],
+  "text": "cancel 오류 발생 사용자 요청을 완료할 수 없습니다."
+ },
+ {
+  "tag": "ns-detail/리소스",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/namespace/detail?name=qa-trml-152320-ns&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세",
+  "pt": "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제",
+  "h": [
+   "h1:unfold_more",
+   "h1:qa-trml-152320-ns",
+   "h1:기본 정보",
+   "h1:리소스 쿼터",
+   "h1:파드"
+  ],
+  "tabs": [
+   "모니터링",
+   "리소스*",
+   "롤 바인딩",
+   "이벤트",
+   "YAML"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "Istio Injection 설정",
+   "수정",
+   "delete 삭제",
+   "left_panel_close",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right",
+   "keyboard_double_arrow_right",
+   "qa-trml-152320-gw2-istio-7d7f6c4c78-zmwj",
+   "ReplicaSet ... 7d7f6c4c78 link",
+   "qa-trml-152320-gw-istio-5d889b5648-28dt7",
+   "ReplicaSet ... 5d889b5648 link",
+   "qa-trml-152320-dep3-db89679c8-wflcn",
+   "ReplicaSet ... -db89679c8 link",
+   "qa-trml-152320-dep2-56cc64687c-6m6v9",
+   "ReplicaSet ... 56cc64687c link",
+   "qa-trml-152320-dep1-f6dd7c4d8-fr8rb",
+   "ReplicaSet ... -f6dd7c4d8 link",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)"
+  ],
+  "ph": [
+   "number|||adm-namespace-resource-quota-resource-quota-table-pagination-page-input|",
+   "search|rc_select_6|||R",
+   "number|||adm-namespace-resource-quota-pod-table-pagination-page-input|",
+   "search|rc_select_7|||R"
+  ],
+  "lab": [
+   "이름",
+   "상태",
+   "클러스터",
+   "Istio Injection",
+   "생성자",
+   "생성일시"
+  ],
+  "sel": [
+   "rc_select_6=리스트 수 10",
+   "rc_select_7=리스트 수 10"
+  ],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-namespace-resource-quota-resource-quota-table-table",
+    "th": [
+     "유형",
+     "값"
+    ],
+    "rows": 10,
+    "row1": [
+     "requests.cpu",
+     "-"
+    ]
+   },
+   {
+    "tid": "adm-namespace-resource-quota-pod-table-table",
+    "th": [
+     "이름↕",
+     "GPU",
+     "상태 help",
+     "컨테이너↕",
+     "재시작↕",
+     "소유자",
+     "생성일시↕"
+    ],
+    "rows": 5,
+    "row1": [
+     "qa-trml-152320-gw2-istio-7d7f6c4c78-zmwjx",
+     "check_circle",
+     "RUNNING",
+     "1/1",
+     "0",
+     "ReplicaSet ... 7d7f6c4c78 link",
+     "2026-10-07 15:37:11"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세 biz1 sync_alt browse_activity 모니터",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail",
+    "div",
+    "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제 left_pane",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "Istio Injection 설정",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 qa-trml-152320-ns 상태 ACTIVE 클러스터 biz1 Istio ",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail-main",
+    "div",
+    "모니터링 리소스 롤 바인딩 이벤트 YAML 리소스 쿼터 유형 값 requests.cpu - requests.memory - l",
+    ""
+   ],
+   [
+    "adm-namespace-detail-tabs",
+    "div",
+    "모니터링 리소스 롤 바인딩 이벤트 YAML 리소스 쿼터 유형 값 requests.cpu - requests.memory - l",
+    ""
+   ],
+   [
+    "adm-namespace-detail-tabs-tab",
+    "span",
+    "모니터링",
+    ""
+   ],
+   [
+    "adm-tab-content-layout-sub-title",
+    "div",
+    "리소스 쿼터",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-resource-quota-table-table",
+    "div",
+    "유형 값 requests.cpu - requests.memory - limits.cpu - limits.memory - pod",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-resource-quota-table-row",
+    "tr",
+    "requests.cpu -",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-resource-quota-table-pagination",
+    "div",
+    "전체 수 21 keyboard_double_arrow_left keyboard_arrow_left / 3 keyboard_ar",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-resource-quota-table-pagination-total",
+    "p",
+    "전체 수 21",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-resource-quota-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-namespace-resource-quota-resource-quota-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-namespace-resource-quota-resource-quota-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-resource-quota-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-resource-quota-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-resource-quota-table-pagination-page-size",
+    "div",
+    "리스트 수 10",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-pod-table-table",
+    "div",
+    "이름 GPU 상태 help 컨테이너 재시작 소유자 생성일시 qa-trml-152320-gw2-istio-7d7f6c4c78-z",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-pod-table-row",
+    "tr",
+    "qa-trml-152320-gw2-istio-7d7f6c4c78-zmwjx check_circle RUNNING 1/1 0 R",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "qa-trml-152320-gw2-istio-7d7f6c4c78-zmwjx",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-pod-table-pagination",
+    "div",
+    "전체 수 5 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-pod-table-pagination-total",
+    "p",
+    "전체 수 5",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-pod-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-namespace-resource-quota-pod-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-namespace-resource-quota-pod-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-namespace-resource-quota-pod-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-namespace-resource-quota-pod-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-namespace-resource-quota-pod-table-pagination-page-size",
+    "div",
+    "리스트 수 10",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "tag": "ns-detail/롤 바인딩",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/namespace/detail?name=qa-trml-152320-ns&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세",
+  "pt": "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제",
+  "h": [
+   "h1:unfold_more",
+   "h1:qa-trml-152320-ns",
+   "h1:기본 정보",
+   "h3:info 데이터가 없습니다."
+  ],
+  "tabs": [
+   "모니터링",
+   "리소스",
+   "롤 바인딩*",
+   "이벤트",
+   "YAML"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "Istio Injection 설정",
+   "수정",
+   "delete 삭제",
+   "left_panel_close"
+  ],
+  "ph": [],
+  "lab": [
+   "이름",
+   "상태",
+   "클러스터",
+   "Istio Injection",
+   "생성자",
+   "생성일시"
+  ],
+  "sel": [],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-namespace-role-binding-role-table-table",
+    "th": [
+     "구분↕",
+     "이름↕",
+     "롤 참조↕",
+     "주체",
+     "생성일시↕"
+    ],
+    "rows": 0,
+    "row1": []
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세 biz1 sync_alt browse_activity 모니터",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail",
+    "div",
+    "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제 left_pane",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "Istio Injection 설정",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 qa-trml-152320-ns 상태 ACTIVE 클러스터 biz1 Istio ",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail-main",
+    "div",
+    "모니터링 리소스 롤 바인딩 이벤트 YAML 구분 이름 롤 참조 주체 생성일시 info 데이터가 없습니다. 대상을 추가하거나 다",
+    ""
+   ],
+   [
+    "adm-namespace-detail-tabs",
+    "div",
+    "모니터링 리소스 롤 바인딩 이벤트 YAML 구분 이름 롤 참조 주체 생성일시 info 데이터가 없습니다. 대상을 추가하거나 다",
+    ""
+   ],
+   [
+    "adm-namespace-detail-tabs-tab",
+    "span",
+    "모니터링",
+    ""
+   ],
+   [
+    "adm-namespace-role-binding-role-table-table",
+    "div",
+    "구분 이름 롤 참조 주체 생성일시 info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요.",
+    ""
+   ],
+   [
+    "adm-no-data",
+    "div",
+    "info 데이터가 없습니다. 대상을 추가하거나 다시 확인해 주세요.",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "tag": "ns-detail/이벤트",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/namespace/detail?name=qa-trml-152320-ns&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세",
+  "pt": "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제",
+  "h": [
+   "h1:unfold_more",
+   "h1:qa-trml-152320-ns",
+   "h1:기본 정보"
+  ],
+  "tabs": [
+   "모니터링",
+   "리소스",
+   "롤 바인딩",
+   "이벤트*",
+   "YAML"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "Istio Injection 설정",
+   "수정",
+   "delete 삭제",
+   "left_panel_close",
+   "qa-trml-152320-dep1-f6dd7c4d8-fr8rb",
+   "전체 보기",
+   "content_copy",
+   "qa-trml-152320-dep3-db89679c8-wflcn",
+   "qa-trml-152320-dep2-56cc64687c-6m6v9",
+   "qa-trml-152320-gw2-istio-7d7f6c4c78-zmwj",
+   "qa-trml-152320-gw2-istio-7d7f6c4c78",
+   "qa-trml-152320-gw2-istio",
+   "qa-trml-152320-gw-istio-5d889b5648-28dt7",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right",
+   "keyboard_double_arrow_right"
+  ],
+  "ph": [
+   "number|||adm-namespace-event-table-pagination-page-input|",
+   "search|rc_select_8|||R"
+  ],
+  "lab": [
+   "이름",
+   "상태",
+   "클러스터",
+   "Istio Injection",
+   "생성자",
+   "생성일시"
+  ],
+  "sel": [
+   "rc_select_8=리스트 수 20"
+  ],
+  "chk": [],
+  "tables": [
+   {
+    "tid": "adm-namespace-event-table-table",
+    "th": [
+     "유형↕",
+     "리소스 유형",
+     "이름↕",
+     "메시지",
+     "발생일시↕"
+    ],
+    "rows": 20,
+    "row1": [
+     "NORMAL",
+     "Pod",
+     "qa-trml-152320-dep1-f6dd7c4d8-fr8rb",
+     "Successfully pulled image \"pq-400tst.harbor.okestr",
+     "2026-10-07 15:46:53"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세 biz1 sync_alt browse_activity 모니터",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail",
+    "div",
+    "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제 left_pane",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "Istio Injection 설정",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 qa-trml-152320-ns 상태 ACTIVE 클러스터 biz1 Istio ",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail-main",
+    "div",
+    "모니터링 리소스 롤 바인딩 이벤트 YAML 유형 리소스 유형 이름 메시지 발생일시 NORMAL Pod qa-trml-15232",
+    ""
+   ],
+   [
+    "adm-namespace-detail-tabs",
+    "div",
+    "모니터링 리소스 롤 바인딩 이벤트 YAML 유형 리소스 유형 이름 메시지 발생일시 NORMAL Pod qa-trml-15232",
+    ""
+   ],
+   [
+    "adm-namespace-detail-tabs-tab",
+    "span",
+    "모니터링",
+    ""
+   ],
+   [
+    "adm-namespace-event-table-table",
+    "div",
+    "유형 리소스 유형 이름 메시지 발생일시 NORMAL Pod qa-trml-152320-dep1-f6dd7c4d8-fr8rb S",
+    ""
+   ],
+   [
+    "adm-namespace-event-table-row",
+    "tr",
+    "NORMAL Pod qa-trml-152320-dep1-f6dd7c4d8-fr8rb Successfully pulled ima",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "qa-trml-152320-dep1-f6dd7c4d8-fr8rb",
+    ""
+   ],
+   [
+    "adm-copy-button",
+    "button",
+    "content_copy",
+    ""
+   ],
+   [
+    "adm-namespace-event-table-pagination",
+    "div",
+    "전체 수 41 keyboard_double_arrow_left keyboard_arrow_left / 3 keyboard_ar",
+    ""
+   ],
+   [
+    "adm-namespace-event-table-pagination-total",
+    "p",
+    "전체 수 41",
+    ""
+   ],
+   [
+    "adm-namespace-event-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-namespace-event-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-namespace-event-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-namespace-event-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-namespace-event-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    ""
+   ],
+   [
+    "adm-namespace-event-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "tag": "ns-detail/YAML",
+  "url": "https://example.invalid/env-2/viola/default-settings/cluster-management/namespace/detail?name=qa-trml-152320-ns&providerId=b2b86cb7-556e-47fa-ac2f-980c32252f7e",
+  "bc": "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세",
+  "pt": "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제",
+  "h": [
+   "h1:unfold_more",
+   "h1:qa-trml-152320-ns",
+   "h1:기본 정보"
+  ],
+  "tabs": [
+   "모니터링",
+   "리소스",
+   "롤 바인딩",
+   "이벤트",
+   "YAML*"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "arrow_back",
+   "Istio Injection 설정",
+   "수정",
+   "delete 삭제",
+   "left_panel_close"
+  ],
+  "ph": [
+   "textarea||||"
+  ],
+  "lab": [
+   "이름",
+   "상태",
+   "클러스터",
+   "Istio Injection",
+   "생성자",
+   "생성일시"
+  ],
+  "sel": [],
+  "chk": [],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세 biz1 sync_alt browse_activity 모니터",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "기본 설정/ 클러스터 관리/ 네임스페이스 관리/ 네임스페이스 상세",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "기본 설정",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail",
+    "div",
+    "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제 left_pane",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "arrow_back qa-trml-152320-ns Istio Injection 설정 수정 delete 삭제",
+    ""
+   ],
+   [
+    "adm-detail-button-groups-button",
+    "button",
+    "Istio Injection 설정",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail-panel",
+    "div",
+    "left_panel_close 기본 정보 이름 qa-trml-152320-ns 상태 ACTIVE 클러스터 biz1 Istio ",
+    ""
+   ],
+   [
+    "adm-the-sider-info-title",
+    "div",
+    "left_panel_close 기본 정보",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "ACTIVE",
+    ""
+   ],
+   [
+    "adm-page-viola-namespace-detail-main",
+    "div",
+    "모니터링 리소스 롤 바인딩 이벤트 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 a",
+    ""
+   ],
+   [
+    "adm-namespace-detail-tabs",
+    "div",
+    "모니터링 리소스 롤 바인딩 이벤트 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 a",
+    ""
+   ],
+   [
+    "adm-namespace-detail-tabs-tab",
+    "span",
+    "모니터링",
+    ""
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: "
+  ],
+  "text": ""
+ },
+ {
+  "opened": []
+ }
+]

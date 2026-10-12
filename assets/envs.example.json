@@ -1,0 +1,86 @@
+{
+  "_comment": "Tremolo 하네스 접속 정보 (공개 tst 환경 전용 · 공유/커밋 가능). 손으로 고치기보다 `node scripts/env.mjs` 명령을 쓰세요. 환경 선택 우선순위: --env 인자 > TREMOLO_ENV 환경변수 > active.",
+  "active": "400tst",
+  "account": {
+    "id": "YOUR_ACCOUNT_ID",
+    "password": "YOUR_PASSWORD",
+    "mfaCode": "000000"
+  },
+  "login": {
+    "path": "/login",
+    "idLabel": "아이디를 입력해 주세요",
+    "passwordLabel": "비밀번호를 입력해 주세요",
+    "mfaLabel": "인증 코드를 입력해 주세요",
+    "mfa": true
+  },
+  "envs": {
+    "306tst": {
+      "name": "Contrabass v3.0.6 tst",
+      "baseUrl": "https://example.invalid",
+      "solution": "CONTRABASS",
+      "version": "V3.0.6"
+    },
+    "400tst": {
+      "name": "Contrabass v4.0 tst",
+      "baseUrl": "https://example.invalid",
+      "solution": "CONTRABASS",
+      "version": "V4.0",
+      "login": {
+        "idLabel": "아이디를 입력해 주세요.",
+        "passwordLabel": "비밀번호를 입력해 주세요.",
+        "mfa": false
+      },
+      "account": {
+        "id": "YOUR_ACCOUNT_ID",
+        "password": "YOUR_PASSWORD"
+      },
+      "accounts": [
+        {
+          "id": "YOUR_ACCOUNT_1_ID",
+          "password": "YOUR_ACCOUNT_1_PASSWORD"
+        },
+        {
+          "id": "YOUR_ACCOUNT_2_ID",
+          "password": "YOUR_ACCOUNT_2_PASSWORD"
+        },
+        {
+          "id": "YOUR_ACCOUNT_3_ID",
+          "password": "YOUR_ACCOUNT_3_PASSWORD"
+        },
+        {
+          "id": "YOUR_ACCOUNT_4_ID",
+          "password": "YOUR_ACCOUNT_4_PASSWORD"
+        }
+      ],
+      "maxParallel": 3,
+      "live": {
+        "_comment": "VIOLA(/viola) 화면은 목록·통계 조회를 POST .../list|stats 로 한다(화면 진입만으로 호출됨, 2026-10-07 walk 확인) → 조회 전용 경로만 허용. provider-navigator 는 화면마다 자동 호출되는 테넌트 네비게이터 조회. 모니터링 조회(overview·status-popup·stream 등, 설정 저장 경로 제외)·harbor 설정 조회 추가. 2026-10-08: provider-navigator/<id>/selection(계정 자신의 현재 클러스터 선택 상태 저장 — 공용 자원 변경 아님) 허용 — 차단 시 VIOLA 진입·생성 화면 이동이 '변경 요청 차단'으로 깨짐(ground 1차 결과). 2026-10-08(2차): 조회·검사 전용 POST(…/detail, clusters/engine-versions, catalogs/<id>/compatibility-check, monitoring/loki/health-check) 허용 — 차단 시 임계치 수정·카탈로그 설치·롤백 팝업이 렌더되지 않음.",
+        "allowRequests": [
+          "^POST /v1/viola/kubernetes/api/v1/k8s/([\\w-]+/)*(list|stats)(\\?|$)",
+          "^POST /v1/viola/kubernetes/api/v2/provider-navigator(\\?|$)",
+          "^POST /v1/viola/kubernetes/api/v1/k8s/monitoring/(?![\\w/-]*(setting|config|save|update|apply))[\\w/-]+(\\?|$)",
+          "^POST /v1/viola/kubernetes/api/v1/k8s/external-alerts/occurrence-histories/warning-status/stream(\\?|$)",
+          "^POST /v1/viola/kubernetes/api/v1/harbor/config/info(\\?|$)",
+          "^POST /v1/viola/kubernetes/api/v2/provider-navigator/[\\w-]+/selection(\\?|$)",
+          "^POST /v1/viola/kubernetes/api/v1/k8s/([\\w-]+/)*detail(\\?|$)",
+          "^POST /v1/viola/kubernetes/api/v1/k8s/management/clusters/engine-versions(\\?|$)",
+          "^POST /v1/viola/kubernetes/api/v1/k8s/service-catalogs/catalogs/[\\w.-]+/compatibility-check(\\?|$)",
+          "^POST /v1/viola/kubernetes/api/v1/monitoring/loki/health-check(\\?|$)"
+        ]
+      }
+    }
+  },
+  "commonResources": {
+    "_comment": "선택적 힌트(코드 미사용). 고르는 기존 자원은 이름에 qa-trml-{yymmdd} 가 들어간 것만(2026-10-06 개정)."
+  },
+  "naming": {
+    "resourcePrefix": "qa-trml-{YYMMDD_HHMMSS}-"
+  },
+  "live": {
+    "_comment": "라이브 도구 네트워크 차단(mutation.mjs) 예외 — 서버 자원을 바꾸지 않는 요청만(세션 유지 · 집계 화면의 POST 조회·차트·CSV 내보내기 /aggregation/<화면>/(search|export|chart) — 2026-10-07 walk 확인). 정규식은 \"METHOD /path\" 에 매칭. 환경별 추가는 envs.<키>.live.allowRequests",
+    "allowRequests": [
+      "^(POST|PUT|PATCH) /v1/bootfactory/api/token/(extend|verify/refresh|expired/refresh)(\\?|$)",
+      "^POST /v1/contrabass/admin/aggregation/[\\w-]+/(search|export|chart)(\\?|$)"
+    ]
+  }
+}

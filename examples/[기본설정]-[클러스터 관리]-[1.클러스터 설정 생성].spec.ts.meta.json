@@ -1,0 +1,1640 @@
+{
+  "scenarioPath": "C:\\Users\\admin1\\Documents\\Tremolo\\data\\scenarios\\VIOLA\\V3.0.6\\[기본설정]-[클러스터 관리]-[1.클러스터 설정 생성].spec.ts",
+  "scenarioId": "VIOLA::V3.0.6::%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%20%EA%B4%80%EB%A6%AC",
+  "steps": [
+    {
+      "id": "s1",
+      "type": "goto",
+      "title": "https://example.invalid/env-1/login 이동",
+      "locator": "-",
+      "value": "https://example.invalid/env-1/login",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783676119776",
+      "blockName": "[찐최종]_로그인"
+    },
+    {
+      "id": "s2",
+      "type": "fill",
+      "title": "아이디를 입력해 주세요 입력",
+      "locator": "role=textbox[name=\"아이디를 입력해 주세요\"]",
+      "value": "<ID>",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783676119776",
+      "blockName": "[찐최종]_로그인",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "아이디를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s3",
+      "type": "fill",
+      "title": "비밀번호를 입력해 주세요 입력",
+      "locator": "role=textbox[name=\"비밀번호를 입력해 주세요\"]",
+      "value": "<PASSWORD>",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783676119776",
+      "blockName": "[찐최종]_로그인",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "비밀번호를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s4",
+      "type": "click",
+      "title": "로그인 클릭",
+      "locator": "role=button[name=\"로그인\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783676119776",
+      "blockName": "[찐최종]_로그인",
+      "target": {
+        "kind": "role",
+        "role": "button",
+        "name": "로그인",
+        "exact": true
+      }
+    },
+    {
+      "id": "s5",
+      "type": "click",
+      "title": "인증 코드를 입력해 주세요 클릭",
+      "locator": "role=textbox[name=\"인증 코드를 입력해 주세요\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783676119776",
+      "blockName": "[찐최종]_로그인",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "인증 코드를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s6",
+      "type": "fill",
+      "title": "인증 코드를 입력해 주세요 입력",
+      "locator": "role=textbox[name=\"인증 코드를 입력해 주세요\"]",
+      "value": "<MFA_CODE>",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783676119776",
+      "blockName": "[찐최종]_로그인",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "인증 코드를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s7",
+      "type": "click",
+      "title": "기본 설정 클릭",
+      "locator": "text=\"기본 설정\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783932082914",
+      "blockName": "클러스터 설정 메뉴 이동",
+      "target": {
+        "kind": "text",
+        "text": "기본 설정",
+        "exact": true
+      }
+    },
+    {
+      "id": "s8",
+      "type": "click",
+      "title": "클러스터 관리 클릭",
+      "locator": "text=\"클러스터 관리\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783932082914",
+      "blockName": "클러스터 설정 메뉴 이동",
+      "target": {
+        "kind": "text",
+        "text": "클러스터 관리",
+        "exact": true
+      }
+    },
+    {
+      "id": "s9",
+      "type": "click",
+      "title": "클러스터 설정 클릭",
+      "locator": "text=\"클러스터 설정\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783932082914",
+      "blockName": "클러스터 설정 메뉴 이동",
+      "target": {
+        "kind": "text",
+        "text": "클러스터 설정",
+        "exact": true
+      }
+    },
+    {
+      "id": "s10",
+      "type": "click",
+      "title": "add 생성 클릭",
+      "locator": "role=button[name=\"add 생성\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "button",
+        "name": "add 생성",
+        "exact": true
+      }
+    },
+    {
+      "id": "s11",
+      "type": "click",
+      "title": "이름을 입력해 주세요 클릭",
+      "locator": "role=textbox[name=\"이름을 입력해 주세요\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "이름을 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s12",
+      "type": "fill",
+      "title": "이름을 입력해 주세요 입력",
+      "locator": "role=textbox[name=\"이름을 입력해 주세요\"]",
+      "value": "auto-cluster",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "이름을 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s13",
+      "type": "click",
+      "title": "중복확인 클릭",
+      "locator": "role=button[name=\"중복확인\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "button",
+        "name": "중복확인",
+        "exact": true
+      }
+    },
+    {
+      "id": "s14",
+      "type": "antdSelect",
+      "title": "ant-select-selector: 1.31.13 선택",
+      "locator": ".ant-select-selector",
+      "value": "1.31.13",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "css",
+        "selector": ".ant-select-selector",
+        "order": "first"
+      },
+      "antd": {
+        "by": "auto"
+      }
+    },
+    {
+      "id": "s15",
+      "type": "antdSelect",
+      "title": "ant-row: CONTRABASS 선택",
+      "locator": "div:nth-child(2) > .ant-row > .ant-col > .ant-form-item-control-input > .ant-form-item-control-input-content > .ant-spin-nested-loading > .ant-spin-container > .ant-select > .ant-select-selector",
+      "value": "CONTRABASS",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "css",
+        "selector": "div:nth-child(2) > .ant-row > .ant-col > .ant-form-item-control-input > .ant-form-item-control-input-content > .ant-spin-nested-loading > .ant-spin-container > .ant-select > .ant-select-selector"
+      },
+      "antd": {
+        "by": "auto"
+      }
+    },
+    {
+      "id": "s16",
+      "type": "antdSelect",
+      "title": "프로젝트: PQA-VIOLA 선택",
+      "locator": "label=\"프로젝트\"",
+      "value": "PQA-VIOLA",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "label",
+        "label": "프로젝트"
+      },
+      "antd": {
+        "by": "label",
+        "label": "프로젝트"
+      }
+    },
+    {
+      "id": "s17",
+      "type": "antdSelect",
+      "title": "가용성 존: nova 선택",
+      "locator": "label=\"가용성 존\"",
+      "value": "nova",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "label",
+        "label": "가용성 존"
+      },
+      "antd": {
+        "by": "label",
+        "label": "가용성 존"
+      }
+    },
+    {
+      "id": "s18",
+      "type": "antdSelect",
+      "title": "PQA-VIOLA: nova 선택",
+      "locator": "label=\"PQA-VIOLA\"",
+      "value": "nova",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "label",
+        "label": "PQA-VIOLA"
+      },
+      "antd": {
+        "by": "label",
+        "label": "PQA-VIOLA"
+      }
+    },
+    {
+      "id": "s19",
+      "type": "click",
+      "title": "다음 클릭",
+      "locator": "role=button[name=\"다음\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "button",
+        "name": "다음",
+        "exact": true
+      }
+    },
+    {
+      "id": "s20",
+      "type": "antdSelect",
+      "title": "OS 이미지: viola_ubuntu24.04 선택",
+      "locator": "label=\"OS 이미지\"",
+      "value": "viola_ubuntu24.04",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "label",
+        "label": "OS 이미지"
+      },
+      "antd": {
+        "by": "label",
+        "label": "OS 이미지"
+      }
+    },
+    {
+      "id": "s21",
+      "type": "click",
+      "title": "* ID 클릭",
+      "locator": "role=textbox[name=\"* ID\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "* ID",
+        "exact": true
+      }
+    },
+    {
+      "id": "s22",
+      "type": "fill",
+      "title": "* ID 입력",
+      "locator": "role=textbox[name=\"* ID\"]",
+      "value": "ubuntu",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "* ID",
+        "exact": true
+      }
+    },
+    {
+      "id": "s23",
+      "type": "click",
+      "title": "* 비밀번호 클릭",
+      "locator": "role=textbox[name=\"* 비밀번호\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "* 비밀번호",
+        "exact": true
+      }
+    },
+    {
+      "id": "s24",
+      "type": "fill",
+      "title": "* 비밀번호 입력",
+      "locator": "role=textbox[name=\"* 비밀번호\"]",
+      "value": "Cloud1234",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "* 비밀번호",
+        "exact": true
+      }
+    },
+    {
+      "id": "s25",
+      "type": "click",
+      "title": "컨트롤 플레인 수를 입력해 주세요 클릭",
+      "locator": "role=spinbutton[name=\"컨트롤 플레인 수를 입력해 주세요\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "spinbutton",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "spinbutton",
+        "name": "컨트롤 플레인 수를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s26",
+      "type": "fill",
+      "title": "컨트롤 플레인 수를 입력해 주세요 입력",
+      "locator": "role=spinbutton[name=\"컨트롤 플레인 수를 입력해 주세요\"]",
+      "value": "1",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "spinbutton",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "spinbutton",
+        "name": "컨트롤 플레인 수를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s27",
+      "type": "fill",
+      "title": "항목 이름 또는 값을 입력해 주세요 입력",
+      "locator": "placeholder=\"항목 이름 또는 값을 입력해 주세요\"",
+      "value": "auto-viola-4C8M",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "input",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "placeholder",
+        "placeholder": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true,
+        "order": "first"
+      }
+    },
+    {
+      "id": "s28",
+      "type": "press",
+      "title": "항목 이름 또는 값을 입력해 주세요 키 누르기",
+      "locator": "placeholder=\"항목 이름 또는 값을 입력해 주세요\"",
+      "value": "Enter",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "input",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "placeholder",
+        "placeholder": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true,
+        "order": "first"
+      }
+    },
+    {
+      "id": "s29",
+      "type": "antdTableSelect",
+      "title": "AntD 표 행 선택: auto-viola-4C8M",
+      "locator": "-",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "",
+      "antdTable": {
+        "match": [
+          "auto-viola-4C8M"
+        ],
+        "control": "radio"
+      }
+    },
+    {
+      "id": "s30",
+      "type": "fill",
+      "title": "워커 노드 수를 입력해 주세요 입력",
+      "locator": "role=spinbutton[name=\"워커 노드 수를 입력해 주세요\"]",
+      "value": "1",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "spinbutton",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "spinbutton",
+        "name": "워커 노드 수를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s31",
+      "type": "click",
+      "title": "항목 이름 또는 값을 입력해 주세요 클릭",
+      "locator": "role=textbox[name=\"항목 이름 또는 값을 입력해 주세요\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true,
+        "order": "nth",
+        "nth": 1
+      }
+    },
+    {
+      "id": "s32",
+      "type": "fill",
+      "title": "항목 이름 또는 값을 입력해 주세요 입력",
+      "locator": "placeholder=\"항목 이름 또는 값을 입력해 주세요\"",
+      "value": "auto-viola-8C16M",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "input",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "placeholder",
+        "placeholder": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true,
+        "order": "nth",
+        "nth": 1
+      }
+    },
+    {
+      "id": "s33",
+      "type": "press",
+      "title": "항목 이름 또는 값을 입력해 주세요 키 누르기",
+      "locator": "placeholder=\"항목 이름 또는 값을 입력해 주세요\"",
+      "value": "Enter",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "input",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "placeholder",
+        "placeholder": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true,
+        "order": "nth",
+        "nth": 1
+      }
+    },
+    {
+      "id": "s34",
+      "type": "antdTableSelect",
+      "title": "AntD 표 행 선택: auto-viola-8C16M",
+      "locator": "-",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "",
+      "antdTable": {
+        "match": [
+          "auto-viola-8C16M"
+        ],
+        "control": "radio"
+      }
+    },
+    {
+      "id": "s35",
+      "type": "click",
+      "title": "HAProxy 인스턴스를 별도로 구성하여, 범용적으로 활용할 수 있는 로드밸런서입니다. 클릭",
+      "locator": "text=\"HAProxy 인스턴스를 별도로 구성하여, 범용적으로 활용할 수 있는 로드밸런서입니다.\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "text",
+        "text": "HAProxy 인스턴스를 별도로 구성하여, 범용적으로 활용할 수 있는 로드밸런서입니다.",
+        "exact": true
+      }
+    },
+    {
+      "id": "s36",
+      "type": "click",
+      "title": "다음 클릭",
+      "locator": "role=button[name=\"다음\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "button",
+        "name": "다음",
+        "exact": true
+      }
+    },
+    {
+      "id": "s37",
+      "type": "click",
+      "title": "항목 이름 또는 값을 입력해 주세요 클릭",
+      "locator": "role=textbox[name=\"항목 이름 또는 값을 입력해 주세요\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783501747382",
+      "blockName": "세그먼트 선택",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s38",
+      "type": "fill",
+      "title": "항목 이름 또는 값을 입력해 주세요 입력",
+      "locator": "role=textbox[name=\"항목 이름 또는 값을 입력해 주세요\"]",
+      "value": "10.255.43.0/24",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783501747382",
+      "blockName": "세그먼트 선택",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s39",
+      "type": "press",
+      "title": "항목 이름 또는 값을 입력해 주세요 키 누르기",
+      "locator": "role=textbox[name=\"항목 이름 또는 값을 입력해 주세요\"]",
+      "value": "Enter",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783501747382",
+      "blockName": "세그먼트 선택",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s40",
+      "type": "antdTableSelect",
+      "title": "AntD 표 행 선택: 10.255.43.0/24",
+      "locator": "-",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783501747382",
+      "blockName": "세그먼트 선택",
+      "antdTable": {
+        "match": [
+          "10.255.43.0/24"
+        ],
+        "control": "radio"
+      }
+    },
+    {
+      "id": "s41",
+      "type": "click",
+      "title": "form_item_networkCidr 클릭",
+      "locator": "#form_item_networkCidr",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "form_item_networkCidr",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "css",
+        "selector": "#form_item_networkCidr"
+      }
+    },
+    {
+      "id": "s42",
+      "type": "fill",
+      "title": "form_item_networkCidr 입력",
+      "locator": "#form_item_networkCidr",
+      "value": "10.10.10.0",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "form_item_networkCidr",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "css",
+        "selector": "#form_item_networkCidr"
+      }
+    },
+    {
+      "id": "s43",
+      "type": "click",
+      "title": "form_item_podCidr 클릭",
+      "locator": "#form_item_podCidr",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "form_item_podCidr",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "css",
+        "selector": "#form_item_podCidr"
+      }
+    },
+    {
+      "id": "s44",
+      "type": "fill",
+      "title": "form_item_podCidr 입력",
+      "locator": "#form_item_podCidr",
+      "value": "20.20.0.0",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "form_item_podCidr",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "css",
+        "selector": "#form_item_podCidr"
+      }
+    },
+    {
+      "id": "s45",
+      "type": "click",
+      "title": "DNS 서버 주소를 입력해 주세요 클릭",
+      "locator": "role=textbox[name=\"DNS 서버 주소를 입력해 주세요\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "DNS 서버 주소를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s46",
+      "type": "fill",
+      "title": "DNS 서버 주소를 입력해 주세요 입력",
+      "locator": "role=textbox[name=\"DNS 서버 주소를 입력해 주세요\"]",
+      "value": "8.8.8.8",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "DNS 서버 주소를 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s47",
+      "type": "click",
+      "title": "생성 클릭",
+      "locator": "role=button[name=\"생성\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783502362752",
+      "blockName": "생성버튼",
+      "target": {
+        "kind": "role",
+        "role": "button",
+        "name": "생성",
+        "exact": true
+      }
+    },
+    {
+      "id": "s48",
+      "type": "click",
+      "title": "element 클릭",
+      "locator": "(//*[@role=\"dialog\" or @aria-modal=\"true\" or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-content \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-confirm \")][contains(translate(normalize-space(.), ' ', ''), '알림')]//button[translate(normalize-space(.), ' ', '')='생성'])[last()]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "element",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783502362752",
+      "blockName": "생성버튼",
+      "target": {
+        "kind": "xpath",
+        "selector": "(//*[@role=\"dialog\" or @aria-modal=\"true\" or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-content \") or contains(concat(\" \", normalize-space(@class), \" \"), \" ant-modal-confirm \")][contains(translate(normalize-space(.), ' ', ''), '알림')]//button[translate(normalize-space(.), ' ', '')='생성'])[last()]"
+      }
+    },
+    {
+      "id": "s49",
+      "type": "click",
+      "title": "항목 이름 또는 값을 입력해 주세요 클릭",
+      "locator": "role=textbox[name=\"항목 이름 또는 값을 입력해 주세요\"]",
+      "value": "-",
+      "timeout": 999000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783916848694",
+      "blockName": "네임스페이스1",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s50",
+      "type": "fill",
+      "title": "항목 이름 또는 값을 입력해 주세요 입력",
+      "locator": "role=textbox[name=\"항목 이름 또는 값을 입력해 주세요\"]",
+      "value": "auto-cluster",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783916848694",
+      "blockName": "네임스페이스1",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s51",
+      "type": "press",
+      "title": "항목 이름 또는 값을 입력해 주세요 키 누르기",
+      "locator": "role=textbox[name=\"항목 이름 또는 값을 입력해 주세요\"]",
+      "value": "Enter",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "textbox",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783916848694",
+      "blockName": "네임스페이스1",
+      "target": {
+        "kind": "role",
+        "role": "textbox",
+        "name": "항목 이름 또는 값을 입력해 주세요",
+        "exact": true
+      }
+    },
+    {
+      "id": "s52",
+      "type": "click",
+      "title": "auto-cluster 클릭",
+      "locator": "role=button[name=\"auto-cluster\"]",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "button",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783503664038",
+      "blockName": "생성확인",
+      "target": {
+        "kind": "role",
+        "role": "button",
+        "name": "auto-cluster",
+        "exact": true
+      }
+    },
+    {
+      "id": "s53",
+      "type": "click",
+      "title": "작업 현황 클릭",
+      "locator": "text=\"작업 현황\"",
+      "value": "-",
+      "timeout": 15000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": false,
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": ""
+      },
+      "note": "",
+      "blockId": "b1783503664038",
+      "blockName": "생성확인",
+      "target": {
+        "kind": "text",
+        "text": "작업 현황",
+        "exact": true
+      }
+    },
+    {
+      "id": "s54",
+      "type": "assert",
+      "title": "INPROGRESS 표시 검증",
+      "locator": "text=\"INPROGRESS\"",
+      "value": "toBeVisible()",
+      "timeout": 100000000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": "visible"
+      },
+      "note": "",
+      "blockId": "b1783931672535",
+      "blockName": "클러스터 생성 텍스트",
+      "target": {
+        "kind": "text",
+        "text": "INPROGRESS",
+        "exact": true
+      }
+    },
+    {
+      "id": "s55",
+      "type": "assert",
+      "title": "COMPLETED 표시 검증",
+      "locator": "text=\"COMPLETED\"",
+      "value": "toBeVisible()",
+      "timeout": 1000000000,
+      "waitCondition": "visible",
+      "screenshot": "on_failure",
+      "onFailure": "fail",
+      "retry": {
+        "enabled": false,
+        "count": 3
+      },
+      "assertion": {
+        "enabled": true,
+        "kind": "visible",
+        "inputValue": "",
+        "expected": "",
+        "componentType": "text",
+        "state": "visible"
+      },
+      "note": "",
+      "blockId": "b1783931672535",
+      "blockName": "클러스터 생성 텍스트",
+      "target": {
+        "kind": "text",
+        "text": "COMPLETED",
+        "exact": true
+      }
+    }
+  ],
+  "updatedAt": "2026-07-21T01:19:03.316Z"
+}

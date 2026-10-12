@@ -1,0 +1,431 @@
+[
+ {
+  "menu": [
+   "롤백",
+   "재시작",
+   "수정",
+   "삭제"
+  ]
+ },
+ {
+  "tag": "deploy-rollback",
+  "url": "https://example.invalid/env-2/viola/workflow/workload/container-management",
+  "bc": "워크플로우/ 워크로드/ 컨테이너 관리",
+  "pt": "컨테이너 관리 컨테이너의 배포와 상태를 관리합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:컨테이너 관리",
+   "div:롤백",
+   "h1:롤백"
+  ],
+  "tabs": [
+   "파드",
+   "디플로이먼트*",
+   "데몬셋",
+   "스테이트풀셋",
+   "레플리카셋"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황",
+   "add 생성",
+   "test-yh-istio",
+   "more_horiz",
+   "depl-105",
+   "depl-104",
+   "depl-103",
+   "depl-102",
+   "depl-101",
+   "qa-trml-152320-gw2-istio",
+   "qa-trml-152320-gw-istio",
+   "qa-trml-152320-dep3",
+   "qa-trml-152320-dep2",
+   "qa-trml-152320-dep1",
+   "qa-trml-261007-gw-istio",
+   "qa-trml-261007-dep2",
+   "qa-trml-261007-dep1",
+   "qa-auto-gw-l1-istio",
+   "nginx-v3",
+   "nginx-v2",
+   "nginx-v1",
+   "csi-nfs-controller",
+   "viola-log-collector",
+   "keyboard_double_arrow_left(D)",
+   "keyboard_arrow_left(D)",
+   "keyboard_arrow_right",
+   "keyboard_double_arrow_right",
+   "close",
+   "description",
+   "keyboard_arrow_right(D)",
+   "keyboard_double_arrow_right(D)",
+   "취소",
+   "롤백(D)"
+  ],
+  "ph": [
+   "text||항목 이름 또는 값을 입력해 주세요.|adm-deployment-fetch-table-filter-search-input|",
+   "search|rc_select_2|||R",
+   "text||시작일||R",
+   "text||종료일||R",
+   "checkbox||||",
+   "number|||adm-deployment-fetch-table-pagination-page-input|",
+   "search|rc_select_3|||R",
+   "radio||||D",
+   "number|||adm-deployment-revision-history-revision-table-pagination-page-input|"
+  ],
+  "lab": [
+   "버전 선택"
+  ],
+  "sel": [
+   "rc_select_2=기간 설정",
+   "rc_select_3=리스트 수 20"
+  ],
+  "chk": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "(D)"
+  ],
+  "tables": [
+   {
+    "tid": "adm-deployment-fetch-table-table",
+    "th": [
+     "",
+     "이름↕",
+     "GPU",
+     "상태 help",
+     "클러스터↕",
+     "네임스페이스↕",
+     "리비전↕",
+     "파드↕",
+     "레플리카 수↕",
+     "파드 셀렉터",
+     "생성일시↕",
+     "작업"
+    ],
+    "rows": 20,
+    "row1": [
+     "",
+     "test-yh-istio",
+     "check_circle",
+     "RUNNING",
+     "biz1",
+     "yh-ns",
+     "1",
+     "1/1",
+     "1",
+     "gateway.networking.k8s.io/gateway-name=test-yh",
+     "2026-10-07 15:56:42",
+     "more_horiz"
+    ]
+   },
+   {
+    "tid": "adm-deployment-revision-history-revision-table-table",
+    "th": [
+     "",
+     "리비전",
+     "이름",
+     "상태 help",
+     "히스토리",
+     "수정일시",
+     "상세"
+    ],
+    "rows": 1,
+    "row1": [
+     "",
+     "1",
+     "test-yh-istio-654b566f6c",
+     "RUNNING",
+     "-",
+     "2026-10-07 15:56:42",
+     "description"
+    ]
+   }
+  ],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "워크플로우/ 워크로드/ 컨테이너 관리 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "워크플로우/ 워크로드/ 컨테이너 관리",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "워크플로우",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-containermanagement",
+    "div",
+    "컨테이너 관리 컨테이너의 배포와 상태를 관리합니다. 파드 디플로이먼트 데몬셋 스테이트풀셋 레플리카셋 filter_list 기간",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "컨테이너 관리 컨테이너의 배포와 상태를 관리합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-containermanagement-panel",
+    "div",
+    "파드 디플로이먼트 데몬셋 스테이트풀셋 레플리카셋 filter_list 기간 설정 calendar_month add 생성 이름 ",
+    ""
+   ],
+   [
+    "adm-page-viola-containermanagement-main",
+    "div",
+    "파드 디플로이먼트 데몬셋 스테이트풀셋 레플리카셋 filter_list 기간 설정 calendar_month add 생성 이름 ",
+    ""
+   ],
+   [
+    "adm-page-layout-tabs",
+    "div",
+    "파드 디플로이먼트 데몬셋 스테이트풀셋 레플리카셋 filter_list 기간 설정 calendar_month add 생성 이름 ",
+    ""
+   ],
+   [
+    "adm-page-viola-containermanagement-content",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 GPU 상태 help 클러스터 네임스페이스 리비전",
+    ""
+   ],
+   [
+    "adm-page-viola-containermanagement-content-header",
+    "div",
+    "",
+    ""
+   ],
+   [
+    "adm-page-viola-containermanagement-content-body",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 GPU 상태 help 클러스터 네임스페이스 리비전",
+    ""
+   ],
+   [
+    "adm-deployment-fetch-table-table",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성 이름 GPU 상태 help 클러스터 네임스페이스 리비전",
+    ""
+   ],
+   [
+    "adm-deployment-fetch-table-filter",
+    "div",
+    "filter_list 기간 설정 calendar_month add 생성",
+    ""
+   ],
+   [
+    "adm-deployment-fetch-table-filter-search-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-date-range-period",
+    "div",
+    "기간 설정",
+    ""
+   ],
+   [
+    "adm-list-button-groups-create",
+    "button",
+    "add 생성",
+    ""
+   ],
+   [
+    "adm-deployment-fetch-table-row",
+    "tr",
+    "test-yh-istio check_circle RUNNING biz1 yh-ns 1 1/1 1 gateway.networki",
+    ""
+   ],
+   [
+    "adm-name-cell",
+    "button",
+    "test-yh-istio",
+    ""
+   ],
+   [
+    "adm-status-tag",
+    "div",
+    "RUNNING",
+    ""
+   ],
+   [
+    "adm-status-tag-item",
+    "span",
+    "RUNNING",
+    ""
+   ],
+   [
+    "adm-deployment-fetch-table-pagination",
+    "div",
+    "전체 수 53 keyboard_double_arrow_left keyboard_arrow_left / 3 keyboard_ar",
+    ""
+   ],
+   [
+    "adm-deployment-fetch-table-pagination-total",
+    "p",
+    "전체 수 53",
+    ""
+   ],
+   [
+    "adm-deployment-fetch-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-deployment-fetch-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-deployment-fetch-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-deployment-fetch-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    ""
+   ],
+   [
+    "adm-deployment-fetch-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    ""
+   ],
+   [
+    "adm-deployment-fetch-table-pagination-page-size",
+    "div",
+    "리스트 수 20",
+    ""
+   ],
+   [
+    "adm-alert-info",
+    "div",
+    "info 롤백 시, 리비전이 새롭게 생성됩니다. close",
+    ""
+   ],
+   [
+    "adm-deployment-rollback-modal-content",
+    "div",
+    "버전 선택 리비전 이름 상태 help 히스토리 수정일시 상세 1 test-yh-istio-654b566f6c RUNNING -",
+    ""
+   ],
+   [
+    "adm-deployment-revision-history-revision-table-table",
+    "div",
+    "리비전 이름 상태 help 히스토리 수정일시 상세 1 test-yh-istio-654b566f6c RUNNING - 2026-",
+    ""
+   ],
+   [
+    "adm-deployment-revision-history-revision-table-row",
+    "tr",
+    "1 test-yh-istio-654b566f6c RUNNING - 2026-10-07 15:56:42 description",
+    ""
+   ],
+   [
+    "adm-deployment-revision-history-open-detail",
+    "button",
+    "description",
+    ""
+   ],
+   [
+    "adm-deployment-revision-history-revision-table-pagination",
+    "div",
+    "전체 수 1 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arr",
+    ""
+   ],
+   [
+    "adm-deployment-revision-history-revision-table-pagination-total",
+    "p",
+    "전체 수 1",
+    ""
+   ],
+   [
+    "adm-deployment-revision-history-revision-table-pagination-first",
+    "button",
+    "keyboard_double_arrow_left",
+    "D"
+   ],
+   [
+    "adm-deployment-revision-history-revision-table-pagination-prev",
+    "button",
+    "keyboard_arrow_left",
+    "D"
+   ],
+   [
+    "adm-deployment-revision-history-revision-table-pagination-page-input",
+    "input",
+    "",
+    ""
+   ],
+   [
+    "adm-deployment-revision-history-revision-table-pagination-next",
+    "button",
+    "keyboard_arrow_right",
+    "D"
+   ],
+   [
+    "adm-deployment-revision-history-revision-table-pagination-last",
+    "button",
+    "keyboard_double_arrow_right",
+    "D"
+   ],
+   [
+    "adm-deployment-rollback-modal-cancel",
+    "button",
+    "취소",
+    ""
+   ],
+   [
+    "adm-deployment-rollback-modal-confirm",
+    "button",
+    "롤백",
+    "D"
+   ]
+  ],
+  "modal": [
+   "ant-notification ant-notification-topRig :: ",
+   "ant-modal css-4kbzec large :: 롤백 info 롤백 시, 리비전이 새롭게 생성됩니다. close 버전 선택 리비전 이름 상태 help 히스토리 수정일시 상세 1 test-yh-istio-654b566f6c RUNNING - 2026-10-07 15:56:42 description 전체 수 1 keyboard_double_arrow_left keyboard_arrow_left / 1 keyboard_arrow_right keyboard_double_arrow_right 취소 롤백"
+  ],
+  "text": ""
+ },
+ {
+  "opened": []
+ }
+]

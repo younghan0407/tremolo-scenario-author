@@ -1,0 +1,100 @@
+[
+ {
+  "tag": "traffic",
+  "url": "https://example.invalid/env-2/viola/monitoring/traffic-monitoring",
+  "bc": "모니터링/ 트래픽 모니터링",
+  "pt": "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다.",
+  "h": [
+   "h1:unfold_more",
+   "h1:트래픽 모니터링"
+  ],
+  "tabs": [
+   "biz1*"
+  ],
+  "btn": [
+   "unfold_more",
+   "browse_activity 모니터링 현황"
+  ],
+  "ph": [],
+  "lab": [],
+  "sel": [],
+  "chk": [],
+  "tables": [],
+  "tids": [
+   [
+    "adm-app-header",
+    "header",
+    "모니터링/ 트래픽 모니터링 biz1 sync_alt browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-breadcrumb",
+    "div",
+    "모니터링/ 트래픽 모니터링",
+    ""
+   ],
+   [
+    "adm-breadcrumb-item",
+    "span",
+    "모니터링",
+    ""
+   ],
+   [
+    "adm-the-header-toggle-panel",
+    "button",
+    "browse_activity 모니터링 현황",
+    ""
+   ],
+   [
+    "adm-page-viola-trafficmonitoring",
+    "div",
+    "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다. biz1",
+    ""
+   ],
+   [
+    "adm-page-title",
+    "div",
+    "트래픽 모니터링 서비스 간 통신을 모니터링하고 분석합니다.",
+    ""
+   ],
+   [
+    "adm-page-viola-trafficmonitoring-panel",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-page-viola-trafficmonitoring-main",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-page-viola-trafficmonitoring-content-body",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-service-mesh-traffic-monitoring-tabs",
+    "div",
+    "biz1",
+    ""
+   ],
+   [
+    "adm-service-mesh-traffic-monitoring-tabs-tab",
+    "span",
+    "biz1",
+    ""
+   ]
+  ],
+  "modal": [],
+  "text": ""
+ },
+ {
+  "html": "<div data-v-096f1d0d=\"\" data-testid=\"adm-service-mesh-traffic-monitoring-tabs\" class=\"ant-tabs ant-tabs-top css-4kbzec\"><div role=\"tablist\" class=\"ant-tabs-nav\"><!----><div class=\"ant-tabs-nav-wrap\"><div class=\"ant-tabs-nav-list\" style=\"transform: translate(0px, 0px);\"><div class=\"ant-tabs-tab ant-tabs-tab-active\"><div role=\"tab\" aria-selected=\"true\" class=\"ant-tabs-tab-btn\" tabindex=\"0\" id=\"rc-tabs-0-tab-b2b86cb7-556e-47fa-ac2f-980c32252f7e\" aria-controls=\"rc-tabs-0-panel-b2b86cb7-556e-47fa-ac2f-980c32252f7e\"><span data-testid=\"adm-service-mesh-traffic-monitoring-tabs-tab\" data-test-value=\"b2b86cb7-556e-47fa-ac2f-980c32252f7e\">biz1</span><!-- 옵션: 툴팁 아이콘 --><!--v-if--></div><!----></div><!----><div class=\"ant-tabs-ink-bar ant-tabs-ink-bar-animated\" style=\"left: 0px; width: 57.8125px;\"></div></div></div><!----><!----><!----></div><div class=\"ant-tabs-content-holder\"><div class=\"ant-tabs-content ant-tabs-content-top\"><div role=\"tabpanel\" tabindex=\"0\" aria-hidden=\"false\" class=\"ant-tabs-tabpane ant-tabs-tabpane-active\" id=\"rc-tabs-0-panel-b2b86cb7-556e-47fa-ac2f-980c32252f7e\" aria-labelledby=\"rc-tabs-0-tab-b2b86cb7-556e-47fa-ac2f-980c32252f7e\"><div data-v-096f1d0d=\"\" class=\"ant-spin-nested-loading css-4kbzec\"><!----><div class=\"ant-spin-container\"><!-- 네임스페이스 권한만 있는 클러스터: 트래픽 모니터링 미제공 --><embed data-v-096f1d0d=\"\" src=\"https://example.invalid/env-2/v1/viola/kubernetes/api/v1/k8s/trafficmonitorings/console/graph/namespaces?kiosk=true\" width=\"100%\" height=\"100%\"></div></div></div></div></div></div>"
+ },
+ {
+  "opened": []
+ }
+]
